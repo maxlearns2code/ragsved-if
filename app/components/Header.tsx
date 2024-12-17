@@ -10,10 +10,10 @@ const Header = () => {
   const [scrollDirection, setScrollDirection] = useState("up");
 
   useEffect(() => {
-    let lastScrollY = window.pageYOffset;
+    let lastScrollY = window.scrollY;
 
     const updateScrollDirection = () => {
-      const scrollY = window.pageYOffset;
+      const scrollY = window.scrollY;
       const direction = scrollY > lastScrollY ? "down" : "up";
       if (direction !== scrollDirection && (scrollY - lastScrollY > 10 || scrollY - lastScrollY < -10)) {
         setScrollDirection(direction);
@@ -39,7 +39,7 @@ const Header = () => {
   return (
     <>
       <header
-        className={`text-white sticky top-0 z-50 bg-primary shadow-sm shadow-secondary transition-all duration-300 ${
+        className={`text-white sticky top-0 z-50 bg-primary shadow-sm shadow-secondary transition-all duration-500 ${
           scrollDirection === "down" && !isMenuOpen
             ? "-translate-y-full"
             : "translate-y-0"
@@ -47,7 +47,7 @@ const Header = () => {
       >
         <nav className="container mx-auto px-4 py-3">
           <div className="flex justify-between items-center">
-            <Link href="/" className="text-2xl font-bold z-50 relative">
+            <Link href="/" className="text-2xl font-bold z-50 relative" aria-label="Home">
               <Image
                 src="/images/logo.png"
                 alt="Volleyball Club Logo"
@@ -68,8 +68,10 @@ const Header = () => {
             <button
               className="md:hidden z-50 relative text-2xl"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
+              aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+              aria-expanded={isMenuOpen}
             >
-              {isMenuOpen ? <FaTimes /> : <FaBars />}
+              {isMenuOpen ? <FaTimes aria-hidden="true" /> : <FaBars aria-hidden="true" />}
             </button>
           </div>
         </nav>
