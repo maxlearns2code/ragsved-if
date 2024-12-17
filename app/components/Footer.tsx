@@ -6,7 +6,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className=" text-white py-6">
+    <footer id="contact" className=" text-white py-8 mt-8">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-around items-center md:items-start">
           <div className="mb-4 md:mb-0">
@@ -20,7 +20,7 @@ const Footer = () => {
             />
           </Link>
           </div>
-          <div className="mb-4 md:mb-0 text-center">
+          <div className="mb-4 md:mb-0 md:pl-14 text-center">
             <h3 className="font-semibold mb-2">Contact Us</h3>
             <p className="text-sm">Address: Trollesundsvägen 47, 124 34 Bandhagen</p>
             <p className="text-sm">Phone: (+46) 0707356835</p>

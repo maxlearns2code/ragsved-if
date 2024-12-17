@@ -1,0 +1,26 @@
+{
+  "teams": [
+    {
+      "id": "1",
+      "name": "Team A",
+      "image": "/images/team-A.webp",
+      "description": "Our first team competes in Division 3 and has been a powerhouse this season. Known for their aggressive serving and solid defense, Team 1 has consistently dominated their matches.",
+      "league": "Division 3",
+      "coach": "Krzysiek",
+      "captain": "Filip",
+      "currentRank": "1st",
+      "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=401"
+    },
+    {
+      "id": "2",
+      "name": "Team B",
+      "image": "/images/team-B.webp",
+      "description": "Our second team also plays in Division 3 and has shown remarkable progress this season. With a mix of experienced players and promising talent, Team 2 has risen to the top of the league.",
+      "league": "Division 3",
+      "coach": "Krzysiek",
+      "captain": "Damian",
+      "currentRank": "1st",
+      "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=399"
+    }
+  ]
+}
