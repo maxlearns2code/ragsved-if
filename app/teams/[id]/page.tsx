@@ -2,7 +2,11 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import data from "../../data/data.json";
 
-export default async function TeamPage({ params }: { params: { id: string } }) {
+type Props = {
+  params: Promise<{ id: string }>
+}
+
+export default async function TeamPage({ params }: Props) {
   const { id } = await params;
   const team = data.teams.find((t) => t.id === id);
 
@@ -10,7 +14,7 @@ export default async function TeamPage({ params }: { params: { id: string } }) {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold mb-6 text-secondary">{team.name}</h1>
+      <h1 className="text-4xl font-bold mb-6">{team.name}</h1>
       <div className="flex flex-col md:flex-row gap-8 mb-8">
         <div className="w-full md:w-1/2">
           <Image
@@ -34,7 +38,6 @@ export default async function TeamPage({ params }: { params: { id: string } }) {
                   rel="noopener noreferrer"
                 >
                   <span className="font-medium text-secondary">
-                    {" "}
                     {team.league}
                   </span>
                 </a>
@@ -48,6 +51,9 @@ export default async function TeamPage({ params }: { params: { id: string } }) {
               <li>
                 <span className="font-medium">Current Rank:</span>{" "}
                 {team.currentRank}
+              </li>
+              <li>
+                <span className="font-medium">Championship:</span>
               </li>
             </ul>
           </div>
