@@ -22,7 +22,7 @@ export default async function TeamPage({ params }: Props) {
             alt={team.name}
             width={1071}
             height={1068}
-            className="rounded-lg shadow-lg w-full h-auto"
+            className="rounded-lg shadow-xl"
           />
         </div>
         <div className="w-full md:w-1/2">
@@ -51,9 +51,6 @@ export default async function TeamPage({ params }: Props) {
               <li>
                 <span className="font-medium">Current Rank:</span>{" "}
                 {team.currentRank}
-              </li>
-              <li>
-                <span className="font-medium">Championship:</span>
               </li>
             </ul>
           </div>

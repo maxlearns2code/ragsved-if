@@ -23,7 +23,6 @@ export default function Teams() {
                 alt={team.name}
                 width={1071}
                 height={1068}
-                layout="responsive"
                 className="rounded-lg shadow-xl"
               />
               <div className="absolute inset-0 flex items-end justify-end p-4">
