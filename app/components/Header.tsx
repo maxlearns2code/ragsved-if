@@ -59,6 +59,7 @@ const Header = () => {
             <div className="hidden md:block">
               <ul className="flex space-x-4">
                 <li><Link href="/#home">Home</Link></li>
+                <li><Link href="/#about">About</Link></li>
                 <li><Link href="/#teams">Teams</Link></li>
                 <li><Link href="/#schedule">Schedule</Link></li>
                 <li><Link href="/#news">News</Link></li>
@@ -80,6 +81,7 @@ const Header = () => {
         <div className="fixed inset-0 bg-primary z-40 flex items-center justify-center md:hidden">
           <ul className="flex flex-col space-y-6 text-center text-2xl">
             <li><Link href="/" onClick={() => setIsMenuOpen(false)}>Home</Link></li>
+            <li><Link href="/#about" onClick={() => setIsMenuOpen(false)}>About</Link></li>
             <li><Link href="/#teams" onClick={() => setIsMenuOpen(false)}>Teams</Link></li>
             <li><Link href="/#schedule" onClick={() => setIsMenuOpen(false)}>Schedule</Link></li>
             <li><Link href="/#news" onClick={() => setIsMenuOpen(false)}>News</Link></li>

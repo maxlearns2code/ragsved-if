@@ -7,7 +7,7 @@ export default function Teams() {
   return (
     <section
       id="teams"
-      className="md:pt-20 min-h-screen flex-col justify-center items-center px-4 sm:px-6 lg:px-8"
+      className="mb-8 md:mb-0 min-h-screen flex-col justify-center items-center py-2 px-4 sm:px-6 lg:px-8"
     >
       <h2 className="text-3xl font-bold text-center pt-8 mb-8">Our Teams</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">

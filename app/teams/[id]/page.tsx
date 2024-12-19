@@ -1,10 +1,11 @@
 import Image from "next/image";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import data from "../../data/data.json";
 
 type Props = {
-  params: Promise<{ id: string }>
-}
+  params: Promise<{ id: string }>;
+};
 
 export default async function TeamPage({ params }: Props) {
   const { id } = await params;
@@ -32,15 +33,12 @@ export default async function TeamPage({ params }: Props) {
             <ul className="space-y-2">
               <li>
                 <span className="font-medium">League:</span>{" "}
-                <a
+                <Link
                   href={team.championship}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base font-bold rounded-md text-tertiary hover:text-secondary bg-secondary hover:bg-tertiary transition duration-150 ease-in-out w-full sm:w-auto"
                 >
-                  <span className="font-medium text-secondary">
-                    {team.league}
-                  </span>
-                </a>
+                  {team.league}
+                </Link>
               </li>
               <li>
                 <span className="font-medium">Coach:</span> {team.coach}
