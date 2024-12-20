@@ -50,80 +50,80 @@
         "title": "Наша Місія",
         "content": "Наша мета ясна: очолити Дивізіон 3 і піднятися до Дивізіону 2. Ми не просто граємо у волейбол; ми створюємо спадщину. Від аутсайдерів Корпен до претендентів Дивізіону 3, наша подорож показує силу рішучості та командної роботи. Ми пройшли довгий шлях, але це лише початок. Дивіться, як ми піднімаємося."
       }
-    ],
-    "elite": [
-      {
-        "id": "1",
-        "name": "Floby VK",
-        "logo": "/images/logos/floby_vk-logo.png",
-        "alt": "Логотип волейбольного клубу Floby VK у зеленому та жовтому кольорах з червоним текстом та золотою зіркою"
-      },
-      {
-        "id": "2",
-        "name": "Habo Wolley",
-        "logo": "/images/logos/habo_wolley-logo.png",
-        "alt": "Логотип волейбольного клубу Habo Wolley у червоному кольорі з стилізованим дизайном волейболу та сітки з 1987 року"
-      },
-      {
-        "id": "3",
-        "name": "Hylte Halmstad VBK",
-        "logo": "/images/logos/hylte_halmstad_vbk-logo.png",
-        "alt": "Логотип волейбольного клубу Hylte Halmstad у червоному та чорному кольорах на білому фоні"
-      },
-      {
-        "id": "4",
-        "name": "Lunds VK",
-        "logo": "/images/logos/lunds_vk-logo.png",
-        "alt": "Логотип волейбольного клубу Lunds VK із чорним та червоним круговим дизайном з двома вежами та волейболом, заснований у 2009 році"
-      },
-      {
-        "id": "5",
-        "name": "Malmö VK",
-        "logo": "/images/logos/malmö_vk-logo.png",
-        "alt": "Простий логотип волейболу Malmö VK в чорному та білому кольорах з текстом MVK, інтегрованим у дизайн м'яча"
-      },
-      {
-        "id": "6",
-        "name": "Örkelljunga VK",
-        "logo": "/images/logos/örkelljunga_vk-logo.png",
-        "alt": "Логотип волейбольного клубу Orkelljunga VK з блакитними крилами та червоним текстом з волейболом у центрі"
-      },
-      {
-        "id": "7",
-        "name": "VBF RIG Falköping",
-        "logo": "/images/logos/vbf_rig_falköping-logo.png",
-        "alt": "Логотип спортивного гімназії RIG Falköping з білими буквами 'RIG' на чорному фоні та червоною крапкою"
-      },
-      {
-        "id": "8",
-        "name": "Södertelge VBK",
-        "logo": "/images/logos/södertelge_vbk-logo.png",
-        "alt": "Логотип волейбольного клубу Södertelge зі стилізованим зеленим та жовтим S-подібним дизайном на чорному фоні"
-      },
-      {
-        "id": "9",
-        "name": "Sollentuna VK",
-        "logo": "/images/logos/sollentuna_vk-logo.png",
-        "alt": "Текстовий логотип Sollentuna Volley в білому кольорі на зеленому фоні з простим дизайном фігури"
-      },
-      {
-        "id": "10",
-        "name": "Uppsala VBS",
-        "logo": "/images/logos/uppsala_vbs-logo.png",
-        "alt": "Чорний силует логотипу Uppsala Volleyboll, що показує силует міста з катедральними шпилями та волейболістом на сітці"
-      },
-      {
-        "id": "11",
-        "name": "Vingåkers VBK",
-        "logo": "/images/logos/vingåkers_vbk-logo.png",
-        "alt": "Логотип волейбольного клубу Vingåkers у світло-блакитному кольорі з дизайном крил та блакитною стрічкою, заснований у 1972 році"
-      },
-      {
-        "id": "12",
-        "name": "Svensk Volleyboll",
-        "logo": "/images/logos/svensk_volleyboll-logo.png",
-        "alt": "Логотип Шведської Федерації Волейболу зі стилізованим синім та жовтим волейболом та текстом 'Svensk Volleyboll' синім кольором"
-      }
     ]
-  }
+  },
+  "elite": [
+    {
+      "id": "1",
+      "name": "Floby VK",
+      "logo": "/images/logos/floby_vk-logo.png",
+      "alt": "Логотип волейбольного клубу Floby VK у зеленому та жовтому кольорах з червоним текстом та золотою зіркою"
+    },
+    {
+      "id": "2",
+      "name": "Habo Wolley",
+      "logo": "/images/logos/habo_wolley-logo.png",
+      "alt": "Логотип волейбольного клубу Habo Wolley у червоному кольорі з стилізованим дизайном волейболу та сітки з 1987 року"
+    },
+    {
+      "id": "3",
+      "name": "Hylte Halmstad VBK",
+      "logo": "/images/logos/hylte_halmstad_vbk-logo.png",
+      "alt": "Логотип волейбольного клубу Hylte Halmstad у червоному та чорному кольорах на білому фоні"
+    },
+    {
+      "id": "4",
+      "name": "Lunds VK",
+      "logo": "/images/logos/lunds_vk-logo.png",
+      "alt": "Логотип волейбольного клубу Lunds VK із чорним та червоним круговим дизайном з двома вежами та волейболом, заснований у 2009 році"
+    },
+    {
+      "id": "5",
+      "name": "Malmö VK",
+      "logo": "/images/logos/malmö_vk-logo.png",
+      "alt": "Простий логотип волейболу Malmö VK в чорному та білому кольорах з текстом MVK, інтегрованим у дизайн м'яча"
+    },
+    {
+      "id": "6",
+      "name": "Örkelljunga VK",
+      "logo": "/images/logos/örkelljunga_vk-logo.png",
+      "alt": "Логотип волейбольного клубу Orkelljunga VK з блакитними крилами та червоним текстом з волейболом у центрі"
+    },
+    {
+      "id": "7",
+      "name": "VBF RIG Falköping",
+      "logo": "/images/logos/vbf_rig_falköping-logo.png",
+      "alt": "Логотип спортивного гімназії RIG Falköping з білими буквами 'RIG' на чорному фоні та червоною крапкою"
+    },
+    {
+      "id": "8",
+      "name": "Södertelge VBK",
+      "logo": "/images/logos/södertelge_vbk-logo.png",
+      "alt": "Логотип волейбольного клубу Södertelge зі стилізованим зеленим та жовтим S-подібним дизайном на чорному фоні"
+    },
+    {
+      "id": "9",
+      "name": "Sollentuna VK",
+      "logo": "/images/logos/sollentuna_vk-logo.png",
+      "alt": "Текстовий логотип Sollentuna Volley в білому кольорі на зеленому фоні з простим дизайном фігури"
+    },
+    {
+      "id": "10",
+      "name": "Uppsala VBS",
+      "logo": "/images/logos/uppsala_vbs-logo.png",
+      "alt": "Чорний силует логотипу Uppsala Volleyboll, що показує силует міста з катедральними шпилями та волейболістом на сітці"
+    },
+    {
+      "id": "11",
+      "name": "Vingåkers VBK",
+      "logo": "/images/logos/vingåkers_vbk-logo.png",
+      "alt": "Логотип волейбольного клубу Vingåkers у світло-блакитному кольорі з дизайном крил та блакитною стрічкою, заснований у 1972 році"
+    },
+    {
+      "id": "12",
+      "name": "Svensk Volleyboll",
+      "logo": "/images/logos/svensk_volleyboll-logo.png",
+      "alt": "Логотип Шведської Федерації Волейболу зі стилізованим синім та жовтим волейболом та текстом 'Svensk Volleyboll' синім кольором"
+    }
+  ]
 }
