@@ -1,0 +1,129 @@
+{
+  "teams": [
+    {
+      "id": "1",
+      "name": "Lag A",
+      "image": "/images/team-A.webp",
+      "description": "Vårt första lag tävlar i Division 3 och har varit en maktfaktor den här säsongen. Kända för sina aggressiva servar och solida försvar har Lag A konsekvent dominerat sina matcher.",
+      "league": "Division 3",
+      "coach": "Krzysiek",
+      "captain": "Filip",
+      "currentRank": "1:a",
+      "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=401"
+    },
+    {
+      "id": "2",
+      "name": "Lag B",
+      "image": "/images/team-B.webp",
+      "description": "Vårt andra lag spelar också i Division 3 och har visat anmärkningsvärda framsteg den här säsongen. Med en blandning av erfarna spelare och lovande talanger har Lag B stigit till toppen av ligan.",
+      "league": "Division 3",
+      "coach": "Krzysiek",
+      "captain": "Damian",
+      "currentRank": "1:a",
+      "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=399"
+    }
+  ],
+  "aboutUs": {
+    "title": "Från Korpen till Svenska Volleybollmästerskapen",
+    "sections": [
+      {
+        "title": "Ödmjuka Början",
+        "content": "År 2022 klev vi in på Korpens planer med ett ofullständigt lag och stora drömmar. Trots tuffa odds tränade vi med andra lag och kämpade oss till en mittenplacering. Men det var bara uppvärmningen."
+      },
+      {
+        "title": "Möta Utmaningen",
+        "content": "Drivna av ambition siktar vi på Korpenmästerskapet. Vi välkomnade nya talanger, fördubblade vår träning och dominerade ligan. En förlust kunde inte stoppa oss från att ta titeln."
+      },
+      {
+        "title": "Sikta Högre",
+        "content": "Med segerns smak hungrar vi efter mer. Vårt mål? Svenska Volleybollmästerskapet. Vi valde den svåra vägen - att skapa vår egen klubb. Med stöd från Ragsved If gjorde vi det möjligt."
+      },
+      {
+        "title": "Tillväxt och Expansion",
+        "content": "Vi rekryterade engagerade tränare, bildade ett andra lag från våra tuffaste Korpen-rivaler, intensifierade träningen till två gånger i veckan, anmälde två lag till Division 3 och behöll våra Korpen-rötter för nöje och ny talang."
+      },
+      {
+        "title": "Där Vi Står",
+        "content": "Idag är vi en kraft att räkna med: Två lag som tävlar hårt i Division 3, ett Korpen-lag som håller vår gräsrotsanda levande, och rigorös träning som driver oss till nya höjder."
+      },
+      {
+        "title": "Vår Mission",
+        "content": "Vårt mål är tydligt: toppa Division 3 och avancera till Division 2. Vi spelar inte bara volleyboll; vi bygger ett arv. Från Korpen-underdogs till Division 3-utmanare visar vår resa kraften i beslutsamhet och lagarbete. Vi har kommit långt, men detta är bara början. Se oss stiga."
+      }
+    ],
+    "elite": [
+      {
+        "id": "1",
+        "name": "Floby VK",
+        "logo": "/images/logos/floby_vk-logo.png",
+        "alt": "Floby VK volleybollklubbens sköldlogotyp i grönt och gult med röd text och en guldfärgade stjärna"
+      },
+      {
+        "id": "2",
+        "name": "Habo Wolley",
+        "logo": "/images/logos/habo_wolley-logo.png",
+        "alt": "Habo Wolley volleybollklubbens logotyp i röd med en stiliserad volleyboll och nätdesign från 1987"
+      },
+      {
+        "id": "3",
+        "name": "Hylte Halmstad VBK",
+        "logo": "/images/logos/hylte_halmstad_vbk-logo.png",
+        "alt": "Hylte Halmstad Volleybollklubbens sköldlogotyp i röd och svart på vit bakgrund"
+      },
+      {
+        "id": "4",
+        "name": "Lunds VK",
+        "logo": "/images/logos/lunds_vk-logo.png",
+        "alt": "Lunds VK volleybollklubbens logotyp med en svart och röd cirkulär design med två torn och en volleyboll, grundad 2009"
+      },
+      {
+        "id": "5",
+        "name": "Malmö VK",
+        "logo": "/images/logos/malmö_vk-logo.png",
+        "alt": "Malmö VK enkel svart och vit volleyboll-logotyp med MVK-text integrerad i bollens design"
+      },
+      {
+        "id": "6",
+        "name": "Örkelljunga VK",
+        "logo": "/images/logos/örkelljunga_vk-logo.png",
+        "alt": "Orkelljunga VK volleybollklubbens logotyp med blå vingar och röd text med en volleyboll i mitten"
+      },
+      {
+        "id": "7",
+        "name": "VBF RIG Falköping",
+        "logo": "/images/logos/vbf_rig_falköping-logo.png",
+        "alt": "RIG Falköpings idrottsgymnasiums logotyp med vita 'RIG'-bokstäver på svart bakgrund och röd prick"
+      },
+      {
+        "id": "8",
+        "name": "Södertelge VBK",
+        "logo": "/images/logos/södertelge_vbk-logo.png",
+        "alt": "Södertelge volleybollklubbens logotyp med en stiliserad grön och gul S-formad design på svart bakgrund"
+      },
+      {
+        "id": "9",
+        "name": "Sollentuna VK",
+        "logo": "/images/logos/sollentuna_vk-logo.png",
+        "alt": "Sollentuna Volley-textlogotyp i vitt på grön bakgrund med en enkel figurdisk"
+      },
+      {
+        "id": "10",
+        "name": "Uppsala VBS",
+        "logo": "/images/logos/uppsala_vbs-logo.png",
+        "alt": "Uppsala Volleyboll svart silhuettlogotyp som visar stadens silhuett med katedralspiraner och en volleybollspelare vid nätet"
+      },
+      {
+        "id": "11",
+        "name": "Vingåkers VBK",
+        "logo": "/images/logos/vingåkers_vbk-logo.png",
+        "alt": "Vingåkers Volleybollklubb logotyp i ljusblått med design av vingar och blå banderoll, grundad 1972"
+      },
+      {
+        "id": "12",
+        "name": "Svensk Volleyboll",
+        "logo": "/images/logos/svensk_volleyboll-logo.png",
+        "alt": "Svenska Volleybollförbundets logotyp med en stiliserad blå och gul volleyboll med texten 'Svensk Volleyboll' i blått"
+      }
+    ]
+  }
+}

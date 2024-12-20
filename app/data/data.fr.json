@@ -1,0 +1,129 @@
+{
+  "teams": [
+    {
+      "id": "1",
+      "name": "Équipe A",
+      "image": "/images/team-A.webp",
+      "description": "Notre première équipe concourt en Division 3 et a été une force dominante cette saison. Connue pour ses services agressifs et sa défense solide, l'Équipe A a constamment dominé ses matchs.",
+      "league": "Division 3",
+      "coach": "Krzysiek",
+      "captain": "Filip",
+      "currentRank": "1er",
+      "championnat": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=401"
+    },
+    {
+      "id": "2",
+      "name": "Équipe B",
+      "image": "/images/team-B.webp",
+      "description": "Notre deuxième équipe joue également en Division 3 et a montré des progrès remarquables cette saison. Avec un mélange de joueurs expérimentés et de talents prometteurs, l'Équipe B s'est hissée au sommet de la ligue.",
+      "league": "Division 3",
+      "coach": "Krzysiek",
+      "captain": "Damian",
+      "currentRank": "1er",
+      "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=399"
+    }
+  ],
+  "aboutUs": {
+    "title": "De Korpen au Championnat Suédois de Volleyball",
+    "sections": [
+      {
+        "title": "Débuts Modestes",
+        "content": "En 2022, nous avons foulé les terrains de Korpen avec une équipe incomplète et de grands rêves. Face à des chances difficiles, nous nous sommes entraînés avec d'autres équipes et avons lutté pour finir en milieu de tableau. Mais ce n'était que l'échauffement."
+      },
+      {
+        "title": "Relever le Défi",
+        "content": "Alimentés par l'ambition, nous avons visé le championnat Korpen. Nous avons accueilli de nouveaux talents, doublé notre entraînement et dominé la ligue. Une seule défaite n'a pas pu nous empêcher de remporter le titre."
+      },
+      {
+        "title": "Viser Plus Haut",
+        "content": "Avec le goût de la victoire, nous avions faim de plus. Notre objectif ? Le Championnat Suédois de Volleyball. Nous avons choisi la voie difficile - créer notre propre club. Avec le soutien de Ragsved If, nous l'avons fait."
+      },
+      {
+        "title": "Croissance et Expansion",
+        "content": "Nous avons recruté des entraîneurs dévoués, formé une deuxième équipe à partir de nos plus coriaces rivaux de Korpen, intensifié l'entraînement à deux fois par semaine, inscrit deux équipes en Division 3, et maintenu nos racines Korpen pour le plaisir et les nouveaux talents."
+      },
+      {
+        "title": "Où Nous en Sommes",
+        "content": "Aujourd'hui, nous sommes une force avec laquelle il faut compter : Deux équipes qui rivalisent férocement en Division 3, une équipe Korpen qui maintient notre esprit de base vivant, et un entraînement rigoureux qui nous pousse vers de nouveaux sommets."
+      },
+      {
+        "title": "Notre Mission",
+        "content": "Notre objectif est clair : dominer la Division 3 et monter en Division 2. Nous ne jouons pas seulement au volleyball ; nous construisons un héritage. De outsiders Korpen à prétendants de Division 3, notre parcours démontre la puissance de la détermination et du travail d'équipe. Nous avons fait du chemin, mais ce n'est que le début. Regardez-nous monter."
+      }
+    ],
+    "elite": [
+      {
+        "id": "1",
+        "name": "Floby VK",
+        "logo": "/images/logos/floby_vk-logo.png",
+        "alt": "Logo du club de volleyball Floby VK en vert et jaune avec du texte rouge et une étoile dorée"
+      },
+      {
+        "id": "2",
+        "name": "Habo Wolley",
+        "logo": "/images/logos/habo_wolley-logo.png",
+        "alt": "Logo du club de volleyball Habo Wolley en rouge avec un design stylisé de volleyball et de filet de 1987"
+      },
+      {
+        "id": "3",
+        "name": "Hylte Halmstad VBK",
+        "logo": "/images/logos/hylte_halmstad_vbk-logo.png",
+        "alt": "Logo du club de volleyball Hylte Halmstad en rouge et noir sur fond blanc"
+      },
+      {
+        "id": "4",
+        "name": "Lunds VK",
+        "logo": "/images/logos/lunds_vk-logo.png",
+        "alt": "Logo du club de volleyball Lunds VK avec un design circulaire noir et rouge comportant deux tours et un volleyball, établi en 2009"
+      },
+      {
+        "id": "5",
+        "name": "Malmö VK",
+        "logo": "/images/logos/malmö_vk-logo.png",
+        "alt": "Logo simple en noir et blanc de Malmö VK avec le texte MVK intégré dans le design de la balle"
+      },
+      {
+        "id": "6",
+        "name": "Örkelljunga VK",
+        "logo": "/images/logos/örkelljunga_vk-logo.png",
+        "alt": "Logo du club de volleyball Orkelljunga VK avec des ailes bleues et du texte rouge avec un volleyball au centre"
+      },
+      {
+        "id": "7",
+        "name": "VBF RIG Falköping",
+        "logo": "/images/logos/vbf_rig_falköping-logo.png",
+        "alt": "Logo du gymnase sportif RIG Falköping avec des lettres 'RIG' blanches sur fond noir et un point rouge"
+      },
+      {
+        "id": "8",
+        "name": "Södertelge VBK",
+        "logo": "/images/logos/södertelge_vbk-logo.png",
+        "alt": "Logo du club de volleyball Södertelge avec un design stylisé en S vert et jaune sur fond noir"
+      },
+      {
+        "id": "9",
+        "name": "Sollentuna VK",
+        "logo": "/images/logos/sollentuna_vk-logo.png",
+        "alt": "Logo texte Sollentuna Volley en blanc sur fond vert avec un design de figure simple"
+      },
+      {
+        "id": "10",
+        "name": "Uppsala VBS",
+        "logo": "/images/logos/uppsala_vbs-logo.png",
+        "alt": "Logo en silhouette noire d'Uppsala Volleyboll montrant la ligne d'horizon de la ville avec des flèches de cathédrale et un joueur de volleyball au filet"
+      },
+      {
+        "id": "11",
+        "name": "Vingåkers VBK",
+        "logo": "/images/logos/vingåkers_vbk-logo.png",
+        "alt": "Logo du club de volleyball Vingåkers en bleu clair avec un design d'ailes et une bannière bleue, établi en 1972"
+      },
+      {
+        "id": "12",
+        "name": "Svensk Volleyboll",
+        "logo": "/images/logos/svensk_volleyboll-logo.png",
+        "alt": "Logo de la Fédération suédoise de volleyball avec une volleyball stylisée bleu et jaune et le texte 'Svensk Volleyboll' en bleu"
+      }
+    ]
+  }
+}

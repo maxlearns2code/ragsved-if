@@ -3,7 +3,7 @@
 import { useRef, useEffect, useState } from "react";
 import { motion, useAnimationControls } from "framer-motion";
 import Image from "next/image";
-import data from "../data/data.json";
+import data from "../data/data.en.json";
 
 export default function InfiniteHorizontalAnimation() {
   const challengers = data.elite;

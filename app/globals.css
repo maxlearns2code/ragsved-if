@@ -17,6 +17,10 @@
   }
 }
 
+html {
+  scrollbar-width: none;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);

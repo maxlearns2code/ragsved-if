@@ -1,0 +1,129 @@
+{
+  "teams": [
+    {
+      "id": "1",
+      "name": "Drużyna A",
+      "image": "/images/team-A.webp",
+      "description": "Nasza pierwsza drużyna rywalizuje w III Lidze i była potęgą w tym sezonie. Znana z agresywnych serwisów i solidnej obrony, Drużyna A konsekwentnie dominowała w swoich meczach.",
+      "league": "III Liga",
+      "coach": "Krzysiek",
+      "captain": "Filip",
+      "currentRank": "1.",
+      "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=401"
+    },
+    {
+      "id": "2",
+      "name": "Drużyna B",
+      "image": "/images/team-B.webp",
+      "description": "Nasza druga drużyna również gra w III Lidze i wykazała znaczący postęp w tym sezonie. Z mieszanką doświadczonych graczy i obiecujących talentów, Drużyna B wspięła się na szczyt ligi.",
+      "league": "III Liga",
+      "coach": "Krzysiek",
+      "captain": "Damian",
+      "currentRank": "1.",
+      "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=399"
+    }
+  ],
+  "aboutUs": {
+    "title": "Od Korpen do Szwedzkich Mistrzostw Siatkówki",
+    "sections": [
+      {
+        "title": "Skromne Początki",
+        "content": "W 2022 roku wkroczyliśmy na boiska Korpen z niepełną drużyną i wielkimi marzeniami. Stawiając czoła trudnym przeciwnościom, trenowaliśmy z innymi zespołami i walczyliśmy o miejsce w środku tabeli. Ale to była tylko rozgrzewka."
+      },
+      {
+        "title": "Sprostanie Wyzwaniu",
+        "content": "Napędzani ambicją, obraliśmy za cel mistrzostwo Korpen. Przyjęliśmy nowe talenty, podwoiliśmy nasze treningi i zdominowaliśmy ligę. Jedna porażka nie mogła powstrzymać nas przed zdobyciem tytułu."
+      },
+      {
+        "title": "Celowanie Wyżej",
+        "content": "Z posmakiem zwycięstwa zapragnęliśmy więcej. Nasz cel? Mistrzostwa Szwecji w Siatkówce. Wybraliśmy trudną drogę - stworzenie własnego klubu. Dzięki wsparciu Ragsved If, udało nam się to zrealizować."
+      },
+      {
+        "title": "Wzrost i Ekspansja",
+        "content": "Zrekrutowaliśmy oddanych trenerów, stworzyliśmy drugą drużynę z naszych najtwardszych rywali z Korpen, zintensyfikowaliśmy treningi do dwóch razy w tygodniu, zgłosiliśmy dwie drużyny do III Ligi i utrzymaliśmy nasze korzenie w Korpen dla zabawy i świeżych talentów."
+      },
+      {
+        "title": "Gdzie Teraz Jesteśmy",
+        "content": "Dziś jesteśmy siłą, z którą trzeba się liczyć: Dwie drużyny zacięcie rywalizujące w III Lidze, zespół Korpen podtrzymujący naszego ducha oddolnej inicjatywy, oraz rygorystyczne treningi popychające nas na nowe wyżyny."
+      },
+      {
+        "title": "Nasza Misja",
+        "content": "Nasz cel jest jasny: zdobyć szczyt III Ligi i awansować do II Ligi. Nie tylko gramy w siatkówkę; budujemy dziedzictwo. Od underdogów z Korpen do pretendentów III Ligi, nasza podróż pokazuje siłę determinacji i pracy zespołowej. Zaszliśmy daleko, ale to dopiero początek. Obserwujcie, jak się wznosimy."
+      }
+    ],
+    "elite": [
+      {
+        "id": "1",
+        "name": "Floby VK",
+        "logo": "/images/logos/floby_vk-logo.png",
+        "alt": "Logo klubu siatkarskiego Floby VK w zielonym i żółtym z czerwonym tekstem i złotą gwiazdą"
+      },
+      {
+        "id": "2",
+        "name": "Habo Wolley",
+        "logo": "/images/logos/habo_wolley-logo.png",
+        "alt": "Logo klubu siatkarskiego Habo Wolley w czerwonym z stylizowaną piłką do siatkówki i siatką z 1987 roku"
+      },
+      {
+        "id": "3",
+        "name": "Hylte Halmstad VBK",
+        "logo": "/images/logos/hylte_halmstad_vbk-logo.png",
+        "alt": "Logo klubu siatkarskiego Hylte Halmstad w czerwonym i czarnym na białym tle"
+      },
+      {
+        "id": "4",
+        "name": "Lunds VK",
+        "logo": "/images/logos/lunds_vk-logo.png",
+        "alt": "Logo klubu siatkarskiego Lunds VK z czarnym i czerwonym okrągłym wzorem z dwoma wieżami i piłką do siatkówki, założone w 2009 roku"
+      },
+      {
+        "id": "5",
+        "name": "Malmö VK",
+        "logo": "/images/logos/malmö_vk-logo.png",
+        "alt": "Proste czarno-białe logo siatkarskie Malmö VK z tekstem MVK zintegrowanym w designie piłki"
+      },
+      {
+        "id": "6",
+        "name": "Örkelljunga VK",
+        "logo": "/images/logos/örkelljunga_vk-logo.png",
+        "alt": "Logo klubu siatkarskiego Orkelljunga VK z niebieskimi skrzydłami i czerwonym tekstem z piłką do siatkówki w centrum"
+      },
+      {
+        "id": "7",
+        "name": "VBF RIG Falköping",
+        "logo": "/images/logos/vbf_rig_falköping-logo.png",
+        "alt": "Logo gymnazjum sportowego RIG Falköping z białymi literami 'RIG' na czarnym tle i czerwoną kropką"
+      },
+      {
+        "id": "8",
+        "name": "Södertelge VBK",
+        "logo": "/images/logos/södertelge_vbk-logo.png",
+        "alt": "Logo klubu siatkarskiego Södertelge z stylizowanym zielonym i żółtym wzorem w kształcie S na czarnym tle"
+      },
+      {
+        "id": "9",
+        "name": "Sollentuna VK",
+        "logo": "/images/logos/sollentuna_vk-logo.png",
+        "alt": "Logo tekstowe Sollentuna Volley w białym kolorze na zielonym tle z prostym wzorem figury"
+      },
+      {
+        "id": "10",
+        "name": "Uppsala VBS",
+        "logo": "/images/logos/uppsala_vbs-logo.png",
+        "alt": "Czarny sylwetka logo Uppsala Volleyboll pokazująca sylwetkę miasta z wieżami katedralnymi i zawodnikiem siatkówki przy siatce"
+      },
+      {
+        "id": "11",
+        "name": "Vingåkers VBK",
+        "logo": "/images/logos/vingåkers_vbk-logo.png",
+        "alt": "Logo klubu siatkarskiego Vingåkers w jasnoniebieskim z wzorem skrzydeł i niebieską wstążką, założone w 1972 roku"
+      },
+      {
+        "id": "12",
+        "name": "Svensk Volleyboll",
+        "logo": "/images/logos/svensk_volleyboll-logo.png",
+        "alt": "Logo Szwedzkiej Federacji Siatkówki z stylizowaną niebieską i żółtą piłką do siatkówki oraz napisem 'Svensk Volleyboll' w kolorze niebieskim"
+      }
+    ]
+  }
+}

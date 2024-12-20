@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import data from "../../data/data.json";
+import data from "../../data/data.en.json";
 
 type Props = {
   params: Promise<{ id: string }>;
