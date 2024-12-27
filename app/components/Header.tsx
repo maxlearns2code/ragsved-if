@@ -1,11 +1,14 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const Header = () => {
+  const t = useTranslations("Header");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrollDirection, setScrollDirection] = useState("up");
 
@@ -15,7 +18,10 @@ const Header = () => {
     const updateScrollDirection = () => {
       const scrollY = window.scrollY;
       const direction = scrollY > lastScrollY ? "down" : "up";
-      if (direction !== scrollDirection && (scrollY - lastScrollY > 10 || scrollY - lastScrollY < -10)) {
+      if (
+        direction !== scrollDirection &&
+        (scrollY - lastScrollY > 10 || scrollY - lastScrollY < -10)
+      ) {
         setScrollDirection(direction);
       }
       lastScrollY = scrollY > 0 ? scrollY : 0;
@@ -47,46 +53,96 @@ const Header = () => {
       >
         <nav className="container mx-auto px-4 py-3">
           <div className="flex justify-between items-center">
-            <Link href="/" className="text-2xl font-bold z-50 relative" aria-label="Home">
+            <Link
+              href="/"
+              className="text-2xl font-bold z-50 relative"
+              aria-label={t("homeAriaLabel")}
+            >
               <Image
                 src="/images/logo.png"
-                alt="Volleyball Club Logo"
+                alt={t("logoAlt")}
                 width={50}
                 height={50}
                 priority
               />
             </Link>
-            <div className="hidden md:block">
+            <div className="hidden md:flex md:items-center md:space-x-4">
               <ul className="flex space-x-4">
-                <li><Link href="/#home">Home</Link></li>
-                <li><Link href="/#about">About</Link></li>
-                <li><Link href="/#teams">Teams</Link></li>
-                <li><Link href="/#schedule">Schedule</Link></li>
-                <li><Link href="/#news">News</Link></li>
-                <li><Link href="/#contact">Contact</Link></li>
+                <li>
+                  <Link href="/#home">{t("home")}</Link>
+                </li>
+                <li>
+                  <Link href="/#about">{t("about")}</Link>
+                </li>
+                <li>
+                  <Link href="/#teams">{t("teams")}</Link>
+                </li>
+                <li>
+                  <Link href="/#schedule">{t("schedule")}</Link>
+                </li>
+                <li>
+                  <Link href="/#news">{t("news")}</Link>
+                </li>
+                <li>
+                  <Link href="/#contact">{t("contact")}</Link>
+                </li>
               </ul>
+
+              <LanguageSwitcher />
             </div>
             <button
               className="md:hidden z-50 relative text-2xl"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+              aria-label={
+                isMenuOpen ? t("closeMenuAriaLabel") : t("openMenuAriaLabel")
+              }
               aria-expanded={isMenuOpen}
             >
-              {isMenuOpen ? <FaTimes aria-hidden="true" /> : <FaBars aria-hidden="true" />}
+              {isMenuOpen ? (
+                <FaTimes aria-hidden="true" />
+              ) : (
+                <FaBars aria-hidden="true" />
+              )}
             </button>
           </div>
         </nav>
       </header>
       {isMenuOpen && (
-        <div className="fixed inset-0 bg-primary z-40 flex items-center justify-center md:hidden">
+        <div className="fixed inset-0 bg-primary z-40 flex flex-col items-center justify-center md:hidden">
           <ul className="flex flex-col space-y-6 text-center text-2xl">
-            <li><Link href="/" onClick={() => setIsMenuOpen(false)}>Home</Link></li>
-            <li><Link href="/#about" onClick={() => setIsMenuOpen(false)}>About</Link></li>
-            <li><Link href="/#teams" onClick={() => setIsMenuOpen(false)}>Teams</Link></li>
-            <li><Link href="/#schedule" onClick={() => setIsMenuOpen(false)}>Schedule</Link></li>
-            <li><Link href="/#news" onClick={() => setIsMenuOpen(false)}>News</Link></li>
-            <li><Link href="/#contact" onClick={() => setIsMenuOpen(false)}>Contact</Link></li>
+            <li>
+              <Link href="/" onClick={() => setIsMenuOpen(false)}>
+                {t("home")}
+              </Link>
+            </li>
+            <li>
+              <Link href="/#about" onClick={() => setIsMenuOpen(false)}>
+                {t("about")}
+              </Link>
+            </li>
+            <li>
+              <Link href="/#teams" onClick={() => setIsMenuOpen(false)}>
+                {t("teams")}
+              </Link>
+            </li>
+            <li>
+              <Link href="/#schedule" onClick={() => setIsMenuOpen(false)}>
+                {t("schedule")}
+              </Link>
+            </li>
+            <li>
+              <Link href="/#news" onClick={() => setIsMenuOpen(false)}>
+                {t("news")}
+              </Link>
+            </li>
+            <li>
+              <Link href="/#contact" onClick={() => setIsMenuOpen(false)}>
+                {t("contact")}
+              </Link>
+            </li>
           </ul>
+
+          <LanguageSwitcher />
         </div>
       )}
     </>

@@ -3,10 +3,18 @@
 import { useRef, useEffect, useState } from "react";
 import { motion, useAnimationControls } from "framer-motion";
 import Image from "next/image";
-import data from "../data/data.en.json";
+import { useTranslations } from 'next-intl';
 
-export default function InfiniteHorizontalAnimation() {
-  const challengers = data.elite;
+interface Challenger {
+  id: string;
+  name: string;
+  logo: string;
+  alt: string;
+}
+
+export default function TeamLogoScroll() {
+  const t = useTranslations('Elite');
+  const challengers: Challenger[] = t.raw('challengers');
   const containerRef = useRef<HTMLDivElement>(null);
   const [containerWidth, setContainerWidth] = useState(0);
   const controls = useAnimationControls();
@@ -41,7 +49,7 @@ export default function InfiniteHorizontalAnimation() {
   
 
   return (
-    <div id="schedule" className=" mx-auto overflow-hidden rounded-lg shadow-xl py-4">
+    <div id="schedule" className="mx-auto overflow-hidden rounded-lg shadow-xl py-4">
       <div className="relative">
         <motion.div
           ref={containerRef}
@@ -55,7 +63,7 @@ export default function InfiniteHorizontalAnimation() {
             >
               <Image
                 src={challenger.logo}
-                alt={challenger.name}
+                alt={challenger.alt}
                 width={100}
                 height={100}
                 className="px-10 h-16 w-auto"

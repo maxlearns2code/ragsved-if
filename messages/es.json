@@ -1,0 +1,187 @@
+{
+  "Metadata": {
+    "title": "RIF Volleyball - Nuevas alturas desde 2024",
+    "description": "RIF Volleyball, fundado en 2024, continúa el legado de Rågsved IF desde 1958. Únete a nuestra apasionada comunidad de voleibol en el área de Estocolmo.",
+    "keywords": "RIF voleibol,equipo de voleibol,club de voleibol,comunidad deportiva,voleibol 2024,voleibol competitivo,voleibol Estocolmo,Rågsved IF 1958",
+    "ogTitle": "RIF Volleyball - Nuevas alturas desde 2024",
+    "ogDescription": "Únete a RIF Volleyball en Estocolmo - construyendo sobre el legado de nuestro club desde 1958.",
+    "ogImageAlt": "Logo del club RIF",
+    "siteName": "RIF Volleyball"
+  },
+  "Header": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "teams": "Equipos",
+    "schedule": "Calendario",
+    "news": "Noticias",
+    "contact": "Contacto",
+    "homeAriaLabel": "Volver al inicio",
+    "logoAlt": "Logo de RIF Voleibol",
+    "openMenuAriaLabel": "Abrir menú",
+    "closeMenuAriaLabel": "Cerrar menú"
+  },
+  "Hero": {
+    "title": {
+      "line1": "Nuevas Alturas",
+      "line2": "Club de Voleibol"
+    },
+    "description": "Únete a nuestro ambicioso nuevo club mientras servimos emoción en la División 3. Con tu pasión y nuestra determinación, ¡estamos apuntando a la División 2 la próxima temporada!",
+    "joinButton": "Únete a nosotros",
+    "scheduleButton": "Ver calendario",
+    "imageAlt": "Partido de voleibol en acción"
+  },
+  "AboutUs": {
+    "title": "De Korpen al Campeonato Sueco de Voleibol",
+    "sections": {
+      "humbleBeginnings": {
+        "title": "Humildes Comienzos",
+        "content": "En 2022, pisamos las canchas de Korpen con un equipo incompleto y grandes sueños. Enfrentando duras probabilidades, entrenamos con otros equipos y luchamos para llegar a la mitad de la tabla. Pero eso fue solo el calentamiento."
+      },
+      "risingToTheChallenge": {
+        "title": "Afrontando el Desafío",
+        "content": "Impulsados por la ambición, pusimos nuestra mira en el campeonato de Korpen. Dimos la bienvenida a nuevos talentos, duplicamos nuestro entrenamiento y dominamos la liga. Una sola derrota no pudo impedirnos reclamar el título."
+      },
+      "aimingHigher": {
+        "title": "Apuntando Más Alto",
+        "content": "Con el sabor de la victoria, anhelábamos más. ¿Nuestro objetivo? El Campeonato Sueco de Voleibol. Elegimos el camino difícil: crear nuestro propio club. Con el apoyo de Ragsved If, lo hicimos realidad."
+      },
+      "growthAndExpansion": {
+        "title": "Crecimiento y Expansión",
+        "content": "Reclutamos entrenadores dedicados, formamos un segundo equipo con nuestros rivales más duros de Korpen, intensificamos el entrenamiento a dos veces por semana, inscribimos dos equipos en la División 3 y mantuvimos nuestras raíces en Korpen para divertirnos y atraer nuevo talento."
+      },
+      "whereWeStand": {
+        "title": "Donde Estamos",
+        "content": "Hoy somos una fuerza a tener en cuenta: Dos equipos compitiendo ferozmente en la División 3, un equipo de Korpen manteniendo vivo nuestro espíritu de base, y un entrenamiento riguroso que nos empuja a nuevas alturas."
+      },
+      "ourMission": {
+        "title": "Nuestra Misión",
+        "content": "Nuestro objetivo es claro: dominar la División 3 y ascender a la División 2. No solo estamos jugando voleibol; estamos construyendo un legado. De ser los menos favoritos en Korpen a contendientes de la División 3, nuestro viaje muestra el poder de la determinación y el trabajo en equipo. Hemos llegado lejos, pero esto es solo el comienzo. Míranos ascender."
+      }
+    }
+  },
+  "TeamPage": {
+    "metaTitle": "Información del equipo",
+    "quickFacts": "Datos rápidos",
+    "league": "Liga",
+    "coach": "Entrenador",
+    "captain": "Capitán",
+    "currentRank": "Posición actual"
+  },
+  "Teams": {
+    "title": "Nuestros Equipos",
+    "metaTitle": "Información del equipo",
+    "teams": [
+      {
+        "id": "1",
+        "name": "Equipo A",
+        "image": "/images/team-A.webp",
+        "description": "Nuestro primer equipo compite en la División 3 y ha sido una potencia esta temporada. Conocido por sus saques agresivos y sólida defensa, el Equipo A ha dominado constantemente sus partidos.",
+        "league": "División 3",
+        "coach": "Krzysiek",
+        "captain": "Filip",
+        "currentRank": "1º",
+        "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=401"
+      },
+      {
+        "id": "2",
+        "name": "Equipo B",
+        "image": "/images/team-B.webp",
+        "description": "Nuestro segundo equipo también juega en la División 3 y ha mostrado un progreso notable esta temporada. Con una mezcla de jugadores experimentados y talentos prometedores, el Equipo B ha escalado a la cima de la liga.",
+        "league": "División 3",
+        "coach": "Krzysiek",
+        "captain": "Damian",
+        "currentRank": "1º",
+        "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=399"
+      }
+    ]
+  },
+  "Elite": {
+    "challengers": [
+      {
+        "id": "1",
+        "name": "Floby VK",
+        "logo": "/images/logos/floby_vk-logo.png",
+        "alt": "Logo en forma de escudo del club de voleibol Floby VK en verde y amarillo con texto rojo y una estrella dorada"
+      },
+      {
+        "id": "2",
+        "name": "Habo Wolley",
+        "logo": "/images/logos/habo_wolley-logo.png",
+        "alt": "Logo del club de voleibol Habo Wolley en rojo con un diseño estilizado de voleibol y red de 1987"
+      },
+      {
+        "id": "3",
+        "name": "Hylte Halmstad VBK",
+        "logo": "/images/logos/hylte_halmstad_vbk-logo.png",
+        "alt": "Logo en forma de escudo del Club de Voleibol Hylte Halmstad en rojo y negro sobre fondo blanco"
+      },
+      {
+        "id": "4",
+        "name": "Lunds VK",
+        "logo": "/images/logos/lunds_vk-logo.png",
+        "alt": "Logo del club de voleibol Lunds VK con un diseño circular negro y rojo que presenta dos torres y un balón de voleibol, establecido en 2009"
+      },
+      {
+        "id": "5",
+        "name": "Malmö VK",
+        "logo": "/images/logos/malmö_vk-logo.png",
+        "alt": "Logo simple de voleibol en blanco y negro de Malmö VK con el texto MVK integrado en el diseño del balón"
+      },
+      {
+        "id": "6",
+        "name": "Örkelljunga VK",
+        "logo": "/images/logos/örkelljunga_vk-logo.png",
+        "alt": "Logo del club de voleibol Örkelljunga VK con alas azules y texto rojo con un balón de voleibol en el centro"
+      },
+      {
+        "id": "7",
+        "name": "VBF RIG Falköping",
+        "logo": "/images/logos/vbf_rig_falköping-logo.png",
+        "alt": "Logo del gimnasio deportivo RIG Falköping con letras 'RIG' blancas sobre fondo negro y un punto rojo"
+      },
+      {
+        "id": "8",
+        "name": "Södertelge VBK",
+        "logo": "/images/logos/södertelge_vbk-logo.png",
+        "alt": "Logo del club de voleibol Södertelge con un diseño estilizado en forma de S verde y amarillo sobre fondo negro"
+      },
+      {
+        "id": "9",
+        "name": "Sollentuna VK",
+        "logo": "/images/logos/sollentuna_vk-logo.png",
+        "alt": "Logo de texto Sollentuna Volley en blanco sobre fondo verde con un diseño de figura simple"
+      },
+      {
+        "id": "10",
+        "name": "Uppsala VBS",
+        "logo": "/images/logos/uppsala_vbs-logo.png",
+        "alt": "Logo de silueta negra de Uppsala Volleyboll que muestra el perfil de la ciudad con las agujas de la catedral y un jugador de voleibol en la red"
+      },
+      {
+        "id": "11",
+        "name": "Vingåkers VBK",
+        "logo": "/images/logos/vingåkers_vbk-logo.png",
+        "alt": "Logo del club de voleibol Vingåkers en azul claro con diseño de alas y una cinta banner azul, establecido en 1972"
+      },
+      {
+        "id": "12",
+        "name": "Svensk Volleyboll",
+        "logo": "/images/logos/svensk_volleyboll-logo.png",
+        "alt": "Logo de la Federación Sueca de Voleibol con un balón de voleibol estilizado azul y amarillo con el texto 'Svensk Volleyboll' en azul"
+      }
+    ]
+  },
+  "Footer": {
+    "returnToHomepage": "Volver a la página principal",
+    "logoAlt": "Logo del Club de Voleibol",
+    "contactUs": "Contáctenos",
+    "address": "Dirección",
+    "phone": "Teléfono",
+    "email": "Correo electrónico",
+    "followUs": "Síguenos",
+    "facebookAriaLabel": "Visita nuestra página de Facebook",
+    "instagramAriaLabel": "Síguenos en Instagram",
+    "twitterAriaLabel": "Síguenos en Twitter",
+    "copyright": "© {year}, Todos los derechos reservados."
+  }
+}

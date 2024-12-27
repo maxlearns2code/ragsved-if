@@ -3,14 +3,10 @@
 import { motion, useAnimation, Variants } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useEffect } from 'react';
-
-interface Section {
-  title: string;
-  content: string;
-}
+import {useTranslations} from 'next-intl';
 
 interface AnimatedTimelineSectionProps {
-  section: Section;
+  section: string;
   index: number;
 }
 
@@ -44,6 +40,7 @@ const itemVariants: Variants = {
 };
 
 const AnimatedTimelineSection: React.FC<AnimatedTimelineSectionProps> = ({ section, index }) => {
+  const t = useTranslations('AboutUs.sections');
   const controls = useAnimation();
   const [ref, inView] = useInView({
     triggerOnce: false,
@@ -57,10 +54,6 @@ const AnimatedTimelineSection: React.FC<AnimatedTimelineSectionProps> = ({ secti
       controls.start("hidden");
     }
   }, [controls, inView]);
-
-  if (!section) {
-    return null;
-  }
 
   const isRight = index % 2 !== 0;
 
@@ -80,13 +73,13 @@ const AnimatedTimelineSection: React.FC<AnimatedTimelineSectionProps> = ({ secti
           className="text-xl font-bold text-secondary mb-2"
           variants={itemVariants}
         >
-          {section.title}
+          {t(`${section}.title`)}
         </motion.h3>
         <motion.p 
           className="text-sm text-primary"
           variants={itemVariants}
         >
-          {section.content}
+          {t(`${section}.content`)}
         </motion.p>
       </motion.div>
     </motion.div>

@@ -1,0 +1,187 @@
+{
+  "Metadata": {
+    "title": "RIF Volleyball - Nowe wyżyny od 2024 roku",
+    "description": "RIF Volleyball, założony w 2024 roku, kontynuuje dziedzictwo Rågsved IF od 1958 roku. Dołącz do naszej pełnej pasji społeczności siatkarskiej w obszarze Sztokholmu.",
+    "keywords": "RIF siatkówka,drużyna siatkówki,klub siatkarski,społeczność sportowa,siatkówka 2024,siatkówka wyczynowa,siatkówka Sztokholm,Rågsved IF 1958",
+    "ogTitle": "RIF Volleyball - Nowe wyżyny od 2024 roku",
+    "ogDescription": "Dołącz do RIF Volleyball w Sztokholmie - budujemy na dziedzictwie naszego klubu od 1958 roku.",
+    "ogImageAlt": "Logo klubu RIF",
+    "siteName": "RIF Volleyball"
+  },
+  "Header": {
+    "home": "Strona główna",
+    "about": "O nas",
+    "teams": "Drużyny",
+    "schedule": "Harmonogram",
+    "news": "Aktualności",
+    "contact": "Kontakt",
+    "homeAriaLabel": "Powrót do strony głównej",
+    "logoAlt": "Logo RIF Siatkówka",
+    "openMenuAriaLabel": "Otwórz menu",
+    "closeMenuAriaLabel": "Zamknij menu"
+  },
+  "Hero": {
+    "title": {
+      "line1": "Nowe Wyżyny",
+      "line2": "Klub Siatkówki"
+    },
+    "description": "Dołącz do naszego ambitnego nowego klubu, gdy serwujemy emocje w III lidze. Z Twoją pasją i naszą determinacją celujemy w II ligę w przyszłym sezonie!",
+    "joinButton": "Dołącz do nas",
+    "scheduleButton": "Zobacz harmonogram",
+    "imageAlt": "Mecz siatkówki w akcji"
+  },
+  "AboutUs": {
+    "title": "Od Korpen do Szwedzkich Mistrzostw Siatkówki",
+    "sections": {
+      "humbleBeginnings": {
+        "title": "Skromne Początki",
+        "content": "W 2022 roku wkroczyliśmy na boiska Korpen z niekompletną drużyną i wielkimi marzeniami. W obliczu trudnych szans, trenowaliśmy z innymi zespołami i wywalczyliśmy miejsce w środku tabeli. Ale to była dopiero rozgrzewka."
+      },
+      "risingToTheChallenge": {
+        "title": "Sprostanie Wyzwaniu",
+        "content": "Napędzani ambicją, postawiliśmy sobie za cel mistrzostwo Korpen. Przyjęliśmy nowe talenty, podwoiliśmy nasze treningi i zdominowaliśmy ligę. Jedna porażka nie mogła nas powstrzymać przed zdobyciem tytułu."
+      },
+      "aimingHigher": {
+        "title": "Celowanie Wyżej",
+        "content": "Z posmakiem zwycięstwa, zapragnęliśmy więcej. Nasz cel? Mistrzostwa Szwecji w Siatkówce. Wybraliśmy trudną drogę - stworzenie własnego klubu. Dzięki wsparciu Ragsved If udało nam się to osiągnąć."
+      },
+      "growthAndExpansion": {
+        "title": "Wzrost i Ekspansja",
+        "content": "Zrekrutowaliśmy oddanych trenerów, stworzyliśmy drugi zespół z naszych najtrudniejszych rywali z Korpen, zintensyfikowaliśmy treningi do dwóch razy w tygodniu, zgłosiliśmy dwa zespoły do Dywizji 3 i utrzymaliśmy nasze korzenie w Korpen dla zabawy i świeżych talentów."
+      },
+      "whereWeStand": {
+        "title": "Gdzie Jesteśmy",
+        "content": "Dziś jesteśmy siłą, z którą trzeba się liczyć: Dwa zespoły zaciekle rywalizujące w Dywizji 3, drużyna Korpen podtrzymująca naszego ducha oddolnego, i rygorystyczne treningi popychające nas na nowe wyżyny."
+      },
+      "ourMission": {
+        "title": "Nasza Misja",
+        "content": "Nasz cel jest jasny: zdominować Dywizję 3 i awansować do Dywizji 2. Nie tylko gramy w siatkówkę; budujemy dziedzictwo. Od outsiderów Korpen do pretendentów Dywizji 3, nasza podróż pokazuje siłę determinacji i pracy zespołowej. Zaszliśmy daleko, ale to dopiero początek. Obserwujcie nasz wzlot."
+      }
+    }
+  },
+  "TeamPage": {
+    "metaTitle": "Informacje o drużynie",
+    "quickFacts": "Szybkie fakty",
+    "league": "Liga",
+    "coach": "Trener",
+    "captain": "Kapitan",
+    "currentRank": "Aktualna pozycja"
+  },
+  "Teams": {
+    "title": "Nasze Drużyny",
+    "metaTitle": "Informacje o drużynie",
+    "teams": [
+      {
+        "id": "1",
+        "name": "Drużyna A",
+        "image": "/images/team-A.webp",
+        "description": "Nasza pierwsza drużyna rywalizuje w Dywizji 3 i była potęgą w tym sezonie. Znana z agresywnych serwów i solidnej obrony, Drużyna A konsekwentnie dominowała w swoich meczach.",
+        "league": "Dywizja 3",
+        "coach": "Krzysiek",
+        "captain": "Filip",
+        "currentRank": "1.",
+        "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=401"
+      },
+      {
+        "id": "2",
+        "name": "Drużyna B",
+        "image": "/images/team-B.webp",
+        "description": "Nasza druga drużyna również gra w Dywizji 3 i wykazała godny uwagi postęp w tym sezonie. Z mieszanką doświadczonych graczy i obiecujących talentów, Drużyna B wspięła się na szczyt ligi.",
+        "league": "Dywizja 3",
+        "coach": "Krzysiek",
+        "captain": "Damian",
+        "currentRank": "1.",
+        "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=399"
+      }
+    ]
+  },
+  "Elite": {
+    "challengers": [
+      {
+        "id": "1",
+        "name": "Floby VK",
+        "logo": "/images/logos/floby_vk-logo.png",
+        "alt": "Logo tarczowe klubu siatkarskiego Floby VK w kolorach zielonym i żółtym z czerwonym tekstem i złotą gwiazdką"
+      },
+      {
+        "id": "2",
+        "name": "Habo Wolley",
+        "logo": "/images/logos/habo_wolley-logo.png",
+        "alt": "Logo klubu siatkarskiego Habo Wolley w kolorze czerwonym z stylizowanym wzorem piłki i siatki z 1987 roku"
+      },
+      {
+        "id": "3",
+        "name": "Hylte Halmstad VBK",
+        "logo": "/images/logos/hylte_halmstad_vbk-logo.png",
+        "alt": "Logo tarczowe Klubu Siatkarskiego Hylte Halmstad w kolorach czerwonym i czarnym na białym tle"
+      },
+      {
+        "id": "4",
+        "name": "Lunds VK",
+        "logo": "/images/logos/lunds_vk-logo.png",
+        "alt": "Logo klubu siatkarskiego Lunds VK z czarno-czerwonym okrągłym wzorem przedstawiającym dwie wieże i piłkę do siatkówki, założony w 2009 roku"
+      },
+      {
+        "id": "5",
+        "name": "Malmö VK",
+        "logo": "/images/logos/malmö_vk-logo.png",
+        "alt": "Proste czarno-białe logo siatkówki Malmö VK z tekstem MVK zintegrowanym w projekcie piłki"
+      },
+      {
+        "id": "6",
+        "name": "Örkelljunga VK",
+        "logo": "/images/logos/örkelljunga_vk-logo.png",
+        "alt": "Logo klubu siatkarskiego Örkelljunga VK z niebieskimi skrzydłami i czerwonym tekstem z piłką do siatkówki w środku"
+      },
+      {
+        "id": "7",
+        "name": "VBF RIG Falköping",
+        "logo": "/images/logos/vbf_rig_falköping-logo.png",
+        "alt": "Logo gimnazjum sportowego RIG Falköping z białymi literami 'RIG' na czarnym tle i czerwoną kropką"
+      },
+      {
+        "id": "8",
+        "name": "Södertelge VBK",
+        "logo": "/images/logos/södertelge_vbk-logo.png",
+        "alt": "Logo klubu siatkarskiego Södertelge ze stylizowanym zielono-żółtym wzorem w kształcie litery S na czarnym tle"
+      },
+      {
+        "id": "9",
+        "name": "Sollentuna VK",
+        "logo": "/images/logos/sollentuna_vk-logo.png",
+        "alt": "Tekstowe logo Sollentuna Volley w kolorze białym na zielonym tle z prostym wzorem figurowym"
+      },
+      {
+        "id": "10",
+        "name": "Uppsala VBS",
+        "logo": "/images/logos/uppsala_vbs-logo.png",
+        "alt": "Czarne sylwetkowe logo Uppsala Volleyboll pokazujące panoramę miasta z wieżami katedry i siatkarzem przy siatce"
+      },
+      {
+        "id": "11",
+        "name": "Vingåkers VBK",
+        "logo": "/images/logos/vingåkers_vbk-logo.png",
+        "alt": "Logo klubu siatkarskiego Vingåkers w kolorze jasnoniebieskim z wzorem skrzydeł i niebieską wstęgą, założony w 1972 roku"
+      },
+      {
+        "id": "12",
+        "name": "Svensk Volleyboll",
+        "logo": "/images/logos/svensk_volleyboll-logo.png",
+        "alt": "Logo Szwedzkiej Federacji Siatkówki przedstawiające stylizowaną niebiesko-żółtą piłkę do siatkówki z tekstem 'Svensk Volleyboll' w kolorze niebieskim"
+      }
+    ]
+  },
+  "Footer": {
+    "returnToHomepage": "Powrót do strony głównej",
+    "logoAlt": "Logo Klubu Siatkarskiego",
+    "contactUs": "Skontaktuj się z nami",
+    "address": "Adres",
+    "phone": "Telefon",
+    "email": "E-mail",
+    "followUs": "Obserwuj nas",
+    "facebookAriaLabel": "Odwiedź naszą stronę na Facebooku",
+    "instagramAriaLabel": "Obserwuj nas na Instagramie",
+    "twitterAriaLabel": "Obserwuj nas na Twitterze",
+    "copyright": "© {year}, Wszelkie prawa zastrzeżone."
+  }
+}
