@@ -1,7 +1,5 @@
-import { NextPage } from 'next';
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import TranslatedTeamInfo from '../../../components/TranslatedTeamInfo';
 
@@ -17,12 +15,13 @@ type Team = {
   championship: string;
 };
 
-type Props = {
-  params: { id: string; locale: string };
+type PageProps = {
+  params: Promise<{ id: string; locale: string }>;
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 };
 
-export async function generateMetadata({ params }: Props) {
-  const { id } = params;
+export async function generateMetadata({ params }: PageProps) {
+  const { id } = await params;
   const t = await getTranslations('Teams');
   const teams: Team[] = t.raw('teams');
   const team = teams.find((team: Team) => team.id === id);
@@ -35,14 +34,18 @@ export async function generateMetadata({ params }: Props) {
   };
 }
 
-const TeamPage: NextPage<Props> = ({ params }) => {
-  const { id } = params;
-  const t = useTranslations('Teams');
+export default async function TeamPage({ params }: PageProps) {
+  const { id } = await params;
+  const t = await getTranslations('Teams');
   const teams: Team[] = t.raw('teams');
   const team = teams.find((team: Team) => team.id === id);
 
   if (!team) notFound();
 
+  return <ClientTeamPage team={team} />;
+}
+
+function ClientTeamPage({ team }: { team: Team }) {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold mb-6">{team.name}</h1>
@@ -63,6 +66,4 @@ const TeamPage: NextPage<Props> = ({ params }) => {
       </div>
     </div>
   );
-};
-
-export default TeamPage;
+}
