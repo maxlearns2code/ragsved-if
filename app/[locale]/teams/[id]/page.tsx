@@ -1,12 +1,9 @@
+import { NextPage } from 'next';
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import TranslatedTeamInfo from '../../../components/TranslatedTeamInfo';
-
-type Props = {
-  params: { id: string; locale: string };
-};
 
 type Team = {
   id: string;
@@ -18,6 +15,10 @@ type Team = {
   captain: string;
   currentRank: string;
   championship: string;
+};
+
+type Props = {
+  params: { id: string; locale: string };
 };
 
 export async function generateMetadata({ params }: Props) {
@@ -34,7 +35,7 @@ export async function generateMetadata({ params }: Props) {
   };
 }
 
-export default function TeamPage({ params }: Props) {
+const TeamPage: NextPage<Props> = ({ params }) => {
   const { id } = params;
   const t = useTranslations('Teams');
   const teams: Team[] = t.raw('teams');
@@ -62,4 +63,6 @@ export default function TeamPage({ params }: Props) {
       </div>
     </div>
   );
-}
+};
+
+export default TeamPage;
