@@ -16,7 +16,7 @@ const About = () => {
   return (
     <section id="about" className="py-4 mb-8 md:mb-0 min-h-screen">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold mb-8 text-center">{t('title')}</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center overflow-hidden">{t('title')}</h2>
         
         <div className="relative max-w-5xl mx-auto">
           <div className="hidden md:block absolute left-1/2 -ml-0.5 w-0.5 h-full bg-secondary" aria-hidden="true" />

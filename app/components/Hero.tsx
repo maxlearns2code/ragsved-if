@@ -59,7 +59,7 @@ const Hero = () => {
             className="w-full lg:w-1/2 lg:pr-10"
             variants={itemVariants}
           >
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4 text-white text-center lg:text-left">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold py-2 mb-4 text-white text-center lg:text-left overflow-hidden">
               <span className="block">{t("title.line1")}</span>
               <span className="block text-secondary">{t("title.line2")}</span>
             </h1>

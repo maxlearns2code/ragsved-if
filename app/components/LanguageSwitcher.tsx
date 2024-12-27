@@ -28,7 +28,7 @@ export default function LanguageSwitcher() {
   return (
     <div className="relative">
       <button
-        className="flex items-center gap-2 px-3 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors"
+        className="flex items-center justify-center md:justify-start gap-2 w-full px-3 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors"
         onClick={() => setIsOpen(!isOpen)}
       >
         <span className="flex items-center gap-2">
@@ -38,14 +38,14 @@ export default function LanguageSwitcher() {
       </button>
 
       {isOpen && (
-        <div className="absolute top-full right-0 mt-2 w-48 bg-white/10 backdrop-blur-lg rounded-lg overflow-hidden z-50 border border-white/20">
+        <div className="absolute top-full right-0 mt-2 w-full sm:w-48 bg-white/10 backdrop-blur-lg rounded-lg overflow-hidden z-50 border border-white/20">
           <ul className="divide-y divide-white/10">
             {Object.entries(languages).map(([code, { name, flag }]) => (
               <li
                 key={code}
                 onClick={() => handleLanguageChange(code)}
                 className={`
-                  flex items-center gap-3 px-4 py-3 cursor-pointer
+                  flex items-center justify-center md:justify-start gap-3 px-4 py-3 cursor-pointer
                   ${locale === code ? "bg-white/10" : "hover:bg-white/5"}
                   transition-colors
                 `}

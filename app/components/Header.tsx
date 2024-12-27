@@ -109,7 +109,7 @@ const Header = () => {
       </header>
       {isMenuOpen && (
         <div className="fixed inset-0 bg-primary z-40 flex flex-col items-center justify-center md:hidden">
-          <ul className="flex flex-col space-y-6 text-center text-2xl">
+          <ul className="flex flex-col space-y-4 text-center text-2xl">
             <li>
               <Link href="/" onClick={() => setIsMenuOpen(false)}>
                 {t("home")}
@@ -142,7 +142,9 @@ const Header = () => {
             </li>
           </ul>
 
-          <LanguageSwitcher />
+          <div className="w-full px-4 mt-4">
+            <LanguageSwitcher />
+          </div>
         </div>
       )}
     </>
