@@ -1,9 +1,9 @@
 "use client";
 
-import { motion, useAnimation, Variants } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import { useEffect } from 'react';
-import {useTranslations} from 'next-intl';
+import { motion, useAnimation, Variants } from "framer-motion";
+import { useTranslations } from "next-intl";
+import { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
 
 interface AnimatedTimelineSectionProps {
   section: string;
@@ -39,8 +39,11 @@ const itemVariants: Variants = {
   },
 };
 
-const AnimatedTimelineSection: React.FC<AnimatedTimelineSectionProps> = ({ section, index }) => {
-  const t = useTranslations('AboutUs.sections');
+const AnimatedTimelineSection: React.FC<AnimatedTimelineSectionProps> = ({
+  section,
+  index,
+}) => {
+  const t = useTranslations("AboutUs.sections");
   const controls = useAnimation();
   const [ref, inView] = useInView({
     triggerOnce: false,
@@ -58,27 +61,28 @@ const AnimatedTimelineSection: React.FC<AnimatedTimelineSectionProps> = ({ secti
   const isRight = index % 2 !== 0;
 
   return (
-    <motion.div 
+    <motion.div
       ref={ref}
       variants={containerVariants}
       initial="hidden"
       animate={controls}
       exit="exit"
-      className={`flex items-center w-full mb-4 md:-mb-8 ${isRight ? 'md:justify-end' : 'md:justify-start'}`}
+      className={`flex items-center w-full mb-4 md:-mb-8 ${
+        isRight ? "md:justify-end" : "md:justify-start"
+      }`}
     >
-      <motion.div 
-        className={`w-full md:w-5/12 bg-white p-4 rounded-lg shadow-lg ${isRight ? 'md:ml-4' : 'md:mr-4'}`}
+      <motion.div
+        className={`w-full md:w-5/12 bg-white/10 p-4 rounded-lg shadow-lg ${
+          isRight ? "md:ml-4" : "md:mr-4"
+        }`}
       >
-        <motion.h3 
+        <motion.h3
           className="text-xl font-bold text-secondary mb-2"
           variants={itemVariants}
         >
           {t(`${section}.title`)}
         </motion.h3>
-        <motion.p 
-          className="text-sm text-primary"
-          variants={itemVariants}
-        >
+        <motion.p className="text-sm" variants={itemVariants}>
           {t(`${section}.content`)}
         </motion.p>
       </motion.div>

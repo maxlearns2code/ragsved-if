@@ -1,11 +1,11 @@
-import { Metadata } from 'next';
-import { getTranslations } from 'next-intl/server';
-import { NextIntlClientProvider } from 'next-intl';
-import { notFound } from 'next/navigation';
 import { Analytics } from "@vercel/analytics/react";
+import { Metadata } from "next";
+import { NextIntlClientProvider } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { Geist, Geist_Mono } from "next/font/google";
-import Header from "../components/Header";
+import { notFound } from "next/navigation";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 import "../globals.css";
 
 const geistSans = Geist({
@@ -18,35 +18,39 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'Metadata' });
+  const t = await getTranslations({ locale, namespace: "Metadata" });
 
   return {
-    title: t('title'),
-    description: t('description'),
-    keywords: t('keywords'),
+    title: t("title"),
+    description: t("description"),
+    keywords: t("keywords"),
     openGraph: {
-      title: t('ogTitle'),
-      description: t('ogDescription'),
+      title: t("ogTitle"),
+      description: t("ogDescription"),
       images: [
         {
           url: "/images/logo.png",
           width: 542,
           height: 761,
-          alt: t('ogImageAlt'),
+          alt: t("ogImageAlt"),
         },
       ],
       locale,
-      type: 'website',
-      siteName: t('siteName'),
+      type: "website",
+      siteName: t("siteName"),
     },
   };
 }
 
 export default async function LocaleLayout({
   children,
-  params
+  params,
 }: {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
@@ -62,7 +66,9 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
         <NextIntlClientProvider messages={messages} locale={locale}>
           <Header />
           <main>{children}</main>

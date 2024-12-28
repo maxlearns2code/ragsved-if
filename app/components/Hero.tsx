@@ -46,7 +46,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center overflow-hidden"
+      className="relative py-4 md:py-20 flex items-center overflow-hidden"
     >
       <motion.div
         className="container mx-auto px-4 sm:px-6 lg:px-8"
@@ -60,26 +60,37 @@ const Hero = () => {
             variants={itemVariants}
           >
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold py-2 mb-4 text-white text-center lg:text-left overflow-hidden">
-              <span className="block">{t("title.line1")}</span>
-              <span className="block text-secondary">{t("title.line2")}</span>
+              <motion.span className="block" variants={itemVariants}>
+                {t("title.line1")}
+              </motion.span>
+              <motion.span
+                className="block text-secondary"
+                variants={itemVariants}
+              >
+                {t("title.line2")}
+              </motion.span>
             </h1>
-            <p className="mt-3 text-base sm:text-lg md:text-xl mb-8 text-center lg:text-left">
+            <motion.p
+              className="mt-3 text-base sm:text-lg md:text-xl mb-8 text-center lg:text-left"
+              variants={itemVariants}
+            >
               {t("description")}
-            </p>
-            <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-3 sm:space-y-0 sm:space-x-4">
-              <Link
-                href="/#contact"
-                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-bold rounded-md text-tertiary hover:text-secondary bg-secondary hover:bg-tertiary transition duration-150 ease-in-out w-full sm:w-auto"
-              >
-                {t("joinButton")}
+            </motion.p>
+            <motion.div
+              className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-3 sm:space-y-0 sm:space-x-4"
+              variants={itemVariants}
+            >
+              <Link href="/#contact" passHref>
+                <button className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-bold rounded-md text-tertiary hover:text-secondary bg-secondary hover:bg-tertiary transition duration-300 ease-in-out w-full sm:w-auto hover:scale-105">
+                  {t("joinButton")}
+                </button>
               </Link>
-              <Link
-                href="/#schedule"
-                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-bold rounded-md text-tertiary hover:text-secondary bg-secondary hover:bg-tertiary transition duration-150 ease-in-out w-full sm:w-auto"
-              >
-                {t("scheduleButton")}
+              <Link href="/#schedule" passHref>
+                <button className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-bold rounded-md text-tertiary hover:text-secondary bg-secondary hover:bg-tertiary transition duration-300 ease-in-out w-full sm:w-auto hover:scale-105">
+                  {t("scheduleButton")}
+                </button>
               </Link>
-            </div>
+            </motion.div>
           </motion.div>
           <motion.div
             className="w-full lg:w-1/2 mt-10 lg:mt-0 flex justify-center items-center"

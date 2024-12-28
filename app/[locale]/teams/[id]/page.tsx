@@ -1,7 +1,7 @@
+import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { getTranslations } from 'next-intl/server';
-import TranslatedTeamInfo from '../../../components/TranslatedTeamInfo';
+import TranslatedTeamInfo from "../../../components/TranslatedTeamInfo";
 
 type Team = {
   id: string;
@@ -22,22 +22,22 @@ type PageProps = {
 
 export async function generateMetadata({ params }: PageProps) {
   const { id } = await params;
-  const t = await getTranslations('Teams');
-  const teams: Team[] = t.raw('teams');
+  const t = await getTranslations("Teams");
+  const teams: Team[] = t.raw("teams");
   const team = teams.find((team: Team) => team.id === id);
 
   if (!team) return {};
 
   return {
-    title: `${team.name} - ${t('metaTitle', { default: 'Team Info' })}`,
+    title: `${team.name} - ${t("metaTitle", { default: "Team Info" })}`,
     description: team.description,
   };
 }
 
 export default async function TeamPage({ params }: PageProps) {
   const { id } = await params;
-  const t = await getTranslations('Teams');
-  const teams: Team[] = t.raw('teams');
+  const t = await getTranslations("Teams");
+  const teams: Team[] = t.raw("teams");
   const team = teams.find((team: Team) => team.id === id);
 
   if (!team) notFound();
@@ -47,7 +47,7 @@ export default async function TeamPage({ params }: PageProps) {
 
 function ClientTeamPage({ team }: { team: Team }) {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8">
+    <div className="flex flex-col justify-center max-w-4xl mx-auto px-4 pt-8 min-h-screen">
       <h1 className="text-4xl font-bold mb-6">{team.name}</h1>
       <div className="flex flex-col md:flex-row gap-8 mb-8">
         <div className="w-full md:w-1/2">

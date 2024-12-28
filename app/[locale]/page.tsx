@@ -6,8 +6,8 @@ import Teams from "../components/Teams";
 export default function Home() {
   return (
     <div className="text-4xl">
-      <Hero /> 
-      <About />     
+      <Hero />
+      <About />
       <Teams />
       <TeamLogoScroll />
     </div>

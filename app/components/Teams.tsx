@@ -1,7 +1,7 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import { IoChevronForward } from "react-icons/io5";
-import { useTranslations } from 'next-intl';
 
 interface Team {
   id: string;
@@ -16,15 +16,14 @@ interface Team {
 }
 
 export default function Teams() {
-  const t = useTranslations('Teams');
-  const teams: Team[] = t.raw('teams');
+  const t = useTranslations("Teams");
+  const teams: Team[] = t.raw("teams");
 
   return (
-    <section
-      id="teams"
-      className="mb-8 md:mb-0 min-h-screen flex-col justify-center items-center py-2 px-4 sm:px-6 lg:px-8"
-    >
-      <h2 className="text-3xl md:text-4xl font-bold text-center pt-8 mb-8">{t('title')}</h2>
+    <section id="teams" className="py-4 md:py-20 px-4 sm:px-6 lg:px-8">
+      <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
+        {t("title")}
+      </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
         {teams.map((team) => (
           <Link

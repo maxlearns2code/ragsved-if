@@ -1,7 +1,7 @@
 "use client";
 
 import { useLocale } from "next-intl";
-import { useRouter, usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 
 export default function LanguageSwitcher() {
@@ -11,16 +11,16 @@ export default function LanguageSwitcher() {
   const pathname = usePathname();
 
   const languages = {
-    sv: { name: 'Svenska', flag: 'SE' },
-    en: { name: 'English', flag: 'EN' },
-    fr: { name: 'Français', flag: 'FR' },
-    es: { name: 'Español', flag: 'ES' },
-    uk: { name: 'Українська', flag: 'UK' },
-    pl: { name: 'Polski', flag: 'PL' }
+    sv: { name: "Svenska", flag: "SE" },
+    en: { name: "English", flag: "EN" },
+    fr: { name: "Français", flag: "FR" },
+    es: { name: "Español", flag: "ES" },
+    uk: { name: "Українська", flag: "UK" },
+    pl: { name: "Polski", flag: "PL" },
   };
 
   const handleLanguageChange = (newLocale: string) => {
-    const newPathname = `/${newLocale}${pathname.replace(/^\/[a-z]{2}/, '')}`;
+    const newPathname = `/${newLocale}${pathname.replace(/^\/[a-z]{2}/, "")}`;
     router.push(newPathname);
     setIsOpen(false);
   };
@@ -28,7 +28,7 @@ export default function LanguageSwitcher() {
   return (
     <div className="relative">
       <button
-        className="flex items-center justify-center md:justify-start gap-2 w-full px-3 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors"
+        className="flex items-center justify-center md:justify-start gap-2 w-full px-3 py-1 text-base font-bold rounded-md text-tertiary hover:text-secondary bg-secondary hover:bg-tertiary transition-colors"
         onClick={() => setIsOpen(!isOpen)}
       >
         <span className="flex items-center gap-2">

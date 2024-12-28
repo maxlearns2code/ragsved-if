@@ -1,9 +1,9 @@
 "use client";
 
-import { useRef, useEffect, useState } from "react";
 import { motion, useAnimationControls } from "framer-motion";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { useTranslations } from 'next-intl';
+import { useEffect, useRef, useState } from "react";
 
 interface Challenger {
   id: string;
@@ -13,8 +13,8 @@ interface Challenger {
 }
 
 export default function TeamLogoScroll() {
-  const t = useTranslations('Elite');
-  const challengers: Challenger[] = t.raw('challengers');
+  const t = useTranslations("Elite");
+  const challengers: Challenger[] = t.raw("challengers");
   const containerRef = useRef<HTMLDivElement>(null);
   const [containerWidth, setContainerWidth] = useState(0);
   const controls = useAnimationControls();
@@ -46,16 +46,14 @@ export default function TeamLogoScroll() {
       });
     }
   }, [containerWidth, controls]);
-  
 
   return (
-    <div id="schedule" className="mx-auto overflow-hidden rounded-lg shadow-xl py-4">
+    <div
+      id="schedule"
+      className="mx-auto overflow-hidden rounded-lg shadow-xl py-4 md:py-20"
+    >
       <div className="relative">
-        <motion.div
-          ref={containerRef}
-          className="flex"
-          animate={controls}
-        >
+        <motion.div ref={containerRef} className="flex" animate={controls}>
           {[...challengers, ...challengers].map((challenger, index) => (
             <div
               className="flex flex-col space-y-2 justify-center items-center flex-shrink-0"
