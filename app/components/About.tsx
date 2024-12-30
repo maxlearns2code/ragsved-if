@@ -1,20 +1,24 @@
 import { useTranslations } from "next-intl";
+import { useMemo } from "react";
 import AnimatedTimelineSection from "./AnimatedTimelineSection";
 
 const About = () => {
   const t = useTranslations("AboutUs");
 
-  const sections = [
-    "humbleBeginnings",
-    "risingToTheChallenge",
-    "aimingHigher",
-    "growthAndExpansion",
-    "whereWeStand",
-    "ourMission",
-  ];
+  const sections = useMemo(
+    () => [
+      "humbleBeginnings",
+      "risingToTheChallenge",
+      "aimingHigher",
+      "growthAndExpansion",
+      "whereWeStand",
+      "ourMission",
+    ],
+    []
+  );
 
   return (
-    <section id="about" className="py-4 md:py-20">
+    <section id="about" className="py-8 md:py-20">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center overflow-hidden">
           {t("title")}
@@ -27,7 +31,7 @@ const About = () => {
           />
           {sections.map((section, index) => (
             <AnimatedTimelineSection
-              key={index}
+              key={section}
               section={section}
               index={index}
             />

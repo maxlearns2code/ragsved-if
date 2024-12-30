@@ -1,21 +1,23 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import LanguageSwitcher from "./LanguageSwitcher";
+
+const MobileMenu = dynamic(() => import("./MobileMenu"), { ssr: false });
 
 const Header = () => {
   const t = useTranslations("Header");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrollDirection, setScrollDirection] = useState("up");
 
-  useEffect(() => {
+  const updateScrollDirection = useCallback(() => {
     let lastScrollY = window.scrollY;
-
-    const updateScrollDirection = () => {
+    return () => {
       const scrollY = window.scrollY;
       const direction = scrollY > lastScrollY ? "down" : "up";
       if (
@@ -26,21 +28,29 @@ const Header = () => {
       }
       lastScrollY = scrollY > 0 ? scrollY : 0;
     };
-
-    window.addEventListener("scroll", updateScrollDirection);
-
-    return () => {
-      window.removeEventListener("scroll", updateScrollDirection);
-    };
   }, [scrollDirection]);
 
   useEffect(() => {
-    if (isMenuOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "unset";
-    }
+    const updateScroll = updateScrollDirection();
+    window.addEventListener("scroll", updateScroll);
+    return () => window.removeEventListener("scroll", updateScroll);
+  }, [updateScrollDirection]);
+
+  useEffect(() => {
+    document.body.style.overflow = isMenuOpen ? "hidden" : "unset";
   }, [isMenuOpen]);
+
+  const navItems = useMemo(
+    () => [
+      { href: "/#home", label: t("home") },
+      { href: "/#about", label: t("about") },
+      { href: "/#teams", label: t("teams") },
+      { href: "/#schedule", label: t("schedule") },
+      { href: "/#news", label: t("news") },
+      { href: "/#contact", label: t("contact") },
+    ],
+    [t]
+  );
 
   return (
     <>
@@ -67,31 +77,17 @@ const Header = () => {
               />
             </Link>
             <div className="hidden md:flex md:items-center md:space-x-4">
-              <ul className="flex space-x-4">
-                <li>
-                  <Link href="/#home">{t("home")}</Link>
-                </li>
-                <li>
-                  <Link href="/#about">{t("about")}</Link>
-                </li>
-                <li>
-                  <Link href="/#teams">{t("teams")}</Link>
-                </li>
-                <li>
-                  <Link href="/#schedule">{t("schedule")}</Link>
-                </li>
-                <li>
-                  <Link href="/#news">{t("news")}</Link>
-                </li>
-                <li>
-                  <Link href="/#contact">{t("contact")}</Link>
-                </li>
+              <ul className="flex space-x-4 text-lg">
+                {navItems.map((item) => (
+                  <li key={item.href}>
+                    <Link href={item.href}>{item.label}</Link>
+                  </li>
+                ))}
               </ul>
-
               <LanguageSwitcher />
             </div>
             <button
-              className="md:hidden z-50 relative text-2xl"
+              className="md:hidden z-50 relative text-2xl w-auto"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               aria-label={
                 isMenuOpen ? t("closeMenuAriaLabel") : t("openMenuAriaLabel")
@@ -108,44 +104,7 @@ const Header = () => {
         </nav>
       </header>
       {isMenuOpen && (
-        <div className="fixed inset-0 bg-primary z-40 flex flex-col items-center justify-center md:hidden">
-          <ul className="flex flex-col space-y-4 text-center text-2xl">
-            <li>
-              <Link href="/" onClick={() => setIsMenuOpen(false)}>
-                {t("home")}
-              </Link>
-            </li>
-            <li>
-              <Link href="/#about" onClick={() => setIsMenuOpen(false)}>
-                {t("about")}
-              </Link>
-            </li>
-            <li>
-              <Link href="/#teams" onClick={() => setIsMenuOpen(false)}>
-                {t("teams")}
-              </Link>
-            </li>
-            <li>
-              <Link href="/#schedule" onClick={() => setIsMenuOpen(false)}>
-                {t("schedule")}
-              </Link>
-            </li>
-            <li>
-              <Link href="/#news" onClick={() => setIsMenuOpen(false)}>
-                {t("news")}
-              </Link>
-            </li>
-            <li>
-              <Link href="/#contact" onClick={() => setIsMenuOpen(false)}>
-                {t("contact")}
-              </Link>
-            </li>
-          </ul>
-
-          <div className="w-full px-4 mt-4">
-            <LanguageSwitcher />
-          </div>
-        </div>
+        <MobileMenu setIsMenuOpen={setIsMenuOpen} navItems={navItems} />
       )}
     </>
   );

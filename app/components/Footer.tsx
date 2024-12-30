@@ -1,15 +1,25 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+
+const FaFacebook = dynamic(() =>
+  import("react-icons/fa").then((mod) => mod.FaFacebook)
+);
+const FaInstagram = dynamic(() =>
+  import("react-icons/fa").then((mod) => mod.FaInstagram)
+);
+const FaTwitter = dynamic(() =>
+  import("react-icons/fa").then((mod) => mod.FaTwitter)
+);
 
 const Footer = () => {
   const t = useTranslations("Footer");
 
   return (
-    <footer id="contact" className="text-white py-8 mt-4 md:mt-20">
+    <footer id="contact" className="text-white py-8 md:py-20">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start">
           <div className="mb-4 md:mb-0">

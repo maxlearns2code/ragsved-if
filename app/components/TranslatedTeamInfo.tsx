@@ -23,9 +23,7 @@ export default function TranslatedTeamInfo({ team }: TeamInfoProps) {
         <li>
           <span className="font-medium">{t("league")}:</span>{" "}
           <Link href={team.championship} passHref>
-            <button className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base font-bold rounded-md text-tertiary hover:text-secondary bg-secondary hover:bg-tertiary transition duration-300 ease-in-out w-full sm:w-auto hover:scale-105">
-              {team.league}
-            </button>
+            <button className="w-auto">{team.league}</button>
           </Link>
         </li>
         <li>

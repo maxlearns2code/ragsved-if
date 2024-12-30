@@ -1,3 +1,4 @@
+import tailwindScrollbar from "tailwind-scrollbar";
 import type { Config } from "tailwindcss";
 
 export default {
@@ -15,7 +16,12 @@ export default {
         secondary: "var(--secondary-color)",
         tertiary: "var(--tertiary-color)",
       },
+      scrollbar: ["thin"],
+      scrollbarColor: {
+        thumb: "rgba(255, 255, 255, 0.3)",
+        track: "transparent",
+      },
     },
   },
-  plugins: [],
+  plugins: [tailwindScrollbar],
 } satisfies Config;

@@ -2,7 +2,7 @@
 
 import { motion, useAnimation, Variants } from "framer-motion";
 import { useTranslations } from "next-intl";
-import { useEffect } from "react";
+import { useCallback, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 
 interface AnimatedTimelineSectionProps {
@@ -50,13 +50,17 @@ const AnimatedTimelineSection: React.FC<AnimatedTimelineSectionProps> = ({
     threshold: 0.2,
   });
 
-  useEffect(() => {
+  const startAnimation = useCallback(() => {
     if (inView) {
       controls.start("visible");
     } else {
       controls.start("hidden");
     }
   }, [controls, inView]);
+
+  useEffect(() => {
+    startAnimation();
+  }, [startAnimation]);
 
   const isRight = index % 2 !== 0;
 

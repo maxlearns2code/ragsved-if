@@ -26,3 +26,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer base {
+  button {
+    @apply inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-bold rounded-md bg-white/10 hover:bg-white/20 transition duration-300 ease-in-out w-full;
+  }
+}
