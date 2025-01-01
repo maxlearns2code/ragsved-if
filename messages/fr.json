@@ -22,13 +22,13 @@
   },
   "Hero": {
     "title": {
-      "line1": "Nouveaux Sommets",
-      "line2": "Club de Volleyball"
+      "line1": "Rêvez grand, jouez fort",
+      "line2": "Libérez votre potentiel"
     },
-    "description": "Rejoignez notre nouveau club ambitieux alors que nous servons de l'excitation en Division 3. Avec votre passion et notre détermination, nous visons la Division 2 la saison prochaine !",
+    "description": "Rejoignez une équipe passionnée et apportons ensemble énergie et enthousiasme à la Division 3 ! Nous croyons au pouvoir du travail acharné et des rêves. Ensemble, nous nous soutiendrons pour atteindre de nouveaux sommets et viser la Division 2 !",
     "joinButton": "Rejoignez-nous",
     "scheduleButton": "Voir le calendrier",
-    "imageAlt": "Match de volleyball en action"
+    "imageAlt": "Match de volley-ball en action"
   },
   "AboutUs": {
     "title": "De Korpen au Championnat Suédois de Volleyball",

@@ -56,7 +56,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative flex items-center overflow-hidden py-8 md:py-80"
+      className="relative flex items-center overflow-hidden py-8 md:py-72"
     >
       <motion.div
         className="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center"
@@ -116,8 +116,9 @@ const Hero = () => {
               <Image
                 src="/images/volleyball-game.webp"
                 alt={t("imageAlt")}
-                fill
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                width={790}
+                height={377}
+                layout="responsive"
                 className="rounded-lg shadow-xl object-cover"
                 priority
               />
