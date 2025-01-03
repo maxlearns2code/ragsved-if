@@ -172,16 +172,29 @@
     ]
   },
   "Footer": {
-    "returnToHomepage": "Повернутися на головну сторінку",
-    "logoAlt": "Логотип волейбольного клубу",
-    "contactUs": "Зв'яжіться з нами",
-    "address": "Адреса",
-    "phone": "Телефон",
-    "email": "Електронна пошта",
-    "followUs": "Слідкуйте за нами",
-    "facebookAriaLabel": "Відвідайте нашу сторінку у Facebook",
-    "instagramAriaLabel": "Підписуйтесь на нас в Instagram",
-    "twitterAriaLabel": "Слідкуйте за нами у Twitter",
-    "copyright": "© {year}, Усі права захищені."
+    "general": {
+      "returnToHomepage": "Повернутися на головну сторінку",
+      "logoAlt": "Логотип волейбольного клубу",
+      "copyright": "© {year}, Усі права захищено.",
+      "footerNavigation": "Навігація футера"
+    },
+    "contact": {
+      "contactUs": "Зв'яжіться з нами",
+      "address": "Адреса",
+      "phone": "Телефон",
+      "email": "Електронна пошта"
+    },
+    "social": {
+      "followUs": "Слідкуйте за нами",
+      "facebookAriaLabel": "Відвідайте нашу сторінку у Facebook",
+      "instagramAriaLabel": "Слідкуйте за нами в Instagram",
+      "twitterAriaLabel": "Слідкуйте за нами у Twitter"
+    },
+    "links": {
+      "usefulLinks": "Корисні посилання",
+      "swedishVolleyballFederation": "Шведська федерація волейболу",
+      "ragsvedIF": "Rågsved IF",
+      "korpenStockholmVolleyball": "Korpen Stockholm Волейбол"
+    }
   }
 }

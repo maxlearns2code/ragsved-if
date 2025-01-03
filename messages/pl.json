@@ -172,16 +172,29 @@
     ]
   },
   "Footer": {
-    "returnToHomepage": "Powrót do strony głównej",
-    "logoAlt": "Logo Klubu Siatkarskiego",
-    "contactUs": "Skontaktuj się z nami",
-    "address": "Adres",
-    "phone": "Telefon",
-    "email": "E-mail",
-    "followUs": "Obserwuj nas",
-    "facebookAriaLabel": "Odwiedź naszą stronę na Facebooku",
-    "instagramAriaLabel": "Obserwuj nas na Instagramie",
-    "twitterAriaLabel": "Obserwuj nas na Twitterze",
-    "copyright": "© {year}, Wszelkie prawa zastrzeżone."
+    "general": {
+      "returnToHomepage": "Powrót do strony głównej",
+      "logoAlt": "Logo klubu siatkarskiego",
+      "copyright": "© {year}, Wszelkie prawa zastrzeżone.",
+      "footerNavigation": "Nawigacja stopki"
+    },
+    "contact": {
+      "contactUs": "Skontaktuj się z nami",
+      "address": "Adres",
+      "phone": "Telefon",
+      "email": "E-mail"
+    },
+    "social": {
+      "followUs": "Obserwuj nas",
+      "facebookAriaLabel": "Odwiedź naszą stronę na Facebooku",
+      "instagramAriaLabel": "Obserwuj nas na Instagramie",
+      "twitterAriaLabel": "Obserwuj nas na Twitterze"
+    },
+    "links": {
+      "usefulLinks": "Przydatne linki",
+      "swedishVolleyballFederation": "Szwedzka Federacja Siatkówki",
+      "ragsvedIF": "Rågsved IF",
+      "korpenStockholmVolleyball": "Korpen Stockholm Siatkówka"
+    }
   }
 }

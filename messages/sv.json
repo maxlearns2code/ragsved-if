@@ -172,16 +172,29 @@
     ]
   },
   "Footer": {
-    "returnToHomepage": "Återgå till startsidan",
-    "logoAlt": "Volleybollklubbens logotyp",
-    "contactUs": "Kontakta oss",
-    "address": "Adress",
-    "phone": "Telefon",
-    "email": "E-post",
-    "followUs": "Följ oss",
-    "facebookAriaLabel": "Besök vår Facebook-sida",
-    "instagramAriaLabel": "Följ oss på Instagram",
-    "twitterAriaLabel": "Följ oss på Twitter",
-    "copyright": "© {year}, Alla rättigheter förbehållna."
+    "general": {
+      "returnToHomepage": "Återgå till startsidan",
+      "logoAlt": "Volleybollklubbens logotyp",
+      "copyright": "© {year}, Alla rättigheter förbehållna.",
+      "footerNavigation": "Sidfotsmeny"
+    },
+    "contact": {
+      "contactUs": "Kontakta oss",
+      "address": "Adress",
+      "phone": "Telefon",
+      "email": "E-post"
+    },
+    "social": {
+      "followUs": "Följ oss",
+      "facebookAriaLabel": "Besök vår Facebook-sida",
+      "instagramAriaLabel": "Följ oss på Instagram",
+      "twitterAriaLabel": "Följ oss på Twitter"
+    },
+    "links": {
+      "usefulLinks": "Användbara länkar",
+      "swedishVolleyballFederation": "Svenska Volleybollförbundet",
+      "ragsvedIF": "Rågsved IF",
+      "korpenStockholmVolleyball": "Korpen Stockholm Volleyboll"
+    }
   }
 }
