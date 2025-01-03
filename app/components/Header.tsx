@@ -43,7 +43,7 @@ const Header = () => {
   const navItems = useMemo(
     () => [
       { href: "/#home", label: t("home") },
-      { href: "/#about", label: t("about") },
+      { href: "/about", label: t("about") },
       { href: "/#teams", label: t("teams") },
       { href: "/#schedule", label: t("schedule") },
       { href: "/#news", label: t("news") },

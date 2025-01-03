@@ -56,7 +56,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative flex items-center overflow-hidden py-8 md:py-72"
+      className="relative flex items-center overflow-hidden py-10 sm:py-16 md:py-24 lg:py-40 xl:py-48"
     >
       <motion.div
         className="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center"
@@ -81,7 +81,7 @@ const Hero = () => {
               </motion.span>
             </h1>
             <motion.p
-              className="mt-3 text-base sm:text-lg md:text-xl mb-8 text-center lg:text-left"
+              className="my-3 mb-6 md:mb-3 text-base sm:text-lg md:text-xl text-center lg:text-left"
               variants={itemVariants}
             >
               {t("description")}
@@ -90,12 +90,12 @@ const Hero = () => {
               className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-3 sm:space-y-0 sm:space-x-4"
               variants={itemVariants}
             >
-              <Link href="/#contact" className="w-full sm:w-auto">
+              <Link href={`/about`} className="w-full sm:w-auto">
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
-                  {t("joinButton")}
+                  {t("aboutButton")}
                 </motion.button>
               </Link>
               <Link href="/#schedule" className="w-full sm:w-auto">
@@ -119,7 +119,7 @@ const Hero = () => {
                 width={790}
                 height={377}
                 layout="responsive"
-                className="rounded-lg shadow-xl object-cover"
+                className="rounded-lg shadow-xl"
                 priority
               />
             </div>

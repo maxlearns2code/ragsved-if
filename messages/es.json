@@ -26,36 +26,36 @@
       "line2": "Libera tu potencial"
     },
     "description": "Sé parte de nuestro equipo dedicado mientras llevamos energía y emoción a la División 3. Creemos en el trabajo duro y en el poder de los sueños. ¡Juntos nos apoyaremos para alcanzar nuevas alturas y aspirar a la División 2!",
-    "joinButton": "Únete a nosotros",
+    "aboutButton": "Sobre Nosotros",
     "scheduleButton": "Ver calendario",
     "imageAlt": "Partido de voleibol en acción"
   },
   "AboutUs": {
-    "title": "De Korpen al Campeonato Sueco de Voleibol",
+    "title": "Nuestra Historia",
     "sections": {
       "humbleBeginnings": {
-        "title": "Humildes Comienzos",
-        "content": "En 2022, pisamos las canchas de Korpen con un equipo incompleto y grandes sueños. Enfrentando duras probabilidades, entrenamos con otros equipos y luchamos para llegar a la mitad de la tabla. Pero eso fue solo el calentamiento."
+        "title": "Comienzos Humildes",
+        "content": "En 2022, comenzamos en las canchas de Korpen con un equipo incompleto y grandes ambiciones. A pesar de los desafíos, entrenamos con dedicación, colaboramos con otros equipos y logramos una posición respetable en la mitad de la tabla. Este fue solo el primer paso."
       },
       "risingToTheChallenge": {
-        "title": "Afrontando el Desafío",
-        "content": "Impulsados por la ambición, pusimos nuestra mira en el campeonato de Korpen. Dimos la bienvenida a nuevos talentos, duplicamos nuestro entrenamiento y dominamos la liga. Una sola derrota no pudo impedirnos reclamar el título."
+        "title": "Superar el Desafío",
+        "content": "Decididos a lograr más, apuntamos al campeonato de Korpen. Con nuevos miembros y entrenamientos intensificados, superamos obstáculos y aseguramos el título de la liga a pesar de una sola derrota en el camino."
       },
       "aimingHigher": {
-        "title": "Apuntando Más Alto",
-        "content": "Con el sabor de la victoria, anhelábamos más. ¿Nuestro objetivo? El Campeonato Sueco de Voleibol. Elegimos el camino difícil: crear nuestro propio club. Con el apoyo de Ragsved If, lo hicimos realidad."
+        "title": "Apuntar Más Alto",
+        "content": "Inspirados por nuestro éxito, nos fijamos una meta más ambiciosa: el Campeonato Sueco de Voleibol. Para alcanzar este nivel, elegimos formar nuestro propio club. Con el valioso apoyo de Rågsved IF, hicimos realidad esta visión."
       },
       "growthAndExpansion": {
         "title": "Crecimiento y Expansión",
-        "content": "Reclutamos entrenadores dedicados, formamos un segundo equipo con nuestros rivales más duros de Korpen, intensificamos el entrenamiento a dos veces por semana, inscribimos dos equipos en la División 3 y mantuvimos nuestras raíces en Korpen para divertirnos y atraer nuevo talento."
+        "content": "Dimos pasos significativos hacia adelante, incorporamos entrenadores dedicados y formamos un segundo equipo compuesto por fuertes competidores de Korpen. Con entrenamientos dos veces por semana y dos equipos ahora compitiendo en la División 3, mantuvimos nuestras raíces al conservar un equipo de Korpen para fomentar nuevos talentos."
       },
       "whereWeStand": {
-        "title": "Donde Estamos",
-        "content": "Hoy somos una fuerza a tener en cuenta: Dos equipos compitiendo ferozmente en la División 3, un equipo de Korpen manteniendo vivo nuestro espíritu de base, y un entrenamiento riguroso que nos empuja a nuevas alturas."
+        "title": "Donde Estamos Hoy",
+        "content": "Hoy, somos una organización en crecimiento y con grandes aspiraciones. Nuestros dos equipos de la División 3 compiten a un alto nivel, mientras que nuestro equipo de Korpen sigue ofreciendo oportunidades para el desarrollo y la conexión."
       },
       "ourMission": {
         "title": "Nuestra Misión",
-        "content": "Nuestro objetivo es claro: dominar la División 3 y ascender a la División 2. No solo estamos jugando voleibol; estamos construyendo un legado. De ser los menos favoritos en Korpen a contendientes de la División 3, nuestro viaje muestra el poder de la determinación y el trabajo en equipo. Hemos llegado lejos, pero esto es solo el comienzo. Míranos ascender."
+        "content": "Nuestro enfoque es claro: destacar en la División 3 y avanzar a la División 2. Más allá de la competición, nuestro objetivo es construir un legado duradero en el voleibol, basado en el trabajo en equipo, el compromiso y un crecimiento constante."
       }
     }
   },

@@ -26,36 +26,36 @@
       "line2": "Unleash Your Potential"
     },
     "description": "Become part of our dedicated team as we bring energy and excitement to Division 3! We believe in hard work and the power of dreams. Together, we’ll support each other in reaching new heights and setting our sights on Division 2!",
-    "joinButton": "Join Us",
+    "aboutButton": "About Us",
     "scheduleButton": "View Schedule",
     "imageAlt": "Volleyball game in action"
   },
   "AboutUs": {
-    "title": "From Korpen to Swedish Volleyball Championship",
+    "title": "Our Story",
     "sections": {
       "humbleBeginnings": {
         "title": "Humble Beginnings",
-        "content": "In 2022, we stepped onto the Korpen courts with an incomplete team and big dreams. Facing tough odds, we trained with other teams and clawed our way to a mid-table finish. But that was just the warm-up."
+        "content": "In 2022, we took our first steps on the Korpen courts with an incomplete team and ambitious goals. Despite the challenges, we trained diligently, collaborated with other teams, and secured a respectable mid-table finish. It was only the beginning."
       },
       "risingToTheChallenge": {
         "title": "Rising to the Challenge",
-        "content": "Fueled by ambition, we set our sights on the Korpen championship. We welcomed new talent, doubled our training, and dominated the league. One loss couldn't stop us from claiming the title."
+        "content": "Determined to achieve more, we set our sights on the Korpen championship. With new members and intensified training, we overcame obstacles and claimed the title, even with a single loss along the way."
       },
       "aimingHigher": {
         "title": "Aiming Higher",
-        "content": "With the taste of victory, we hungered for more. Our goal? The Swedish Volleyball Championship. We chose the hard path - creating our own club. With Ragsved If's support, we made it happen."
+        "content": "Inspired by our success, we set an even bigger goal: the Swedish Volleyball Championship. To reach this level, we decided to establish our own club. With the invaluable support of Rågsved IF, we turned this vision into reality."
       },
       "growthAndExpansion": {
         "title": "Growth and Expansion",
-        "content": "We recruited dedicated coaches, formed a second team from our toughest Korpen rivals, intensified training to twice weekly, entered two teams in Division 3, and maintained our Korpen roots for fun and fresh talent."
+        "content": "We took significant steps forward, recruiting dedicated coaches and forming a second team composed of strong Korpen competitors. With training twice a week and two teams competing in Division 3, we maintained our roots by keeping a Korpen team to nurture new talent."
       },
       "whereWeStand": {
         "title": "Where We Stand",
-        "content": "Today, we're a force to be reckoned with: Two teams competing fiercely in Division 3, a Korpen team keeping our grassroots spirit alive, and rigorous training pushing us to new heights."
+        "content": "Today, we are a growing and ambitious organization. Our two Division 3 teams compete at a high level, while our Korpen team continues to provide opportunities for development and community building."
       },
       "ourMission": {
         "title": "Our Mission",
-        "content": "Our goal is clear: top Division 3 and ascend to Division 2. We're not just playing volleyball; we're building a legacy. From Korpen underdogs to Division 3 contenders, our journey showcases the power of determination and teamwork. We've come far, but this is just the beginning. Watch us rise."
+        "content": "Our goal is clear: to excel in Division 3 and advance to Division 2. Beyond competition, we aim to build a lasting legacy in volleyball, rooted in teamwork, dedication, and a commitment to continuous growth."
       }
     }
   },

@@ -19,7 +19,7 @@ const Footer = () => {
   const t = useTranslations("Footer");
 
   return (
-    <footer id="contact" className="text-white py-8 md:py-20">
+    <footer id="contact" className="text-white py-10 md:py-20">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start">
           <div className="mb-4 md:mb-0">

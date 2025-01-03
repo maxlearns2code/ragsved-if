@@ -26,36 +26,36 @@
       "line2": "Släpp lös din potential"
     },
     "description": "Bli en del av vårt engagerade lag när vi tar energi och spänning till Division 3! Vi tror på hårt arbete och kraften i drömmar. Vi stöttar varandra för att nå nya höjder och siktar mot Division 2!",
-    "joinButton": "Gå med oss",
+    "aboutButton": "Om Oss",
     "scheduleButton": "Visa schema",
     "imageAlt": "Volleybollmatch i aktion"
   },
   "AboutUs": {
-    "title": "Från Korpen till Svenska Volleybollmästerskapet",
+    "title": "Vår Berättelse",
     "sections": {
       "humbleBeginnings": {
-        "title": "Ödmjuka Början",
-        "content": "2022 klev vi in på Korpens planer med ett ofullständigt lag och stora drömmar. Mot tuffa odds tränade vi med andra lag och kämpade oss till en mittenplacering. Men det var bara uppvärmningen."
+        "title": "En Blygsam Start",
+        "content": "År 2022 började vi på Korpen-planerna med ett ofullständigt lag och stora ambitioner. Trots utmaningarna tränade vi målmedvetet, samarbetade med andra lag och nådde en respektabel mittenplacering. Detta var bara det första steget."
       },
       "risingToTheChallenge": {
-        "title": "Möta Utmaningen",
-        "content": "Drivna av ambition siktar vi på Korpenmästerskapet. Vi välkomnade ny talang, fördubblade vår träning och dominerade ligan. En förlust kunde inte stoppa oss från att ta titeln."
+        "title": "Att Ta Upp Utmaningen",
+        "content": "Fast beslutna att uppnå mer siktade vi mot Korpen-mästerskapet. Med nya medlemmar och intensifierad träning övervann vi hinder och säkrade ligatiteln trots en förlust på vägen."
       },
       "aimingHigher": {
-        "title": "Sikta Högre",
-        "content": "Med smaken av seger hungrar vi efter mer. Vårt mål? Svenska Volleybollmästerskapet. Vi valde den svåra vägen - att skapa vår egen klubb. Med stöd från Ragsved If gjorde vi det möjligt."
+        "title": "Att Sikta Högre",
+        "content": "Inspirerade av vår framgång satte vi upp ett större mål: Svenska Volleybollmästerskapet. För att nå denna nivå valde vi att bilda en egen klubb. Med ovärderligt stöd från Rågsved IF gjorde vi denna vision till verklighet."
       },
       "growthAndExpansion": {
         "title": "Tillväxt och Expansion",
-        "content": "Vi rekryterade dedikerade tränare, bildade ett andra lag från våra tuffaste Korpen-rivaler, intensifierade träningen till två gånger i veckan, anmälde två lag till Division 3, och behöll våra Korpen-rötter för kul och ny talang."
+        "content": "Vi tog betydande steg framåt, rekryterade dedikerade tränare och bildade ett andra lag med starka Korpen-konkurrenter. Med träningar två gånger i veckan och två lag som nu tävlar i Division 3 höll vi fast vid våra rötter genom att behålla ett Korpen-lag för att främja nya talanger."
       },
       "whereWeStand": {
-        "title": "Där Vi Står",
-        "content": "Idag är vi en kraft att räkna med: Två lag som tävlar hårt i Division 3, ett Korpen-lag som håller vår gräsrotsanda vid liv, och rigorös träning som driver oss till nya höjder."
+        "title": "Där Vi Står Idag",
+        "content": "Idag är vi en växande och ambitiös organisation. Våra två Division 3-lag tävlar på hög nivå, medan vårt Korpen-lag fortsätter att erbjuda möjligheter för utveckling och gemenskap."
       },
       "ourMission": {
-        "title": "Vårt Uppdrag",
-        "content": "Vårt mål är tydligt: toppa Division 3 och avancera till Division 2. Vi spelar inte bara volleyboll; vi bygger ett arv. Från Korpen-underdogs till Division 3-utmanare, vår resa visar kraften i beslutsamhet och lagarbete. Vi har kommit långt, men detta är bara början. Se oss stiga."
+        "title": "Vårt Mål",
+        "content": "Vårt fokus är tydligt: att lyckas i Division 3 och avancera till Division 2. Utöver tävlingen strävar vi efter att bygga ett bestående arv inom volleyboll, grundat på teamwork, engagemang och en strävan efter kontinuerlig utveckling."
       }
     }
   },

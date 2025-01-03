@@ -7,6 +7,7 @@ import { notFound } from "next/navigation";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import "../globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -74,6 +75,7 @@ export default async function LocaleLayout({
           <main>{children}</main>
           <Footer />
           <Analytics />
+          <SpeedInsights />
         </NextIntlClientProvider>
       </body>
     </html>

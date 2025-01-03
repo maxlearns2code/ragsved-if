@@ -26,36 +26,36 @@
       "line2": "Libérez votre potentiel"
     },
     "description": "Rejoignez une équipe passionnée et apportons ensemble énergie et enthousiasme à la Division 3 ! Nous croyons au pouvoir du travail acharné et des rêves. Ensemble, nous nous soutiendrons pour atteindre de nouveaux sommets et viser la Division 2 !",
-    "joinButton": "Rejoignez-nous",
+    "aboutButton": "À Propos de Nous",
     "scheduleButton": "Voir le calendrier",
     "imageAlt": "Match de volley-ball en action"
   },
   "AboutUs": {
-    "title": "De Korpen au Championnat Suédois de Volleyball",
+    "title": "Notre Histoire",
     "sections": {
       "humbleBeginnings": {
-        "title": "Débuts Modestes",
-        "content": "En 2022, nous avons fait nos premiers pas sur les terrains de Korpen avec une équipe incomplète et de grands rêves. Face à des obstacles difficiles, nous nous sommes entraînés avec d'autres équipes et avons réussi à atteindre le milieu du classement. Mais ce n'était que l'échauffement."
+        "title": "Des Débuts Modestes",
+        "content": "En 2022, nous avons commencé sur les terrains de Korpen avec une équipe incomplète et beaucoup d’ambition. Malgré les défis, nous nous sommes entraînés avec dévouement, avons collaboré avec d’autres équipes et avons atteint une position respectable en milieu de tableau. Ce n’était que la première étape."
       },
       "risingToTheChallenge": {
         "title": "Relever le Défi",
-        "content": "Animés par l'ambition, nous avons visé le championnat Korpen. Nous avons accueilli de nouveaux talents, doublé nos entraînements et dominé la ligue. Une seule défaite n'a pas pu nous empêcher de remporter le titre."
+        "content": "Déterminés à aller plus loin, nous avons visé le championnat Korpen. Avec de nouveaux membres et des entraînements intensifiés, nous avons surmonté les obstacles et remporté le titre malgré une seule défaite en chemin."
       },
       "aimingHigher": {
-        "title": "Viser Plus Haut",
-        "content": "Avec le goût de la victoire, nous avons aspiré à plus. Notre objectif ? Le Championnat Suédois de Volleyball. Nous avons choisi la voie difficile - créer notre propre club. Avec le soutien de Ragsved If, nous y sommes parvenus."
+        "title": "Toujours Plus Haut",
+        "content": "Inspirés par notre succès, nous avons fixé un objectif plus ambitieux : le Championnat de Suède de Volley-ball. Pour atteindre ce niveau, nous avons choisi de créer notre propre club. Avec le soutien précieux de Rågsved IF, nous avons transformé cette vision en réalité."
       },
       "growthAndExpansion": {
         "title": "Croissance et Expansion",
-        "content": "Nous avons recruté des entraîneurs dévoués, formé une deuxième équipe avec nos plus coriaces rivaux de Korpen, intensifié l'entraînement à deux fois par semaine, inscrit deux équipes en Division 3, et maintenu nos racines Korpen pour le plaisir et les nouveaux talents."
+        "content": "Nous avons franchi des étapes importantes, recruté des entraîneurs dédiés et formé une deuxième équipe composée de solides concurrents de Korpen. Avec des entraînements deux fois par semaine et deux équipes maintenant en compétition dans la Division 3, nous avons gardé nos racines en maintenant une équipe Korpen pour développer de nouveaux talents."
       },
       "whereWeStand": {
         "title": "Où Nous en Sommes",
-        "content": "Aujourd'hui, nous sommes une force avec laquelle il faut compter : Deux équipes qui se battent férocement en Division 3, une équipe Korpen qui maintient notre esprit de base, et un entraînement rigoureux qui nous pousse vers de nouveaux sommets."
+        "content": "Aujourd’hui, nous sommes une organisation en pleine croissance et ambitieuse. Nos deux équipes de Division 3 concourent à un haut niveau, tandis que notre équipe Korpen continue d’offrir des opportunités de développement et de connexion."
       },
       "ourMission": {
         "title": "Notre Mission",
-        "content": "Notre objectif est clair : dominer la Division 3 et monter en Division 2. Nous ne jouons pas seulement au volleyball ; nous construisons un héritage. De outsiders Korpen à prétendants de Division 3, notre parcours démontre la puissance de la détermination et du travail d'équipe. Nous avons fait du chemin, mais ce n'est que le début. Regardez-nous monter."
+        "content": "Notre objectif est clair : exceller en Division 3 et avancer en Division 2. Au-delà de la compétition, nous visons à construire un héritage durable dans le volley-ball, fondé sur le travail d’équipe, l’engagement et une recherche constante de croissance."
       }
     }
   },
