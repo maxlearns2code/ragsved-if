@@ -1,6 +1,6 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
@@ -12,6 +12,7 @@ const MobileMenu = dynamic(() => import("./MobileMenu"), { ssr: false });
 
 const Header = () => {
   const t = useTranslations("Header");
+  const locale = useLocale();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrollDirection, setScrollDirection] = useState("up");
 
@@ -42,14 +43,14 @@ const Header = () => {
 
   const navItems = useMemo(
     () => [
-      { href: "/#home", label: t("home") },
-      { href: "/about", label: t("about") },
-      { href: "/#teams", label: t("teams") },
-      { href: "/#schedule", label: t("schedule") },
-      { href: "/#news", label: t("news") },
-      { href: "/#contact", label: t("contact") },
+      { href: `/${locale}`, label: t("home") },
+      { href: `/${locale}/about`, label: t("about") },
+      { href: `/${locale}/#teams`, label: t("teams") },
+      { href: `/${locale}/#schedule`, label: t("schedule") },
+      { href: `/${locale}/#news`, label: t("news") },
+      { href: `/${locale}/#contact`, label: t("contact") },
     ],
-    [t]
+    [t, locale]
   );
 
   return (
@@ -64,7 +65,7 @@ const Header = () => {
         <nav className="container mx-auto px-4 py-3">
           <div className="flex justify-between items-center">
             <Link
-              href="/"
+              href={`/${locale}`}
               className="text-2xl font-bold z-50 relative"
               aria-label={t("homeAriaLabel")}
             >

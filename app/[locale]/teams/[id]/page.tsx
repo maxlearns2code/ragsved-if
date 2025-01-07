@@ -3,6 +3,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import TeamLogoScroll from "../../../components/TeamLogoScroll";
 import TranslatedTeamInfo from "../../../components/TranslatedTeamInfo";
+import { Metadata } from "next";
 
 type Team = {
   id: string;
@@ -10,10 +11,10 @@ type Team = {
   image: string;
   description: string;
   league: string;
+  championship: string;
   coach: string;
   captain: string;
   currentRank: string;
-  championship: string;
 };
 
 type PageProps = {
@@ -21,9 +22,9 @@ type PageProps = {
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 };
 
-export async function generateMetadata({ params }: PageProps) {
-  const { id } = await params;
-  const t = await getTranslations("Teams");
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { id, locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Teams" });
   const teams: Team[] = t.raw("teams");
   const team = teams.find((team: Team) => team.id === id);
 
@@ -32,12 +33,24 @@ export async function generateMetadata({ params }: PageProps) {
   return {
     title: `${team.name} - ${t("metaTitle", { default: "Team Info" })}`,
     description: team.description,
+    openGraph: {
+      title: `${team.name} - ${t("metaTitle", { default: "Team Info" })}`,
+      description: team.description,
+      images: [
+        {
+          url: team.image,
+          width: 1071,
+          height: 1068,
+          alt: team.name,
+        },
+      ],
+    },
   };
 }
 
 export default async function TeamPage({ params }: PageProps) {
-  const { id } = await params;
-  const t = await getTranslations("Teams");
+  const { id, locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Teams" });
   const teams: Team[] = t.raw("teams");
   const team = teams.find((team: Team) => team.id === id);
 
@@ -59,6 +72,7 @@ function ClientTeamPage({ team }: { team: Team }) {
               width={1071}
               height={1068}
               className="rounded-lg shadow-xl"
+              priority
             />
           </div>
           <div className="w-full md:w-1/2">

@@ -1,13 +1,33 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
-import { useMemo } from "react";
+import { useCallback, useMemo, useState } from "react";
+
+interface TitleContent {
+  line1: string;
+  line2: string;
+}
+
+interface Descriptions {
+  main: string;
+  imageAlt: string;
+  buttons: {
+    about: string;
+    schedule: string;
+  };
+}
 
 const Hero = () => {
   const t = useTranslations("Hero");
+  const locale = useLocale();
+  const [isImageLoaded, setIsImageLoaded] = useState(false);
+
+  const handleImageLoad = useCallback(() => {
+    setIsImageLoaded(true);
+  }, []);
 
   const containerVariants = useMemo(
     () => ({
@@ -53,6 +73,49 @@ const Hero = () => {
     []
   );
 
+  const buttonAnimations = useMemo(
+    () => ({
+      whileHover: { scale: 1.05 },
+      whileTap: { scale: 0.95 },
+    }),
+    []
+  );
+
+  const titleContent: TitleContent = useMemo(
+    () => ({
+      line1: t("title.line1"),
+      line2: t("title.line2"),
+    }),
+    [t]
+  );
+
+  const descriptions: Descriptions = useMemo(
+    () => ({
+      main: t("description"),
+      imageAlt: t("imageAlt"),
+      buttons: {
+        about: t("aboutButton"),
+        schedule: t("scheduleButton"),
+      },
+    }),
+    [t]
+  );
+
+  const imageProps = useMemo(
+    () => ({
+      src: "/images/volleyball-game.webp",
+      width: 790,
+      height: 377,
+      layout: "responsive" as const,
+      className: `rounded-lg shadow-xl ${
+        isImageLoaded ? "opacity-100" : "opacity-0"
+      }`,
+      priority: true,
+      onLoadingComplete: handleImageLoad,
+    }),
+    [isImageLoaded, handleImageLoad]
+  );
+
   return (
     <section
       id="home"
@@ -71,39 +134,33 @@ const Hero = () => {
           >
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold py-2 mb-4 text-white text-center lg:text-left overflow-hidden">
               <motion.span className="block" variants={itemVariants}>
-                {t("title.line1")}
+                {titleContent.line1}
               </motion.span>
               <motion.span
                 className="block text-secondary"
                 variants={itemVariants}
               >
-                {t("title.line2")}
+                {titleContent.line2}
               </motion.span>
             </h1>
             <motion.p
               className="my-3 mb-6 md:mb-3 text-base sm:text-lg md:text-xl text-center lg:text-left"
               variants={itemVariants}
             >
-              {t("description")}
+              {descriptions.main}
             </motion.p>
             <motion.div
               className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-3 sm:space-y-0 sm:space-x-4"
               variants={itemVariants}
             >
-              <Link href={`/about`} className="w-full sm:w-auto">
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  {t("aboutButton")}
+              <Link href={`/${locale}/about`} className="w-full sm:w-auto">
+                <motion.button {...buttonAnimations}>
+                  {descriptions.buttons.about}
                 </motion.button>
               </Link>
-              <Link href="/#schedule" className="w-full sm:w-auto">
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  {t("scheduleButton")}
+              <Link href={`/${locale}/#schedule`} className="w-full sm:w-auto">
+                <motion.button {...buttonAnimations}>
+                  {descriptions.buttons.schedule}
                 </motion.button>
               </Link>
             </motion.div>
@@ -113,15 +170,7 @@ const Hero = () => {
             variants={imageVariants}
           >
             <div className="relative w-full max-w-md lg:max-w-lg xl:max-w-xl aspect-video">
-              <Image
-                src="/images/volleyball-game.webp"
-                alt={t("imageAlt")}
-                width={790}
-                height={377}
-                layout="responsive"
-                className="rounded-lg shadow-xl"
-                priority
-              />
+              <Image alt={descriptions.imageAlt} {...imageProps} />
             </div>
           </motion.div>
         </div>

@@ -1,0 +1,200 @@
+{
+  "Metadata": {
+    "title": "RIF Volleyball - Neue Höhen seit 2024",
+    "description": "RIF Volleyball, gegründet 2024, führt das Vermächtnis von Rågsved IF seit 1958 fort. Werden Sie Teil unserer leidenschaftlichen Volleyball-Gemeinschaft im Raum Stockholm.",
+    "keywords": "RIF Volleyball,Volleyballteam,Volleyballverein,Sportgemeinschaft,Volleyball 2024,Wettkampfvolleyball,Stockholm Volleyball,Rågsved IF 1958",
+    "ogTitle": "RIF Volleyball - Neue Höhen seit 2024",
+    "ogDescription": "Schließen Sie sich RIF Volleyball in Stockholm an - wir bauen auf unser Vereinserbe seit 1958.",
+    "ogImageAlt": "RIF Vereinslogo",
+    "siteName": "RIF Volleyball"
+  },
+  "Header": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "teams": "Mannschaften",
+    "schedule": "Spielplan",
+    "news": "Neuigkeiten",
+    "contact": "Kontakt",
+    "homeAriaLabel": "Zurück zur Startseite",
+    "logoAlt": "RIF Volleyball Logo",
+    "openMenuAriaLabel": "Menü öffnen",
+    "closeMenuAriaLabel": "Menü schließen"
+  },
+  "Hero": {
+    "title": {
+      "line1": "Groß träumen, hart spielen",
+      "line2": "Entfessele dein Potenzial"
+    },
+    "description": "Werde Teil unseres engagierten Teams, während wir Energie und Spannung in die 3. Division bringen! Wir glauben an harte Arbeit und die Kraft der Träume. Gemeinsam unterstützen wir uns gegenseitig dabei, neue Höhen zu erreichen und unseren Blick auf die 2. Division zu richten!",
+    "aboutButton": "Über uns",
+    "scheduleButton": "Spielplan ansehen",
+    "imageAlt": "Volleyballspiel in Aktion"
+  },
+  "AboutUs": {
+    "title": "Unsere Geschichte",
+    "sections": {
+      "humbleBeginnings": {
+        "title": "Bescheidene Anfänge",
+        "content": "2022 machten wir unsere ersten Schritte auf den Korpen-Plätzen mit einem unvollständigen Team und ehrgeizigen Zielen. Trotz der Herausforderungen trainierten wir fleißig, arbeiteten mit anderen Teams zusammen und sicherten uns einen respektablen Platz im Mittelfeld. Das war erst der Anfang."
+      },
+      "risingToTheChallenge": {
+        "title": "Der Herausforderung stellen",
+        "content": "Entschlossen, mehr zu erreichen, nahmen wir die Korpen-Meisterschaft ins Visier. Mit neuen Mitgliedern und intensiviertem Training überwanden wir Hindernisse und holten den Titel, trotz einer einzigen Niederlage."
+      },
+      "aimingHigher": {
+        "title": "Höhere Ziele",
+        "content": "Inspiriert von unserem Erfolg setzten wir uns ein noch größeres Ziel: die Schwedische Volleyball-Meisterschaft. Um dieses Niveau zu erreichen, beschlossen wir, unseren eigenen Verein zu gründen. Mit der wertvollen Unterstützung von Rågsved IF wurde diese Vision Realität."
+      },
+      "growthAndExpansion": {
+        "title": "Wachstum und Entwicklung",
+        "content": "Wir machten bedeutende Schritte nach vorn, rekrutierten engagierte Trainer und formten ein zweites Team aus starken Korpen-Wettkämpfern. Mit zweimal wöchentlichem Training und zwei Teams in der 3. Division behielten wir unsere Wurzeln bei, indem wir ein Korpen-Team zur Förderung neuer Talente beibehielten."
+      },
+      "whereWeStand": {
+        "title": "Wo wir stehen",
+        "content": "Heute sind wir eine wachsende und ambitionierte Organisation. Unsere beiden Teams in der 3. Division spielen auf hohem Niveau, während unser Korpen-Team weiterhin Möglichkeiten zur Entwicklung und zum Gemeinschaftsaufbau bietet."
+      },
+      "ourMission": {
+        "title": "Unsere Mission",
+        "content": "Unser Ziel ist klar: in der 3. Division zu glänzen und in die 2. Division aufzusteigen. Über den Wettkampf hinaus streben wir danach, ein bleibendes Vermächtnis im Volleyball aufzubauen, das auf Teamarbeit, Engagement und kontinuierlichem Wachstum basiert."
+      }
+    }
+  },
+  "TeamPage": {
+    "metaTitle": "Team Info",
+    "quickFacts": "Kurzinfos",
+    "league": "Liga",
+    "coach": "Trainer",
+    "captain": "Kapitän",
+    "currentRank": "Aktuelle Platzierung"
+  },
+  "Teams": {
+    "title": "Unsere Mannschaften",
+    "metaTitle": "Team Info",
+    "teams": [
+      {
+        "id": "1",
+        "name": "Team A",
+        "image": "/images/team-A.webp",
+        "description": "Unsere erste Mannschaft spielt in der 3. Division und war diese Saison eine dominante Kraft. Bekannt für ihre aggressiven Aufschläge und solide Verteidigung, hat Team A ihre Spiele durchgehend dominiert.",
+        "league": "3. Division",
+        "coach": "Krzysiek",
+        "captain": "Filip",
+        "currentRank": "1.",
+        "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=401"
+      },
+      {
+        "id": "2",
+        "name": "Team B",
+        "image": "/images/team-B.webp",
+        "description": "Unsere zweite Mannschaft spielt ebenfalls in der 3. Division und hat diese Saison bemerkenswerte Fortschritte gezeigt. Mit einer Mischung aus erfahrenen Spielern und vielversprechenden Talenten ist Team B an die Tabellenspitze geklettert.",
+        "league": "3. Division",
+        "coach": "Krzysiek",
+        "captain": "Damian",
+        "currentRank": "1.",
+        "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=399"
+      }
+    ]
+  },
+  "Elite": {
+    "challengers": [
+      {
+        "id": "1",
+        "name": "Floby VK",
+        "logo": "/images/logos/floby_vk-logo.png",
+        "alt": "Floby VK Volleyballclub Wappenlogo in Grün und Gelb mit rotem Text und einem goldenen Stern"
+      },
+      {
+        "id": "2",
+        "name": "Habo Wolley",
+        "logo": "/images/logos/habo_wolley-logo.png",
+        "alt": "Habo Wolley Volleyballclub Logo in Rot mit stilisiertem Volleyball und Netzdesign von 1987"
+      },
+      {
+        "id": "3",
+        "name": "Hylte Halmstad VBK",
+        "logo": "/images/logos/hylte_halmstad_vbk-logo.png",
+        "alt": "Hylte Halmstad Volleyballclub Wappenlogo in Rot und Schwarz auf weißem Hintergrund"
+      },
+      {
+        "id": "4",
+        "name": "Lunds VK",
+        "logo": "/images/logos/lunds_vk-logo.png",
+        "alt": "Lunds VK Volleyballclub Logo mit schwarzem und rotem Kreisdesign mit zwei Türmen und einem Volleyball, gegründet 2009"
+      },
+      {
+        "id": "5",
+        "name": "Malmö VK",
+        "logo": "/images/logos/malmö_vk-logo.png",
+        "alt": "Malmö VK einfaches schwarz-weißes Volleyballlogo mit MVK-Text im Balldesign integriert"
+      },
+      {
+        "id": "6",
+        "name": "Örkelljunga VK",
+        "logo": "/images/logos/örkelljunga_vk-logo.png",
+        "alt": "Örkelljunga VK Volleyballclub Logo mit blauen Flügeln und rotem Text mit einem Volleyball in der Mitte"
+      },
+      {
+        "id": "7",
+        "name": "VBF RIG Falköping",
+        "logo": "/images/logos/vbf_rig_falköping-logo.png",
+        "alt": "RIG Falköping Sportgymnasium Logo mit weißen 'RIG'-Buchstaben auf schwarzem Hintergrund und rotem Punkt"
+      },
+      {
+        "id": "8",
+        "name": "Södertelge VBK",
+        "logo": "/images/logos/södertelge_vbk-logo.png",
+        "alt": "Södertelge Volleyballclub Logo mit stilisiertem grün-gelbem S-förmigem Design auf schwarzem Hintergrund"
+      },
+      {
+        "id": "9",
+        "name": "Sollentuna VK",
+        "logo": "/images/logos/sollentuna_vk-logo.png",
+        "alt": "Sollentuna Volley Textlogo in Weiß auf grünem Hintergrund mit einfachem Figurendesign"
+      },
+      {
+        "id": "10",
+        "name": "Uppsala VBS",
+        "logo": "/images/logos/uppsala_vbs-logo.png",
+        "alt": "Uppsala Volleyball schwarzes Silhouettenlogo mit Stadtsilhouette, Kathedralspitzen und einem Volleyballspieler am Netz"
+      },
+      {
+        "id": "11",
+        "name": "Vingåkers VBK",
+        "logo": "/images/logos/vingåkers_vbk-logo.png",
+        "alt": "Vingåkers Volleyballclub Logo in Hellblau mit Flügeldesign und blauem Bannerband, gegründet 1972"
+      },
+      {
+        "id": "12",
+        "name": "Svensk Volleyboll",
+        "logo": "/images/logos/svensk_volleyboll-logo.png",
+        "alt": "Schwedischer Volleyballverband Logo mit stilisiertem blau-gelbem Volleyball und dem Text 'Svensk Volleyboll' in Blau"
+      }
+    ]
+  },
+  "Footer": {
+    "general": {
+      "returnToHomepage": "Zurück zur Startseite",
+      "logoAlt": "Volleyballverein Logo",
+      "copyright": "© {year}, Alle Rechte vorbehalten.",
+      "footerNavigation": "Footer-Navigation"
+    },
+    "contact": {
+      "contactUs": "Kontaktieren Sie uns",
+      "address": "Adresse",
+      "phone": "Telefon",
+      "email": "E-Mail"
+    },
+    "social": {
+      "followUs": "Folgen Sie uns",
+      "facebookAriaLabel": "Besuchen Sie unsere Facebook-Seite",
+      "instagramAriaLabel": "Folgen Sie uns auf Instagram",
+      "twitterAriaLabel": "Folgen Sie uns auf Twitter"
+    },
+    "links": {
+      "usefulLinks": "Nützliche Links",
+      "swedishVolleyballFederation": "Schwedischer Volleyballverband",
+      "ragsvedIF": "Rågsved IF",
+      "korpenStockholmVolleyball": "Korpen Stockholm Volleyball"
+    }
+  }
+}

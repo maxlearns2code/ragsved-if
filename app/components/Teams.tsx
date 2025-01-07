@@ -1,4 +1,4 @@
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import { IoInformationCircleOutline } from "react-icons/io5";
@@ -17,17 +17,21 @@ interface Team {
 
 export default function Teams() {
   const t = useTranslations("Teams");
+  const locale = useLocale();
   const teams: Team[] = t.raw("teams");
 
   return (
-    <section id="teams" className="py-10 sm:py-16 md:py-24 lg:py-40 xl:py-48 px-4 sm:px-6 lg:px-8">
+    <section
+      id="teams"
+      className="py-10 sm:py-16 md:py-24 lg:py-40 xl:py-48 px-4 sm:px-6 lg:px-8"
+    >
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
         {t("title")}
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-10 max-w-4xl mx-auto">
         {teams.map((team) => (
           <Link
-            href={`/teams/${team.id}`}
+            href={`/${locale}/teams/${team.id}`}
             key={team.id}
             className="block group relative aspect-w-16 aspect-h-9"
           >

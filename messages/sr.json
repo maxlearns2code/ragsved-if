@@ -1,0 +1,200 @@
+{
+  "Metadata": {
+    "title": "RIF Odbojka - Novi visovi od 2024",
+    "description": "RIF Odbojka, osnovana 2024. godine, nastavlja nasleđe Rågsved IF-a od 1958. Pridružite se našoj strastvenoj odbojkaškoj zajednici u oblasti Stokholma.",
+    "keywords": "RIF odbojka,odbojkaški tim,odbojkaški klub,sportska zajednica,odbojka 2024,takmičarska odbojka,Stokholm odbojka,Rågsved IF 1958",
+    "ogTitle": "RIF Odbojka - Novi visovi od 2024",
+    "ogDescription": "Pridružite se RIF Odbojci u Stokholmu - gradimo na nasleđu našeg kluba od 1958.",
+    "ogImageAlt": "RIF Klupski logo",
+    "siteName": "RIF Odbojka"
+  },
+  "Header": {
+    "home": "Početna",
+    "about": "O nama",
+    "teams": "Timovi",
+    "schedule": "Raspored",
+    "news": "Vesti",
+    "contact": "Kontakt",
+    "homeAriaLabel": "Nazad na početnu",
+    "logoAlt": "RIF Odbojka Logo",
+    "openMenuAriaLabel": "Otvori meni",
+    "closeMenuAriaLabel": "Zatvori meni"
+  },
+  "Hero": {
+    "title": {
+      "line1": "Sanjaj veliko, igraj snažno",
+      "line2": "Oslobodi svoj potencijal"
+    },
+    "description": "Postani deo našeg posvećenog tima dok unosimo energiju i uzbuđenje u Treću ligu! Verujemo u naporan rad i snagu snova. Zajedno ćemo podržavati jedni druge u dostizanju novih visina i usmeravanju ka Drugoj ligi!",
+    "aboutButton": "O nama",
+    "scheduleButton": "Pogledaj raspored",
+    "imageAlt": "Odbojkaška utakmica u akciji"
+  },
+  "AboutUs": {
+    "title": "Naša priča",
+    "sections": {
+      "humbleBeginnings": {
+        "title": "Skromni počeci",
+        "content": "2022. godine napravili smo prve korake na Korpen terenima sa nepotpunim timom i ambicioznim ciljevima. Uprkos izazovima, vredno smo trenirali, sarađivali sa drugim timovima i obezbedili respektabilno mesto u sredini tabele. To je bio samo početak."
+      },
+      "risingToTheChallenge": {
+        "title": "Suočavanje sa izazovom",
+        "content": "Odlučni da postignemo više, usmerili smo se ka Korpen šampionatu. Sa novim članovima i pojačanim treninzima, prevazišli smo prepreke i osvojili titulu, čak i sa samo jednim porazom."
+      },
+      "aimingHigher": {
+        "title": "Viši ciljevi",
+        "content": "Inspirisani našim uspehom, postavili smo još veći cilj: Švedsko odbojkaško prvenstvo. Da bismo dostigli ovaj nivo, odlučili smo da osnujemo sopstveni klub. Uz neprocenjivu podršku Rågsved IF-a, pretvorili smo ovu viziju u stvarnost."
+      },
+      "growthAndExpansion": {
+        "title": "Rast i razvoj",
+        "content": "Napravili smo značajne korake napred, regrutovali posvećene trenere i formirali drugi tim sastavljen od jakih Korpen takmičara. Sa treninzima dva puta nedeljno i dva tima koja se takmiče u Trećoj ligi, održali smo naše korene zadržavanjem Korpen tima za razvoj novih talenata."
+      },
+      "whereWeStand": {
+        "title": "Gde smo sada",
+        "content": "Danas smo rastuća i ambiciozna organizacija. Naša dva tima u Trećoj ligi takmiče se na visokom nivou, dok naš Korpen tim nastavlja da pruža mogućnosti za razvoj i izgradnju zajednice."
+      },
+      "ourMission": {
+        "title": "Naša misija",
+        "content": "Naš cilj je jasan: da se istaknemo u Trećoj ligi i napredujemo u Drugu ligu. Izvan takmičenja, težimo da izgradimo trajno nasleđe u odbojci, zasnovano na timskom radu, posvećenosti i predanosti kontinuiranom rastu."
+      }
+    }
+  },
+  "TeamPage": {
+    "metaTitle": "Info tima",
+    "quickFacts": "Brze činjenice",
+    "league": "Liga",
+    "coach": "Trener",
+    "captain": "Kapiten",
+    "currentRank": "Trenutna pozicija"
+  },
+  "Teams": {
+    "title": "Naši timovi",
+    "metaTitle": "Info tima",
+    "teams": [
+      {
+        "id": "1",
+        "name": "Tim A",
+        "image": "/images/team-A.webp",
+        "description": "Naš prvi tim se takmiči u Trećoj ligi i bio je dominantan ove sezone. Poznat po agresivnim servisima i čvrstoj odbrani, Tim A je konstantno dominirao svojim mečevima.",
+        "league": "Treća liga",
+        "coach": "Krzysiek",
+        "captain": "Filip",
+        "currentRank": "1.",
+        "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=401"
+      },
+      {
+        "id": "2",
+        "name": "Tim B",
+        "image": "/images/team-B.webp",
+        "description": "Naš drugi tim takođe igra u Trećoj ligi i pokazao je izuzetan napredak ove sezone. Sa mešavinom iskusnih igrača i perspektivnih talenata, Tim B se popeo na vrh lige.",
+        "league": "Treća liga",
+        "coach": "Krzysiek",
+        "captain": "Damian",
+        "currentRank": "1.",
+        "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=399"
+      }
+    ]
+  },
+  "Elite": {
+    "challengers": [
+      {
+        "id": "1",
+        "name": "Floby VK",
+        "logo": "/images/logos/floby_vk-logo.png",
+        "alt": "Floby VK odbojkaški klub grb logo u zelenoj i žutoj boji sa crvenim tekstom i zlatnom zvezdom"
+      },
+      {
+        "id": "2",
+        "name": "Habo Wolley",
+        "logo": "/images/logos/habo_wolley-logo.png",
+        "alt": "Habo Wolley odbojkaški klub logo u crvenoj boji sa stilizovanom odbojkaškom loptom i dizajnom mreže iz 1987"
+      },
+      {
+        "id": "3",
+        "name": "Hylte Halmstad VBK",
+        "logo": "/images/logos/hylte_halmstad_vbk-logo.png",
+        "alt": "Hylte Halmstad odbojkaški klub grb logo u crvenoj i crnoj boji na beloj pozadini"
+      },
+      {
+        "id": "4",
+        "name": "Lunds VK",
+        "logo": "/images/logos/lunds_vk-logo.png",
+        "alt": "Lunds VK odbojkaški klub logo sa crnim i crvenim kružnim dizajnom sa dva tornja i odbojkaškom loptom, osnovan 2009"
+      },
+      {
+        "id": "5",
+        "name": "Malmö VK",
+        "logo": "/images/logos/malmö_vk-logo.png",
+        "alt": "Malmö VK jednostavan crno-beli odbojkaški logo sa MVK tekstom integrisanim u dizajn lopte"
+      },
+      {
+        "id": "6",
+        "name": "Örkelljunga VK",
+        "logo": "/images/logos/örkelljunga_vk-logo.png",
+        "alt": "Örkelljunga VK odbojkaški klub logo sa plavim krilima i crvenim tekstom sa odbojkaškom loptom u sredini"
+      },
+      {
+        "id": "7",
+        "name": "VBF RIG Falköping",
+        "logo": "/images/logos/vbf_rig_falköping-logo.png",
+        "alt": "RIG Falköping sportska gimnazija logo sa belim 'RIG' slovima na crnoj pozadini i crvenom tačkom"
+      },
+      {
+        "id": "8",
+        "name": "Södertelge VBK",
+        "logo": "/images/logos/södertelge_vbk-logo.png",
+        "alt": "Södertelge odbojkaški klub logo sa stilizovanim zeleno-žutim S-oblikom na crnoj pozadini"
+      },
+      {
+        "id": "9",
+        "name": "Sollentuna VK",
+        "logo": "/images/logos/sollentuna_vk-logo.png",
+        "alt": "Sollentuna Volley tekstualni logo u beloj boji na zelenoj pozadini sa jednostavnim dizajnom figure"
+      },
+      {
+        "id": "10",
+        "name": "Uppsala VBS",
+        "logo": "/images/logos/uppsala_vbs-logo.png",
+        "alt": "Uppsala Odbojka crna silueta logo koji prikazuje gradsku siluetu sa tornjevima katedrale i odbojkašem kod mreže"
+      },
+      {
+        "id": "11",
+        "name": "Vingåkers VBK",
+        "logo": "/images/logos/vingåkers_vbk-logo.png",
+        "alt": "Vingåkers odbojkaški klub logo u svetlo plavoj boji sa dizajnom krila i plavom trakom, osnovan 1972"
+      },
+      {
+        "id": "12",
+        "name": "Svensk Volleyboll",
+        "logo": "/images/logos/svensk_volleyboll-logo.png",
+        "alt": "Švedski odbojkaški savez logo sa stilizovanom plavo-žutom odbojkaškom loptom i tekstom 'Svensk Volleyboll' u plavoj boji"
+      }
+    ]
+  },
+  "Footer": {
+    "general": {
+      "returnToHomepage": "Povratak na početnu",
+      "logoAlt": "Logo odbojkaškog kluba",
+      "copyright": "© {year}, Sva prava zadržana.",
+      "footerNavigation": "Navigacija u futeru"
+    },
+    "contact": {
+      "contactUs": "Kontaktirajte nas",
+      "address": "Adresa",
+      "phone": "Telefon",
+      "email": "E-pošta"
+    },
+    "social": {
+      "followUs": "Pratite nas",
+      "facebookAriaLabel": "Posetite našu Facebook stranicu",
+      "instagramAriaLabel": "Pratite nas na Instagramu",
+      "twitterAriaLabel": "Pratite nas na Twitteru"
+    },
+    "links": {
+      "usefulLinks": "Korisni linkovi",
+      "swedishVolleyballFederation": "Švedski odbojkaški savez",
+      "ragsvedIF": "Rågsved IF",
+      "korpenStockholmVolleyball": "Korpen Stockholm Odbojka"
+    }
+  }
+}

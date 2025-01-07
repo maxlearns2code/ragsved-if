@@ -1,29 +1,31 @@
 "use client";
 
 import { useLocale } from "next-intl";
-import { usePathname, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import { FaChevronDown } from "react-icons/fa"; // Import the icon
+import { FaChevronDown } from "react-icons/fa";
 
 export default function LanguageSwitcher() {
   const [isOpen, setIsOpen] = useState(false);
   const locale = useLocale();
   const router = useRouter();
-  const pathname = usePathname();
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   const languages = {
     sv: { name: "Svenska", flag: "SE" },
     en: { name: "English", flag: "EN" },
-    fr: { name: "Français", flag: "FR" },
     es: { name: "Español", flag: "ES" },
+    fr: { name: "Français", flag: "FR" },
+    de: { name: "Deutsch", flag: "DE" },
+    sr: { name: "Српски", flag: "RS" },
     uk: { name: "Українська", flag: "UK" },
     pl: { name: "Polski", flag: "PL" },
   };
 
   const handleLanguageChange = (newLocale: string) => {
-    const newPathname = `/${newLocale}${pathname.replace(/^\/[a-z]{2}/, "")}`;
-    router.push(newPathname);
+    const currentPath = window.location.pathname;
+    const newPath = currentPath.replace(/^\/[a-z]{2}/, `/${newLocale}`);
+    router.push(newPath);
     setIsOpen(false);
   };
 
@@ -50,8 +52,7 @@ export default function LanguageSwitcher() {
         className="flex items-center gap-2"
       >
         <span>{languages[locale as keyof typeof languages]?.flag}</span>
-        <FaChevronDown className="text-xs opacity-60" />{" "}
-        {/* Use the icon here */}
+        <FaChevronDown className="text-xs opacity-60" />
       </button>
 
       {isOpen && (

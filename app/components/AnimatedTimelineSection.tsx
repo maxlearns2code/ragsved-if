@@ -8,6 +8,7 @@ import { useInView } from "react-intersection-observer";
 interface AnimatedTimelineSectionProps {
   section: string;
   index: number;
+  locale: string;
 }
 
 const containerVariants: Variants = {
@@ -42,6 +43,7 @@ const itemVariants: Variants = {
 const AnimatedTimelineSection: React.FC<AnimatedTimelineSectionProps> = ({
   section,
   index,
+  locale
 }) => {
   const t = useTranslations("AboutUs.sections");
   const controls = useAnimation();
@@ -74,6 +76,7 @@ const AnimatedTimelineSection: React.FC<AnimatedTimelineSectionProps> = ({
       className={`flex items-center w-full mb-4 md:-mb-8 ${
         isRight ? "md:justify-end" : "md:justify-start"
       }`}
+      lang={locale}
     >
       <motion.div
         className={`w-full md:w-5/12 bg-white/10 p-4 rounded-lg shadow-lg ${
