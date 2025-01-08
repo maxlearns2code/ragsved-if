@@ -105,73 +105,73 @@
         "id": "1",
         "name": "Floby VK",
         "logo": "/images/logos/floby_vk-logo.png",
-        "alt": "Floby VK odbojkaški klub grb logo u zelenoj i žutoj boji sa crvenim tekstom i zlatnom zvezdom"
+        "alt": "Logo Floby VK: Zeleno-žuti štit sa crvenim tekstom"
       },
       {
         "id": "2",
         "name": "Habo Wolley",
         "logo": "/images/logos/habo_wolley-logo.png",
-        "alt": "Habo Wolley odbojkaški klub logo u crvenoj boji sa stilizovanom odbojkaškom loptom i dizajnom mreže iz 1987"
+        "alt": "Logo Habo Wolley: Crveni sa stilizovanom odbojkaškom loptom i mrežom"
       },
       {
         "id": "3",
         "name": "Hylte Halmstad VBK",
         "logo": "/images/logos/hylte_halmstad_vbk-logo.png",
-        "alt": "Hylte Halmstad odbojkaški klub grb logo u crvenoj i crnoj boji na beloj pozadini"
+        "alt": "Logo Hylte Halmstad VBK: Crveno-crni štit"
       },
       {
         "id": "4",
         "name": "Lunds VK",
         "logo": "/images/logos/lunds_vk-logo.png",
-        "alt": "Lunds VK odbojkaški klub logo sa crnim i crvenim kružnim dizajnom sa dva tornja i odbojkaškom loptom, osnovan 2009"
+        "alt": "Logo Lunds VK: Crno-crveni kružni dizajn sa kulama"
       },
       {
         "id": "5",
         "name": "Malmö VK",
         "logo": "/images/logos/malmö_vk-logo.png",
-        "alt": "Malmö VK jednostavan crno-beli odbojkaški logo sa MVK tekstom integrisanim u dizajn lopte"
+        "alt": "Logo Malmö VK: Crno-bela odbojkaška lopta sa MVK tekstom"
       },
       {
         "id": "6",
         "name": "Örkelljunga VK",
         "logo": "/images/logos/örkelljunga_vk-logo.png",
-        "alt": "Örkelljunga VK odbojkaški klub logo sa plavim krilima i crvenim tekstom sa odbojkaškom loptom u sredini"
+        "alt": "Logo Örkelljunga VK: Plava krila sa crvenim tekstom i odbojkaškom loptom"
       },
       {
         "id": "7",
         "name": "VBF RIG Falköping",
         "logo": "/images/logos/vbf_rig_falköping-logo.png",
-        "alt": "RIG Falköping sportska gimnazija logo sa belim 'RIG' slovima na crnoj pozadini i crvenom tačkom"
+        "alt": "Logo RIG Falköping: Beli 'RIG' na crnoj pozadini sa crvenom tačkom"
       },
       {
         "id": "8",
         "name": "Södertelge VBK",
         "logo": "/images/logos/södertelge_vbk-logo.png",
-        "alt": "Södertelge odbojkaški klub logo sa stilizovanim zeleno-žutim S-oblikom na crnoj pozadini"
+        "alt": "Logo Södertelge VBK: Stilizovano zeleno-žuto S na crnoj pozadini"
       },
       {
         "id": "9",
         "name": "Sollentuna VK",
         "logo": "/images/logos/sollentuna_vk-logo.png",
-        "alt": "Sollentuna Volley tekstualni logo u beloj boji na zelenoj pozadini sa jednostavnim dizajnom figure"
+        "alt": "Logo Sollentuna Volley: Beli tekst na zelenoj pozadini sa figurom"
       },
       {
         "id": "10",
         "name": "Uppsala VBS",
         "logo": "/images/logos/uppsala_vbs-logo.png",
-        "alt": "Uppsala Odbojka crna silueta logo koji prikazuje gradsku siluetu sa tornjevima katedrale i odbojkašem kod mreže"
+        "alt": "Logo Uppsala VBS: Crna silueta grada i igrača"
       },
       {
         "id": "11",
         "name": "Vingåkers VBK",
         "logo": "/images/logos/vingåkers_vbk-logo.png",
-        "alt": "Vingåkers odbojkaški klub logo u svetlo plavoj boji sa dizajnom krila i plavom trakom, osnovan 1972"
+        "alt": "Logo Vingåkers VBK: Svetloplavi sa dizajnom krila"
       },
       {
         "id": "12",
         "name": "Svensk Volleyboll",
         "logo": "/images/logos/svensk_volleyboll-logo.png",
-        "alt": "Švedski odbojkaški savez logo sa stilizovanom plavo-žutom odbojkaškom loptom i tekstom 'Svensk Volleyboll' u plavoj boji"
+        "alt": "Logo Svensk Volleyboll: Stilizovana plavo-žuta odbojkaška lopta"
       }
     ]
   },

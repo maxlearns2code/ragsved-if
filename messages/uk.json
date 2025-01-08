@@ -105,73 +105,73 @@
         "id": "1",
         "name": "Floby VK",
         "logo": "/images/logos/floby_vk-logo.png",
-        "alt": "Логотип-щит волейбольного клубу Floby VK зеленого та жовтого кольорів з червоним текстом та золотою зіркою"
+        "alt": "Логотип Floby VK: Зелено-жовтий щит з червоним текстом"
       },
       {
         "id": "2",
         "name": "Habo Wolley",
         "logo": "/images/logos/habo_wolley-logo.png",
-        "alt": "Логотип волейбольного клубу Habo Wolley червоного кольору зі стилізованим дизайном волейбольного м'яча та сітки від 1987 року"
+        "alt": "Логотип Habo Wolley: Червоний зі стилізованим волейбольним м'ячем та сіткою"
       },
       {
         "id": "3",
         "name": "Hylte Halmstad VBK",
         "logo": "/images/logos/hylte_halmstad_vbk-logo.png",
-        "alt": "Логотип-щит Волейбольного Клубу Hylte Halmstad червоного та чорного кольорів на білому фоні"
+        "alt": "Логотип Hylte Halmstad VBK: Червоно-чорний щит"
       },
       {
         "id": "4",
         "name": "Lunds VK",
         "logo": "/images/logos/lunds_vk-logo.png",
-        "alt": "Логотип волейбольного клубу Lunds VK з чорно-червоним круговим дизайном, що зображує дві вежі та волейбольний м'яч, заснований у 2009 році"
+        "alt": "Логотип Lunds VK: Чорно-червоний круговий дизайн з вежами"
       },
       {
         "id": "5",
         "name": "Malmö VK",
         "logo": "/images/logos/malmö_vk-logo.png",
-        "alt": "Простий чорно-білий волейбольний логотип Malmö VK з текстом МВК, інтегрованим у дизайн м'яча"
+        "alt": "Логотип Malmö VK: Чорно-білий волейбольний м'яч з текстом MVK"
       },
       {
         "id": "6",
         "name": "Örkelljunga VK",
         "logo": "/images/logos/örkelljunga_vk-logo.png",
-        "alt": "Логотип волейбольного клубу Örkelljunga VK із синіми крилами та червоним текстом з волейбольним м'ячем у центрі"
+        "alt": "Логотип Örkelljunga VK: Сині крила з червоним текстом та волейбольним м'ячем"
       },
       {
         "id": "7",
         "name": "VBF RIG Falköping",
         "logo": "/images/logos/vbf_rig_falköping-logo.png",
-        "alt": "Логотип спортивної гімназії RIG Falköping з білими літерами 'RIG' на чорному фоні та червоною крапкою"
+        "alt": "Логотип RIG Falköping: Білий 'RIG' на чорному фоні з червоною крапкою"
       },
       {
         "id": "8",
         "name": "Södertelge VBK",
         "logo": "/images/logos/södertelge_vbk-logo.png",
-        "alt": "Логотип волейбольного клубу Södertelge зі стилізованим зелено-жовтим S-подібним дизайном на чорному фоні"
+        "alt": "Логотип Södertelge VBK: Стилізована зелено-жовта S на чорному фоні"
       },
       {
         "id": "9",
         "name": "Sollentuna VK",
         "logo": "/images/logos/sollentuna_vk-logo.png",
-        "alt": "Текстовий логотип Sollentuna Volley білого кольору на зеленому фоні з простим фігурним дизайном"
+        "alt": "Логотип Sollentuna Volley: Білий текст на зеленому фоні з фігурою"
       },
       {
         "id": "10",
         "name": "Uppsala VBS",
         "logo": "/images/logos/uppsala_vbs-logo.png",
-        "alt": "Чорний силуетний логотип Uppsala Volleyboll, що показує міський горизонт зі шпилями собору та волейболістом біля сітки"
+        "alt": "Логотип Uppsala VBS: Чорний силует міста та гравця"
       },
       {
         "id": "11",
         "name": "Vingåkers VBK",
         "logo": "/images/logos/vingåkers_vbk-logo.png",
-        "alt": "Логотип волейбольного клубу Vingåkers світло-блакитного кольору з дизайном крил та синьою стрічкою-банером, заснований у 1972 році"
+        "alt": "Логотип Vingåkers VBK: Світло-синій з дизайном крила"
       },
       {
         "id": "12",
         "name": "Svensk Volleyboll",
         "logo": "/images/logos/svensk_volleyboll-logo.png",
-        "alt": "Логотип Шведської Федерації Волейболу із стилізованим синьо-жовтим волейбольним м'ячем та текстом 'Svensk Volleyboll' синього кольору"
+        "alt": "Логотип Svensk Volleyboll: Стилізований синьо-жовтий волейбольний м'яч"
       }
     ]
   },

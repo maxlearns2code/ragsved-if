@@ -105,73 +105,73 @@
         "id": "1",
         "name": "Floby VK",
         "logo": "/images/logos/floby_vk-logo.png",
-        "alt": "Logo en forme de bouclier du club de volleyball Floby VK en vert et jaune avec texte rouge et une étoile dorée"
+        "alt": "Logo Floby VK : Écusson vert et jaune avec texte rouge"
       },
       {
         "id": "2",
         "name": "Habo Wolley",
         "logo": "/images/logos/habo_wolley-logo.png",
-        "alt": "Logo du club de volleyball Habo Wolley en rouge avec un design stylisé de volleyball et de filet datant de 1987"
+        "alt": "Logo Habo Wolley : Rouge avec ballon et filet stylisés"
       },
       {
         "id": "3",
         "name": "Hylte Halmstad VBK",
         "logo": "/images/logos/hylte_halmstad_vbk-logo.png",
-        "alt": "Logo en forme de bouclier du Club de Volleyball Hylte Halmstad en rouge et noir sur fond blanc"
+        "alt": "Logo Hylte Halmstad VBK : Écusson rouge et noir"
       },
       {
         "id": "4",
         "name": "Lunds VK",
         "logo": "/images/logos/lunds_vk-logo.png",
-        "alt": "Logo du club de volleyball Lunds VK avec un design circulaire noir et rouge présentant deux tours et un ballon de volleyball, établi en 2009"
+        "alt": "Logo Lunds VK : Design circulaire noir et rouge avec tours"
       },
       {
         "id": "5",
         "name": "Malmö VK",
         "logo": "/images/logos/malmö_vk-logo.png",
-        "alt": "Logo simple de volleyball en noir et blanc de Malmö VK avec le texte MVK intégré dans le design du ballon"
+        "alt": "Logo Malmö VK : Ballon noir et blanc avec texte MVK"
       },
       {
         "id": "6",
         "name": "Örkelljunga VK",
         "logo": "/images/logos/örkelljunga_vk-logo.png",
-        "alt": "Logo du club de volleyball Örkelljunga VK présentant des ailes bleues et un texte rouge avec un ballon de volleyball au centre"
+        "alt": "Logo Örkelljunga VK : Ailes bleues avec texte rouge et ballon"
       },
       {
         "id": "7",
         "name": "VBF RIG Falköping",
         "logo": "/images/logos/vbf_rig_falköping-logo.png",
-        "alt": "Logo du gymnase sportif RIG Falköping avec les lettres 'RIG' blanches sur fond noir et un point rouge"
+        "alt": "Logo RIG Falköping : 'RIG' blanc sur noir avec point rouge"
       },
       {
         "id": "8",
         "name": "Södertelge VBK",
         "logo": "/images/logos/södertelge_vbk-logo.png",
-        "alt": "Logo du club de volleyball Södertelge avec un design stylisé en forme de S vert et jaune sur fond noir"
+        "alt": "Logo Södertelge VBK : S stylisé vert et jaune sur fond noir"
       },
       {
         "id": "9",
         "name": "Sollentuna VK",
         "logo": "/images/logos/sollentuna_vk-logo.png",
-        "alt": "Logo textuel Sollentuna Volley en blanc sur fond vert avec un design de figure simple"
+        "alt": "Logo Sollentuna Volley : Texte blanc sur vert avec figure"
       },
       {
         "id": "10",
         "name": "Uppsala VBS",
         "logo": "/images/logos/uppsala_vbs-logo.png",
-        "alt": "Logo en silhouette noire d'Uppsala Volleyboll montrant la ligne d'horizon de la ville avec les flèches de la cathédrale et un joueur de volleyball au filet"
+        "alt": "Logo Uppsala VBS : Silhouette noire de ville et joueur"
       },
       {
         "id": "11",
         "name": "Vingåkers VBK",
         "logo": "/images/logos/vingåkers_vbk-logo.png",
-        "alt": "Logo du club de volleyball Vingåkers en bleu clair avec un design d'ailes et une bannière ruban bleue, établi en 1972"
+        "alt": "Logo Vingåkers VBK : Bleu clair avec design d'aile"
       },
       {
         "id": "12",
         "name": "Svensk Volleyboll",
         "logo": "/images/logos/svensk_volleyboll-logo.png",
-        "alt": "Logo de la Fédération Suédoise de Volleyball présentant un ballon de volleyball stylisé bleu et jaune avec le texte 'Svensk Volleyboll' en bleu"
+        "alt": "Logo Svensk Volleyboll : Ballon de volley stylisé bleu et jaune"
       }
     ]
   },

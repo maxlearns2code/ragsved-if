@@ -105,73 +105,73 @@
         "id": "1",
         "name": "Floby VK",
         "logo": "/images/logos/floby_vk-logo.png",
-        "alt": "Logo tarczowe klubu siatkarskiego Floby VK w kolorach zielonym i żółtym z czerwonym tekstem i złotą gwiazdką"
+        "alt": "Logo Floby VK: Zielono-żółta tarcza z czerwonym tekstem"
       },
       {
         "id": "2",
         "name": "Habo Wolley",
         "logo": "/images/logos/habo_wolley-logo.png",
-        "alt": "Logo klubu siatkarskiego Habo Wolley w kolorze czerwonym z stylizowanym wzorem piłki i siatki z 1987 roku"
+        "alt": "Logo Habo Wolley: Czerwone ze stylizowaną piłką i siatką"
       },
       {
         "id": "3",
         "name": "Hylte Halmstad VBK",
         "logo": "/images/logos/hylte_halmstad_vbk-logo.png",
-        "alt": "Logo tarczowe Klubu Siatkarskiego Hylte Halmstad w kolorach czerwonym i czarnym na białym tle"
+        "alt": "Logo Hylte Halmstad VBK: Czerwono-czarna tarcza"
       },
       {
         "id": "4",
         "name": "Lunds VK",
         "logo": "/images/logos/lunds_vk-logo.png",
-        "alt": "Logo klubu siatkarskiego Lunds VK z czarno-czerwonym okrągłym wzorem przedstawiającym dwie wieże i piłkę do siatkówki, założony w 2009 roku"
+        "alt": "Logo Lunds VK: Czarno-czerwony okrągły wzór z wieżami"
       },
       {
         "id": "5",
         "name": "Malmö VK",
         "logo": "/images/logos/malmö_vk-logo.png",
-        "alt": "Proste czarno-białe logo siatkówki Malmö VK z tekstem MVK zintegrowanym w projekcie piłki"
+        "alt": "Logo Malmö VK: Czarno-biała piłka z tekstem MVK"
       },
       {
         "id": "6",
         "name": "Örkelljunga VK",
         "logo": "/images/logos/örkelljunga_vk-logo.png",
-        "alt": "Logo klubu siatkarskiego Örkelljunga VK z niebieskimi skrzydłami i czerwonym tekstem z piłką do siatkówki w środku"
+        "alt": "Logo Örkelljunga VK: Niebieskie skrzydła z czerwonym tekstem i piłką"
       },
       {
         "id": "7",
         "name": "VBF RIG Falköping",
         "logo": "/images/logos/vbf_rig_falköping-logo.png",
-        "alt": "Logo gimnazjum sportowego RIG Falköping z białymi literami 'RIG' na czarnym tle i czerwoną kropką"
+        "alt": "Logo RIG Falköping: Białe 'RIG' na czarnym tle z czerwoną kropką"
       },
       {
         "id": "8",
         "name": "Södertelge VBK",
         "logo": "/images/logos/södertelge_vbk-logo.png",
-        "alt": "Logo klubu siatkarskiego Södertelge ze stylizowanym zielono-żółtym wzorem w kształcie litery S na czarnym tle"
+        "alt": "Logo Södertelge VBK: Stylizowane zielono-żółte S na czarnym tle"
       },
       {
         "id": "9",
         "name": "Sollentuna VK",
         "logo": "/images/logos/sollentuna_vk-logo.png",
-        "alt": "Tekstowe logo Sollentuna Volley w kolorze białym na zielonym tle z prostym wzorem figurowym"
+        "alt": "Logo Sollentuna Volley: Biały tekst na zielonym tle z figurą"
       },
       {
         "id": "10",
         "name": "Uppsala VBS",
         "logo": "/images/logos/uppsala_vbs-logo.png",
-        "alt": "Czarne sylwetkowe logo Uppsala Volleyboll pokazujące panoramę miasta z wieżami katedry i siatkarzem przy siatce"
+        "alt": "Logo Uppsala VBS: Czarna sylwetka miasta i gracza"
       },
       {
         "id": "11",
         "name": "Vingåkers VBK",
         "logo": "/images/logos/vingåkers_vbk-logo.png",
-        "alt": "Logo klubu siatkarskiego Vingåkers w kolorze jasnoniebieskim z wzorem skrzydeł i niebieską wstęgą, założony w 1972 roku"
+        "alt": "Logo Vingåkers VBK: Jasnoniebieskie z wzorem skrzydła"
       },
       {
         "id": "12",
         "name": "Svensk Volleyboll",
         "logo": "/images/logos/svensk_volleyboll-logo.png",
-        "alt": "Logo Szwedzkiej Federacji Siatkówki przedstawiające stylizowaną niebiesko-żółtą piłkę do siatkówki z tekstem 'Svensk Volleyboll' w kolorze niebieskim"
+        "alt": "Logo Svensk Volleyboll: Stylizowana niebiesko-żółta piłka do siatkówki"
       }
     ]
   },
