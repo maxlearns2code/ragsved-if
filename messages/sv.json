@@ -20,6 +20,10 @@
     "openMenuAriaLabel": "Öppna meny",
     "closeMenuAriaLabel": "Stäng meny"
   },
+  "Banner": {
+    "message": "Höj synligheten för ditt varumärke!",
+    "callToAction": "Hoppa in nu →"
+  },
   "Hero": {
     "title": {
       "line1": "Dröm stort, spela hårt",

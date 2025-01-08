@@ -20,6 +20,10 @@
     "openMenuAriaLabel": "Otvori meni",
     "closeMenuAriaLabel": "Zatvori meni"
   },
+  "Banner": {
+    "message": "Povećajte vidljivost svog brenda!",
+    "callToAction": "Pridružite se odmah →"
+  },
   "Hero": {
     "title": {
       "line1": "Sanjaj veliko, igraj snažno",

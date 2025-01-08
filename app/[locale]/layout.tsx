@@ -1,4 +1,5 @@
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getTranslations } from "next-intl/server";
@@ -6,8 +7,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import SponsorshipBanner from "../components/SponsorshipBanner";
 import "../globals.css";
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -72,6 +73,7 @@ export default async function LocaleLayout({
       >
         <NextIntlClientProvider messages={messages} locale={locale}>
           <Header />
+          <SponsorshipBanner />
           <main>{children}</main>
           <Footer />
           <Analytics />

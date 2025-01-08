@@ -20,6 +20,10 @@
     "openMenuAriaLabel": "Abrir menú",
     "closeMenuAriaLabel": "Cerrar menú"
   },
+  "Banner": {
+    "message": "¡Impulsa la visibilidad de tu marca!",
+    "callToAction": "Únete ahora →"
+  },
   "Hero": {
     "title": {
       "line1": "Sueña en grande, juega duro",

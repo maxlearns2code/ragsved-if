@@ -20,6 +20,10 @@
     "openMenuAriaLabel": "Open menu",
     "closeMenuAriaLabel": "Close menu"
   },
+  "Banner": {
+    "message": "Spike your brand visibility!",
+    "callToAction": "Jump in now →"
+  },
   "Hero": {
     "title": {
       "line1": "Dream Big, Play Hard",

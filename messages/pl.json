@@ -20,6 +20,10 @@
     "openMenuAriaLabel": "Otwórz menu",
     "closeMenuAriaLabel": "Zamknij menu"
   },
+  "Banner": {
+    "message": "Zwiększ widoczność swojej marki!",
+    "callToAction": "Dołącz teraz →"
+  },
   "Hero": {
     "title": {
       "line1": "Marz odważnie, graj mocno",

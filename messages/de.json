@@ -8,6 +8,10 @@
     "ogImageAlt": "RIF Vereinslogo",
     "siteName": "RIF Volleyball"
   },
+  "Banner": {
+    "message": "Steigern Sie Ihre Markensichtbarkeit!",
+    "callToAction": "Jetzt mitmachen →"
+  },
   "Header": {
     "home": "Startseite",
     "about": "Über uns",

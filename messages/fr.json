@@ -20,6 +20,10 @@
     "openMenuAriaLabel": "Ouvrir le menu",
     "closeMenuAriaLabel": "Fermer le menu"
   },
+  "Banner": {
+    "message": "Boostez la visibilité de votre marque !",
+    "callToAction": "Lancez-vous maintenant →"
+  },
   "Hero": {
     "title": {
       "line1": "Rêvez grand, jouez fort",

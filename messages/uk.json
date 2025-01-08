@@ -20,6 +20,10 @@
     "openMenuAriaLabel": "Відкрити меню",
     "closeMenuAriaLabel": "Закрити меню"
   },
+  "Banner": {
+    "message": "Підвищіть видимість вашого бренду!",
+    "callToAction": "Приєднуйтесь зараз →"
+  },
   "Hero": {
     "title": {
       "line1": "Мрійте по-крупному, грайте потужно",
