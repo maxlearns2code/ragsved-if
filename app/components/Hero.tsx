@@ -104,14 +104,14 @@ const Hero = () => {
   const imageProps = useMemo(
     () => ({
       src: "/images/volleyball-game.webp",
-      width: 790,
-      height: 377,
-      layout: "responsive" as const,
+      width: 756,
+      height: 756,
+      style: { width: '100%', height: 'auto' },
       className: `rounded-lg shadow-xl ${
         isImageLoaded ? "opacity-100" : "opacity-0"
       }`,
       priority: true,
-      onLoadingComplete: handleImageLoad,
+      onLoad: handleImageLoad,
     }),
     [isImageLoaded, handleImageLoad]
   );
@@ -119,7 +119,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative flex items-center overflow-hidden py-10 sm:py-16 md:py-24 lg:py-40 xl:py-48"
+      className="relative flex items-center overflow-hidden py-10 lg:py-16"
     >
       <motion.div
         className="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center"

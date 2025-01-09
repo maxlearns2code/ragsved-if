@@ -65,7 +65,7 @@ const Footer = () => {
   return (
     <motion.footer
       id="contact"
-      className="text-white pt-10 pb-14 md:pt-20"
+      className="text-white pb-10 md:pb-16"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
@@ -139,6 +139,16 @@ const Footer = () => {
                   className="text-secondary hover:underline"
                 >
                   {t("links.korpenStockholmVolleyball")}
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.profixio.com/app/tournaments"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-secondary hover:underline"
+                >
+                  {t("links.profixio")}
                 </a>
               </li>
             </ul>

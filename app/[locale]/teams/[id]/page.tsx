@@ -61,8 +61,8 @@ export default async function TeamPage({ params }: PageProps) {
 
 function ClientTeamPage({ team }: { team: Team }) {
   return (
-    <>
-      <section className="flex flex-col justify-center max-w-4xl mx-auto px-4 py-8 md:py-60">
+    <div className="py-10 lg:py-16">
+      <section className="flex flex-col justify-center max-w-4xl mx-auto px-4 ">
         <h1 className="text-4xl font-bold mb-6">{team.name}</h1>
         <div className="flex flex-col md:flex-row gap-8 mb-8">
           <div className="w-full md:w-1/2">
@@ -82,6 +82,6 @@ function ClientTeamPage({ team }: { team: Team }) {
         </div>
       </section>
       <TeamLogoScroll />
-    </>
+    </div>
   );
 }

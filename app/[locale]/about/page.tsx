@@ -34,7 +34,7 @@ export default async function AboutPage({ params }: PageProps) {
   ];
 
   return (
-    <section id="about" className="py-8 md:py-32">
+    <section id="about" className="py-10 lg:py-16">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center overflow-hidden">
           {t("title")}

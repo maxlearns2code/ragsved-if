@@ -11,23 +11,26 @@ const Banner = () => {
 
   const ballVariants = useMemo(
     () => ({
+      initial: { opacity: 0, x: "-20vw", y: 0, rotate: 0 },
       animate: (i: number) => ({
+        opacity: 1,
         x: ["-20vw", "120vw"],
         y: [0, -25, 0],
         rotate: [0, 360],
         transition: {
-          x: { repeat: Infinity, duration: 20, ease: "linear", delay: i * 4 },
+          opacity: { duration: 0.5, delay: 0.5 + i * 0.1 },
+          x: { repeat: Infinity, duration: 20, ease: "linear", delay: 1 + i * 4 },
           y: {
             repeat: Infinity,
             duration: 1.5,
             ease: "easeInOut",
-            delay: i * 0.4,
+            delay: 1 + i * 0.4,
           },
           rotate: {
             repeat: Infinity,
             duration: 2.5,
             ease: "linear",
-            delay: i * 0.4,
+            delay: 1 + i * 0.4,
           },
         },
       }),
@@ -43,6 +46,7 @@ const Banner = () => {
           className="absolute top-1/2 -translate-y-1/2 text-white"
           custom={i}
           variants={ballVariants}
+          initial="initial"
           animate="animate"
         >
           <FaVolleyballBall size={40} />
@@ -54,7 +58,6 @@ const Banner = () => {
   return (
     <div className="flex justify-center">
       <Link href="mailto:volleyboll@ragsvedsif.org" className="w-full max-w-[1920px]">
-
         <motion.div
           className="bg-secondary py-6 px-8 relative overflow-hidden cursor-pointer group"
           whileHover={{ scale: 1.02 }}

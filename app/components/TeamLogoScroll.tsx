@@ -51,7 +51,7 @@ export default function TeamLogoScroll() {
     <div className="container mx-auto px-2">
       <div
         id="schedule"
-        className="mx-auto overflow-hidden rounded-lg shadow-xl py-10 md:py-20"
+        className="mx-auto overflow-hidden rounded-lg shadow-xl pb-10 md:pb-16"
       >
         <div className="relative">
           <motion.div ref={containerRef} className="flex" animate={controls}>
