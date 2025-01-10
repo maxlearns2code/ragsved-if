@@ -201,5 +201,10 @@
       "korpenStockholmVolleyball": "Korpen Stockholm Volleyboll",
       "profixio": "Profixio"
     }
+  },
+  "NotFound": {
+    "title": "404 - Sidan hittades inte",
+    "description": "Sidan du letar efter finns inte.",
+    "backToHome": "Gå tillbaka till startsidan"
   }
 }

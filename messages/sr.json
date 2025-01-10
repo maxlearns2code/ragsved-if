@@ -201,5 +201,10 @@
       "korpenStockholmVolleyball": "Korpen Stockholm Odbojka",
       "profixio": "Profixio"
     }
+  },
+  "NotFound": {
+    "title": "404 - Страница није пронађена",
+    "description": "Страница коју тражите не постоји.",
+    "backToHome": "Повратак на почетну страницу"
   }
 }
