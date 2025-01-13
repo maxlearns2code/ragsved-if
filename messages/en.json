@@ -75,7 +75,8 @@
     "league": "League",
     "coach": "Coach",
     "captain": "Captain",
-    "currentRank": "Current Rank"
+    "currentRank": "Current Rank",
+    "results": "Results"
   },
   "Teams": {
     "title": "Our Teams",

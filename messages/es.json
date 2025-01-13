@@ -75,7 +75,8 @@
     "league": "Liga",
     "coach": "Entrenador",
     "captain": "Capitán",
-    "currentRank": "Posición actual"
+    "currentRank": "Posición actual",
+    "results": "Resultados"
   },
   "Teams": {
     "title": "Nuestros Equipos",

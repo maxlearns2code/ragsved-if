@@ -47,10 +47,7 @@ const BackToTopButton = () => {
   return (
     <>
       {isVisible && (
-        <button
-          onClick={scrollToTop}
-          className="fixed bottom-0"
-        >
+        <button onClick={scrollToTop} className="fixed bottom-0">
           <FaArrowUp />
         </button>
       )}
@@ -65,7 +62,7 @@ const Footer = () => {
   return (
     <motion.footer
       id="contact"
-      className="text-white pb-10 md:pb-16"
+      className="pb-10 md:pb-16"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
@@ -163,7 +160,7 @@ const Footer = () => {
                 aria-label={t("social.facebookAriaLabel")}
               >
                 <FaFacebook
-                  className="text-white w-6 h-6 hover:text-blue-600"
+                  className="w-6 h-6 hover:text-blue-600"
                   aria-hidden="true"
                 />
               </a>
@@ -174,7 +171,7 @@ const Footer = () => {
                 aria-label={t("social.instagramAriaLabel")}
               >
                 <FaInstagram
-                  className="text-white w-6 h-6 hover:text-pink-500"
+                  className="w-6 h-6 hover:text-pink-500"
                   aria-hidden="true"
                 />
               </a>
@@ -185,7 +182,7 @@ const Footer = () => {
                 aria-label={t("social.twitterAriaLabel")}
               >
                 <FaTwitter
-                  className="text-white w-6 h-6 hover:text-blue-400"
+                  className="w-6 h-6 hover:text-blue-400"
                   aria-hidden="true"
                 />
               </a>

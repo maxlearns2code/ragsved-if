@@ -21,10 +21,7 @@ export default function Teams() {
   const teams: Team[] = t.raw("teams");
 
   return (
-    <section
-      id="teams"
-      className="py-10 lg:py-16 px-4 sm:px-6 lg:px-8"
-    >
+    <section id="teams" className="pb-10 px-4 sm:px-6 lg:px-8">
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
         {t("title")}
       </h2>
@@ -49,7 +46,7 @@ export default function Teams() {
                 <IoInformationCircleOutline className="text-primary text-3xl" />
               </div>
               <div className="absolute inset-0 flex flex-col items-start justify-end p-4 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h3 className="text-white text-xl font-bold">{team.name}</h3>
+                <h3 className="text-xl font-bold">{team.name}</h3>
               </div>
             </div>
           </Link>

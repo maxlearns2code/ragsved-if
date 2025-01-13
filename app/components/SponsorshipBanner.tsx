@@ -19,7 +19,12 @@ const Banner = () => {
         rotate: [0, 360],
         transition: {
           opacity: { duration: 0.5, delay: 0.5 + i * 0.1 },
-          x: { repeat: Infinity, duration: 20, ease: "linear", delay: 1 + i * 4 },
+          x: {
+            repeat: Infinity,
+            duration: 20,
+            ease: "linear",
+            delay: 1 + i * 4,
+          },
           y: {
             repeat: Infinity,
             duration: 1.5,
@@ -43,7 +48,7 @@ const Banner = () => {
       [...Array(5)].map((_, i) => (
         <motion.div
           key={i}
-          className="absolute top-1/2 -translate-y-1/2 text-white"
+          className="absolute top-1/2 -translate-y-1/2"
           custom={i}
           variants={ballVariants}
           initial="initial"
@@ -57,7 +62,7 @@ const Banner = () => {
 
   return (
     <div className="flex justify-center">
-      <Link href="mailto:volleyboll@ragsvedsif.org" className="w-full max-w-[1920px]">
+      <Link href="mailto:volleyboll@ragsvedsif.org" className="w-full">
         <motion.div
           className="bg-secondary py-6 px-8 relative overflow-hidden cursor-pointer group"
           whileHover={{ scale: 1.02 }}

@@ -97,8 +97,8 @@ const Hero = () => {
     () => ({
       mobile: {
         src: "/images/mobile-volleyball-game.webp",
-        width: 400,
-        height: 400,
+        width: 600,
+        height: 800,
       },
       desktop: {
         src: "/images/desktop-volleyball-game.webp",
@@ -149,7 +149,7 @@ const Hero = () => {
               </motion.span>
             </h1>
             <motion.p
-              className="my-6 text-base sm:text-lg md:text-xl lg:text-2xl text-center text-gray-200"
+              className="my-6 text-base sm:text-lg md:text-xl lg:text-2xl text-center"
               variants={itemVariants}
             >
               <span className="block">{descriptions.main.line1}</span>

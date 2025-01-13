@@ -48,7 +48,7 @@ export default function TeamLogoScroll() {
   }, [containerWidth, controls]);
 
   return (
-    <div className="container mx-auto px-2">
+    <div className="py-10">
       <div
         id="schedule"
         className="mx-auto overflow-hidden rounded-lg shadow-xl pb-10 md:pb-16"
@@ -67,7 +67,7 @@ export default function TeamLogoScroll() {
                   height={100}
                   className="px-10 h-16 w-auto"
                 />
-                <p className="text-white text-xs font-bold">
+                <p className="text-xs md:text-base font-bold">
                   {challenger.name}
                 </p>
               </div>

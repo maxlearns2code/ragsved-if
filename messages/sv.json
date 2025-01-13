@@ -75,7 +75,8 @@
     "league": "Liga",
     "coach": "Tränare",
     "captain": "Lagkapten",
-    "currentRank": "Nuvarande ranking"
+    "currentRank": "Nuvarande ranking",
+    "results": "Resultat"
   },
   "Teams": {
     "title": "Våra Lag",

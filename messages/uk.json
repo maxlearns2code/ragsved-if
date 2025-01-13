@@ -75,7 +75,8 @@
     "league": "Ліга",
     "coach": "Тренер",
     "captain": "Капітан",
-    "currentRank": "Поточний рейтинг"
+    "currentRank": "Поточний рейтинг",
+    "results": "Результати"
   },
   "Teams": {
     "title": "Наші Команди",

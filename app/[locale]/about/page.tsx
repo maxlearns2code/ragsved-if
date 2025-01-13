@@ -1,12 +1,14 @@
-import { getTranslations } from "next-intl/server";
 import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import AnimatedTimelineSection from "../../components/AnimatedTimelineSection";
 
 type PageProps = {
   params: Promise<{ locale: string }>;
 };
 
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Metadata" });
 
@@ -36,9 +38,9 @@ export default async function AboutPage({ params }: PageProps) {
   return (
     <section id="about" className="py-10 lg:py-16">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center overflow-hidden">
+        <h1 className="text-3xl md:text-4xl font-bold mb-8 text-center overflow-hidden">
           {t("title")}
-        </h2>
+        </h1>
 
         <div className="relative max-w-5xl mx-auto">
           <div

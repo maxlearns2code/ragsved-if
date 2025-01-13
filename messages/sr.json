@@ -75,7 +75,8 @@
     "league": "Liga",
     "coach": "Trener",
     "captain": "Kapiten",
-    "currentRank": "Trenutna pozicija"
+    "currentRank": "Trenutna pozicija",
+    "results": "Rezultati"
   },
   "Teams": {
     "title": "Naši timovi",

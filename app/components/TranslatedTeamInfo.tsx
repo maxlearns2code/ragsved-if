@@ -18,25 +18,27 @@ export default function TranslatedTeamInfo({ team }: TeamInfoProps) {
 
   return (
     <div>
-      <h2 className="text-2xl font-semibold mb-4">{t("quickFacts")}</h2>
-      <ul className="space-y-2">
+      <h2 className="text-2xl font-semibold mb-4 text-center ">
+        {t("quickFacts")}
+      </h2>
+      <ul className="space-y-2 text-center mb-4">
         <li>
-          <span className="font-medium">{t("league")}:</span>{" "}
-          <Link href={team.championship} passHref>
-            <button className="w-auto">{team.league}</button>
-          </Link>
+          <span className="font-semibold">{t("league")}:</span> {team.league}
         </li>
         <li>
-          <span className="font-medium">{t("coach")}:</span> {team.coach}
+          <span className="font-semibold">{t("coach")}:</span> {team.coach}
         </li>
         <li>
-          <span className="font-medium">{t("captain")}:</span> {team.captain}
+          <span className="font-semibold">{t("captain")}:</span> {team.captain}
         </li>
         <li>
-          <span className="font-medium">{t("currentRank")}:</span>{" "}
+          <span className="font-semibold">{t("currentRank")}:</span>{" "}
           {team.currentRank}
         </li>
       </ul>
+      <Link href={team.championship}>
+        <button className="">{t("results")}</button>
+      </Link>
     </div>
   );
 }

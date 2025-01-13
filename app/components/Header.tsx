@@ -56,7 +56,7 @@ const Header = () => {
   return (
     <>
       <header
-        className={`text-white sticky top-0 z-50 bg-primary shadow-sm shadow-secondary transition-all duration-500 ${
+        className={`sticky top-0 z-50 bg-primary shadow-sm shadow-secondary transition-all duration-500 ${
           scrollDirection === "down" && !isMenuOpen
             ? "-translate-y-full"
             : "translate-y-0"
@@ -76,7 +76,9 @@ const Header = () => {
                 height={50}
                 priority
               />
-              <span className="ml-2 text-lg font-semibold hidden sm:inline">{t("clubName")}</span>
+              <span className="ml-2 text-lg font-semibold hidden sm:inline">
+                {t("clubName")}
+              </span>
             </Link>
             <div className="hidden md:flex md:items-center md:space-x-4">
               <ul className="flex space-x-4 text-lg">
