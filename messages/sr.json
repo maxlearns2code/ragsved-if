@@ -1,14 +1,16 @@
 {
   "Metadata": {
-    "title": "RIF Odbojka - Novi visovi od 2024",
-    "description": "RIF Odbojka, osnovana 2024. godine, nastavlja nasleđe Rågsved IF-a od 1958. Pridružite se našoj strastvenoj odbojkaškoj zajednici u oblasti Stokholma.",
-    "keywords": "RIF odbojka,odbojkaški tim,odbojkaški klub,sportska zajednica,odbojka 2024,takmičarska odbojka,Stokholm odbojka,Rågsved IF 1958",
-    "ogTitle": "RIF Odbojka - Novi visovi od 2024",
-    "ogDescription": "Pridružite se RIF Odbojci u Stokholmu - gradimo na nasleđu našeg kluba od 1958.",
-    "ogImageAlt": "RIF Klupski logo",
-    "siteName": "RIF Odbojka"
+    "title": "Rågsveds IF Odbojka Stokholm - Sanjaj veliko, igraj snažno",
+    "description": "Rågsveds IF Odbojka, osnovana 2024. godine, nastavlja nasleđe Rågsved IF-a od 1958. Pridružite se našem strastvenom odbojkaškom klubu u oblasti Stokholma.",
+    "keywords": "Rågsveds IF odbojka,odbojkaški tim,odbojkaški klub,Treća divizija odbojke,sportska zajednica,odbojka 2024,takmičarska odbojka,Stokholm odbojka,Rågsved IF 1958,odbojkaški snovi",
+    "ogTitle": "Rågsveds IF Odbojka - Oslobodite svoj potencijal u Stokholmu",
+    "ogDescription": "Postanite deo našeg energičnog tima Treće divizije dok ciljamo na Drugu diviziju. Sanjajte veliko i igrajte snažno sa Rågsveds IF Odbojkom!",
+    "ogImageAlt": "Logo kluba Rågsveds IF",
+    "siteName": "Rågsveds IF Odbojka",
+    "lang": "sr"
   },
   "Header": {
+    "clubName": "Odbojkaški klub",
     "home": "Početna",
     "about": "O nama",
     "teams": "Timovi",
@@ -16,7 +18,7 @@
     "news": "Vesti",
     "contact": "Kontakt",
     "homeAriaLabel": "Nazad na početnu",
-    "logoAlt": "RIF Odbojka Logo",
+    "logoAlt": "Rågsveds IF Odbojka Logo",
     "openMenuAriaLabel": "Otvori meni",
     "closeMenuAriaLabel": "Zatvori meni"
   },

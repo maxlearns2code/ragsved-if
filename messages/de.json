@@ -1,18 +1,20 @@
 {
   "Metadata": {
-    "title": "RIF Volleyball - Neue Höhen seit 2024",
-    "description": "RIF Volleyball, gegründet 2024, führt das Vermächtnis von Rågsved IF seit 1958 fort. Werden Sie Teil unserer leidenschaftlichen Volleyball-Gemeinschaft im Raum Stockholm.",
-    "keywords": "RIF Volleyball,Volleyballteam,Volleyballverein,Sportgemeinschaft,Volleyball 2024,Wettkampfvolleyball,Stockholm Volleyball,Rågsved IF 1958",
-    "ogTitle": "RIF Volleyball - Neue Höhen seit 2024",
-    "ogDescription": "Schließen Sie sich RIF Volleyball in Stockholm an - wir bauen auf unser Vereinserbe seit 1958.",
-    "ogImageAlt": "RIF Vereinslogo",
-    "siteName": "RIF Volleyball"
+    "title": "Rågsveds IF Volleyball Stockholm - Träume groß, spiele hart",
+    "description": "Rågsveds IF Volleyball, gegründet 2024, setzt das Erbe von Rågsved IF seit 1958 fort. Treten Sie unserem leidenschaftlichen Volleyballclub im Großraum Stockholm bei.",
+    "keywords": "Rågsveds IF Volleyball,Volleyballteam,Volleyballclub,Division 3 Volleyball,Sportgemeinschaft,Volleyball 2024,Wettkampfvolleyball,Stockholm Volleyball,Rågsved IF 1958,Volleyballträume",
+    "ogTitle": "Rågsveds IF Volleyball - Entfalte dein Potenzial in Stockholm",
+    "ogDescription": "Werden Sie Teil unseres energiegeladenen Division 3-Teams, während wir die Division 2 anstreben. Träumen Sie groß und spielen Sie hart mit Rågsveds IF Volleyball!",
+    "ogImageAlt": "Rågsveds IF Clublogo",
+    "siteName": "Rågsveds IF Volleyball",
+    "lang": "de"
   },
   "Banner": {
     "message": "Steigern Sie Ihre Markensichtbarkeit!",
     "callToAction": "Jetzt mitmachen →"
   },
   "Header": {
+    "clubName": "Volleyballverein",
     "home": "Startseite",
     "about": "Über uns",
     "teams": "Mannschaften",
@@ -20,7 +22,7 @@
     "news": "Neuigkeiten",
     "contact": "Kontakt",
     "homeAriaLabel": "Zurück zur Startseite",
-    "logoAlt": "RIF Volleyball Logo",
+    "logoAlt": "Rågsveds IF Volleyball Logo",
     "openMenuAriaLabel": "Menü öffnen",
     "closeMenuAriaLabel": "Menü schließen"
   },

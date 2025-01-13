@@ -1,14 +1,16 @@
 {
   "Metadata": {
-    "title": "RIF Volleyball - Nya höjder sedan 2024",
-    "description": "RIF Volleyball, grundat 2024, fortsätter arvet från Rågsved IF sedan 1958. Gå med i vår passionerade volleybollgemenskap i Stockholmsområdet.",
-    "keywords": "RIF volleyboll,volleybollag,volleybollklubb,sportgemenskap,volleyboll 2024,tävlingsvolleyboll,Stockholm volleyboll,Rågsved IF 1958",
-    "ogTitle": "RIF Volleyball - Nya höjder sedan 2024",
-    "ogDescription": "Gå med i RIF Volleyball i Stockholm - bygger vidare på vår klubbs arv sedan 1958.",
-    "ogImageAlt": "RIF Klubblogotyp",
-    "siteName": "RIF Volleyball"
+    "title": "Rågsveds IF Volleyboll Stockholm - Drömma stort, spela hårt",
+    "description": "Rågsveds IF Volleyboll, grundat 2024, fortsätter arvet från Rågsved IF sedan 1958. Gå med i vår passionerade volleybollklubb i Stockholmsområdet.",
+    "keywords": "Rågsveds IF volleyboll,volleybollag,volleybollklubb,Division 3 volleyboll,sportgemenskap,volleyboll 2024,tävlingsvolleyboll,Stockholm volleyboll,Rågsved IF 1958,volleybolldrömmar",
+    "ogTitle": "Rågsveds IF Volleyboll - Frigör din potential i Stockholm",
+    "ogDescription": "Bli en del av vårt energiska Division 3-lag när vi siktar mot Division 2. Drömma stort och spela hårt med Rågsveds IF Volleyboll!",
+    "ogImageAlt": "Rågsveds IF Klubblogotyp",
+    "siteName": "Rågsveds IF Volleyboll",
+    "lang": "sv"
   },
   "Header": {
+    "clubName": "Volleybollklubb",
     "home": "Hem",
     "about": "Om oss",
     "teams": "Lag",
@@ -16,7 +18,7 @@
     "news": "Nyheter",
     "contact": "Kontakt",
     "homeAriaLabel": "Tillbaka till startsidan",
-    "logoAlt": "RIF Volleyboll Logotyp",
+    "logoAlt": "Rågsveds IF Volleyboll Logotyp",
     "openMenuAriaLabel": "Öppna meny",
     "closeMenuAriaLabel": "Stäng meny"
   },

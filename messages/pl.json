@@ -1,14 +1,16 @@
 {
   "Metadata": {
-    "title": "RIF Volleyball - Nowe wyżyny od 2024 roku",
-    "description": "RIF Volleyball, założony w 2024 roku, kontynuuje dziedzictwo Rågsved IF od 1958 roku. Dołącz do naszej pełnej pasji społeczności siatkarskiej w obszarze Sztokholmu.",
-    "keywords": "RIF siatkówka,drużyna siatkówki,klub siatkarski,społeczność sportowa,siatkówka 2024,siatkówka wyczynowa,siatkówka Sztokholm,Rågsved IF 1958",
-    "ogTitle": "RIF Volleyball - Nowe wyżyny od 2024 roku",
-    "ogDescription": "Dołącz do RIF Volleyball w Sztokholmie - budujemy na dziedzictwie naszego klubu od 1958 roku.",
-    "ogImageAlt": "Logo klubu RIF",
-    "siteName": "RIF Volleyball"
+    "title": "Rågsveds IF Siatkówka Sztokholm - Marz odważnie, graj z pasją",
+    "description": "Rågsveds IF Siatkówka, założona w 2024 roku, kontynuuje dziedzictwo Rågsved IF od 1958 roku. Dołącz do naszego pełnego pasji klubu siatkarskiego w regionie Sztokholmu.",
+    "keywords": "Rågsveds IF siatkówka,drużyna siatkarska,klub siatkarski,III liga siatkówki,społeczność sportowa,siatkówka 2024,siatkówka wyczynowa,Sztokholm siatkówka,Rågsved IF 1958,marzenia siatkarskie",
+    "ogTitle": "Rågsveds IF Siatkówka - Uwolnij swój potencjał w Sztokholmie",
+    "ogDescription": "Dołącz do naszej energicznej drużyny III ligi, gdy dążymy do II ligi. Marz odważnie i graj z pasją z Rågsveds IF Siatkówka!",
+    "ogImageAlt": "Logo klubu Rågsveds IF",
+    "siteName": "Rågsveds IF Siatkówka",
+    "lang": "pl"
   },
   "Header": {
+    "clubName": "Klub Siatkówki",
     "home": "Strona główna",
     "about": "O nas",
     "teams": "Drużyny",
@@ -16,7 +18,7 @@
     "news": "Aktualności",
     "contact": "Kontakt",
     "homeAriaLabel": "Powrót do strony głównej",
-    "logoAlt": "Logo RIF Siatkówka",
+    "logoAlt": "Logo Rågsveds IF Siatkówka",
     "openMenuAriaLabel": "Otwórz menu",
     "closeMenuAriaLabel": "Zamknij menu"
   },

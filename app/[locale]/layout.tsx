@@ -43,7 +43,7 @@ export async function generateMetadata({
           alt: t("ogImageAlt"),
         },
       ],
-      locale,
+      locale: t("lang"),
       type: "website",
       siteName: t("siteName"),
     },

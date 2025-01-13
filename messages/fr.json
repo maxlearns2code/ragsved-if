@@ -1,14 +1,16 @@
 {
   "Metadata": {
-    "title": "RIF Volleyball - Nouveaux sommets depuis 2024",
-    "description": "RIF Volleyball, fondé en 2024, poursuit l'héritage de Rågsved IF depuis 1958. Rejoignez notre communauté passionnée de volleyball dans la région de Stockholm.",
-    "keywords": "RIF volleyball,équipe de volleyball,club de volleyball,communauté sportive,volleyball 2024,volleyball compétitif,volleyball Stockholm,Rågsved IF 1958",
-    "ogTitle": "RIF Volleyball - Nouveaux sommets depuis 2024",
-    "ogDescription": "Rejoignez RIF Volleyball à Stockholm - bâtissant sur l'héritage de notre club depuis 1958.",
-    "ogImageAlt": "Logo du club RIF",
-    "siteName": "RIF Volleyball"
+    "title": "Rågsveds IF Volleyball Stockholm - Rêvez grand, jouez fort",
+    "description": "Rågsveds IF Volleyball, fondé en 2024, poursuit l'héritage de Rågsved IF depuis 1958. Rejoignez notre club de volleyball passionné dans la région de Stockholm.",
+    "keywords": "Rågsveds IF volleyball,équipe de volleyball,club de volleyball,volleyball Division 3,communauté sportive,volleyball 2024,volleyball compétitif,volleyball Stockholm,Rågsved IF 1958,rêves de volleyball",
+    "ogTitle": "Rågsveds IF Volleyball - Libérez votre potentiel à Stockholm",
+    "ogDescription": "Rejoignez notre équipe énergique de Division 3 alors que nous visons la Division 2. Rêvez grand et jouez fort avec Rågsveds IF Volleyball !",
+    "ogImageAlt": "Logo du club Rågsveds IF",
+    "siteName": "Rågsveds IF Volleyball",
+    "lang": "fr"
   },
   "Header": {
+    "clubName": "Club de Volley-ball",
     "home": "Accueil",
     "about": "À propos",
     "teams": "Équipes",
@@ -16,7 +18,7 @@
     "news": "Actualités",
     "contact": "Contact",
     "homeAriaLabel": "Retour à l'accueil",
-    "logoAlt": "Logo RIF Volleyball",
+    "logoAlt": "Logo Rågsveds IF Volleyball",
     "openMenuAriaLabel": "Ouvrir le menu",
     "closeMenuAriaLabel": "Fermer le menu"
   },

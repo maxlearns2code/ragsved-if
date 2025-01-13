@@ -62,11 +62,11 @@ const Header = () => {
             : "translate-y-0"
         }`}
       >
-        <nav className="container mx-auto px-4 py-3">
+        <nav className="container mx-auto px-4 py-3 md:py-4">
           <div className="flex justify-between items-center">
             <Link
               href={`/${locale}`}
-              className="text-2xl font-bold z-50 relative"
+              className="text-2xl font-bold z-50 relative flex items-center"
               aria-label={t("homeAriaLabel")}
             >
               <Image
@@ -76,6 +76,7 @@ const Header = () => {
                 height={50}
                 priority
               />
+              <span className="ml-2 text-lg font-semibold hidden sm:inline">{t("clubName")}</span>
             </Link>
             <div className="hidden md:flex md:items-center md:space-x-4">
               <ul className="flex space-x-4 text-lg">
