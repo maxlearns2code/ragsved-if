@@ -31,7 +31,11 @@
       "line1": "Marz odważnie, graj mocno",
       "line2": "Uwolnij swój potencjał"
     },
-    "description": "Dołącz do naszego zaangażowanego zespołu, który wnosi energię i emocje do Dywizji 3! Wierzymy w ciężką pracę i siłę marzeń. Razem osiągniemy nowe szczyty i będziemy dążyć do Dywizji 2!",
+    "description": {
+      "line1": "Dołącz do naszego oddanego zespołu, który przynosi energię i ekscytację do Dywizji 3!",
+      "line2": "Wierzymy w ciężką pracę i moc marzeń.",
+      "line3": "Razem będziemy wspierać się nawzajem, osiągać nowe szczyty i kierować nasze spojrzenie na Dywizję 2!"
+    },
     "aboutButton": "O Nas",
     "scheduleButton": "Zobacz harmonogram",
     "imageAlt": "Mecz siatkówki w akcji"

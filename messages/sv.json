@@ -31,7 +31,11 @@
       "line1": "Dröm stort, spela hårt",
       "line2": "Släpp lös din potential"
     },
-    "description": "Bli en del av vårt engagerade lag när vi tar energi och spänning till Division 3! Vi tror på hårt arbete och kraften i drömmar. Vi stöttar varandra för att nå nya höjder och siktar mot Division 2!",
+    "description": {
+      "line1": "Bli en del av vårt engagerade team när vi tillför energi och spänning till Division 3!",
+      "line2": "Vi tror på hårt arbete och drömmarnas kraft.",
+      "line3": "Tillsammans stöttar vi varandra för att nå nya höjder och sikta mot Division 2!"
+    },
     "aboutButton": "Om Oss",
     "scheduleButton": "Visa schema",
     "imageAlt": "Volleybollmatch i aktion"

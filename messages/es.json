@@ -31,7 +31,11 @@
       "line1": "Sueña en grande, juega duro",
       "line2": "Libera tu potencial"
     },
-    "description": "Sé parte de nuestro equipo dedicado mientras llevamos energía y emoción a la División 3. Creemos en el trabajo duro y en el poder de los sueños. ¡Juntos nos apoyaremos para alcanzar nuevas alturas y aspirar a la División 2!",
+    "description": {
+      "line1": "¡Únete a nuestro equipo dedicado mientras traemos energía y emoción a la División 3!",
+      "line2": "Creemos en el trabajo duro y el poder de los sueños.",
+      "line3": "¡Juntos, nos apoyaremos mutuamente para alcanzar nuevas alturas y poner nuestra mira en la División 2!"
+    },
     "aboutButton": "Sobre Nosotros",
     "scheduleButton": "Ver calendario",
     "imageAlt": "Partido de voleibol en acción"

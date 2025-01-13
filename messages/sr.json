@@ -31,7 +31,11 @@
       "line1": "Sanjaj veliko, igraj snažno",
       "line2": "Oslobodi svoj potencijal"
     },
-    "description": "Postani deo našeg posvećenog tima dok unosimo energiju i uzbuđenje u Treću ligu! Verujemo u naporan rad i snagu snova. Zajedno ćemo podržavati jedni druge u dostizanju novih visina i usmeravanju ka Drugoj ligi!",
+    "description": {
+      "line1": "Pridružite se strastvenom timu i zajedno donesimo energiju i uzbuđenje Trećoj diviziji!",
+      "line2": "Verujemo u teški rad i moć snova.",
+      "line3": "Zajedno ćemo se međusobno podržavati kako bismo dostigli nove visine i ciljali na Drugu diviziju!"
+    },
     "aboutButton": "O nama",
     "scheduleButton": "Pogledaj raspored",
     "imageAlt": "Odbojkaška utakmica u akciji"

@@ -31,7 +31,11 @@
       "line1": "Rêvez grand, jouez fort",
       "line2": "Libérez votre potentiel"
     },
-    "description": "Rejoignez une équipe passionnée et apportons ensemble énergie et enthousiasme à la Division 3 ! Nous croyons au pouvoir du travail acharné et des rêves. Ensemble, nous nous soutiendrons pour atteindre de nouveaux sommets et viser la Division 2 !",
+    "description": {
+      "line1": "Rejoignez une équipe passionnée et apportons ensemble énergie et enthousiasme à la Division 3 !",
+      "line2": "Nous croyons au travail acharné et au pouvoir des rêves.",
+      "line3": "Ensemble, nous nous soutiendrons mutuellement pour atteindre de nouveaux sommets et viser la Division 2 !"
+    },
     "aboutButton": "À Propos de Nous",
     "scheduleButton": "Voir le calendrier",
     "imageAlt": "Match de volley-ball en action"

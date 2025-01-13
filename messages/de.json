@@ -31,7 +31,11 @@
       "line1": "Groß träumen, hart spielen",
       "line2": "Entfessele dein Potenzial"
     },
-    "description": "Werde Teil unseres engagierten Teams, während wir Energie und Spannung in die 3. Division bringen! Wir glauben an harte Arbeit und die Kraft der Träume. Gemeinsam unterstützen wir uns gegenseitig dabei, neue Höhen zu erreichen und unseren Blick auf die 2. Division zu richten!",
+    "description": {
+      "line1": "Werden Sie Teil unseres engagierten Teams, während wir Energie und Spannung in die 3. Division bringen!",
+      "line2": "Wir glauben an harte Arbeit und die Kraft der Träume.",
+      "line3": "Gemeinsam werden wir uns gegenseitig unterstützen, um neue Höhen zu erreichen und die 2. Division ins Visier zu nehmen!"
+    },
     "aboutButton": "Über uns",
     "scheduleButton": "Spielplan ansehen",
     "imageAlt": "Volleyballspiel in Aktion"

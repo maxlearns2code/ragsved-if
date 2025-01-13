@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
-import Image from "next/image";
 import Link from "next/link";
 import { useCallback, useMemo, useState } from "react";
 
@@ -12,7 +11,11 @@ interface TitleContent {
 }
 
 interface Descriptions {
-  main: string;
+  main: {
+    line1: string;
+    line2: string;
+    line3: string;
+  };
   imageAlt: string;
   buttons: {
     about: string;
@@ -58,21 +61,6 @@ const Hero = () => {
     []
   );
 
-  const imageVariants = useMemo(
-    () => ({
-      hidden: { opacity: 0, scale: 0.8 },
-      visible: {
-        opacity: 1,
-        scale: 1,
-        transition: {
-          duration: 0.6,
-          ease: "easeOut",
-        },
-      },
-    }),
-    []
-  );
-
   const buttonAnimations = useMemo(
     () => ({
       whileHover: { scale: 1.05 },
@@ -91,7 +79,11 @@ const Hero = () => {
 
   const descriptions: Descriptions = useMemo(
     () => ({
-      main: t("description"),
+      main: {
+        line1: t("description.line1"),
+        line2: t("description.line2"),
+        line3: t("description.line3"),
+      },
       imageAlt: t("imageAlt"),
       buttons: {
         about: t("aboutButton"),
@@ -103,10 +95,17 @@ const Hero = () => {
 
   const imageProps = useMemo(
     () => ({
-      src: "/images/volleyball-game.webp",
-      width: 756,
-      height: 756,
-      style: { width: '100%', height: 'auto' },
+      mobile: {
+        src: "/images/mobile-volleyball-game.webp",
+        width: 400,
+        height: 400,
+      },
+      desktop: {
+        src: "/images/desktop-volleyball-game.webp",
+        width: 1920,
+        height: 1542,
+      },
+      style: { width: "100%", height: "auto" },
       className: `rounded-lg shadow-xl ${
         isImageLoaded ? "opacity-100" : "opacity-0"
       }`,
@@ -119,20 +118,26 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative flex items-center overflow-hidden py-10 lg:py-16"
+      className="min-h-[calc(100vh-76px)] relative flex items-center overflow-hidden bg-cover bg-center"
+      style={{
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('${imageProps.mobile.src}')`,
+      }}
     >
+      <div
+        className="absolute inset-0 bg-cover bg-center hidden lg:block"
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('${imageProps.desktop.src}')`,
+        }}
+      ></div>
       <motion.div
-        className="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center"
+        className="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center relative z-10"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
       >
         <div className="flex flex-col lg:flex-row items-center w-full">
-          <motion.div
-            className="w-full lg:w-1/2 xl:pl-5 mb-10 lg:mb-0"
-            variants={itemVariants}
-          >
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold py-2 mb-4 text-white text-center lg:text-left overflow-hidden">
+          <motion.div className="w-full mb-10 lg:mb-0" variants={itemVariants}>
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold text-center overflow-hidden">
               <motion.span className="block" variants={itemVariants}>
                 {titleContent.line1}
               </motion.span>
@@ -144,34 +149,28 @@ const Hero = () => {
               </motion.span>
             </h1>
             <motion.p
-              className="my-3 mb-6 md:mb-3 text-base sm:text-lg md:text-xl text-center lg:text-left"
+              className="my-6 text-base sm:text-lg md:text-xl lg:text-2xl text-center text-gray-200"
               variants={itemVariants}
             >
-              {descriptions.main}
+              <span className="block">{descriptions.main.line1}</span>
+              <span className="block">{descriptions.main.line2}</span>
+              <span className="block">{descriptions.main.line3}</span>
             </motion.p>
             <motion.div
-              className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-3 sm:space-y-0 sm:space-x-4"
+              className="flex flex-col sm:flex-row justify-center space-y-3 sm:space-y-0 sm:space-x-4"
               variants={itemVariants}
             >
               <Link href={`/${locale}/about`} className="w-full sm:w-auto">
-                <motion.button {...buttonAnimations}>
+                <motion.button {...buttonAnimations} className="bg-primary">
                   {descriptions.buttons.about}
                 </motion.button>
               </Link>
               <Link href={`/${locale}/#schedule`} className="w-full sm:w-auto">
-                <motion.button {...buttonAnimations}>
+                <motion.button {...buttonAnimations} className="bg-primary">
                   {descriptions.buttons.schedule}
                 </motion.button>
               </Link>
             </motion.div>
-          </motion.div>
-          <motion.div
-            className="w-full lg:w-1/2 flex justify-center items-center"
-            variants={imageVariants}
-          >
-            <div className="relative w-full max-w-md lg:max-w-lg xl:max-w-xl aspect-video">
-              <Image alt={descriptions.imageAlt} {...imageProps} />
-            </div>
           </motion.div>
         </div>
       </motion.div>
