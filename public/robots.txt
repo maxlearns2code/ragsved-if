@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ragsvedsif-vk.vercel.app
+
+# Sitemaps
+Sitemap: https://ragsvedsif-vk.vercel.app/sitemap.xml
