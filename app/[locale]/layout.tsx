@@ -50,6 +50,14 @@ export async function generateMetadata({
     verification: {
       google: "_2bNW27babNrR6fU8FPvcDOHZq-VSXmAm99vbV8W7sE",
     },
+    metadataBase: new URL("https://ragsvedsif-vk.vercel.app"),
+    applicationName: t("siteName"),
+    formatDetection: {
+      telephone: false,
+    },
+    other: {
+      "google-site-verification": "_2bNW27babNrR6fU8FPvcDOHZq-VSXmAm99vbV8W7sE",
+    },
   };
 }
 
