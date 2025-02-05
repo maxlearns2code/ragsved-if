@@ -1,7 +1,12 @@
+
+
 import { motion } from "framer-motion";
 import Link from "next/link";
 import React from "react";
 import LanguageSwitcher from "./LanguageSwitcher";
+import { FaInstagram } from "react-icons/fa";
+import { useTranslations } from 'next-intl';
+
 
 interface MobileMenuProps {
   setIsMenuOpen: (isOpen: boolean) => void;
@@ -9,6 +14,8 @@ interface MobileMenuProps {
 }
 
 const MobileMenu: React.FC<MobileMenuProps> = ({ setIsMenuOpen, navItems }) => {
+  const t = useTranslations('Footer');
+
   const menuVariants = {
     closed: { opacity: 0, x: "-100%" },
     open: { opacity: 1, x: 0 },
@@ -40,8 +47,22 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ setIsMenuOpen, navItems }) => {
             </Link>
           </motion.li>
         ))}
+        <motion.li
+          variants={linkVariants}
+          transition={{ delay: 0.1 * navItems.length }}
+        >
+          <a
+            href="https://www.instagram.com/ragsvedsif_volleybollherr?igsh=NDV4Z2prMWx3cGkw"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={t("social.instagramAriaLabel")}
+            className="flex items-center justify-center space-x-2 text-4xl hover:text-secondary transition-colors duration-300"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            <FaInstagram aria-hidden="true"  />
+          </a>
+        </motion.li>
       </ul>
-
       <motion.div
         className="w-full px-4 mt-8"
         variants={linkVariants}

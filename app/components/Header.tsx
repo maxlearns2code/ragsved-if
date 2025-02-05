@@ -5,13 +5,14 @@ import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaInstagram, FaTimes } from "react-icons/fa";
 import LanguageSwitcher from "./LanguageSwitcher";
 
 const MobileMenu = dynamic(() => import("./MobileMenu"), { ssr: false });
 
 const Header = () => {
   const t = useTranslations("Header");
+  const tbis = useTranslations("Footer");
   const locale = useLocale();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrollDirection, setScrollDirection] = useState("up");
@@ -46,7 +47,6 @@ const Header = () => {
       { href: `/${locale}`, label: t("home") },
       { href: `/${locale}/about`, label: t("about") },
       { href: `/${locale}/#teams`, label: t("teams") },
-      { href: `/${locale}/#schedule`, label: t("schedule") },
       { href: `/${locale}/#news`, label: t("news") },
       { href: `/${locale}/#contact`, label: t("contact") },
     ],
@@ -76,7 +76,7 @@ const Header = () => {
                 height={50}
                 priority
               />
-              <span className="ml-2 text-lg font-semibold hidden sm:inline">
+              <span className="ml-2 text-xl font-semibold">
                 {t("clubName")}
               </span>
             </Link>
@@ -88,10 +88,19 @@ const Header = () => {
                   </li>
                 ))}
               </ul>
+              <a
+                href="https://www.instagram.com/ragsvedsif_volleybollherr?igsh=NDV4Z2prMWx3cGkw"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={tbis("social.instagramAriaLabel")}
+                className="text-3xl hover:text-secondary transition-colors duration-300"
+              >
+                <FaInstagram aria-hidden="true" />
+              </a>
               <LanguageSwitcher />
             </div>
             <button
-              className="md:hidden z-50 relative text-2xl w-auto"
+              className="md:hidden z-50 relative text-xl w-auto"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               aria-label={
                 isMenuOpen ? t("closeMenuAriaLabel") : t("openMenuAriaLabel")
