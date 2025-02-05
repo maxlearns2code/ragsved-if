@@ -192,21 +192,19 @@
     "contact": {
       "contactUs": "Kontaktieren Sie uns",
       "address": "Adresse",
-      "phone": "Telefon",
       "email": "E-Mail"
     },
     "social": {
-      "followUs": "Folgen Sie uns",
-      "facebookAriaLabel": "Besuchen Sie unsere Facebook-Seite",
-      "instagramAriaLabel": "Folgen Sie uns auf Instagram",
-      "twitterAriaLabel": "Folgen Sie uns auf Twitter"
+      "followUs": "Folgen Sie uns",      
+      "instagramAriaLabel": "Folgen Sie uns auf Instagram"      
     },
     "links": {
       "usefulLinks": "Nützliche Links",
       "swedishVolleyballFederation": "Schwedischer Volleyballverband",
-      "ragsvedIF": "Rågsved IF",
+      "ragsvedIF": "Rågsved IF Volleyball",
       "korpenStockholmVolleyball": "Korpen Stockholm Volleyball",
-      "profixio": "Profixio"
+      "profixio": "Profixio Volleyball",
+      "sportadmin": "SportAdmin Volleyball"
     }
   },
   "NotFound": {

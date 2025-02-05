@@ -192,21 +192,19 @@
     "contact": {
       "contactUs": "Kontaktirajte nas",
       "address": "Adresa",
-      "phone": "Telefon",
       "email": "E-pošta"
     },
     "social": {
       "followUs": "Pratite nas",
-      "facebookAriaLabel": "Posetite našu Facebook stranicu",
-      "instagramAriaLabel": "Pratite nas na Instagramu",
-      "twitterAriaLabel": "Pratite nas na Twitteru"
+      "instagramAriaLabel": "Pratite nas na Instagramu"
     },
     "links": {
       "usefulLinks": "Korisni linkovi",
       "swedishVolleyballFederation": "Švedski odbojkaški savez",
-      "ragsvedIF": "Rågsved IF",
+      "ragsvedIF": "Rågsved IF Odbojka",
       "korpenStockholmVolleyball": "Korpen Stockholm Odbojka",
-      "profixio": "Profixio"
+      "profixio": "Profixio Odbojka",
+      "sportadmin": "SportAdmin Odbojka"
     }
   },
   "NotFound": {

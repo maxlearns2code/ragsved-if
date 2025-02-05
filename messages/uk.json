@@ -192,21 +192,19 @@
     "contact": {
       "contactUs": "Зв'яжіться з нами",
       "address": "Адреса",
-      "phone": "Телефон",
       "email": "Електронна пошта"
     },
     "social": {
       "followUs": "Слідкуйте за нами",
-      "facebookAriaLabel": "Відвідайте нашу сторінку у Facebook",
-      "instagramAriaLabel": "Слідкуйте за нами в Instagram",
-      "twitterAriaLabel": "Слідкуйте за нами у Twitter"
+      "instagramAriaLabel": "Слідкуйте за нами в Instagram"
     },
     "links": {
       "usefulLinks": "Корисні посилання",
       "swedishVolleyballFederation": "Шведська федерація волейболу",
-      "ragsvedIF": "Rågsved IF",
+      "ragsvedIF": "Rågsved IF Волейбол",
       "korpenStockholmVolleyball": "Korpen Stockholm Волейбол",
-      "profixio": "Profixio"
+      "profixio": "Profixio Волейбол",
+      "sportadmin": "SportAdmin Волейбол"
     }
   },
   "NotFound": {

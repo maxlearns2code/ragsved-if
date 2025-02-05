@@ -192,21 +192,19 @@
     "contact": {
       "contactUs": "Skontaktuj się z nami",
       "address": "Adres",
-      "phone": "Telefon",
       "email": "E-mail"
     },
     "social": {
       "followUs": "Obserwuj nas",
-      "facebookAriaLabel": "Odwiedź naszą stronę na Facebooku",
-      "instagramAriaLabel": "Obserwuj nas na Instagramie",
-      "twitterAriaLabel": "Obserwuj nas na Twitterze"
+      "instagramAriaLabel": "Obserwuj nas na Instagramie"
     },
     "links": {
       "usefulLinks": "Przydatne linki",
       "swedishVolleyballFederation": "Szwedzka Federacja Siatkówki",
-      "ragsvedIF": "Rågsved IF",
+      "ragsvedIF": "Rågsved IF Siatkówka",
       "korpenStockholmVolleyball": "Korpen Stockholm Siatkówka",
-      "profixio": "Profixio"
+      "profixio": "Profixio Siatkówka",
+      "sportadmin": "SportAdmin Siatkówka"
     }
   },
   "NotFound": {

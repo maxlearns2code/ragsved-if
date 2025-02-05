@@ -7,14 +7,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-const FaFacebook = dynamic(() =>
-  import("react-icons/fa").then((mod) => mod.FaFacebook)
-);
 const FaInstagram = dynamic(() =>
   import("react-icons/fa").then((mod) => mod.FaInstagram)
-);
-const FaTwitter = dynamic(() =>
-  import("react-icons/fa").then((mod) => mod.FaTwitter)
 );
 const FaArrowUp = dynamic(() =>
   import("react-icons/fa").then((mod) => mod.FaArrowUp)
@@ -85,35 +79,29 @@ const Footer = () => {
             </Link>
           </div>
           <address className="text-center not-italic">
-            <h3 className="font-semibold mb-2">{t("contact.contactUs")}</h3>
-            <p className="text-sm">
-              {t("contact.address")}: Trollesundsvägen 47, 124 34 Bandhagen
+            <h3 className="text-lg font-semibold mb-4">{t("contact.contactUs")}</h3>
+            <p className="mb-2">
+              {t("contact.address")}: Trollesundsvägen 47, <br />124 34 Bandhagen
             </p>
-            <p className="text-sm">
-              {t("contact.phone")}:{" "}
-              <a href="tel:+460707356835" className="hover:underline">
-                (+46) 0707356835
-              </a>
-            </p>
-            <p className="text-sm">
+            <p>
               {t("contact.email")}:{" "}
               <a
                 href="mailto:volleyboll@ragsvedsif.org"
-                className="text-secondary hover:underline"
+                className="hover:text-secondary hover:underline"
               >
                 volleyboll@ragsvedsif.org
               </a>
             </p>
           </address>
           <div className="text-center">
-            <h3 className="font-semibold mb-2">{t("links.usefulLinks")}</h3>
-            <ul className="text-sm">
+            <h3 className="text-lg font-semibold mb-4">{t("links.usefulLinks")}</h3>
+            <ul className="space-y-1">
               <li>
                 <a
                   href="https://www.volleyboll.se/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-secondary hover:underline"
+                  className="hover:text-secondary hover:underline"
                 >
                   {t("links.swedishVolleyballFederation")}
                 </a>
@@ -123,27 +111,27 @@ const Footer = () => {
                   href="https://www.xn--rgsvedsif-52a.se/start/?ID=455990"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-secondary hover:underline"
+                  className="hover:text-secondary hover:underline"
                 >
                   {t("links.ragsvedIF")}
                 </a>
               </li>
               <li>
                 <a
-                  href="https://www.korpen.se/korpenstockholm/aktiviteter/volleyboll/"
+                  href="https://korpenstockholm.zoezi.se/serie/6113"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-secondary hover:underline"
+                  className="hover:text-secondary hover:underline"
                 >
                   {t("links.korpenStockholmVolleyball")}
                 </a>
               </li>
               <li>
                 <a
-                  href="https://www.profixio.com/app/tournaments"
+                  href="https://www.profixio.com/app/tournaments?klubbid=28248&dateFrom=2024-09-01"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-secondary hover:underline"
+                  className="hover:text-secondary hover:underline"
                 >
                   {t("links.profixio")}
                 </a>
@@ -151,19 +139,8 @@ const Footer = () => {
             </ul>
           </div>
           <div className="text-center">
-            <h3 className="font-semibold mb-2">{t("social.followUs")}</h3>
-            <div className="flex justify-center space-x-4">
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={t("social.facebookAriaLabel")}
-              >
-                <FaFacebook
-                  className="w-6 h-6 hover:text-blue-600"
-                  aria-hidden="true"
-                />
-              </a>
+            <h3 className="text-lg font-semibold mb-4">{t("social.followUs")}</h3>
+            <div className="flex justify-center space-x-4">              
               <a
                 href="https://www.instagram.com/ragsvedsif_volleybollherr?igsh=NDV4Z2prMWx3cGkw"
                 target="_blank"
@@ -174,47 +151,41 @@ const Footer = () => {
                   className="w-6 h-6 hover:text-pink-500"
                   aria-hidden="true"
                 />
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={t("social.twitterAriaLabel")}
-              >
-                <FaTwitter
-                  className="w-6 h-6 hover:text-blue-400"
-                  aria-hidden="true"
-                />
-              </a>
+              </a>              
             </div>
           </div>
         </div>
         <nav aria-label={t("general.footerNavigation")} className="mt-8">
-          <ul className="flex flex-wrap justify-center gap-8">
+          <ul className="flex flex-wrap justify-center gap-8 text-lg font-bold">
+          <li>
+              <Link href="/home" className="hover:text-secondary hover:underline">
+                {tHeader("home")}
+              </Link>
+            </li>
             <li>
-              <Link href="/about" className="hover:underline">
+              <Link href="/about" className="hover:text-secondary hover:underline">
                 {tHeader("about")}
               </Link>
             </li>
             <li>
-              <Link href="/#teams" className="hover:underline">
+              <Link href="/#teams" className="hover:text-secondary hover:underline">
                 {tHeader("teams")}
               </Link>
             </li>
             <li>
-              <Link href="/#schedule" className="hover:underline">
-                {tHeader("schedule")}
+              <Link href="/#news" className="hover:text-secondary hover:underline">
+                {tHeader("news")}
               </Link>
             </li>
             <li>
-              <Link href="/#contact" className="hover:underline">
+              <Link href="/#contact" className="hover:text-secondary hover:underline">
                 {tHeader("contact")}
               </Link>
             </li>
           </ul>
         </nav>
         <hr className="my-4 border-secondary" />
-        <p className="text-center text-sm">
+        <p className="text-center text-sm mb-2 md:mb-0">
           {t("general.copyright", { year: new Date().getFullYear() })}
         </p>
       </div>
