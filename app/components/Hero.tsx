@@ -18,8 +18,8 @@ interface Descriptions {
   };
   imageAlt: string;
   buttons: {
-    about: string;
-    schedule: string;
+    aboutus: string;
+    tryout: string;
   };
 }
 
@@ -86,8 +86,8 @@ const Hero = () => {
       },
       imageAlt: t("imageAlt"),
       buttons: {
-        about: t("aboutButton"),
-        schedule: t("scheduleButton"),
+        aboutus: t("aboutusButton"),
+        tryout: t("tryoutButton"),
       },
     }),
     [t]
@@ -118,7 +118,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-[calc(100vh-76px)] relative flex items-center overflow-hidden bg-cover bg-center"
+      className="md:min-h-[calc(100vh-76px)] relative flex items-center overflow-hidden bg-cover bg-center"
       style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('${imageProps.mobile.src}')`,
       }}
@@ -136,7 +136,7 @@ const Hero = () => {
         animate="visible"
       >
         <div className="flex flex-col lg:flex-row items-center w-full">
-          <motion.div className="w-full mb-10 lg:mb-0" variants={itemVariants}>
+          <motion.div className="w-full my-20 lg:my-0" variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold text-center overflow-hidden">
               <motion.span className="block" variants={itemVariants}>
                 {titleContent.line1}
@@ -161,13 +161,13 @@ const Hero = () => {
               variants={itemVariants}
             >
               <Link href={`/${locale}/about`} className="w-full sm:w-auto">
-                <motion.button {...buttonAnimations} className="bg-primary">
-                  {descriptions.buttons.about}
+                <motion.button {...buttonAnimations} className="bg-primary" aria-label={descriptions.buttons.aboutus}>
+                  {descriptions.buttons.aboutus}
                 </motion.button>
               </Link>
-              <Link href={`/${locale}/#schedule`} className="w-full sm:w-auto">
-                <motion.button {...buttonAnimations} className="bg-primary">
-                  {descriptions.buttons.schedule}
+              <Link href="https://sportadmin.se/form/form.asp?ID=%7BDB1E1027-C9F3-4BFD-9660-94321E6F3160%7D" className="w-full sm:w-auto" target="_blank" rel="noopener noreferrer">
+                <motion.button {...buttonAnimations} className="bg-primary" aria-label={descriptions.buttons.tryout}>
+                  {descriptions.buttons.tryout}
                 </motion.button>
               </Link>
             </motion.div>

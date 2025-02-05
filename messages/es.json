@@ -32,12 +32,12 @@
       "line2": "Libera tu potencial"
     },
     "description": {
-      "line1": "¡Únete a nuestro equipo dedicado mientras traemos energía y emoción a la División 3!",
-      "line2": "Creemos en el trabajo duro y el poder de los sueños.",
-      "line3": "¡Juntos, nos apoyaremos mutuamente para alcanzar nuevas alturas y poner nuestra mira en la División 2!"
+      "line1": "Únete a nuestra vibrante familia de voleibol en el área de Estocolmo, donde la pasión se encuentra con el rendimiento.",
+      "line2": "Nuestro club ofrece entrenamiento experto, juego competitivo y un ambiente de equipo solidario.",
+      "line3": "Desde principiantes hasta jugadores experimentados, todos tienen la oportunidad de brillar en nuestra cancha."
     },
-    "aboutButton": "Sobre Nosotros",
-    "scheduleButton": "Ver calendario",
+    "aboutusButton": "Sobre Nosotros",
+    "tryoutButton": "Prueba",
     "imageAlt": "Partido de voleibol en acción"
   },
   "AboutUs": {

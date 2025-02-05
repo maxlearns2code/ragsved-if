@@ -32,12 +32,12 @@
       "line2": "Oslobodi svoj potencijal"
     },
     "description": {
-      "line1": "Pridružite se strastvenom timu i zajedno donesimo energiju i uzbuđenje Trećoj diviziji!",
-      "line2": "Verujemo u teški rad i moć snova.",
-      "line3": "Zajedno ćemo se međusobno podržavati kako bismo dostigli nove visine i ciljali na Drugu diviziju!"
+      "line1": "Pridružite se našoj živahnoj porodici odbojkaša u oblasti Stokholma, gde strast susreće performansu.",
+      "line2": "Naš klub nudi stručno treniranje, takmičarsku igru i podržavajuće timsko okruženje.",
+      "line3": "Od početnika do iskusnih igrača, svako ima šansu da zasija na našem terenu."
     },
-    "aboutButton": "O nama",
-    "scheduleButton": "Pogledaj raspored",
+    "aboutusButton": "O nama",
+    "tryoutButton": "Probaj",
     "imageAlt": "Odbojkaška utakmica u akciji"
   },
   "AboutUs": {

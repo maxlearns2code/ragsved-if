@@ -32,12 +32,12 @@
       "line2": "Entfessele dein Potenzial"
     },
     "description": {
-      "line1": "Werden Sie Teil unseres engagierten Teams, während wir Energie und Spannung in die 3. Division bringen!",
-      "line2": "Wir glauben an harte Arbeit und die Kraft der Träume.",
-      "line3": "Gemeinsam werden wir uns gegenseitig unterstützen, um neue Höhen zu erreichen und die 2. Division ins Visier zu nehmen!"
+      "line1": "Werde Teil unserer dynamischen Volleyballfamilie im Stockholmer Gebiet, wo Leidenschaft auf Leistung trifft.",
+      "line2": "Unser Verein bietet professionelles Coaching, Wettkampfspiele und ein unterstützendes Teamumfeld.",
+      "line3": "Von Anfängern bis zu erfahrenen Spielern - jeder hat die Chance, auf unserem Spielfeld zu glänzen."
     },
-    "aboutButton": "Über uns",
-    "scheduleButton": "Spielplan ansehen",
+    "aboutusButton": "Über uns",
+    "tryoutButton": "Probetraining",
     "imageAlt": "Volleyballspiel in Aktion"
   },
   "AboutUs": {

@@ -32,12 +32,12 @@
       "line2": "Släpp lös din potential"
     },
     "description": {
-      "line1": "Bli en del av vårt engagerade team när vi tillför energi och spänning till Division 3!",
-      "line2": "Vi tror på hårt arbete och drömmarnas kraft.",
-      "line3": "Tillsammans stöttar vi varandra för att nå nya höjder och sikta mot Division 2!"
+      "line1": "Bli en del av vår livliga volleybollfamilj i Stockholmsområdet där passion möter prestation.",
+      "line2": "Vår klubb erbjuder expertcoaching, tävlingsinriktat spel och en stödjande lagmiljö.",
+      "line3": "Från nybörjare till erfarna spelare, alla har en chans att glänsa på vår plan."
     },
-    "aboutButton": "Om Oss",
-    "scheduleButton": "Visa schema",
+    "aboutusButton": "Om Oss",
+    "tryoutButton": "Prova på",
     "imageAlt": "Volleybollmatch i aktion"
   },
   "AboutUs": {

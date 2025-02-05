@@ -32,12 +32,12 @@
       "line2": "Uwolnij swój potencjał"
     },
     "description": {
-      "line1": "Dołącz do naszego oddanego zespołu, który przynosi energię i ekscytację do Dywizji 3!",
-      "line2": "Wierzymy w ciężką pracę i moc marzeń.",
-      "line3": "Razem będziemy wspierać się nawzajem, osiągać nowe szczyty i kierować nasze spojrzenie na Dywizję 2!"
+      "line1": "Dołącz do naszej dynamicznej rodziny siatkarskiej w okolicach Sztokholmu, gdzie pasja spotyka się z wydajnością.",
+      "line2": "Nasz klub oferuje profesjonalne treningi, rywalizację na wysokim poziomie i wspierające środowisko zespołowe.",
+      "line3": "Od początkujących po doświadczonych graczy, każdy ma szansę zabłysnąć na naszym boisku."
     },
-    "aboutButton": "O Nas",
-    "scheduleButton": "Zobacz harmonogram",
+    "aboutusButton": "O Nas",
+    "tryoutButton": "Spróbuj",
     "imageAlt": "Mecz siatkówki w akcji"
   },
   "AboutUs": {
