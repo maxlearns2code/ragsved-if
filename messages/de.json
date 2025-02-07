@@ -40,6 +40,10 @@
     "tryoutButton": "Probetraining",
     "imageAlt": "Volleyballspiel in Aktion"
   },
+  "Sponsors": {
+    "title": "Unsere Sponsoren",
+    "description": "Wir sind stolz darauf, mit diesen Organisationen zusammenzuarbeiten, die unser Engagement für Exzellenz und Unterstützung der Gemeinschaft teilen."
+  },
   "AboutUs": {
     "title": "Unsere Geschichte",
     "sections": {

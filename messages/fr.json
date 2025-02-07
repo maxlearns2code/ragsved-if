@@ -40,6 +40,10 @@
     "tryoutButton": "Essayez",
     "imageAlt": "Match de volley-ball en action"
   },
+  "Sponsors": {
+    "title": "Nos sponsors",
+    "description": "Nous sommes fiers de collaborer avec ces organisations qui partagent notre engagement envers l'excellence et le soutien communautaire."
+  },
   "AboutUs": {
     "title": "Notre Histoire",
     "sections": {

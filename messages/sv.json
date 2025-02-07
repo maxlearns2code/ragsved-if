@@ -40,6 +40,10 @@
     "tryoutButton": "Prova på",
     "imageAlt": "Volleybollmatch i aktion"
   },
+  "Sponsors": {
+  "title": "Våra sponsorer",
+  "description": "Vi är stolta över att samarbeta med dessa organisationer som delar vårt engagemang för excellens och samhällsstöd."
+},
   "AboutUs": {
     "title": "Vår Berättelse",
     "sections": {

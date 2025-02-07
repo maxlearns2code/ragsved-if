@@ -40,6 +40,10 @@
     "tryoutButton": "Spróbuj",
     "imageAlt": "Mecz siatkówki w akcji"
   },
+  "Sponsors": {
+    "title": "Nasi sponsorzy",
+    "description": "Jesteśmy dumni z partnerstwa z tymi organizacjami, które podzielają nasze zaangażowanie w doskonałość i wsparcie społeczności."
+  },
   "AboutUs": {
     "title": "Nasza Historia",
     "sections": {

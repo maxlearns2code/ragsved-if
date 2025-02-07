@@ -40,6 +40,10 @@
     "tryoutButton": "Try Out",
     "imageAlt": "Volleyball game in action"
   },
+  "Sponsors": {
+    "title": "Our Sponsors",
+    "description": "We are proud to partner with these organizations that share our commitment to excellence and community support."
+  },
   "AboutUs": {
     "title": "Our Story",
     "sections": {
