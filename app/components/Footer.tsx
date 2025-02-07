@@ -79,9 +79,12 @@ const Footer = () => {
             </Link>
           </div>
           <address className="text-center not-italic">
-            <h3 className="text-lg font-semibold mb-4">{t("contact.contactUs")}</h3>
+            <h3 className="text-lg font-semibold mb-4">
+              {t("contact.contactUs")}
+            </h3>
             <p className="mb-2">
-              {t("contact.address")}: Trollesundsvägen 47, <br />124 34 Bandhagen
+              {t("contact.address")}: Trollesundsvägen 47, <br />
+              124 34 Bandhagen
             </p>
             <p>
               {t("contact.email")}:{" "}
@@ -94,7 +97,9 @@ const Footer = () => {
             </p>
           </address>
           <div className="text-center">
-            <h3 className="text-lg font-semibold mb-4">{t("links.usefulLinks")}</h3>
+            <h3 className="text-lg font-semibold mb-4">
+              {t("links.usefulLinks")}
+            </h3>
             <ul className="space-y-1">
               <li>
                 <a
@@ -139,8 +144,10 @@ const Footer = () => {
             </ul>
           </div>
           <div className="text-center">
-            <h3 className="text-lg font-semibold mb-4">{t("social.followUs")}</h3>
-            <div className="flex justify-center space-x-4">              
+            <h3 className="text-lg font-semibold mb-4">
+              {t("social.followUs")}
+            </h3>
+            <div className="flex justify-center space-x-4">
               <a
                 href="https://www.instagram.com/ragsvedsif_volleybollherr?igsh=NDV4Z2prMWx3cGkw"
                 target="_blank"
@@ -151,34 +158,57 @@ const Footer = () => {
                   className="w-6 h-6 hover:text-pink-500"
                   aria-hidden="true"
                 />
-              </a>              
+              </a>
             </div>
           </div>
         </div>
         <nav aria-label={t("general.footerNavigation")} className="mt-8">
           <ul className="flex flex-wrap justify-center gap-8 text-lg font-bold">
-          <li>
-              <Link href="/home" className="hover:text-secondary hover:underline">
+            <li>
+              <Link
+                href="/home"
+                className="hover:text-secondary hover:underline"
+              >
                 {tHeader("home")}
               </Link>
             </li>
             <li>
-              <Link href="/about" className="hover:text-secondary hover:underline">
+              <Link
+                href="/about"
+                className="hover:text-secondary hover:underline"
+              >
                 {tHeader("about")}
               </Link>
             </li>
             <li>
-              <Link href="/#teams" className="hover:text-secondary hover:underline">
-                {tHeader("teams")}
+              <Link
+                href="/men-team"
+                className="hover:text-secondary hover:underline"
+              >
+                {tHeader("men")}
               </Link>
             </li>
             <li>
-              <Link href="/#news" className="hover:text-secondary hover:underline">
+              <Link
+                href="/youth-team"
+                className="hover:text-secondary hover:underline"
+              >
+                {tHeader("youth")}
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/#news"
+                className="hover:text-secondary hover:underline"
+              >
                 {tHeader("news")}
               </Link>
             </li>
             <li>
-              <Link href="/#contact" className="hover:text-secondary hover:underline">
+              <Link
+                href="/#contact"
+                className="hover:text-secondary hover:underline"
+              >
                 {tHeader("contact")}
               </Link>
             </li>

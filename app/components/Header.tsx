@@ -46,7 +46,8 @@ const Header = () => {
     () => [
       { href: `/${locale}`, label: t("home") },
       { href: `/${locale}/about`, label: t("about") },
-      { href: `/${locale}/#teams`, label: t("teams") },
+      { href: `/${locale}/men-team`, label: t("men") },
+      { href: `/${locale}/youth-team`, label: t("youth") },
       { href: `/${locale}/#news`, label: t("news") },
       { href: `/${locale}/#contact`, label: t("contact") },
     ],

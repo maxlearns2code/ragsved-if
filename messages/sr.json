@@ -13,8 +13,8 @@
     "clubName": "Odbojka",
     "home": "Početna",
     "about": "O nama",
-    "teams": "Timovi",
-    "schedule": "Raspored",
+    "men": "Muškarci",
+    "youth": "Omladina",
     "news": "Vesti",
     "contact": "Kontakt",
     "homeAriaLabel": "Nazad na početnu",
@@ -78,9 +78,15 @@
     "currentRank": "Trenutna pozicija",
     "results": "Rezultati"
   },
-  "Teams": {
-    "title": "Naši timovi",
+  "Men-Teams": {
     "metaTitle": "Info tima",
+    "title": "Naši muški timovi",
+    "description": {
+      "line1": "Pridružite se strastvenom timu i zajedno donesimo energiju i uzbuđenje Trećoj diviziji!",
+      "line2": "Verujemo u teški rad i moć snova.",
+      "line3": "Zajedno ćemo se međusobno podržavati kako bismo dostigli nove visine i ciljali na Drugu diviziju!"
+    },
+    "teamLinkAriaLabel": "Pogledaj detalje za tim {teamName}",
     "teams": [
       {
         "id": "1",
@@ -105,6 +111,16 @@
         "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=399"
       }
     ]
+  },
+  "Youth-Team": {
+    "metaTitle": "Omladinska odbojkaška ekipa u Stokholmu | Ragsveds IF",
+    "alt": "Slika omladinske odbojkaške ekipe",
+    "title": "Pridruži se našem sjajnom omladinskom timu!",
+    "description": "Zdravo, odbojkaške zvezde! Mi smo potpuno novi tim koji je počeo pre samo godinu dana. Sve se vrti oko zabave, stvaranja prijateljstava i zajedničkog postajanja neverovatnim odbojkašima. Dođi i pridruži se našoj odbojkaškoj porodici!",
+    "joinUs": "Želiš li da budeš deo nečeg cool? Imamo sjajne trenere, zabavne treninge i uzbudljive utakmice. Bez obzira da li si nov u odbojci ili već profesionalac, ima mesta za tebe u našem timu. Hajde da zajedno odbijamo, dizemo i smečujemo do vrha!",
+    "registerNow": "Spreman za zabavu? Prijavi se odmah i postani jedan od naših prvih članova tima! Dobićeš posebne pogodnosti kao rani član. Ne čekaj – uzmi patike i hajde da igramo odbojku!",
+    "registerButton": "Prijavi se",
+    "registerAriaLabel": "Prijavi se za omladinski tim"
   },
   "Elite": {
     "challengers": [

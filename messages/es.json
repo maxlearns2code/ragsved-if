@@ -13,8 +13,8 @@
     "clubName": "Voleibol",
     "home": "Inicio",
     "about": "Acerca de",
-    "teams": "Equipos",
-    "schedule": "Calendario",
+    "men": "Hombres",
+    "youth": "Juventud",
     "news": "Noticias",
     "contact": "Contacto",
     "homeAriaLabel": "Volver al inicio",
@@ -78,9 +78,15 @@
     "currentRank": "Posición actual",
     "results": "Resultados"
   },
-  "Teams": {
-    "title": "Nuestros Equipos",
+  "Men-Teams": {
     "metaTitle": "Información del equipo",
+    "title": "Nuestros equipos masculinos",
+    "description": {
+      "line1": "¡Únete a nuestro equipo dedicado mientras traemos energía y emoción a la División 3!",
+      "line2": "Creemos en el trabajo duro y el poder de los sueños.",
+      "line3": "¡Juntos, nos apoyaremos mutuamente para alcanzar nuevas alturas y poner nuestra mira en la División 2!"
+    },
+    "teamLinkAriaLabel": "Ver detalles del equipo {teamName}",
     "teams": [
       {
         "id": "1",
@@ -105,6 +111,16 @@
         "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=399"
       }
     ]
+  },
+  "Youth-Team": {
+    "metaTitle": "Equipo Juvenil de Voleibol en Estocolmo | Ragsveds IF",
+    "alt": "Imagen del equipo juvenil de voleibol",
+    "title": "¡Únete a nuestro increíble equipo juvenil!",
+    "description": "¡Hola, estrellas del voleibol! Somos un equipo completamente nuevo que comenzó hace solo un año. Nos enfocamos en divertirnos, hacer amigos y convertirnos en increíbles jugadores de voleibol juntos. ¡Ven y únete a nuestra familia de voleibol!",
+    "joinUs": "¿Quieres ser parte de algo genial? Tenemos entrenadores increíbles, entrenamientos divertidos y emocionantes partidos. Ya seas nuevo en el voleibol o ya un pro, ¡hay un lugar para ti en nuestro equipo! Vamos a sacar, colocar y rematar juntos.",
+    "registerNow": "¿Listo para unirte a la diversión? ¡Inscríbete ahora y sé uno de nuestros primeros miembros! Tendrás beneficios especiales por ser de los primeros. ¡No esperes más – ponte tus zapatillas y juguemos voleibol!",
+    "registerButton": "Inscríbete ahora",
+    "registerAriaLabel": "Regístrate para el equipo juvenil"
   },
   "Elite": {
     "challengers": [

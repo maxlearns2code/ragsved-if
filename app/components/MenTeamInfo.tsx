@@ -3,7 +3,7 @@
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 
-type TeamInfoProps = {
+type MenTeamInfoProps = {
   team: {
     league: string;
     championship: string;
@@ -13,7 +13,7 @@ type TeamInfoProps = {
   };
 };
 
-export default function TranslatedTeamInfo({ team }: TeamInfoProps) {
+export default function MenTeamInfo({ team }: MenTeamInfoProps) {
   const t = useTranslations("TeamPage");
 
   return (

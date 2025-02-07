@@ -13,8 +13,8 @@
     "clubName": "Volleyboll",
     "home": "Hem",
     "about": "Om oss",
-    "teams": "Lag",
-    "schedule": "Schema",
+    "men": "Män",
+    "youth": "Ungdom",
     "news": "Nyheter",
     "contact": "Kontakt",
     "homeAriaLabel": "Tillbaka till startsidan",
@@ -78,9 +78,15 @@
     "currentRank": "Nuvarande ranking",
     "results": "Resultat"
   },
-  "Teams": {
-    "title": "Våra Lag",
+  "Men-Teams": {
     "metaTitle": "Laginformation",
+    "title": "Våra herrlag",
+    "description": {
+      "line1": "Bli en del av vårt engagerade team när vi tillför energi och spänning till Division 3!",
+      "line2": "Vi tror på hårt arbete och drömmarnas kraft.",
+      "line3": "Tillsammans stöttar vi varandra för att nå nya höjder och sikta mot Division 2!"
+    },
+    "teamLinkAriaLabel": "Visa detaljer för {teamName} laget",
     "teams": [
       {
         "id": "1",
@@ -105,6 +111,16 @@
         "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=399"
       }
     ]
+  },
+  "Youth-Team": {
+    "metaTitle": "Ungdomsvolleybolllag i Stockholm | Ragsveds IF",
+    "alt": "Bild på ungdomsvolleybollaget",
+    "title": "Gå med i vårt fantastiska ungdomslag!",
+    "description": "Hej där, volleybollstjärnor! Vi är ett helt nytt lag som startade för bara ett år sedan. Vi handlar om att ha roligt, göra vänner och bli fantastiska volleybollspelare tillsammans. Kom och bli en del av vår volleybollfamilj!",
+    "joinUs": "Vill du vara del av något coolt? Vi har bra tränare, roliga träningar och spännande matcher. Oavsett om du är ny inom volleyboll eller redan en pro, finns det en plats för dig i vårt lag. Låt oss studsa, passa och slå oss fram till toppen!",
+    "registerNow": "Redo att hänga på skoj? Anmäl dig nu och bli en av våra första lagmedlemmar! Du får speciella förmåner för att vara en tidig joiner. Vänta inte – ta på dig dina gymnastikskor och låt oss spela volleyboll!",
+    "registerButton": "Registrera dig nu",
+    "registerAriaLabel": "Registrera dig för att bli en del av vårt ungdomslag"
   },
   "Elite": {
     "challengers": [

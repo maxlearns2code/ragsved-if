@@ -13,8 +13,8 @@
     "clubName": "Volleyball",
     "home": "Home",
     "about": "About",
-    "teams": "Teams",
-    "schedule": "Schedule",
+    "men": "Men",
+    "youth": "Youth",
     "news": "News",
     "contact": "Contact",
     "homeAriaLabel": "Back to Home",
@@ -78,9 +78,15 @@
     "currentRank": "Current Rank",
     "results": "Results"
   },
-  "Teams": {
-    "title": "Our Teams",
-    "metaTitle": "Team Info",
+  "Men-Teams": {
+    "metaTitle": "Men Volleyball Teams in Stockholm | Ragsveds IF",
+    "title": "Our men teams",
+    "description": {
+      "line1": "Become part of our dedicated team as we bring energy and excitement to Division 3!",
+      "line2": "We believe in hard work and the power of dreams.",
+      "line3": "Together, we'll support each other in reaching new heights and setting our sights on Division 2!"
+    },
+    "teamLinkAriaLabel": "View details for {teamName} team",
     "teams": [
       {
         "id": "1",
@@ -105,6 +111,16 @@
         "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=399"
       }
     ]
+  },
+  "Youth-Team": {
+    "metaTitle": "Youth Volleyball Team in Stockholm | Ragsveds IF",
+    "alt": "Youth volleyball team image",
+    "title": "Join our awesome youth team!",
+    "description": "Hey there, volleyball stars! We're a brand new team that started just last year. We're all about having fun, making friends, and becoming amazing volleyball players together. Come join our volleyball family!",
+    "joinUs": "Want to be part of something cool? We've got great coaches, fun practices, and exciting games. Whether you're new to volleyball or already a pro, there's a spot for you on our team. Let's bump, set, and spike our way to the top!",
+    "registerNow": "Ready to join the fun? Sign up now and be one of our first team members! You'll get special perks for being an early joiner. Don't wait – grab your sneakers and let's play some volleyball!",
+    "registerButton": "Register Now",
+    "registerAriaLabel": "Register for Youth Team"
   },
   "Elite": {
     "challengers": [

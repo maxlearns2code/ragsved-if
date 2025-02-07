@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import { notFound } from "next/navigation";
+import MenTeamInfo from "../../../components/MenTeamInfo";
 import TeamLogoScroll from "../../../components/TeamLogoScroll";
-import TranslatedTeamInfo from "../../../components/TranslatedTeamInfo";
 
 type Team = {
   id: string;
@@ -26,7 +26,7 @@ export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
   const { id, locale } = await params;
-  const t = await getTranslations({ locale, namespace: "Teams" });
+  const t = await getTranslations({ locale, namespace: "Men-Teams" });
   const teams: Team[] = t.raw("teams");
   const team = teams.find((team: Team) => team.id === id);
 
@@ -52,7 +52,7 @@ export async function generateMetadata({
 
 export default async function TeamPage({ params }: PageProps) {
   const { id, locale } = await params;
-  const t = await getTranslations({ locale, namespace: "Teams" });
+  const t = await getTranslations({ locale, namespace: "Men-Teams" });
   const teams: Team[] = t.raw("teams");
   const team = teams.find((team: Team) => team.id === id);
 
@@ -79,7 +79,7 @@ function ClientTeamPage({ team }: { team: Team }) {
           </div>
           <div className="w-full md:w-1/2 flex flex-col justify-center">
             <p className="text-lg text-center mb-6">{team.description}</p>
-            <TranslatedTeamInfo team={team} />
+            <MenTeamInfo team={team} />
           </div>
         </div>
       </section>

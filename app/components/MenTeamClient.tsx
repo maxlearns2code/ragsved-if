@@ -15,22 +15,28 @@ interface Team {
   championship: string;
 }
 
-export default function Teams() {
-  const t = useTranslations("Teams");
+export default function MenTeamClient() {
+  const t = useTranslations("Men-Teams");
   const locale = useLocale();
   const teams: Team[] = t.raw("teams");
 
   return (
-    <section id="teams" className="pb-10 px-4 sm:px-6 lg:px-8">
+    <section id="teams" className="py-10 px-4 sm:px-6 lg:px-8">
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
         {t("title")}
       </h2>
+      <p className="text-lg text-center mb-8">
+        <span className="block">{t("description.line1")}</span>
+        <span className="block">{t("description.line2")}</span>
+        <span className="block">{t("description.line3")}</span>
+      </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-10 max-w-4xl mx-auto">
         {teams.map((team) => (
           <Link
             href={`/${locale}/teams/${team.id}`}
             key={team.id}
             className="block group relative aspect-w-16 aspect-h-9"
+            aria-label={t("teamLinkAriaLabel", { teamName: team.name })}
           >
             <div className="overflow-hidden rounded-lg shadow-lg transition duration-300 ease-in-out transform group-hover:scale-105 h-full">
               <Image

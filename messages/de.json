@@ -17,8 +17,8 @@
     "clubName": "Volleyball",
     "home": "Startseite",
     "about": "Über uns",
-    "teams": "Mannschaften",
-    "schedule": "Spielplan",
+    "men": "Männer",
+    "youth": "Jugend",
     "news": "Neuigkeiten",
     "contact": "Kontakt",
     "homeAriaLabel": "Zurück zur Startseite",
@@ -78,9 +78,15 @@
     "currentRank": "Aktuelle Platzierung",
     "results": "Ergebnisse"
   },
-  "Teams": {
-    "title": "Unsere Mannschaften",
-    "metaTitle": "Team Info",
+  "Men-Teams": {
+    "metaTitle": "Jugend-Volleyballmannschaft in Stockholm | Ragsveds IF",
+    "title": "Unsere Männermannschaften",
+    "description": {
+      "line1": "Werden Sie Teil unseres engagierten Teams, während wir Energie und Spannung in die 3. Division bringen!",
+      "line2": "Wir glauben an harte Arbeit und die Kraft der Träume.",
+      "line3": "Gemeinsam werden wir uns gegenseitig unterstützen, um neue Höhen zu erreichen und die 2. Division ins Visier zu nehmen!"
+    },
+    "teamLinkAriaLabel": "Details für Team {teamName} anzeigen",
     "teams": [
       {
         "id": "1",
@@ -105,6 +111,16 @@
         "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=399"
       }
     ]
+  },
+  "Youth-Team": {
+    "metaTitle": "Jugend-Volleyballmannschaft in Stockholm | Ragsveds IF",
+    "alt": "Bild der Jugend-Volleyballmannschaft",
+    "title": "Komm in unser tolles Jugendteam!",
+    "description": "Hallo, Volleyballstars! Wir sind ein brandneues Team, das erst letztes Jahr gegründet wurde. Bei uns geht es darum, Spaß zu haben, Freunde zu finden und gemeinsam tolle Volleyballspieler zu werden. Komm und werde Teil unserer Volleyballfamilie!",
+    "joinUs": "Möchtest du Teil von etwas Coolem sein? Wir haben großartige Trainer, spaßige Trainings und aufregende Spiele. Egal ob du neu im Volleyball bist oder schon ein Profi, bei uns gibt es einen Platz für dich. Lass uns gemeinsam baggern, pritschen und schmettern!",
+    "registerNow": "Bereit, mitzumachen? Melde dich jetzt an und werde eines unserer ersten Teammitglieder! Du bekommst besondere Vorteile als Frühstarter. Warte nicht – schnapp dir deine Turnschuhe und lass uns Volleyball spielen!",
+    "registerButton": "Jetzt anmelden",
+    "registerAriaLabel": "Zur Jugendteam-Anmeldung"
   },
   "Elite": {
     "challengers": [
@@ -195,8 +211,8 @@
       "email": "E-Mail"
     },
     "social": {
-      "followUs": "Folgen Sie uns",      
-      "instagramAriaLabel": "Folgen Sie uns auf Instagram"      
+      "followUs": "Folgen Sie uns",
+      "instagramAriaLabel": "Folgen Sie uns auf Instagram"
     },
     "links": {
       "usefulLinks": "Nützliche Links",

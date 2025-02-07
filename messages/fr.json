@@ -13,8 +13,8 @@
     "clubName": "Volley-ball",
     "home": "Accueil",
     "about": "À propos",
-    "teams": "Équipes",
-    "schedule": "Calendrier",
+    "men": "Hommes",
+    "youth": "Jeunesse",
     "news": "Actualités",
     "contact": "Contact",
     "homeAriaLabel": "Retour à l'accueil",
@@ -78,9 +78,15 @@
     "currentRank": "Classement actuel",
     "results": "Résultats"
   },
-  "Teams": {
-    "title": "Nos Équipes",
+  "Men-Teams": {
     "metaTitle": "Informations sur l'équipe",
+    "title": "Nos équipes masculines",
+    "description": {
+      "line1": "Rejoignez une équipe passionnée et apportons ensemble énergie et enthousiasme à la Division 3 !",
+      "line2": "Nous croyons au travail acharné et au pouvoir des rêves.",
+      "line3": "Ensemble, nous nous soutiendrons mutuellement pour atteindre de nouveaux sommets et viser la Division 2 !"
+    },
+    "teamLinkAriaLabel": "Voir les détails de l'équipe {teamName}",
     "teams": [
       {
         "id": "1",
@@ -105,6 +111,16 @@
         "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=399"
       }
     ]
+  },
+  "Youth-Team": {
+    "metaTitle": "Équipe de Volleyball Jeunesse à Stockholm | Ragsveds IF",
+    "alt": "Image de l'équipe de volleyball jeunesse",
+    "title": "Rejoins notre super équipe de jeunes !",
+    "description": "Salut, futures stars du volleyball ! Nous sommes une toute nouvelle équipe créée il y a seulement un an. Nous sommes tous concentrés sur le plaisir, l'amitié et le développement de nos talents en volleyball. Viens rejoindre notre famille de volleyball !",
+    "joinUs": "Envie de faire partie de quelque chose de génial ? Nous avons des coachs formidables, des entraînements amusants et des matchs passionnants. Que tu sois débutant ou déjà un pro, il y a une place pour toi dans notre équipe. Ensemble, on va faire des smashes !",
+    "registerNow": "Prêt à t'amuser ? Inscris-toi maintenant et deviens l'un de nos premiers membres ! Tu bénéficieras d'avantages spéciaux en tant que membre fondateur. Ne tarde pas – mets tes baskets et jouons au volleyball !",
+    "registerButton": "Inscris-toi maintenant",
+    "registerAriaLabel": "Inscris-toi pour l'équipe de jeunes"
   },
   "Elite": {
     "challengers": [

@@ -13,8 +13,8 @@
     "clubName": "Siatkówka",
     "home": "Strona główna",
     "about": "O nas",
-    "teams": "Drużyny",
-    "schedule": "Harmonogram",
+    "men": "Mężczyźni",
+    "youth": "Młodzież",
     "news": "Aktualności",
     "contact": "Kontakt",
     "homeAriaLabel": "Powrót do strony głównej",
@@ -78,9 +78,15 @@
     "currentRank": "Aktualna pozycja",
     "results": "Wyniki"
   },
-  "Teams": {
-    "title": "Nasze Drużyny",
+  "Men-Teams": {
     "metaTitle": "Informacje o drużynie",
+    "title": "Nasze męskie drużyny",
+    "description": {
+      "line1": "Dołącz do naszego oddanego zespołu, który przynosi energię i ekscytację do Dywizji 3!",
+      "line2": "Wierzymy w ciężką pracę i moc marzeń.",
+      "line3": "Razem będziemy wspierać się nawzajem, osiągać nowe szczyty i kierować nasze spojrzenie na Dywizję 2!"
+    },
+    "teamLinkAriaLabel": "Zobacz szczegóły drużyny {teamName}",
     "teams": [
       {
         "id": "1",
@@ -105,6 +111,16 @@
         "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=399"
       }
     ]
+  },
+  "Youth-Team": {
+    "metaTitle": "Młodzieżowa drużyna siatkówki w Sztokholmie | Ragsveds IF",
+    "alt": "Zdjęcie młodzieżowej drużyny siatkówki",
+    "title": "Dołącz do naszej super drużyny młodzieżowej!",
+    "description": "Cześć, gwiazdy siatkówki! Jesteśmy zupełnie nową drużyną, która powstała zaledwie rok temu. Chodzi nam o dobrą zabawę, zawieranie przyjaźni i wspólne stawanie się niesamowitymi siatkarzami. Przyjdź i dołącz do naszej siatkarskiej rodziny!",
+    "joinUs": "Chcesz być częścią czegoś fajnego? Mamy świetnych trenerów, zabawne treningi i ekscytujące mecze. Niezależnie od tego, czy jesteś nowy w siatkówce, czy już profesjonalistą, jest dla Ciebie miejsce w naszej drużynie. Odbijajmy, wystawiajmy i atakujmy razem na szczyt!",
+    "registerNow": "Gotowy na zabawę? Zapisz się teraz i zostań jednym z naszych pierwszych członków drużyny! Otrzymasz specjalne korzyści jako wczesny dołączający. Nie czekaj – łap buty sportowe i zagrajmy w siatkówkę!",
+    "registerButton": "Zapisz się",
+    "registerAriaLabel": "Zapisz się do drużyny młodzieżowej"
   },
   "Elite": {
     "challengers": [
