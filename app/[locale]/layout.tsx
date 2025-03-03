@@ -50,6 +50,9 @@ export async function generateMetadata({
     verification: {
       google: "_2bNW27babNrR6fU8FPvcDOHZq-VSXmAm99vbV8W7sE",
     },
+    alternates: {
+      canonical: `https://ragsvedsif-vk.vercel.app/${locale}`,
+    },
     metadataBase: new URL("https://ragsvedsif-vk.vercel.app"),
     applicationName: t("siteName"),
     formatDetection: {

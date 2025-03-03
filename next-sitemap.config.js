@@ -1,7 +1,8 @@
+/** @type {import('next-sitemap').IConfig} */
 module.exports = {
   siteUrl: "https://ragsvedsif-vk.vercel.app",
   generateRobotsTxt: true,
-  exclude: ["/[locale]", "/[locale]/teams/[id]"],
+  exclude: [],
   alternateRefs: [
     { href: "https://ragsvedsif-vk.vercel.app/sv", hreflang: "sv" },
     { href: "https://ragsvedsif-vk.vercel.app/en", hreflang: "en" },
