@@ -47,7 +47,7 @@ export default function YouthTeamClient() {
             <p className="text-lg text-center my-4">{t("description")}</p>
             <p className="text-lg text-center my-4">{t("joinUs")}</p>
             <Link
-              href="https://sportadmin.se/form/form.asp?ID=%7BDB1E1027-C9F3-4BFD-9660-94321E6F3160%7D"
+              href="https://entry.sportadmin.se/groupsOverview?uid=BlleV5&pageId=0&sportid=1075"
               className="w-full sm:w-auto"
               target="_blank"
               rel="noopener noreferrer"
