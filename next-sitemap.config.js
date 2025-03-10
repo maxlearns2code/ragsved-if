@@ -1,17 +1,17 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://ragsvedsif-vk.vercel.app",
+  siteUrl: "https://vb.rågsvedsif.se/",
   generateRobotsTxt: true,
   exclude: [],
   alternateRefs: [
-    { href: "https://ragsvedsif-vk.vercel.app/sv", hreflang: "sv" },
-    { href: "https://ragsvedsif-vk.vercel.app/en", hreflang: "en" },
-    { href: "https://ragsvedsif-vk.vercel.app/es", hreflang: "es" },
-    { href: "https://ragsvedsif-vk.vercel.app/fr", hreflang: "fr" },
-    { href: "https://ragsvedsif-vk.vercel.app/de", hreflang: "de" },
-    { href: "https://ragsvedsif-vk.vercel.app/sr", hreflang: "sr" },
-    { href: "https://ragsvedsif-vk.vercel.app/pl", hreflang: "pl" },
-    { href: "https://ragsvedsif-vk.vercel.app/uk", hreflang: "uk" },
+    { href: "https://vb.rågsvedsif.se/sv", hreflang: "sv" },
+    { href: "https://vb.rågsvedsif.se/en", hreflang: "en" },
+    { href: "https://vb.rågsvedsif.se/es", hreflang: "es" },
+    { href: "https://vb.rågsvedsif.se/fr", hreflang: "fr" },
+    { href: "https://vb.rågsvedsif.se/de", hreflang: "de" },
+    { href: "https://vb.rågsvedsif.se/sr", hreflang: "sr" },
+    { href: "https://vb.rågsvedsif.se/pl", hreflang: "pl" },
+    { href: "https://vb.rågsvedsif.se/uk", hreflang: "uk" },
   ],
   additionalPaths: async () => {
     const result = [];

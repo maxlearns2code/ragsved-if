@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://ragsvedsif-vk.vercel.app
+Host: https://vb.rågsvedsif.se/
 
 # Sitemaps
-Sitemap: https://ragsvedsif-vk.vercel.app/sitemap.xml
+Sitemap: https://vb.rågsvedsif.se/sitemap.xml
