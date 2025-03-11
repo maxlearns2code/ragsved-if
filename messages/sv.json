@@ -47,6 +47,10 @@
   "AboutUs": {
     "title": "Vår Berättelse",
     "sections": {
+      "howItAllBegan": {
+        "title": "Hur allt startade",
+        "content": "Det hela började med ett kompisgäng på Flatenbadet i Skarpnäck. Vi hade tidigare aldrig testat varken beach eller inomhus-volleyboll men vi fastnade snabbt för spelets energi."
+      },
       "humbleBeginnings": {
         "title": "En Blygsam Start",
         "content": "År 2022 började vi på Korpen-planerna med ett ofullständigt lag och stora ambitioner. Trots utmaningarna tränade vi målmedvetet, samarbetade med andra lag och nådde en respektabel mittenplacering. Detta var bara det första steget."

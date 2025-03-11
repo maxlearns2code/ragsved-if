@@ -47,6 +47,10 @@
   "AboutUs": {
     "title": "Notre Histoire",
     "sections": {
+      "howItAllBegan": {
+        "title": "Comment tout a commencé",
+        "content": "Tout a commencé avec un groupe d'amis au Flatenbadet à Skarpnäck. Nous n'avions jamais essayé ni le volley-ball de plage ni celui en salle auparavant, mais nous nous sommes rapidement attachés à l'énergie du jeu."
+      },
       "humbleBeginnings": {
         "title": "Des Débuts Modestes",
         "content": "En 2022, nous avons commencé sur les terrains de Korpen avec une équipe incomplète et beaucoup d’ambition. Malgré les défis, nous nous sommes entraînés avec dévouement, avons collaboré avec d’autres équipes et avons atteint une position respectable en milieu de tableau. Ce n’était que la première étape."

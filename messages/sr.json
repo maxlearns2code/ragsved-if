@@ -47,6 +47,10 @@
   "AboutUs": {
     "title": "Naša priča",
     "sections": {
+      "howItAllBegan": {
+        "title": "Kako je sve počelo",
+        "content": "Sve je počelo sa grupom prijatelja u Flatenbadetu u Skarpnäcku. Ranije nismo nikad probali ni odbojka na pesku ni unutrašnji odbojka, ali smo se brzo zaljubili u energiju igre."
+      },
       "humbleBeginnings": {
         "title": "Skromni počeci",
         "content": "2022. godine napravili smo prve korake na Korpen terenima sa nepotpunim timom i ambicioznim ciljevima. Uprkos izazovima, vredno smo trenirali, sarađivali sa drugim timovima i obezbedili respektabilno mesto u sredini tabele. To je bio samo početak."

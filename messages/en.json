@@ -47,6 +47,10 @@
   "AboutUs": {
     "title": "Our Story",
     "sections": {
+      "howItAllBegan": {
+        "title": "How It All Began",
+        "content": "It all started with a group of friends at Flatenbadet in Skarpnäck. We had never tried either beach or indoor volleyball before, but we quickly fell for the energy of the game."
+      },
       "humbleBeginnings": {
         "title": "Humble Beginnings",
         "content": "In 2022, we took our first steps on the Korpen courts with an incomplete team and ambitious goals. Despite the challenges, we trained diligently, collaborated with other teams, and secured a respectable mid-table finish. It was only the beginning."

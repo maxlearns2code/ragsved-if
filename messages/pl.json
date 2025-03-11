@@ -47,6 +47,10 @@
   "AboutUs": {
     "title": "Nasza Historia",
     "sections": {
+      "howItAllBegan": {
+        "title": "Jak to wszystko się zaczęło",
+        "content": "Wszystko zaczęło się od grupy przyjaciół w Flatenbadet w Skarpnäck. Wcześniej nigdy nie próbowaliśmy ani siatkówki plażowej, ani halowej, ale szybko polubiliśmy energię gry."
+      },
       "humbleBeginnings": {
         "title": "Skromne Początki",
         "content": "W 2022 roku zaczęliśmy na boiskach Korpen z niekompletną drużyną i wielkimi ambicjami. Pomimo trudności, intensywnie trenowaliśmy, współpracowaliśmy z innymi zespołami i zajęliśmy zaszczytne miejsce w środku tabeli. To był dopiero pierwszy krok."

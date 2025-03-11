@@ -27,6 +27,7 @@ export default async function AboutPage({ params }: PageProps) {
   const t = await getTranslations({ locale, namespace: "AboutUs" });
 
   const sections = [
+    "howItAllBegan",
     "humbleBeginnings",
     "risingToTheChallenge",
     "aimingHigher",

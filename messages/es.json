@@ -8,8 +8,7 @@
     "ogImageAlt": "Club de Voleibol Rågsveds IF – Equipo Apasionado en Estocolmo",
     "siteName": "Rågsveds IF Voleibol",
     "lang": "es"
-}
-,
+  },
   "Header": {
     "clubName": "Voleibol",
     "home": "Inicio",
@@ -48,6 +47,10 @@
   "AboutUs": {
     "title": "Nuestra Historia",
     "sections": {
+      "howItAllBegan": {
+        "title": "Cómo todo comenzó",
+        "content": "Todo comenzó con un grupo de amigos en Flatenbadet en Skarpnäck. Nunca habíamos probado ni voleibol de playa ni de interior antes, pero rápidamente nos enamoramos de la energía del juego."
+      },
       "humbleBeginnings": {
         "title": "Comienzos Humildes",
         "content": "En 2022, comenzamos en las canchas de Korpen con un equipo incompleto y grandes ambiciones. A pesar de los desafíos, entrenamos con dedicación, colaboramos con otros equipos y logramos una posición respetable en la mitad de la tabla. Este fue solo el primer paso."

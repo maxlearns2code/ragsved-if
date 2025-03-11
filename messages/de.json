@@ -47,6 +47,10 @@
   "AboutUs": {
     "title": "Unsere Geschichte",
     "sections": {
+      "howItAllBegan": {
+        "title": "Wie alles begann",
+        "content": "Alles begann mit einer Gruppe von Freunden im Flatenbadet in Skarpnäck. Wir hatten weder Beach- noch Hallenvolleyball zuvor ausprobiert, aber wir fanden schnell Gefallen an der Energie des Spiels"
+      },
       "humbleBeginnings": {
         "title": "Bescheidene Anfänge",
         "content": "2022 machten wir unsere ersten Schritte auf den Korpen-Plätzen mit einem unvollständigen Team und ehrgeizigen Zielen. Trotz der Herausforderungen trainierten wir fleißig, arbeiteten mit anderen Teams zusammen und sicherten uns einen respektablen Platz im Mittelfeld. Das war erst der Anfang."
