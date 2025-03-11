@@ -215,8 +215,12 @@
     },
     "contact": {
       "contactUs": "Kontaktirajte nas",
-      "address": "Adresa",
       "email": "E-pošta"
+    },
+    "adress": {
+      "adresses": "Adrese",
+      "whereWeCompete": "Gde igramo",
+      "whereWeTrain": "Gde treniramo"
     },
     "social": {
       "followUs": "Pratite nas",

@@ -215,8 +215,12 @@
     },
     "contact": {
       "contactUs": "Зв'яжіться з нами",
-      "address": "Адреса",
       "email": "Електронна пошта"
+    },
+    "adress": {
+      "adresses": "Адреси",
+      "whereWeCompete": "Де ми граємо",
+      "whereWeTrain": "Де ми тренуємося"
     },
     "social": {
       "followUs": "Слідкуйте за нами",

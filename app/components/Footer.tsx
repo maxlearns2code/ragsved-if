@@ -62,7 +62,7 @@ const Footer = () => {
       transition={{ duration: 0.5 }}
     >
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
           <div className="flex justify-center">
             <Link
               href="/"
@@ -78,21 +78,44 @@ const Footer = () => {
               />
             </Link>
           </div>
-          <address className="text-center not-italic">
+          <div className="text-center">
             <h3 className="text-lg font-semibold mb-4">
               {t("contact.contactUs")}
             </h3>
-            <p className="mb-2">
-              {t("contact.address")}: Trollesundsvägen 47, <br />
-              124 34 Bandhagen
-            </p>
             <p>
-              {t("contact.email")}:{" "}
+              <strong>{t("contact.email")}:</strong>{" "}
               <a
                 href="mailto:volleyboll@ragsvedsif.org"
                 className="hover:text-secondary hover:underline"
               >
                 volleyboll@ragsvedsif.org
+              </a>
+            </p>
+          </div>
+          <address className="text-center not-italic">
+            <h3 className="text-lg font-semibold mb-4">
+              {t("adress.adresses")}
+            </h3>
+            <p className="mb-2">
+              <strong>{t("adress.whereWePlay")}:</strong>{" "}
+              <a
+                href="https://maps.app.goo.gl/ZrUewV9QHQ4Hu6ft9"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-secondary hover:underline"
+              >
+                Medborgarplatsen 4, 118 26 Stockholm
+              </a>
+            </p>
+            <p className="mb-2">
+              <strong>{t("adress.whereWeTrain")}:</strong>{" "}
+              <a
+                href="https://maps.app.goo.gl/fbyc7vCLW5RkDnFJ8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-secondary hover:underline"
+              >
+                Trollesundsvägen 47, 124 34 Bandhagen
               </a>
             </p>
           </address>

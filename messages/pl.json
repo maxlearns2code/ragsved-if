@@ -215,8 +215,12 @@
     },
     "contact": {
       "contactUs": "Skontaktuj się z nami",
-      "address": "Adres",
       "email": "E-mail"
+    },
+    "adress": {
+      "adresses": "Adresy",
+      "whereWeCompete": "Gdzie gramy",
+      "whereWeTrain": "Gdzie trenujemy"
     },
     "social": {
       "followUs": "Obserwuj nas",

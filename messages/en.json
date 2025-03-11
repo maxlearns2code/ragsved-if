@@ -214,9 +214,13 @@
       "footerNavigation": "Footer Navigation"
     },
     "contact": {
-      "contactUs": "Contact Us",
-      "address": "Address",
+      "contactUs": "Contact Us",      
       "email": "Email"
+    },
+    "adress": {
+      "adresses": "Adresses",
+      "whereWePlay": "Where we play",
+      "whereWeTrain": "Where we train"
     },
     "social": {
       "followUs": "Follow Us",

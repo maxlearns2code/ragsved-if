@@ -215,8 +215,12 @@
     },
     "contact": {
       "contactUs": "Kontakta oss",
-      "address": "Adress",
       "email": "E-post"
+    },
+    "adress": {
+      "adresses": "Adresser",
+      "whereWeCompete": "Där vi spelar",
+      "whereWeTrain": "Där vi tränar"
     },
     "social": {
       "followUs": "Följ oss",
