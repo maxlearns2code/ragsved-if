@@ -3,7 +3,7 @@
     "title": "Rågsveds IF Volleyball",
     "description": "Treten Sie Rågsveds IF Volleyball in Stockholm bei! 🏐 Wir bieten wettbewerbsfähige Männerteams in verschiedenen Ligen und spannende Entwicklungsmöglichkeiten für Jugendliche. Trainieren Sie hart, spielen Sie leidenschaftlich und wachsen Sie mit uns.",
     "keywords": "Rågsveds IF Volleyball, Stockholmer Volleyballverein, Männer-Volleyballteams, Jugend-Volleyballentwicklung, Wettkampf-Volleyball, Eliteteam, Ligavolleyball, mehrere Divisionen, Volleyballtraining, Volleyballspiele, Anfänger-Volleyball, schwedische Volleyballgemeinschaft, Stockholmer Sport, Rågsved IF Geschichte",
-    "ogTitle": "🔥 Treten Sie Rågsveds IF Volleyball bei",
+    "ogTitle": "🏐 Treten Sie Rågsveds IF Volleyball bei 🔥",
     "ogDescription": "Wettkämpfen Sie in unseren Männerteams in verschiedenen Ligen oder seien Sie Teil unseres Jugendentwicklungsprogramms. Trainieren Sie hart, spielen Sie leidenschaftlich und wachsen Sie mit uns. 🏐",
     "ogImageAlt": "Rågsveds IF Volleyballverein – Leidenschaftliches Team in Stockholm",
     "siteName": "Rågsveds IF Volleyball",
@@ -219,7 +219,7 @@
     },
     "adress": {
       "adresses": "Adressen",
-      "whereWeCompete": "Wo wir spielen",
+      "whereWePlay": "Wo wir spielen",
       "whereWeTrain": "Wo wir trainieren"
     },
     "social": {

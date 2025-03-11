@@ -3,7 +3,7 @@
     "title": "Rågsveds IF Voleibol",
     "description": "¡Únete a Rågsveds IF Voleibol en Estocolmo! 🏐 Ofrecemos equipos masculinos competitivos en diferentes divisiones y emocionantes oportunidades de desarrollo juvenil. Entrena duro, juega con pasión y crece con nosotros.",
     "keywords": "Rågsveds IF Voleibol, club de voleibol de Estocolmo, equipos masculinos de voleibol, desarrollo de voleibol juvenil, voleibol competitivo, equipo de élite, voleibol de división, múltiples divisiones, entrenamiento de voleibol, partidos de voleibol, voleibol para principiantes, comunidad sueca de voleibol, deportes de Estocolmo, historia de Rågsved IF",
-    "ogTitle": "🔥 Únete a Rågsveds IF Voleibol",
+    "ogTitle": "🏐 Únete a Rågsveds IF Voleibol 🔥",
     "ogDescription": "Compite en nuestros equipos masculinos en varias divisiones o sé parte de nuestro programa de desarrollo juvenil. Entrena duro, juega con pasión y crece con nosotros. 🏐",
     "ogImageAlt": "Club de Voleibol Rågsveds IF – Equipo Apasionado en Estocolmo",
     "siteName": "Rågsveds IF Voleibol",
@@ -219,7 +219,7 @@
     },
     "adress": {
       "adresses": "Direcciones",
-      "whereWeCompete": "Dónde jugamos",
+      "whereWePlay": "Dónde jugamos",
       "whereWeTrain": "Dónde entrenamos"
     },
     "social": {

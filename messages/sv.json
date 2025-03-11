@@ -3,7 +3,7 @@
     "title": "Rågsveds IF Volleyboll",
     "description": "Gå med i Rågsveds IF Volleyboll i Stockholm! 🏐 Vi erbjuder konkurrenskraftiga herrlag i olika divisioner och spännande utvecklingsmöjligheter för ungdomar. Träna hårt, spela passionerat och väx med oss.",
     "keywords": "Rågsveds IF Volleyboll, Stockholms volleybollklubb, herrvolleybolllag, ungdomsvolleybollutveckling, tävlingsvolleyboll, Elitlag, Divisionsvolleyboll, flera divisioner, volleybollträning, volleybollmatcher, nybörjarvolleyboll, svensk volleybollgemenskap, Stockholmsidrott, Rågsved IF historia",
-    "ogTitle": "🔥 Gå med i Rågsveds IF Volleyboll",
+    "ogTitle": "🏐 Gå med i Rågsveds IF Volleyboll 🔥",
     "ogDescription": "Tävla i våra herrlag i olika divisioner eller var en del av vårt ungdomsutvecklingsprogram. Träna hårt, spela passionerat och väx med oss. 🏐",
     "ogImageAlt": "Rågsveds IF Volleybollklubb – Passionerat lag i Stockholm",
     "siteName": "Rågsveds IF Volleyboll",
@@ -13,7 +13,7 @@
     "clubName": "Volleyboll",
     "home": "Hem",
     "about": "Om oss",
-    "men": "Män",
+    "men": "Herrar",
     "youth": "Ungdom",
     "news": "Nyheter",
     "contact": "Kontakt",
@@ -219,7 +219,7 @@
     },
     "adress": {
       "adresses": "Adresser",
-      "whereWeCompete": "Där vi spelar",
+      "whereWePlay": "Där vi spelar",
       "whereWeTrain": "Där vi tränar"
     },
     "social": {

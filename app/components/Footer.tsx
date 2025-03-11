@@ -82,7 +82,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">
               {t("contact.contactUs")}
             </h3>
-            <p>
+            <p className="overflow-hidden">
               <strong>{t("contact.email")}:</strong>{" "}
               <a
                 href="mailto:volleyboll@ragsvedsif.org"
@@ -104,7 +104,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="hover:text-secondary hover:underline"
               >
-                Medborgarplatsen 4, 118 26 Stockholm
+                Forsgrenska - Medborgarplatsen 4, 118 26 Stockholm, Sweden
               </a>
             </p>
             <p className="mb-2">
@@ -115,7 +115,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="hover:text-secondary hover:underline"
               >
-                Trollesundsvägen 47, 124 34 Bandhagen
+                Bandhagshallen - Trollesundsvägen 47, 124 34 Bandhagen, Sweden
               </a>
             </p>
           </address>

@@ -36,8 +36,8 @@ export default function MenTeamInfo({ team }: MenTeamInfoProps) {
           {team.currentRank}
         </li>
       </ul>
-      <Link href={team.championship}>
-        <button className="">{t("results")}</button>
+      <Link href={team.championship} target="_blank" rel="noopener noreferrer">
+        <button>{t("results")}</button>
       </Link>
     </div>
   );
