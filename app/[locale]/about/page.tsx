@@ -3,19 +3,17 @@ import { getTranslations } from "next-intl/server";
 import AnimatedTimelineSection from "../../components/AnimatedTimelineSection";
 
 type PageProps = {
-  params: Promise<{ locale: string }>;
+  params: { locale: string };
 };
 
 export async function generateMetadata({
   params,
-  pathname,
 }: {
-  params: Promise<{ locale: string }>;
-  pathname: string;
+  params: { locale: string };
 }): Promise<Metadata> {
-  const { locale } = await params;
+  const locale = params.locale;
   const t = await getTranslations({ locale, namespace: "AboutUs" });
-  const path = pathname?.replace(`/${locale}`, "") || "";
+  const path = "/about";
 
   return {
     title: t("metaTitle"),
