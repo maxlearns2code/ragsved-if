@@ -8,16 +8,51 @@ type PageProps = {
 
 export async function generateMetadata({
   params,
-}: PageProps): Promise<Metadata> {
+  pathname,
+}: {
+  params: Promise<{ locale: string }>;
+  pathname: string;
+}): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "Metadata" });
+  const t = await getTranslations({ locale, namespace: "AboutUs" });
+  const path = pathname?.replace(`/${locale}`, "") || "";
 
   return {
-    title: t("title"),
-    description: t("description"),
+    title: t("metaTitle"),
+    description: t("metaDescription"),
+    keywords: t("keywords"),
     openGraph: {
-      title: t("title"),
-      description: t("description"),
+      title: t("ogTitle"),
+      description: t("ogDescription"),
+      images: [
+        {
+          url: "/images/logo.png",
+          width: 1920,
+          height: 1542,
+          alt: t("ogImageAlt"),
+        },
+      ],
+      locale: t("lang"),
+      type: "website",
+      siteName: t("siteName"),
+    },
+    alternates: {
+      canonical: `https://vb.rågsvedsif.se/${locale}${path}`,
+      languages: {
+        sv: `https://vb.rågsvedsif.se/sv${path}`,
+        en: `https://vb.rågsvedsif.se/en${path}`,
+        es: `https://vb.rågsvedsif.se/es${path}`,
+        fr: `https://vb.rågsvedsif.se/fr${path}`,
+        de: `https://vb.rågsvedsif.se/de${path}`,
+        sr: `https://vb.rågsvedsif.se/sr${path}`,
+        pl: `https://vb.rågsvedsif.se/pl${path}`,
+        uk: `https://vb.rågsvedsif.se/uk${path}`,
+      },
+    },
+    metadataBase: new URL("https://vb.rågsvedsif.se"),
+    applicationName: t("siteName"),
+    formatDetection: {
+      telephone: false,
     },
   };
 }
