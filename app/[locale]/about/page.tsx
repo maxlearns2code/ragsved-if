@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import AnimatedTimelineSection from "../../components/AnimatedTimelineSection";
 
+// Correct type definition for Next.js App Router
 type PageProps = {
   params: { locale: string };
 };
@@ -13,6 +14,8 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const locale = params.locale;
   const t = await getTranslations({ locale, namespace: "AboutUs" });
+  
+  // Since this is the about page, we know the path
   const path = "/about";
 
   return {
@@ -56,7 +59,7 @@ export async function generateMetadata({
 }
 
 export default async function AboutPage({ params }: PageProps) {
-  const { locale } = await params;
+  const locale = params.locale;
   const t = await getTranslations({ locale, namespace: "AboutUs" });
 
   const sections = [
