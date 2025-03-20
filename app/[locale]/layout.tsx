@@ -22,14 +22,11 @@ const geistMono = Geist_Mono({
 
 export async function generateMetadata({
   params,
-  pathname,
 }: {
   params: Promise<{ locale: string }>;
-  pathname: string;
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Metadata" });
-  const path = pathname?.replace(`/${locale}`, "") || "";
 
   return {
     title: t("title"),
@@ -51,16 +48,16 @@ export async function generateMetadata({
       siteName: t("siteName"),
     },
     alternates: {
-      canonical: `https://vb.rågsvedsif.se/${locale}${path}`,
+      canonical: `https://vb.rågsvedsif.se/${locale}`,
       languages: {
-        sv: `https://vb.rågsvedsif.se/sv${path}`,
-        en: `https://vb.rågsvedsif.se/en${path}`,
-        es: `https://vb.rågsvedsif.se/es${path}`,
-        fr: `https://vb.rågsvedsif.se/fr${path}`,
-        de: `https://vb.rågsvedsif.se/de${path}`,
-        sr: `https://vb.rågsvedsif.se/sr${path}`,
-        pl: `https://vb.rågsvedsif.se/pl${path}`,
-        uk: `https://vb.rågsvedsif.se/uk${path}`,
+        sv: `https://vb.rågsvedsif.se/sv`,
+        en: `https://vb.rågsvedsif.se/en`,
+        es: `https://vb.rågsvedsif.se/es`,
+        fr: `https://vb.rågsvedsif.se/fr`,
+        de: `https://vb.rågsvedsif.se/de`,
+        sr: `https://vb.rågsvedsif.se/sr`,
+        pl: `https://vb.rågsvedsif.se/pl`,
+        uk: `https://vb.rågsvedsif.se/uk`,
       },
     },
     metadataBase: new URL("https://vb.rågsvedsif.se"),
