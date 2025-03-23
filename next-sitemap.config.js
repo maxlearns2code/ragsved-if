@@ -1,17 +1,17 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://vb.rågsvedsif.se/",
+  siteUrl: "https://vb.xn--rgsvedsif-52a.se/",
   generateRobotsTxt: true,
   exclude: [],
   alternateRefs: [
-    { href: "https://vb.rågsvedsif.se/sv", hreflang: "sv" },
-    { href: "https://vb.rågsvedsif.se/en", hreflang: "en" },
-    { href: "https://vb.rågsvedsif.se/es", hreflang: "es" },
-    { href: "https://vb.rågsvedsif.se/fr", hreflang: "fr" },
-    { href: "https://vb.rågsvedsif.se/de", hreflang: "de" },
-    { href: "https://vb.rågsvedsif.se/sr", hreflang: "sr" },
-    { href: "https://vb.rågsvedsif.se/pl", hreflang: "pl" },
-    { href: "https://vb.rågsvedsif.se/uk", hreflang: "uk" },
+    { href: "https://vb.xn--rgsvedsif-52a.se/sv", hreflang: "sv" },
+    { href: "https://vb.xn--rgsvedsif-52a.se/en", hreflang: "en" },
+    { href: "https://vb.xn--rgsvedsif-52a.se/es", hreflang: "es" },
+    { href: "https://vb.xn--rgsvedsif-52a.se/fr", hreflang: "fr" },
+    { href: "https://vb.xn--rgsvedsif-52a.se/de", hreflang: "de" },
+    { href: "https://vb.xn--rgsvedsif-52a.se/sr", hreflang: "sr" },
+    { href: "https://vb.xn--rgsvedsif-52a.se/pl", hreflang: "pl" },
+    { href: "https://vb.xn--rgsvedsif-52a.se/uk", hreflang: "uk" },
   ],
   additionalPaths: async () => {
     const result = [];

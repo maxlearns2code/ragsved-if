@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://vb.rågsvedsif.se/
+Host: https://vb.xn--rgsvedsif-52a.se/
 
 # Sitemaps
-Sitemap: https://vb.rågsvedsif.se/sitemap.xml
+Sitemap: https://vb.xn--rgsvedsif-52a.se/sitemap.xml
