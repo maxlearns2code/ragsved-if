@@ -28,16 +28,15 @@
   },
   "Hero": {
     "title": {
-      "line1": "Rêvez grand, jouez fort",
-      "line2": "Libérez votre potentiel"
+      "line1": "Communauté, engagement",
+      "line2": "À la recherche d'un développement continu"
     },
     "description": {
-      "line1": "Rejoignez notre famille de volleyball dynamique dans la région de Stockholm, où la passion rencontre la performance.",
-      "line2": "Notre club propose un encadrement expert, un jeu compétitif et un environnement d'équipe encourageant.",
-      "line3": "Des débutants aux joueurs chevronnés, chacun a la chance de briller sur notre terrain."
+      "line1": "Nous visons à créer les meilleures conditions pour tous ceux qui souhaitent jouer et se développer dans le volley-ball – quel que soit leur âge ou leur expérience. ",
+      "line2": "En ce moment, nous faisons un grand effort pour les enfants et les jeunes, avec pour objectif de donner à un plus grand nombre la chance de découvrir ce sport et de se développer dans un environnement positif et inspirant."
     },
-    "aboutusButton": "À Propos de Nous",
-    "tryoutButton": "Essayez",
+    "aboutusButton": "Notre histoire",
+    "tryoutButton": "Trouvez votre groupe",
     "imageAlt": "Match de volley-ball en action"
   },
   "Sponsors": {

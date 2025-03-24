@@ -14,7 +14,6 @@ interface Descriptions {
   main: {
     line1: string;
     line2: string;
-    line3: string;
   };
   imageAlt: string;
   buttons: {
@@ -82,7 +81,6 @@ const Hero = () => {
       main: {
         line1: t("description.line1"),
         line2: t("description.line2"),
-        line3: t("description.line3"),
       },
       imageAlt: t("imageAlt"),
       buttons: {
@@ -154,7 +152,6 @@ const Hero = () => {
             >
               <span className="block">{descriptions.main.line1}</span>
               <span className="block">{descriptions.main.line2}</span>
-              <span className="block">{descriptions.main.line3}</span>
             </motion.p>
             <motion.div
               className="flex flex-col sm:flex-row justify-center space-y-3 sm:space-y-0 sm:space-x-4"

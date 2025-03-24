@@ -28,16 +28,15 @@
   },
   "Hero": {
     "title": {
-      "line1": "Sueña en grande, juega duro",
-      "line2": "Libera tu potencial"
+      "line1": "Comunidad, compromiso",
+      "line2": "Esforzándonos por un desarrollo continuo"
     },
     "description": {
-      "line1": "Únete a nuestra vibrante familia de voleibol en el área de Estocolmo, donde la pasión se encuentra con el rendimiento.",
-      "line2": "Nuestro club ofrece entrenamiento experto, juego competitivo y un ambiente de equipo solidario.",
-      "line3": "Desde principiantes hasta jugadores experimentados, todos tienen la oportunidad de brillar en nuestra cancha."
+      "line1": "Nuestro objetivo es crear las mejores condiciones para todos los que quieran jugar y desarrollarse en el voleibol, independientemente de su edad o experiencia.",
+      "line2": "En este momento, estamos haciendo un gran esfuerzo para niños y jóvenes, con el objetivo de dar a más personas la oportunidad de descubrir este deporte y desarrollarse en un entorno positivo e inspirador."
     },
-    "aboutusButton": "Sobre Nosotros",
-    "tryoutButton": "Prueba",
+    "aboutusButton": "Nuestra historia",
+    "tryoutButton": "Encuentra tu grupo",
     "imageAlt": "Partido de voleibol en acción"
   },
   "Sponsors": {

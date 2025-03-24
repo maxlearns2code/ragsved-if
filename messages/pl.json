@@ -28,16 +28,15 @@
   },
   "Hero": {
     "title": {
-      "line1": "Marz odważnie, graj mocno",
-      "line2": "Uwolnij swój potencjał"
+      "line1": "Wspólnota, zaangażowanie",
+      "line2": "Dążenie do ciągłego rozwoju"
     },
     "description": {
-      "line1": "Dołącz do naszej dynamicznej rodziny siatkarskiej w okolicach Sztokholmu, gdzie pasja spotyka się z wydajnością.",
-      "line2": "Nasz klub oferuje profesjonalne treningi, rywalizację na wysokim poziomie i wspierające środowisko zespołowe.",
-      "line3": "Od początkujących po doświadczonych graczy, każdy ma szansę zabłysnąć na naszym boisku."
+      "line1": "Staramy się stworzyć najlepsze warunki dla wszystkich, którzy chcą grać i rozwijać się w siatkówce – niezależnie od wieku czy doświadczenia.",
+      "line2": "Obecnie kładziemy duży nacisk na dzieci i młodzież, z celem dania większej liczbie osób szansy na odkrycie tego sportu i rozwój w pozytywnym i inspirującym środowisku."
     },
-    "aboutusButton": "O Nas",
-    "tryoutButton": "Spróbuj",
+    "aboutusButton": "Nasza historia",
+    "tryoutButton": "Znajdź swoją grupę",
     "imageAlt": "Mecz siatkówki w akcji"
   },
   "Sponsors": {

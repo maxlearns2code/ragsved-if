@@ -28,16 +28,15 @@
   },
   "Hero": {
     "title": {
-      "line1": "Dröm stort, spela hårt",
-      "line2": "Släpp lös din potential"
+      "line1": "Gemenskap, engagemang",
+      "line2": "Strävan efter kontinuerlig utveckling"
     },
     "description": {
-      "line1": "Bli en del av vår livliga volleybollfamilj i Stockholmsområdet där passion möter prestation.",
-      "line2": "Vår klubb erbjuder expertcoaching, tävlingsinriktat spel och en stödjande lagmiljö.",
-      "line3": "Från nybörjare till erfarna spelare, alla har en chans att glänsa på vår plan."
+      "line1": "Vi strävar efter att skapa de bästa förutsättningarna för alla som vill spela och utvecklas inom volleyboll – oavsett ålder eller erfarenhet.",
+      "line2": "Just nu gör vi en stor satsning på barn och ungdomar, med målet att ge fler chansen att upptäcka sporten och utvecklas i en positiv och inspirerande miljö."
     },
-    "aboutusButton": "Om Oss",
-    "tryoutButton": "Prova på",
+    "aboutusButton": "Vår berättelse",
+    "tryoutButton": "Hitta din grupp",
     "imageAlt": "Volleybollmatch i aktion"
   },
   "Sponsors": {

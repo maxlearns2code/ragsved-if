@@ -28,16 +28,15 @@
   },
   "Hero": {
     "title": {
-      "line1": "Sanjaj veliko, igraj snažno",
-      "line2": "Oslobodi svoj potencijal"
+      "line1": "Zajednica, posvećenost",
+      "line2": "Težnja ka kontinuiranom razvoju"
     },
     "description": {
-      "line1": "Pridružite se našoj živahnoj porodici odbojkaša u oblasti Stokholma, gde strast susreće performansu.",
-      "line2": "Naš klub nudi stručno treniranje, takmičarsku igru i podržavajuće timsko okruženje.",
-      "line3": "Od početnika do iskusnih igrača, svako ima šansu da zasija na našem terenu."
+      "line1": "Trudimo se da stvorimo najbolje uslove za sve koji žele da igraju i razvijaju se u odbojci – bez obzira na godine ili iskustvo. ",
+      "line2": "Trenutno ulažemo veliki napor u rad sa decom i mladima, sa ciljem da više ljudi dobije priliku da otkrije ovaj sport i razvija se u pozitivnom i inspirativnom okruženju."
     },
-    "aboutusButton": "O nama",
-    "tryoutButton": "Probaj",
+    "aboutusButton": "Naša priča",
+    "tryoutButton": "Pronađi svoju grupu",
     "imageAlt": "Odbojkaška utakmica u akciji"
   },
   "Sponsors": {

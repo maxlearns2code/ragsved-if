@@ -28,16 +28,15 @@
   },
   "Hero": {
     "title": {
-      "line1": "Dream Big, Play Hard",
-      "line2": "Unleash Your Potential"
+      "line1": "Community, commitment",
+      "line2": "Striving for continuous development"
     },
     "description": {
-      "line1": "Join our vibrant volleyball family in the Stockholm area where passion meets performance.",
-      "line2": "Our club offers expert coaching, competitive play, and a supportive team environment.",
-      "line3": "From beginners to seasoned players, everyone has a chance to shine on our court."
+      "line1": "We aim to create the best conditions for everyone who wants to play and develop in volleyball – regardless of age or experience.",
+      "line2": "Right now, we are making a major effort for children and young people, with the goal of giving more the chance to discover the sport and develop in a positive and inspiring environment."
     },
-    "aboutusButton": "About Us",
-    "tryoutButton": "Try Out",
+    "aboutusButton": "Our story",
+    "tryoutButton": "Find your group",
     "imageAlt": "Volleyball game in action"
   },
   "Sponsors": {
