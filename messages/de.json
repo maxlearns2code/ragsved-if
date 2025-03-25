@@ -39,6 +39,10 @@
     "tryoutButton": "Finde deine Gruppe",
     "imageAlt": "Volleyballspiel in Aktion"
   },
+  "Status": {
+    "title": "Status",
+    "description": "Derzeit haben wir eine aktive Jugendgruppe, aber wir möchten wachsen und mehr Spieler bei Rågsveds Volley willkommen heißen! Neben unseren regulären Trainingseinheiten bieten wir ein Konzept an, das wir individuelle Entwicklungseinheiten nennen. Diese Einheiten finden in kleineren Gruppen statt und bieten die Möglichkeit, sich auf spezifische Techniken zu konzentrieren, damit jeder Spieler die Chance hat, an seinen Verbesserungsbereichen zu arbeiten."
+  },
   "Sponsors": {
     "title": "Unsere Sponsoren",
     "description": "Wir sind stolz darauf, mit diesen Organisationen zusammenzuarbeiten, die unser Engagement teilen."

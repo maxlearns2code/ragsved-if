@@ -39,6 +39,10 @@
     "tryoutButton": "Encuentra tu grupo",
     "imageAlt": "Partido de voleibol en acción"
   },
+  "Status": {
+    "title": "Estado",
+    "description": "Actualmente contamos con un grupo juvenil activo, pero queremos crecer y dar la bienvenida a más jugadores en Rågsveds Volley. Además de nuestras sesiones regulares de entrenamiento, ofrecemos un concepto que llamamos sesiones de desarrollo individual. Estas sesiones se realizan en grupos pequeños y brindan la oportunidad de enfocarse en técnicas específicas, para que cada jugador tenga la posibilidad de trabajar en sus áreas de mejora."
+  },
   "Sponsors": {
     "title": "Nuestros patrocinadores",
     "description": "Estamos orgullosos de colaborar con estas organizaciones que comparten nuestro compromiso."

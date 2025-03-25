@@ -39,6 +39,10 @@
     "tryoutButton": "Hitta din grupp",
     "imageAlt": "Volleybollmatch i aktion"
   },
+  "Status": {
+    "title": "Status",
+    "description": "För närvarande har vi en aktiv ungdomsgrupp, men vi vill växa och välkomna fler spelare till Rågsveds volley! Utöver våra ordinarie träningar erbjuder vi ett koncept vi kallar för individuella utvecklingspass. Dessa pass hålls i mindre grupper och ger möjligheten att fokusera på specifika tekniker, så att varje spelare får chansen att jobba med sitt förbättringsområde."
+  },
   "Sponsors": {
     "title": "Våra sponsorer",
     "description": "Vi är stolta över att samarbeta med dessa organisationer som delar vårt engagemang."

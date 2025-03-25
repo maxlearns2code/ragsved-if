@@ -39,6 +39,10 @@
     "tryoutButton": "Pronađi svoju grupu",
     "imageAlt": "Odbojkaška utakmica u akciji"
   },
+  "Status": {
+    "title": "Status",
+    "description": "Trenutno imamo aktivnu omladinsku grupu, ali želimo da rastemo i poželimo dobrodošlicu još više igrača u Rågsveds Volley! Pored naših redovnih treninga, nudimo koncept koji zovemo individualne razvojne sesije. Ove sesije se održavaju u manjim grupama i pružaju priliku da se fokusirate na specifične tehnike kako bi svaki igrač imao šansu da radi na svojim oblastima za unapređenje."
+  },
   "Sponsors": {
     "title": "Naši sponzori",
     "description": "Ponosi smo što sarađujemo sa ovim organizacijama koje dele našu posvećenost."

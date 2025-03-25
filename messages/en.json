@@ -39,6 +39,10 @@
     "tryoutButton": "Find your group",
     "imageAlt": "Volleyball game in action"
   },
+  "Status": {
+    "title": "Status",
+    "description": "Currently, we have an active youth group, but we want to grow and welcome more players to Rågsveds Volley! In addition to our regular training sessions, we offer a concept we call individual development sessions. These sessions are held in smaller groups and provide the opportunity to focus on specific techniques, so that each player has the chance to work on their areas for improvement."
+  },
   "Sponsors": {
     "title": "Our Sponsors",
     "description": "We are proud to collaborate with these organizations that share our commitment."
@@ -47,7 +51,7 @@
     "metaTitle": "Our Volleyball Journey in Stockholm | Rågsved IF Volleyball Club",
     "metaDescription": "Discover how Rågsved IF Volleyball grew from casual games at Flatenbadet to competitive Division 3 teams in Stockholm. Join our ambitious volleyball community as we aim for Division 2 excellence.",
     "keywords": "Rågsveds IF Volleyball Club, Stockholm volleyball club, Swedish volleyball community, volleyball history, volleyball club story, volleyball team growth, volleyball team expansion, volleyball team mission, Division 3 volleyball, Division 2 volleyball, Korpen volleyball, Swedish Volleyball Championship",
-    "ogTitle":"From Beach Games to Championships: Our Stockholm Volleyball Story",
+    "ogTitle": "From Beach Games to Championships: Our Stockholm Volleyball Story",
     "ogDescription": "Follow Rågsved IF's inspiring journey from recreational players to championship-winning volleyball teams in Stockholm, now competing in Division 3 with sights set on higher divisions.",
     "ogImageAlt": "Rågsved IF Volleyball Club team history | Passionate Team in Stockholm",
     "siteName": "Rågsveds IF Volleyball",
@@ -221,7 +225,7 @@
       "footerNavigation": "Footer Navigation"
     },
     "contact": {
-      "contactUs": "Contact Us",      
+      "contactUs": "Contact Us",
       "email": "Email"
     },
     "adress": {

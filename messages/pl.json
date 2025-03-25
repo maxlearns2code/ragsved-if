@@ -39,6 +39,10 @@
     "tryoutButton": "Znajdź swoją grupę",
     "imageAlt": "Mecz siatkówki w akcji"
   },
+  "Status": {
+    "title": "Status",
+    "description": "Obecnie mamy aktywną grupę młodzieżową, ale chcemy się rozwijać i powitać więcej graczy w Rågsveds Volley! Oprócz naszych regularnych treningów oferujemy koncept, który nazywamy indywidualnymi sesjami rozwojowymi. Te sesje odbywają się w mniejszych grupach i dają możliwość skupienia się na konkretnych technikach, aby każdy gracz miał szansę pracować nad swoimi obszarami do poprawy."
+  },
   "Sponsors": {
     "title": "Nasi sponsorzy",
     "description": "Jesteśmy dumni ze współpracy z tymi organizacjami, które podzielają nasze zaangażowanie."
