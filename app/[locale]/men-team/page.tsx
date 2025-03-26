@@ -13,7 +13,7 @@ export async function generateMetadata({
   const path = "/men-team";
   const fullDescription = `${t("description.line1")} ${t(
     "description.line2"
-  )} ${t("description.line3")}`;
+  )}`;
 
   return {
     title: t("metaTitle"),

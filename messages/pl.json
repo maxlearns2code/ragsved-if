@@ -101,9 +101,8 @@
     "metaTitle": "Informacje o drużynie",
     "title": "Nasze męskie drużyny",
     "description": {
-      "line1": "Dołącz do naszego oddanego zespołu, który przynosi energię i ekscytację do Dywizji 3!",
-      "line2": "Wierzymy w ciężką pracę i moc marzeń.",
-      "line3": "Razem będziemy wspierać się nawzajem, osiągać nowe szczyty i kierować nasze spojrzenie na Dywizję 2!"
+      "line1": "Jesteśmy dumni z posiadania dwóch drużyn męskich – drużyny A i drużyny B – gdzie skupiamy się zarówno na wynikach, jak i na rozwoju zawodników. Przed nadchodzącym sezonem obie nasze drużyny awansowały do Dywizji 2, co jest dla nas ważnym kamieniem milowym.",
+      "line2": "Utrzymanie dwóch drużyn jest ważną częścią naszej filozofii – chcemy zapewnić wszystkim graczom możliwość gry na dobrym poziomie, rozwijania się i przyczyniania się do sukcesu zespołu. Nasz następny cel? Dotarcie do Dywizji 1. Dzięki ciężkiej pracy, zaangażowaniu i silnemu duchowi zespołowemu osiągniemy to krok po kroku. Chcesz być częścią naszej podróży? Skontaktuj się z nami przez e-mail lub skorzystaj z funkcji rejestracji!"
     },
     "teamLinkAriaLabel": "Zobacz szczegóły drużyny {teamName}",
     "teams": [
