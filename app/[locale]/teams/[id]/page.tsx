@@ -32,6 +32,9 @@ export async function generateMetadata({
 
   if (!team) return {};
 
+  const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
+  const canonicalUrl = `${siteUrl}/${locale}/teams/${id}`;
+
   return {
     title: `${team.name} - ${t("metaTitle", { default: "Team Info" })}`,
     description: team.description,
@@ -46,6 +49,9 @@ export async function generateMetadata({
           alt: team.name,
         },
       ],
+    },
+    alternates: {
+      canonical: canonicalUrl,
     },
   };
 }
@@ -78,7 +84,6 @@ function ClientTeamPage({ team }: { team: Team }) {
             />
           </div>
           <div className="w-full md:w-1/2 flex flex-col justify-center">
-            <p className="text-lg text-center mb-6">{team.description}</p>
             <MenTeamInfo team={team} />
           </div>
         </div>

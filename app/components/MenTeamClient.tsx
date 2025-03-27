@@ -28,7 +28,6 @@ export default function MenTeamClient() {
       <p className="text-lg text-center mb-8">
         <span className="block">{t("description.line1")}</span>
         <span className="block">{t("description.line2")}</span>
-        <span className="block">{t("description.line3")}</span>
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-10 max-w-4xl mx-auto">
         {teams.map((team) => (

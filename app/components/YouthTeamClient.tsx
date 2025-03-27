@@ -32,7 +32,7 @@ export default function YouthTeamClient() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
-          className="text-3xl md:text-4xl font-bold text-center"
+          className="text-3xl md:text-4xl font-bold text-center md:w-2/3 m-auto"
         >
           {t("title")}
         </motion.h2>
@@ -46,17 +46,20 @@ export default function YouthTeamClient() {
           >
             <p className="text-lg text-center my-4">{t("description")}</p>
             <p className="text-lg text-center my-4">{t("joinUs")}</p>
+            <p className="text-lg text-center my-4">{t("registerNow")}</p>
             <Link
               href="https://entry.sportadmin.se/groupsOverview?uid=BlleV5&pageId=0&sportid=1075"
               className="w-full sm:w-auto"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button aria-label={t("registerAriaLabel")}>
+              <button
+                aria-label={t("registerAriaLabel")}
+                className="flex m-auto md:w-1/2"
+              >
                 {t("registerButton")}
               </button>
             </Link>
-            <p className="text-lg text-center my-4">{t("registerNow")}</p>
           </motion.div>
         </div>
       </div>
