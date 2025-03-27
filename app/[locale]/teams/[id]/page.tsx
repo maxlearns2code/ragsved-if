@@ -33,7 +33,17 @@ export async function generateMetadata({
   if (!team) return {};
 
   const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
-  const canonicalUrl = `${siteUrl}/${locale}/teams/${id}`;
+  const path = "/teams";
+  const canonicalUrl = `${siteUrl}/${locale}${path}/${id}`;
+
+  const supportedLocales = ["sv", "en", "es", "fr", "de", "sr", "pl", "uk"];
+
+  const languages = Object.fromEntries(
+    supportedLocales.map((lang) => [
+      lang,
+      `${siteUrl}/${lang}${path}/${id}`,
+    ])
+  );
 
   return {
     title: `${team.name} - ${t("metaTitle", { default: "Team Info" })}`,
@@ -52,6 +62,7 @@ export async function generateMetadata({
     },
     alternates: {
       canonical: canonicalUrl,
+      languages,
     },
   };
 }

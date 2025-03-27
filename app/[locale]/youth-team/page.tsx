@@ -10,7 +10,19 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Youth-Team" });
   const tbis = await getTranslations({ locale, namespace: "Metadata" });
+
+  const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
   const path = "/youth-team";
+  const canonicalUrl = `${siteUrl}/${locale}${path}`;
+
+  const supportedLocales = ["sv", "en", "es", "fr", "de", "sr", "pl", "uk"];
+  
+  const languages = Object.fromEntries(
+    supportedLocales.map((lang) => [
+      lang,
+      `${siteUrl}/${lang}${path}`,
+    ])
+  );
 
   return {
     title: t("metaTitle"),
@@ -31,19 +43,10 @@ export async function generateMetadata({
       siteName: tbis("siteName"),
     },
     alternates: {
-      canonical: `https://vb.rågsvedsif.se/${locale}${path}`,
-      languages: {
-        sv: `https://vb.rågsvedsif.se/sv${path}`,
-        en: `https://vb.rågsvedsif.se/en${path}`,
-        es: `https://vb.rågsvedsif.se/es${path}`,
-        fr: `https://vb.rågsvedsif.se/fr${path}`,
-        de: `https://vb.rågsvedsif.se/de${path}`,
-        sr: `https://vb.rågsvedsif.se/sr${path}`,
-        pl: `https://vb.rågsvedsif.se/pl${path}`,
-        uk: `https://vb.rågsvedsif.se/uk${path}`,
-      },
+      canonical: canonicalUrl,
+      languages,
     },
-    metadataBase: new URL("https://vb.rågsvedsif.se"),
+    metadataBase: new URL("https://vb.xn--rgsvedsif-52a.se"),
     applicationName: tbis("siteName"),
     formatDetection: {
       telephone: false,

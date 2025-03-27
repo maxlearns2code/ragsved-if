@@ -9,7 +9,19 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "AboutUs" });
+  
+  const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
   const path = "/about";
+  const canonicalUrl = `${siteUrl}/${locale}${path}`;
+
+  const supportedLocales = ["sv", "en", "es", "fr", "de", "sr", "pl", "uk"];
+
+  const languages = Object.fromEntries(
+    supportedLocales.map((lang) => [
+      lang,
+      `${siteUrl}/${lang}${path}`,
+    ])
+  );
 
   return {
     title: t("metaTitle"),
@@ -31,17 +43,8 @@ export async function generateMetadata({
       siteName: t("siteName"),
     },
     alternates: {
-      canonical: `https://vb.xn--rgsvedsif-52a.se/${locale}${path}`,
-      languages: {
-        sv: `https://vb.xn--rgsvedsif-52a.se/sv${path}`,
-        en: `https://vb.xn--rgsvedsif-52a.se/en${path}`,
-        es: `https://vb.xn--rgsvedsif-52a.se/es${path}`,
-        fr: `https://vb.xn--rgsvedsif-52a.se/fr${path}`,
-        de: `https://vb.xn--rgsvedsif-52a.se/de${path}`,
-        sr: `https://vb.xn--rgsvedsif-52a.se/sr${path}`,
-        pl: `https://vb.xn--rgsvedsif-52a.se/pl${path}`,
-        uk: `https://vb.xn--rgsvedsif-52a.se/uk${path}`,
-      },
+      canonical: canonicalUrl,
+      languages,
     },
     metadataBase: new URL("https://vb.xn--rgsvedsif-52a.se"),
     applicationName: t("siteName"),
