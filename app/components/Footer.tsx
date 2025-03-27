@@ -94,10 +94,10 @@ const Footer = () => {
           </div>
           <address className="text-center not-italic">
             <h3 className="text-lg font-semibold mb-4">
-              {t("adress.adresses")}
+              {t("address.addresses")}
             </h3>
             <p className="mb-2">
-              <strong>{t("adress.whereWePlay")}:</strong>{" "}
+              <strong>{t("address.whereWePlay")}:</strong>{" "}
               <a
                 href="https://maps.app.goo.gl/ZrUewV9QHQ4Hu6ft9"
                 target="_blank"
@@ -108,14 +108,26 @@ const Footer = () => {
               </a>
             </p>
             <p className="mb-2">
-              <strong>{t("adress.whereWeTrain")}:</strong>{" "}
+              <strong>{t("address.whereWeTrain")}:</strong>{" "}
+              <br />
+              <strong>{tHeader("men")}:</strong>{" "}
               <a
                 href="https://maps.app.goo.gl/fbyc7vCLW5RkDnFJ8"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-secondary hover:underline"
               >
-                Bandhagshallen - Trollesundsvägen 47, 124 34 Bandhagen, Sweden
+                Bandhagshallen
+              </a>
+              <br />
+              <strong>{tHeader("youth")}:</strong>{" "}
+              <a
+                href="https://maps.app.goo.gl/Lg7NgRSz9uzEipq27"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-secondary hover:underline"
+              >
+                Kämpetorpshallen
               </a>
             </p>
           </address>
