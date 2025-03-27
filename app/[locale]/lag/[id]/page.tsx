@@ -27,13 +27,14 @@ export async function generateMetadata({
 }: PageProps): Promise<Metadata> {
   const { id, locale } = await params;
   const t = await getTranslations({ locale, namespace: "Men-Teams" });
+  const tbis = await getTranslations({ locale, namespace: "Metadata" });
   const teams: Team[] = t.raw("teams");
   const team = teams.find((team: Team) => team.id === id);
 
   if (!team) return {};
 
   const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
-  const path = "/teams";
+  const path = "/lag";
   const canonicalUrl = `${siteUrl}/${locale}${path}/${id}`;
 
   const supportedLocales = ["sv", "en", "es", "fr", "de", "sr", "pl", "uk"];
@@ -63,6 +64,11 @@ export async function generateMetadata({
     alternates: {
       canonical: canonicalUrl,
       languages,
+    },
+    metadataBase: new URL("https://vb.xn--rgsvedsif-52a.se"),
+    applicationName: tbis("siteName"),
+    formatDetection: {
+      telephone: false,
     },
   };
 }

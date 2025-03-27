@@ -12,7 +12,7 @@ export async function generateMetadata({
   const tbis = await getTranslations({ locale, namespace: "Metadata" });
 
   const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
-  const path = "/youth-team";
+  const path = "/ungdomslag";
   const canonicalUrl = `${siteUrl}/${locale}${path}`;
 
   const supportedLocales = ["sv", "en", "es", "fr", "de", "sr", "pl", "uk"];

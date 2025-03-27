@@ -15,7 +15,7 @@ export async function generateMetadata({
   )}`;
 
   const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
-  const path = "/men-team";
+  const path = "/herrlag";
   const canonicalUrl = `${siteUrl}/${locale}${path}`;
 
   const supportedLocales = ["sv", "en", "es", "fr", "de", "sr", "pl", "uk"];

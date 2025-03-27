@@ -115,7 +115,7 @@ const Hero = () => {
 
   return (
     <section
-      id="home"
+      id="hem"
       className="md:min-h-[calc(100vh-76px)] relative flex items-center overflow-hidden bg-cover bg-center"
       style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('${imageProps.mobile.src}')`,
@@ -157,7 +157,7 @@ const Hero = () => {
               className="flex flex-col sm:flex-row justify-center space-y-3 sm:space-y-0 sm:space-x-4"
               variants={itemVariants}
             >
-              <Link href={`/${locale}/about`} className="w-full sm:w-auto">
+              <Link href={`/${locale}/om`} className="w-full sm:w-auto">
                 <motion.button {...buttonAnimations} className="bg-primary" aria-label={descriptions.buttons.aboutus}>
                   {descriptions.buttons.aboutus}
                 </motion.button>

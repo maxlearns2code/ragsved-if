@@ -20,12 +20,12 @@ module.exports = {
 
     for (const locale of locales) {
       result.push({ loc: `/${locale}` });
-      result.push({ loc: `/${locale}/about` });
-      result.push({ loc: `/${locale}/men-team` });
-      result.push({ loc: `/${locale}/youth-team` });
+      result.push({ loc: `/${locale}/om` });
+      result.push({ loc: `/${locale}/herrlag` });
+      result.push({ loc: `/${locale}/ungdomslag` });
 
       for (const teamId of teamIds) {
-        result.push({ loc: `/${locale}/teams/${teamId}` });
+        result.push({ loc: `/${locale}/lag/${teamId}` });
       }
     }
 

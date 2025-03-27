@@ -44,12 +44,12 @@ const Header = () => {
 
   const navItems = useMemo(
     () => [
-      { href: `/${locale}`, label: t("home") },
-      { href: `/${locale}/about`, label: t("about") },
-      { href: `/${locale}/men-team`, label: t("men") },
-      { href: `/${locale}/youth-team`, label: t("youth") },
-      { href: `/${locale}/#news`, label: t("news") },
-      { href: `/${locale}/#contact`, label: t("contact") },
+      { href: `/${locale}/#hem`, label: t("home") },
+      { href: `/${locale}/om`, label: t("about") },
+      { href: `/${locale}/herrlag`, label: t("men") },
+      { href: `/${locale}/ungdomslag`, label: t("youth") },
+      { href: `/${locale}/#nyheter`, label: t("news") },
+      { href: `/${locale}/#kontakt`, label: t("contact") },
     ],
     [t, locale]
   );

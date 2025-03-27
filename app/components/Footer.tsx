@@ -55,7 +55,7 @@ const Footer = () => {
 
   return (
     <motion.footer
-      id="contact"
+      id="kontakt"
       className="pb-10 md:pb-16"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
@@ -201,7 +201,7 @@ const Footer = () => {
           <ul className="flex flex-wrap justify-center gap-8 text-lg font-bold">
             <li>
               <Link
-                href="/home"
+                href="/#hem"
                 className="hover:text-secondary hover:underline"
               >
                 {tHeader("home")}
@@ -209,7 +209,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="/about"
+                href="/om"
                 className="hover:text-secondary hover:underline"
               >
                 {tHeader("about")}
@@ -217,7 +217,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="/men-team"
+                href="/herrlag"
                 className="hover:text-secondary hover:underline"
               >
                 {tHeader("men")}
@@ -225,7 +225,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="/youth-team"
+                href="/ungdomslag"
                 className="hover:text-secondary hover:underline"
               >
                 {tHeader("youth")}
@@ -233,7 +233,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="/#news"
+                href="/#nyheter"
                 className="hover:text-secondary hover:underline"
               >
                 {tHeader("news")}
@@ -241,7 +241,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="/#contact"
+                href="/#kontakt"
                 className="hover:text-secondary hover:underline"
               >
                 {tHeader("contact")}

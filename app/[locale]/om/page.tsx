@@ -11,7 +11,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "AboutUs" });
   
   const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
-  const path = "/about";
+  const path = "/om";
   const canonicalUrl = `${siteUrl}/${locale}${path}`;
 
   const supportedLocales = ["sv", "en", "es", "fr", "de", "sr", "pl", "uk"];
@@ -73,7 +73,7 @@ export default async function AboutPage({
   ];
 
   return (
-    <section id="about" className="py-10 lg:py-16">
+    <section id="om" className="py-10 lg:py-16">
       <div className="container mx-auto px-4">
         <h1 className="text-3xl md:text-4xl font-bold mb-8 text-center overflow-hidden">
           {t("title")}

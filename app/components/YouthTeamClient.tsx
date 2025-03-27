@@ -9,7 +9,7 @@ export default function YouthTeamClient() {
   const t = useTranslations("Youth-Team");
 
   return (
-    <section id="youth-team" className="py-10 px-4 sm:px-6 lg:px-8">
+    <section id="ungdomslag" className="py-10 px-4 sm:px-6 lg:px-8">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
