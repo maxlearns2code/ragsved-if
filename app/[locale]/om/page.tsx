@@ -32,7 +32,7 @@ export async function generateMetadata({
       description: t("ogDescription"),
       images: [
         {
-          url: "/images/logo.png",
+          url: "/images/desktop-volleyball-game.webp",
           width: 1920,
           height: 1542,
           alt: t("ogImageAlt"),

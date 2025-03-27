@@ -32,9 +32,9 @@ export async function generateMetadata({
       description: t("description"),
       images: [
         {
-          url: "https://ragsvedsif-vk.vercel.app/images/youth-team-hero.webp",
-          width: 1200,
-          height: 630,
+          url: "/images/youth-team-hero.webp",
+          width: 1920,
+          height: 1080,
           alt: t("alt"),
         },
       ],

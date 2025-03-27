@@ -36,7 +36,7 @@ export async function generateMetadata({
       description: fullDescription,
       images: [
         {
-          url: "/images/logo.png",
+          url: "/images/team-A.webp",
           width: 1920,
           height: 1542,
           alt: tbis("ogImageAlt"),
