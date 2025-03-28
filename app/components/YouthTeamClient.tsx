@@ -19,8 +19,8 @@ export default function YouthTeamClient() {
         <Image
           src="/images/youth-team-hero.webp"
           alt={t("alt")}
-          width={1920}
-          height={1080}
+          width={1000}
+          height={750}
           style={{ width: "100%", height: "auto" }}
           className="rounded-lg shadow-xl"
           priority
