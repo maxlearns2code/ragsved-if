@@ -105,6 +105,7 @@
       "line2": "Utrzymanie dwóch drużyn jest ważną częścią naszej filozofii – chcemy zapewnić wszystkim graczom możliwość gry na dobrym poziomie, rozwijania się i przyczyniania się do sukcesu zespołu. Nasz następny cel? Dotarcie do Dywizji 1. Dzięki ciężkiej pracy, zaangażowaniu i silnemu duchowi zespołowemu osiągniemy to krok po kroku. Chcesz być częścią naszej podróży? Skontaktuj się z nami przez e-mail lub skorzystaj z funkcji rejestracji!"
     },
     "teamLinkAriaLabel": "Zobacz szczegóły drużyny {teamName}",
+    "calendarButton": "Zobacz kalendarz",
     "teams": [
       {
         "id": "1",
@@ -112,7 +113,7 @@
         "image": "/images/team-A.webp",
         "description": "Nasza pierwsza drużyna rywalizuje w Dywizji 3 i była potęgą w tym sezonie. Znana z agresywnych serwów i solidnej obrony, Drużyna A konsekwentnie dominowała w swoich meczach.",
         "league": "Dywizja 3",
-        "coach": "Krzysiek",
+        "coach": "Krzysztof",
         "captain": "Filip",
         "currentRank": "1.",
         "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=401"
@@ -123,8 +124,8 @@
         "image": "/images/team-B.webp",
         "description": "Nasza druga drużyna również gra w Dywizji 3 i wykazała godny uwagi postęp w tym sezonie. Z mieszanką doświadczonych graczy i obiecujących talentów, Drużyna B wspięła się na szczyt ligi.",
         "league": "Dywizja 3",
-        "coach": "Krzysiek",
-        "captain": "Damian",
+        "coach": "Krzysztof",
+        "captain": "Robert",
         "currentRank": "1.",
         "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=399"
       }
@@ -138,7 +139,8 @@
     "joinUs": "Obecnie mamy aktywną grupę młodzieżową dla osób w wieku 13–14 lat, która trenuje w każdy czwartek w Kämpetorpshallen. Widzimy rosnące zainteresowanie i planujemy w przyszłości utworzyć więcej grup – więc jeśli Ty lub ktoś kogo znasz chce spróbować siatkówki, nie wahaj się zgłosić swojego zainteresowania!",
     "registerNow": "Nasi zaangażowani trenerzy tworzą inspirujące środowisko, w którym każdy ma możliwość rozwijać się we własnym tempie. Niezależnie od tego czy jesteś początkującym czy masz już doświadczenie – zapraszamy do dołączenia do siatkówki Rågsveds. Czekamy na powitanie większej liczby młodych graczy w naszej społeczności!",
     "registerButton": "Zgłoszenie zainteresowania",
-    "registerAriaLabel": "Zapisz się do drużyny młodzieżowej"
+    "registerAriaLabel": "Zapisz się do drużyny młodzieżowej",
+    "calendarButton": "Zobacz kalendarz"
   },
   "Elite": {
     "challengers": [

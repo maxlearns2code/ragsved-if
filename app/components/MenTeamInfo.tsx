@@ -36,7 +36,7 @@ export default function MenTeamInfo({ team }: MenTeamInfoProps) {
           {team.currentRank}
         </li>
       </ul>
-      <Link href={team.championship} target="_blank" rel="noopener noreferrer">
+      <Link href={team.championship} aria-label={t("results")}target="_blank" rel="noopener noreferrer">
         <button>{t("results")}</button>
       </Link>
     </div>

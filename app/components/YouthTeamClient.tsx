@@ -44,20 +44,27 @@ export default function YouthTeamClient() {
             viewport={{ once: true }}
             className="md:w-1/2"
           >
-            <p className="text-lg text-center my-4">{t("description")}</p>
-            <p className="text-lg text-center my-4">{t("joinUs")}</p>
-            <p className="text-lg text-center my-4">{t("registerNow")}</p>
+            <p className="text-lg text-center mt-8">{t("description")}</p>
+            <p className="text-lg text-center my-8">{t("joinUs")}</p>
+            <p className="text-lg text-center mb-8">{t("registerNow")}</p>
             <Link
               href="https://entry.sportadmin.se/groupsOverview?uid=BlleV5&pageId=0&sportid=1075"
-              className="w-full sm:w-auto"
+              className="flex m-auto md:w-1/2"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button
-                aria-label={t("registerAriaLabel")}
-                className="flex m-auto md:w-1/2"
-              >
+              <button aria-label={t("registerAriaLabel")}>
                 {t("registerButton")}
+              </button>
+            </Link>
+            <Link
+              href="https://www.xn--rgsvedsif-52a.se/kalender/?ID=547666"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex m-auto md:w-1/2 mt-8"
+            >
+              <button aria-label={t("calendarButton")}>
+                {t("calendarButton")}
               </button>
             </Link>
           </motion.div>

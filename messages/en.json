@@ -105,6 +105,7 @@
       "line2": "Maintaining two teams is an important part of our philosophy – we want all players to have the opportunity to play at a good level, develop, and contribute to the team’s success. Our next goal? To reach Division 1. With hard work, commitment, and strong team spirit, we will get there step by step. Want to be part of our journey? Contact us via email or use the registration function!"
     },
     "teamLinkAriaLabel": "View details for {teamName} team",
+    "calendarButton": "View Calendar",
     "teams": [
       {
         "id": "1",
@@ -112,7 +113,7 @@
         "image": "/images/team-A.webp",
         "description": "Our first team competes in Division 3 and has been a powerhouse this season. Known for their aggressive serves and solid defense, Team A has consistently dominated their matches.",
         "league": "Division 3",
-        "coach": "Krzysiek",
+        "coach": "Krzysztof",
         "captain": "Filip",
         "currentRank": "1st",
         "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=401"
@@ -123,8 +124,8 @@
         "image": "/images/team-B.webp",
         "description": "Our second team also plays in Division 3 and has shown remarkable progress this season. With a mix of experienced players and promising talents, Team B has climbed to the top of the league.",
         "league": "Division 3",
-        "coach": "Krzysiek",
-        "captain": "Damian",
+        "coach": "Krzysztof",
+        "captain": "Robert",
         "currentRank": "1st",
         "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=399"
       }
@@ -138,7 +139,8 @@
     "joinUs": "Currently, we have an active youth group for 13–14-year-olds that trains every Thursday at Kämpetorpshallen. We see growing interest and plan to start more groups in the future – so if you or someone you know wants to try volleyball, don’t hesitate to submit an expression of interest!",
     "registerNow": "Our dedicated coaches create an inspiring environment where everyone has the opportunity to develop at their own pace. Whether you’re a beginner or have played before, you’re welcome to become part of Rågsveds Volleyball. We look forward to welcoming more young players into our community!",
     "registerButton": "Express Your Interest",
-    "registerAriaLabel": "Register for Youth Team"
+    "registerAriaLabel": "Register for Youth Team",
+    "calendarButton": "View Calendar"
   },
   "Elite": {
     "challengers": [

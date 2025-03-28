@@ -105,6 +105,7 @@
       "line2": "Maintenir deux équipes est une partie essentielle de notre philosophie – nous voulons que tous les joueurs aient l’opportunité de jouer à un bon niveau, de se développer et de contribuer au succès de l’équipe. Notre prochain objectif ? Atteindre la Division 1. Avec du travail acharné, de l’engagement et un esprit d’équipe fort, nous y arriverons étape par étape. Vous voulez faire partie de notre aventure ? Contactez-nous par e-mail ou utilisez la fonction d’inscription !"
     },
     "teamLinkAriaLabel": "Voir les détails de l'équipe {teamName}",
+    "calendarButton": "Voir le calendrier",
     "teams": [
       {
         "id": "1",
@@ -112,7 +113,7 @@
         "image": "/images/team-A.webp",
         "description": "Notre première équipe concourt en Division 3 et a été une force dominante cette saison. Connue pour ses services agressifs et sa défense solide, l'Équipe A a constamment dominé ses matchs.",
         "league": "Division 3",
-        "coach": "Krzysiek",
+        "coach": "Krzysztof",
         "captain": "Filip",
         "currentRank": "1er",
         "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=401"
@@ -123,8 +124,8 @@
         "image": "/images/team-B.webp",
         "description": "Notre deuxième équipe joue également en Division 3 et a montré des progrès remarquables cette saison. Avec un mélange de joueurs expérimentés et de talents prometteurs, l'Équipe B a grimpé au sommet de la ligue.",
         "league": "Division 3",
-        "coach": "Krzysiek",
-        "captain": "Damian",
+        "coach": "Krzysztof",
+        "captain": "Robert",
         "currentRank": "1er",
         "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=399"
       }
@@ -138,7 +139,8 @@
     "joinUs": "Actuellement, nous avons un groupe de jeunes actif pour les 13–14 ans qui s’entraîne tous les jeudis à Kämpetorpshallen. Nous constatons un intérêt croissant et prévoyons de créer d’autres groupes à l’avenir – alors si vous ou quelqu’un que vous connaissez souhaitez essayer le volley-ball, n’hésitez pas à soumettre une manifestation d’intérêt !",
     "registerNow": "Nos entraîneurs dévoués créent un environnement inspirant où chacun a la possibilité de se développer à son propre rythme. Que vous soyez débutant ou que vous ayez déjà joué, vous êtes le bienvenu pour rejoindre Rågsveds Volley-ball. Nous sommes impatients d’accueillir davantage de jeunes joueurs dans notre communauté !",
     "registerButton": "Inscris-toi maintenant",
-    "registerAriaLabel": "Inscris-toi pour l'équipe de jeunes"
+    "registerAriaLabel": "Inscris-toi pour l'équipe de jeunes",
+    "calendarButton": "Voir le calendrier"
   },
   "Elite": {
     "challengers": [

@@ -136,11 +136,11 @@ const Hero = () => {
         <div className="flex flex-col lg:flex-row items-center w-full">
           <motion.div className="w-full my-20 lg:my-0" variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold text-center overflow-hidden">
-              <motion.span className="block" variants={itemVariants}>
+              <motion.span className="block pb-6" variants={itemVariants}>
                 {titleContent.line1}
               </motion.span>
               <motion.span
-                className="block text-secondary"
+                className="block text-secondary pb-6"
                 variants={itemVariants}
               >
                 {titleContent.line2}

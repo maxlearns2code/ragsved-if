@@ -105,6 +105,7 @@
       "line2": "Održavanje dva tima je važan deo naše filozofije – želimo da svi igrači imaju priliku da igraju na dobrom nivou, razvijaju se i doprinesu uspehu tima. Naš sledeći cilj? Da dostignemo Diviziju 1. Uz naporan rad, posvećenost i jak timski duh stići ćemo tamo korak po korak. Želiš li biti deo našeg puta? Kontaktiraj nas putem mejla ili koristi funkciju za registraciju!"
     },
     "teamLinkAriaLabel": "Pogledaj detalje za tim {teamName}",
+    "calendarButton": "Prikaži kalendar",
     "teams": [
       {
         "id": "1",
@@ -112,7 +113,7 @@
         "image": "/images/team-A.webp",
         "description": "Naš prvi tim se takmiči u Trećoj ligi i bio je dominantan ove sezone. Poznat po agresivnim servisima i čvrstoj odbrani, Tim A je konstantno dominirao svojim mečevima.",
         "league": "Treća liga",
-        "coach": "Krzysiek",
+        "coach": "Krzysztof",
         "captain": "Filip",
         "currentRank": "1.",
         "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=401"
@@ -123,8 +124,8 @@
         "image": "/images/team-B.webp",
         "description": "Naš drugi tim takođe igra u Trećoj ligi i pokazao je izuzetan napredak ove sezone. Sa mešavinom iskusnih igrača i perspektivnih talenata, Tim B se popeo na vrh lige.",
         "league": "Treća liga",
-        "coach": "Krzysiek",
-        "captain": "Damian",
+        "coach": "Krzysztof",
+        "captain": "Robert",
         "currentRank": "1.",
         "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=399"
       }
@@ -138,7 +139,8 @@
     "joinUs": "Trenutno imamo aktivnu omladinsku grupu za uzrast od 13–14 godina koja trenira svakog četvrtka u Kämpetorpshallen-u. Vidimo sve veće interesovanje i planiramo da pokrenemo još grupa u budućnosti – zato ako vi ili neko koga poznajete želi da proba odbojku, ne oklevajte da pošaljete prijavu za interesovanje!",
     "registerNow": "Naši posvećeni treneri stvaraju inspirativno okruženje gde svako ima priliku da se razvija sopstvenim tempom. Bez obzira na to da li ste početnik ili ste već igrali ranije, dobrodošli ste da postanete deo Rågsveds odbojke. Radujemo se što ćemo dočekati još mladih igrača u našoj zajednici!",
     "registerButton": "Prijava za interesovanje",
-    "registerAriaLabel": "Prijavi se za omladinski tim"
+    "registerAriaLabel": "Prijavi se za omladinski tim",
+    "calendarButton": "Prikaži kalendar"
   },
   "Elite": {
     "challengers": [

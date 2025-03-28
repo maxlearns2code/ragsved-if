@@ -94,8 +94,8 @@
     "league": "Liga",
     "coach": "Tränare",
     "captain": "Lagkapten",
-    "currentRank": "Nuvarande ranking",
-    "results": "Resultat"
+    "currentRank": "Nuvarande placering",
+    "results": "Tabell"
   },
   "Men-Teams": {
     "metaTitle": "Laginformation",
@@ -105,6 +105,7 @@
       "line2": "Att behålla två lag är en viktig del av vår filosofi – vi vill att alla spelare ska få möjlighet att spela på en bra nivå, utvecklas och bidra till lagets framgång. Vårt nästa mål? Att nå division 1. Med hårt arbete, engagemang och en stark laganda tar vi oss dit, steg för steg. Vill du vara en del av vår resa? Hör av dig via mejl eller använd registreringsfunktionen!"
     },
     "teamLinkAriaLabel": "Visa detaljer för {teamName} laget",
+    "calendarButton": "Visa kalender",
     "teams": [
       {
         "id": "1",
@@ -112,7 +113,7 @@
         "image": "/images/team-A.webp",
         "description": "Vårt första lag tävlar i Division 3 och har varit en maktfaktor den här säsongen. Kända för sina aggressiva servar och solida försvar har Lag A konsekvent dominerat sina matcher.",
         "league": "Division 3",
-        "coach": "Krzysiek",
+        "coach": "Krzysztof",
         "captain": "Filip",
         "currentRank": "1:a",
         "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=401"
@@ -123,8 +124,8 @@
         "image": "/images/team-B.webp",
         "description": "Vårt andra lag spelar också i Division 3 och har visat anmärkningsvärd framgång den här säsongen. Med en blandning av erfarna spelare och lovande talanger har Lag B klättrat till toppen av ligan.",
         "league": "Division 3",
-        "coach": "Krzysiek",
-        "captain": "Damian",
+        "coach": "Krzysztof",
+        "captain": "Robert",
         "currentRank": "1:a",
         "championship": "https://svbf-web.dataproject.com/CompetitionHome.aspx?ID=399"
       }
@@ -138,7 +139,8 @@
     "joinUs": "Just nu har vi en aktiv ungdomsgrupp för 13–14-åringar, som tränar varje torsdag i Kämpetorpshallen. Vi ser ett ökat intresse och planerar att starta fler grupper framöver – så om du eller någon du känner vill prova på volleyboll, tveka inte att göra en intresseanmälan!",
     "registerNow": "Våra engagerade tränare skapar en inspirerande miljö där alla får möjlighet att utvecklas i sin egen takt. Oavsett om du är nybörjare eller har spelat tidigare är du välkommen att bli en del av Rågsveds volleyboll. Vi ser fram emot att välkomna fler unga spelare till vår gemenskap!",
     "registerButton": "Intresseanmälan",
-    "registerAriaLabel": "Registrera dig för att bli en del av vårt ungdomslag"
+    "registerAriaLabel": "Registrera dig för att bli en del av vårt ungdomslag",
+    "calendarButton": "Visa kalender"
   },
   "Elite": {
     "challengers": [

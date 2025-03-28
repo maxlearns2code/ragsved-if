@@ -17,6 +17,7 @@ interface Team {
 
 export default function MenTeamClient() {
   const t = useTranslations("Men-Teams");
+  const tbis = useTranslations("Hero");
   const locale = useLocale();
   const teams: Team[] = t.raw("teams");
 
@@ -55,8 +56,28 @@ export default function MenTeamClient() {
               </div>
             </div>
           </Link>
-        ))}
+        ))}        
       </div>
+      <Link
+          href="https://entry.sportadmin.se/groupsOverview?uid=BlleV5&pageId=0&sportid=1075"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex m-auto md:w-1/4 mt-8"
+        >
+          <button aria-label={tbis("tryoutButton")}>
+            {tbis("tryoutButton")}
+          </button>
+        </Link>
+        <Link
+          href="https://www.xn--rgsvedsif-52a.se/kalender/?ID=455991"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex m-auto md:w-1/4 mt-8"
+        >
+          <button aria-label={t("calendarButton")}>
+            {t("calendarButton")}
+          </button>
+        </Link>
     </section>
   );
 }
