@@ -105,6 +105,7 @@
       "line2": "Maintenir deux équipes est une partie essentielle de notre philosophie – nous voulons que tous les joueurs aient l’opportunité de jouer à un bon niveau, de se développer et de contribuer au succès de l’équipe. Notre prochain objectif ? Atteindre la Division 1. Avec du travail acharné, de l’engagement et un esprit d’équipe fort, nous y arriverons étape par étape. Vous voulez faire partie de notre aventure ? Contactez-nous par e-mail ou utilisez la fonction d’inscription !"
     },
     "teamLinkAriaLabel": "Voir les détails de l'équipe {teamName}",
+    "tryoutButton": "Entraînement d’essai",
     "calendarButton": "Voir le calendrier",
     "teams": [
       {

@@ -17,7 +17,6 @@ interface Team {
 
 export default function MenTeamClient() {
   const t = useTranslations("Men-Teams");
-  const tbis = useTranslations("Hero");
   const locale = useLocale();
   const teams: Team[] = t.raw("teams");
 
@@ -64,8 +63,8 @@ export default function MenTeamClient() {
           rel="noopener noreferrer"
           className="flex m-auto md:w-1/4 mt-8"
         >
-          <button aria-label={tbis("tryoutButton")}>
-            {tbis("tryoutButton")}
+          <button aria-label={t("tryoutButton")}>
+            {t("tryoutButton")}
           </button>
         </Link>
         <Link
