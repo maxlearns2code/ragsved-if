@@ -29,16 +29,13 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "Metadata" });
 
   const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
-  const path = "/";
+  const path = "";
   const canonicalUrl = `${siteUrl}/${locale}${path}`;
 
   const supportedLocales = ["sv", "en", "es", "fr", "de", "sr", "pl", "uk"];
 
   const languages = Object.fromEntries(
-    supportedLocales.map((lang) => [
-      lang,
-      `${siteUrl}/${lang}${path}`,
-    ])
+    supportedLocales.map((lang) => [lang, `${siteUrl}/${lang}${path}`])
   );
 
   return {
@@ -50,7 +47,7 @@ export async function generateMetadata({
       description: t("ogDescription"),
       images: [
         {
-          url: "/images/logo.png",
+          url: "${siteUrl}/images/logo.png",
           width: 542,
           height: 761,
           alt: t("ogImageAlt"),
@@ -68,6 +65,9 @@ export async function generateMetadata({
     applicationName: t("siteName"),
     formatDetection: {
       telephone: false,
+    },
+    verification: {
+      google: "google22bc59f960ea8815",
     },
   };
 }

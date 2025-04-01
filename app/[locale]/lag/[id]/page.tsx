@@ -24,26 +24,32 @@ type PageProps = {
 
 export async function generateMetadata({
   params,
-}: PageProps): Promise<Metadata> {
+}: {
+  params: Promise<{ id: string; locale: string }>;
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+}): Promise<Metadata> {
   const { id, locale } = await params;
   const t = await getTranslations({ locale, namespace: "Men-Teams" });
   const tbis = await getTranslations({ locale, namespace: "Metadata" });
   const teams: Team[] = t.raw("teams");
   const team = teams.find((team: Team) => team.id === id);
 
-  if (!team) return {};
+  if (!team) {
+    return {
+      title: `Team Not Found - ${tbis("siteName")}`,
+      description: tbis("description"),
+      metadataBase: new URL("https://vb.xn--rgsvedsif-52a.se"),
+    };
+  }
 
   const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
-  const path = "/lag";
-  const canonicalUrl = `${siteUrl}/${locale}${path}/${id}`;
+  const path = `/lag/${id}`;
+  const canonicalUrl = `${siteUrl}/${locale}${path}`;
 
   const supportedLocales = ["sv", "en", "es", "fr", "de", "sr", "pl", "uk"];
 
   const languages = Object.fromEntries(
-    supportedLocales.map((lang) => [
-      lang,
-      `${siteUrl}/${lang}${path}/${id}`,
-    ])
+    supportedLocales.map((lang) => [lang, `${siteUrl}/${lang}${path}`])
   );
 
   return {
@@ -54,7 +60,9 @@ export async function generateMetadata({
       description: team.description,
       images: [
         {
-          url: team.image,
+          url: team.image.startsWith("http")
+            ? team.image
+            : `${siteUrl}${team.image}`,
           width: 1071,
           height: 1068,
           alt: team.name,
@@ -69,6 +77,9 @@ export async function generateMetadata({
     applicationName: tbis("siteName"),
     formatDetection: {
       telephone: false,
+    },
+    verification: {
+      google: "google22bc59f960ea8815",
     },
   };
 }

@@ -135,7 +135,7 @@ const Hero = () => {
       >
         <div className="flex flex-col lg:flex-row items-center w-full">
           <motion.div className="w-full my-20 lg:my-0" variants={itemVariants}>
-            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold text-center overflow-hidden">
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-7xl font-extrabold text-center overflow-hidden">
               <motion.span className="block pb-6" variants={itemVariants}>
                 {titleContent.line1}
               </motion.span>
@@ -154,16 +154,29 @@ const Hero = () => {
               <span className="block">{descriptions.main.line2}</span>
             </motion.p>
             <motion.div
-              className="flex flex-col sm:flex-row justify-center space-y-3 sm:space-y-0 sm:space-x-4"
+              className="flex flex-col sm:flex-row justify-center space-y-3 sm:space-y-0 sm:space-x-5"
               variants={itemVariants}
             >
               <Link href={`/${locale}/om`} className="w-full sm:w-auto">
-                <motion.button {...buttonAnimations} className="bg-primary" aria-label={descriptions.buttons.aboutus}>
+                <motion.button
+                  {...buttonAnimations}
+                  className="bg-primary"
+                  aria-label={descriptions.buttons.aboutus}
+                >
                   {descriptions.buttons.aboutus}
                 </motion.button>
               </Link>
-              <Link href="https://entry.sportadmin.se/groupsOverview?uid=BlleV5&pageId=0&sportid=1075" className="w-full sm:w-auto" target="_blank" rel="noopener noreferrer">
-                <motion.button {...buttonAnimations} className="bg-primary" aria-label={descriptions.buttons.tryout}>
+              <Link
+                href="https://entry.sportadmin.se/groupsOverview?uid=BlleV5&pageId=0&sportid=1075"
+                className="w-full sm:w-auto"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <motion.button
+                  {...buttonAnimations}
+                  className="bg-primary"
+                  aria-label={descriptions.buttons.tryout}
+                >
                   {descriptions.buttons.tryout}
                 </motion.button>
               </Link>

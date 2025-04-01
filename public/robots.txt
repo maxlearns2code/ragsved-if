@@ -1,9 +1,12 @@
 # *
 User-agent: *
 Allow: /
+Disallow: /api/*
+Disallow: /_next/*
+Disallow: /vercel/*
 
 # Host
-Host: https://vb.xn--rgsvedsif-52a.se/
+Host: https://vb.xn--rgsvedsif-52a.se
 
 # Sitemaps
 Sitemap: https://vb.xn--rgsvedsif-52a.se/sitemap.xml

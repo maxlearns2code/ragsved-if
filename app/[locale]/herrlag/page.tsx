@@ -10,9 +10,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Men-Teams" });
   const tbis = await getTranslations({ locale, namespace: "Metadata" });
-  const fullDescription = `${t("description.line1")} ${t(
-    "description.line2"
-  )}`;
+  const fullDescription = `${t("description.line1")} ${t("description.line2")}`;
 
   const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
   const path = "/herrlag";
@@ -21,10 +19,7 @@ export async function generateMetadata({
   const supportedLocales = ["sv", "en", "es", "fr", "de", "sr", "pl", "uk"];
 
   const languages = Object.fromEntries(
-    supportedLocales.map((lang) => [
-      lang,
-      `${siteUrl}/${lang}${path}`,
-    ])
+    supportedLocales.map((lang) => [lang, `${siteUrl}/${lang}${path}`])
   );
 
   return {
@@ -36,7 +31,7 @@ export async function generateMetadata({
       description: fullDescription,
       images: [
         {
-          url: "/images/team-A.webp",
+          url: "${siteUrl}/images/team-A.webp",
           width: 1920,
           height: 1542,
           alt: tbis("ogImageAlt"),
@@ -54,6 +49,9 @@ export async function generateMetadata({
     applicationName: tbis("siteName"),
     formatDetection: {
       telephone: false,
+    },
+    verification: {
+      google: "google22bc59f960ea8815",
     },
   };
 }

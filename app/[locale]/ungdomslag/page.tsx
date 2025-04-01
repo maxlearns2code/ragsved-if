@@ -16,12 +16,9 @@ export async function generateMetadata({
   const canonicalUrl = `${siteUrl}/${locale}${path}`;
 
   const supportedLocales = ["sv", "en", "es", "fr", "de", "sr", "pl", "uk"];
-  
+
   const languages = Object.fromEntries(
-    supportedLocales.map((lang) => [
-      lang,
-      `${siteUrl}/${lang}${path}`,
-    ])
+    supportedLocales.map((lang) => [lang, `${siteUrl}/${lang}${path}`])
   );
 
   return {
@@ -50,6 +47,9 @@ export async function generateMetadata({
     applicationName: tbis("siteName"),
     formatDetection: {
       telephone: false,
+    },
+    verification: {
+      google: "google22bc59f960ea8815",
     },
   };
 }

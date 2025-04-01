@@ -9,7 +9,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "AboutUs" });
-  
+
   const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
   const path = "/om";
   const canonicalUrl = `${siteUrl}/${locale}${path}`;
@@ -17,10 +17,7 @@ export async function generateMetadata({
   const supportedLocales = ["sv", "en", "es", "fr", "de", "sr", "pl", "uk"];
 
   const languages = Object.fromEntries(
-    supportedLocales.map((lang) => [
-      lang,
-      `${siteUrl}/${lang}${path}`,
-    ])
+    supportedLocales.map((lang) => [lang, `${siteUrl}/${lang}${path}`])
   );
 
   return {
@@ -50,6 +47,9 @@ export async function generateMetadata({
     applicationName: t("siteName"),
     formatDetection: {
       telephone: false,
+    },
+    verification: {
+      google: "google22bc59f960ea8815",
     },
   };
 }
