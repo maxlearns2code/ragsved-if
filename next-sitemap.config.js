@@ -13,7 +13,6 @@ module.exports = {
         disallow: ["/api/*", "/_next/*", "/vercel/*"],
       },
     ],
-    additionalSitemaps: ["https://vb.xn--rgsvedsif-52a.se/sitemap.xml"],
   },
   alternateRefs: [
     { href: "https://vb.xn--rgsvedsif-52a.se/sv", hreflang: "sv" },
