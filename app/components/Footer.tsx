@@ -6,6 +6,7 @@ import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const FaInstagram = dynamic(() =>
   import("react-icons/fa").then((mod) => mod.FaInstagram)
@@ -108,8 +109,7 @@ const Footer = () => {
               </a>
             </p>
             <p className="mb-2">
-              <strong>{t("address.whereWeTrain")}:</strong>{" "}
-              <br />
+              <strong>{t("address.whereWeTrain")}:</strong> <br />
               <strong>{tHeader("men")}:</strong>{" "}
               <a
                 href="https://maps.app.goo.gl/fbyc7vCLW5RkDnFJ8"
@@ -198,7 +198,7 @@ const Footer = () => {
           </div>
         </div>
         <nav aria-label={t("general.footerNavigation")} className="mt-8">
-          <ul className="flex flex-wrap justify-center gap-8 text-lg font-bold">
+          <ul className="flex flex-wrap justify-center items-center gap-8 text-lg font-bold">
             <li>
               <Link
                 href="/#hem"
@@ -208,10 +208,7 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link
-                href="/om"
-                className="hover:text-secondary hover:underline"
-              >
+              <Link href="/om" className="hover:text-secondary hover:underline">
                 {tHeader("about")}
               </Link>
             </li>
@@ -247,6 +244,7 @@ const Footer = () => {
                 {tHeader("contact")}
               </Link>
             </li>
+            <LanguageSwitcher />
           </ul>
         </nav>
         <hr className="my-4 border-secondary" />
