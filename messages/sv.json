@@ -47,6 +47,23 @@
     "title": "Våra sponsorer",
     "description": "Vi är stolta över att samarbeta med dessa organisationer som delar vårt engagemang."
   },
+  "News": {
+    "title": "Nyheter",
+    "article": "Läs artikeln",
+    "newsPage": [
+      {
+        "id": "1",
+        "title": "Tryouts för Rågsveds IF volleyboll Herrlag!",
+        "description": "Just nu söker vi nya spelar för nästa års säsong i division 2. Vi söker främst passar och centrar men andra positioner är också välkomna att söka!",
+        "date": "Tisdag 15:e April och Tisdag 29:e April",
+        "location": "Kämpetorpshallen",
+        "linkDescription": "Använd länken",
+        "link": "https://entry.sportadmin.se/groupsOverview?uid=BlleV5&pageId=0&sportid=1075 ",
+        "contactDescription": "för att göra en anmälan eller mejla oss direkt på",
+        "contact": "ragsvedsvolleyboll@ragsvedsif.org "        
+      }
+    ]
+  },
   "AboutUs": {
     "metaTitle": "Vår volleybollresa i Stockholm | Rågsved IF Volleybollklubb",
     "metaDescription": "Upptäck hur Rågsved IF Volleyboll växte från avslappnade spel vid Flatenbadet till konkurrenskraftiga Division 3-lag i Stockholm. Gå med i vår ambitiösa volleybollgemenskap när vi siktar på Division 2-excellens.",

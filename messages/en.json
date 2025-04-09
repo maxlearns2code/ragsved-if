@@ -43,6 +43,23 @@
     "title": "Status",
     "description": "Currently, we have an active youth group, but we want to grow and welcome more players to Rågsveds Volley! In addition to our regular training sessions, we offer a concept we call individual development sessions. These sessions are held in smaller groups and provide the opportunity to focus on specific techniques, so that each player has the chance to work on their areas for improvement."
   },
+  "News": {
+    "title": "News",
+    "article": "Read the article",
+    "newsPage": [
+      {
+        "id": "1",
+        "title": "Tryouts for Rågsveds IF Volleyball Men's Team!",
+        "description": "We are currently looking for new players for next year's season in Division 2. We are primarily seeking setters and middle blockers, but other positions are also welcome to apply!",
+        "date": "Tuesday, April 15th and Tuesday, April 29th",
+        "location": "Kämpetorpshallen",
+        "linkDescription": "Use the link",
+        "link": "https://entry.sportadmin.se/groupsOverview?uid=BlleV5&pageId=0&sportid=1075 ",
+        "contactDescription": "to register or email us directly at",
+        "contact": "ragsvedsvolleyboll@ragsvedsif.org "
+      }
+    ]
+  },
   "Sponsors": {
     "title": "Our Sponsors",
     "description": "We are proud to collaborate with these organizations that share our commitment."

@@ -43,6 +43,23 @@
     "title": "Status",
     "description": "Trenutno imamo aktivnu omladinsku grupu, ali želimo da rastemo i poželimo dobrodošlicu još više igrača u Rågsveds Volley! Pored naših redovnih treninga, nudimo koncept koji zovemo individualne razvojne sesije. Ove sesije se održavaju u manjim grupama i pružaju priliku da se fokusirate na specifične tehnike kako bi svaki igrač imao šansu da radi na svojim oblastima za unapređenje."
   },
+  "News": {
+    "title": "Vesti",
+    "article": "Pročitaj članak",
+    "newsPage": [
+      {
+        "id": "1",
+        "title": "Probe za Rågsveds IF odbojkaški muški tim!",
+        "description": "Trenutno tražimo nove igrače za sledeću sezonu u diviziji 2. Posebno tražimo tehničare i centralne blokere, ali su dobrodošli i igrači na drugim pozicijama!",
+        "date": "Utorak, 15. april i Utorak, 29. april",
+        "location": "Kämpetorpshallen",
+        "linkDescription": "Koristite link",
+        "link": "https://entry.sportadmin.se/groupsOverview?uid=BlleV5&pageId=0&sportid=1075 ",
+        "contactDescription": "da se prijavite ili nam direktno pošaljete mejl na",
+        "contact": "ragsvedsvolleyboll@ragsvedsif.org "
+      }
+    ]
+  },
   "Sponsors": {
     "title": "Naši sponzori",
     "description": "Ponosi smo što sarađujemo sa ovim organizacijama koje dele našu posvećenost."
