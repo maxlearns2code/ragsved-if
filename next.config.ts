@@ -87,6 +87,26 @@ const nextConfig: NextConfig = {
         destination: "https://vb.xn--rgsvedsif-52a.se/:path*",
         permanent: true,
       },
+      {
+        source: '/about',
+        destination: '/om',
+        permanent: true,
+      },
+      {
+        source: '/teams/:id',
+        destination: '/lag/:id',
+        permanent: true,
+      },
+      {
+        source: '/men-teams',
+        destination: '/herrlag',
+        permanent: true,
+      },
+      {
+        source: '/youth-team',
+        destination: '/ungdomslag',
+        permanent: true,
+      },
     ];
   },
   images: {
