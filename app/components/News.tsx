@@ -1,5 +1,10 @@
-import { useLocale, useTranslations } from "next-intl";
+import { useTranslations } from "next-intl";
 import Link from "next/link";
+import {
+  FaCalendarAlt,
+  FaExternalLinkAlt,
+  FaMapMarkerAlt,
+} from "react-icons/fa";
 
 interface NewsProps {
   id: string;
@@ -15,7 +20,6 @@ interface NewsProps {
 
 const News = () => {
   const t = useTranslations("News");
-  const locale = useLocale();
   const news: NewsProps[] = t.raw("newsPage");
 
   return (
@@ -25,15 +29,32 @@ const News = () => {
         <article className="flex flex-wrap justify-center items-center gap-8">
           {news.map((newsItem) => (
             <Link
-              href={`/${locale}/nyheter/${newsItem.id}`}
+              href={newsItem.link}
+              target="_blank"
+              rel="noopener noreferrer"
               key={newsItem.id}
               title={newsItem.title}
               aria-label={newsItem.title}
             >
-              <div className="w-full md:w-60 rounded-lg shadow-md flex bg-sec bg-white/10 hover:bg-white/20 transition duration-300 ease-in-out">
+              <div className="w-full rounded-lg shadow-md flex bg-sec bg-white/10 hover:bg-white/20 transition duration-300 ease-in-out">
                 <div className="inset-0 flex flex-col items-start text-white p-4 ">
                   <h3 className="text-xl font-bold">{newsItem.title}</h3>
-                  <p className="text-base py-2 px-4 mt-4 border-2 border-white rounded-full">{t("article")}</p>
+                  <p className="text-sm lg:text-base flex items-center gap-2 mt-4">
+                    <FaCalendarAlt className="text-lg" />
+                    {newsItem.date}
+                  </p>
+                  <p className="text-sm lg:text-base flex items-center gap-2 mt-2">
+                    {" "}
+                    <FaMapMarkerAlt className="text-lg" />
+                    {newsItem.location}
+                  </p>
+                  <p className="text-sm lg:text-base mt-2">
+                    {newsItem.description}
+                  </p>
+                  <p className="text-sm lg:text-base flex items-center gap-2 mt-2 hover:text-secondary hover:underline">
+                    <FaExternalLinkAlt className="text-lg" />
+                    {newsItem.linkDescription}
+                  </p>
                 </div>
               </div>
             </Link>
