@@ -10,6 +10,7 @@ const intlMiddleware = createIntlMiddleware({
 
 export default function middleware(request: NextRequest) {
   const hostname = request.headers.get("host");
+  const path = request.nextUrl.pathname;
 
   if (
     hostname === "ragsvedsif-vk.vercel.app" ||
@@ -17,7 +18,6 @@ export default function middleware(request: NextRequest) {
     hostname === "rif-volleyball.vercel.app"
   ) {
     const url = request.nextUrl.clone();
-    const path = url.pathname;
     const searchParams = url.search;
 
     const redirectUrl = new URL(
@@ -25,6 +25,27 @@ export default function middleware(request: NextRequest) {
     );
 
     return NextResponse.redirect(redirectUrl, 301);
+  }
+
+  const redirectMap: Record<string, string> = {
+    "/about": "/om",
+    "/men-teams": "/herrlag",
+    "/youth-team": "/ungdomslag",
+  };
+
+  if (path in redirectMap) {
+    return NextResponse.redirect(
+      new URL(redirectMap[path], request.url),
+      308
+    );
+  }
+
+  if (path.startsWith("/teams/")) {
+    const id = path.split("/")[2];
+    return NextResponse.redirect(
+      new URL(`/lag/${id}`, request.url),
+      308
+    );
   }
 
   return intlMiddleware(request);
