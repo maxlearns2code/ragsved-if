@@ -44,67 +44,41 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
-        source: "/:path*",
-        has: [
-          {
-            type: "host",
-            value: "ragsvedsif-vk.vercel.app",
-          },
-        ],
-        destination: "https://vb.xn--rgsvedsif-52a.se/:path*",
+        source: "/:locale(sv|en|es|fr|de|sr|uk|pl)/youth-team",
+        destination: "/:locale/ungdomslag",
+        permanent: true,
+        locale: false,
+      },
+      {
+        source: "/youth-team",
+        destination: "/sv/ungdomslag",
         permanent: true,
       },
+      {
+        source: "/about",
+        destination: "/sv/om",
+        permanent: true,
+      },
+      {
+        source: "/men-teams",
+        destination: "/sv/herrlag",
+        permanent: true,
+      },
+      {
+        source: "/teams/:id",
+        destination: "/sv/lag/:id",
+        permanent: true,
+      },
+
       {
         source: "/:path*",
         has: [
-          {
-            type: "host",
-            value: "www.ragsvedsif-vk.vercel.app",
-          },
+          { type: "host", value: "ragsvedsif-vk.vercel.app" },
+          { type: "host", value: "www.ragsvedsif-vk.vercel.app" },
+          { type: "host", value: "rif-volleyball.vercel.app" },
+          { type: "host", value: "www.vb.xn--rgsvedsif-52a.se" },
         ],
         destination: "https://vb.xn--rgsvedsif-52a.se/:path*",
-        permanent: true,
-      },
-      {
-        source: "/:path*",
-        has: [
-          {
-            type: "host",
-            value: "rif-volleyball.vercel.app",
-          },
-        ],
-        destination: "https://vb.xn--rgsvedsif-52a.se/:path*",
-        permanent: true,
-      },
-      {
-        source: "/:path*",
-        has: [
-          {
-            type: "host",
-            value: "www.vb.xn--rgsvedsif-52a.se",
-          },
-        ],
-        destination: "https://vb.xn--rgsvedsif-52a.se/:path*",
-        permanent: true,
-      },
-      {
-        source: '/about',
-        destination: '/om',
-        permanent: true,
-      },
-      {
-        source: '/teams/:id',
-        destination: '/lag/:id',
-        permanent: true,
-      },
-      {
-        source: '/men-teams',
-        destination: '/herrlag',
-        permanent: true,
-      },
-      {
-        source: '/youth-team',
-        destination: '/ungdomslag',
         permanent: true,
       },
     ];
