@@ -1,20 +1,27 @@
-
-
 import { motion } from "framer-motion";
+import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 import React from "react";
-import LanguageSwitcher from "./LanguageSwitcher";
 import { FaInstagram } from "react-icons/fa";
-import { useTranslations } from 'next-intl';
-
+import LanguageSwitcher from "./LanguageSwitcher";
 
 interface MobileMenuProps {
   setIsMenuOpen: (isOpen: boolean) => void;
-  navItems: { href: string; label: string }[];
 }
 
-const MobileMenu: React.FC<MobileMenuProps> = ({ setIsMenuOpen, navItems }) => {
-  const t = useTranslations('Footer');
+const MobileMenu: React.FC<MobileMenuProps> = ({ setIsMenuOpen }) => {
+  const tHeader = useTranslations("Header");
+  const tFooter = useTranslations("Footer");
+  const locale = useLocale();
+
+  const navItems = [
+    { href: `/${locale}/#hem`, label: tHeader("home") },
+    { href: `/${locale}/om`, label: tHeader("about") },
+    { href: `/${locale}/herrlag`, label: tHeader("men") },
+    { href: `/${locale}/ungdomslag`, label: tHeader("youth") },
+    { href: `/${locale}/#nyheter`, label: tHeader("news") },
+    { href: `/${locale}/#kontakt`, label: tHeader("contact") },
+  ];
 
   const menuVariants = {
     closed: { opacity: 0, x: "-100%" },
@@ -55,18 +62,18 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ setIsMenuOpen, navItems }) => {
             href="https://www.instagram.com/ragsvedsif_volleybollherr?igsh=NDV4Z2prMWx3cGkw"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label={t("social.instagramAriaLabel")}
+            aria-label={tFooter("social.instagramAriaLabel")}
             className="flex items-center justify-center space-x-2 text-4xl hover:text-secondary transition-colors duration-300"
             onClick={() => setIsMenuOpen(false)}
           >
-            <FaInstagram aria-hidden="true"  />
+            <FaInstagram aria-hidden="true" />
           </a>
         </motion.li>
       </ul>
       <motion.div
         className="w-full px-4 mt-8"
         variants={linkVariants}
-        transition={{ delay: 0.1 * navItems.length }}
+        transition={{ delay: 0.1 * (navItems.length + 1) }}
       >
         <LanguageSwitcher />
       </motion.div>
