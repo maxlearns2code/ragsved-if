@@ -2,131 +2,80 @@
 
 import { motion } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
+import Image from "next/image";
 import Link from "next/link";
-import { useCallback, useMemo, useState } from "react";
 
-interface TitleContent {
-  line1: string;
-  line2: string;
-}
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      delayChildren: 0.3,
+      staggerChildren: 0.2,
+    },
+  },
+};
 
-interface Descriptions {
-  main: {
-    line1: string;
-    line2: string;
-  };
-  imageAlt: string;
-  buttons: {
-    aboutus: string;
-    tryout: string;
-  };
-}
+const itemVariants = {
+  hidden: { opacity: 0, x: "-50px" },
+  visible: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      duration: 0.6,
+      ease: "easeOut",
+    },
+  },
+};
+
+const buttonAnimations = {
+  whileHover: { scale: 1.05 },
+  whileTap: { scale: 0.95 },
+};
 
 const Hero = () => {
-  const t = useTranslations("Hero");
+  const tHero = useTranslations("Hero");
   const locale = useLocale();
-  const [isImageLoaded, setIsImageLoaded] = useState(false);
 
-  const handleImageLoad = useCallback(() => {
-    setIsImageLoaded(true);
-  }, []);
+  const titleContent = {
+    line1: tHero("title.line1"),
+    line2: tHero("title.line2"),
+  };
 
-  const containerVariants = useMemo(
-    () => ({
-      hidden: { opacity: 0 },
-      visible: {
-        opacity: 1,
-        transition: {
-          delayChildren: 0.3,
-          staggerChildren: 0.2,
-        },
-      },
-    }),
-    []
-  );
-
-  const itemVariants = useMemo(
-    () => ({
-      hidden: { opacity: 0, x: "-50px" },
-      visible: {
-        opacity: 1,
-        x: 0,
-        transition: {
-          duration: 0.6,
-          ease: "easeOut",
-        },
-      },
-    }),
-    []
-  );
-
-  const buttonAnimations = useMemo(
-    () => ({
-      whileHover: { scale: 1.05 },
-      whileTap: { scale: 0.95 },
-    }),
-    []
-  );
-
-  const titleContent: TitleContent = useMemo(
-    () => ({
-      line1: t("title.line1"),
-      line2: t("title.line2"),
-    }),
-    [t]
-  );
-
-  const descriptions: Descriptions = useMemo(
-    () => ({
-      main: {
-        line1: t("description.line1"),
-        line2: t("description.line2"),
-      },
-      imageAlt: t("imageAlt"),
-      buttons: {
-        aboutus: t("aboutusButton"),
-        tryout: t("tryoutButton"),
-      },
-    }),
-    [t]
-  );
-
-  const imageProps = useMemo(
-    () => ({
-      mobile: {
-        src: "/images/mobile-volleyball-game.webp",
-        width: 600,
-        height: 800,
-      },
-      desktop: {
-        src: "/images/desktop-volleyball-game.webp",
-        width: 1920,
-        height: 1542,
-      },
-      style: { width: "100%", height: "auto" },
-      className: `rounded-lg shadow-xl ${
-        isImageLoaded ? "opacity-100" : "opacity-0"
-      }`,
-      priority: true,
-      onLoad: handleImageLoad,
-    }),
-    [isImageLoaded, handleImageLoad]
-  );
+  const descriptions = {
+    main: {
+      line1: tHero("description.line1"),
+      line2: tHero("description.line2"),
+    },
+    imageAlt: tHero("imageAlt"),
+    buttons: {
+      aboutus: tHero("aboutusButton"),
+      tryout: tHero("tryoutButton"),
+    },
+  };
 
   return (
     <section
       id="hem"
-      className="md:min-h-[calc(100vh-76px)] relative flex items-center overflow-hidden bg-cover bg-center"
-      style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('${imageProps.mobile.src}')`,
-      }}
+      className="md:min-h-[calc(100vh-76px)] relative flex items-center overflow-hidden"
     >
-      <div
-        className="absolute inset-0 bg-cover bg-center hidden lg:block"
-        style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('${imageProps.desktop.src}')`,
-        }}
-      ></div>
+      <div className="absolute inset-0 -z-10">
+        <picture>
+          <source
+            media="(max-width: 768px)"
+            srcSet="/images/mobile-volleyball-game.webp"
+          />
+          <Image
+            src="/images/desktop-volleyball-game.webp"
+            alt="Volleyballmatch i aktion"
+            fill
+            priority
+            className="object-cover w-full h-full"
+            sizes="100vw"
+          />
+        </picture>
+        <div className="absolute inset-0 bg-black/60 pointer-events-none" />
+      </div>
       <motion.div
         className="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center relative z-10"
         variants={containerVariants}
