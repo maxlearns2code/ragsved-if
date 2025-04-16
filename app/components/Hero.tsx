@@ -60,11 +60,17 @@ const Hero = () => {
       className="md:min-h-[calc(100vh-76px)] relative flex items-center overflow-hidden"
     >
       <div className="absolute inset-0 -z-10">
-        <picture>
-          <source
-            media="(max-width: 768px)"
-            srcSet="/images/mobile-volleyball-game.webp"
+        <div className="block md:hidden w-full h-full absolute inset-0">
+          <Image
+            src="/images/mobile-volleyball-game.webp"
+            alt="Volleyballmatch i aktion"
+            fill
+            priority
+            className="object-cover w-full h-full"
+            sizes="100vw"
           />
+        </div>
+        <div className="hidden md:block w-full h-full absolute inset-0">
           <Image
             src="/images/desktop-volleyball-game.webp"
             alt="Volleyballmatch i aktion"
@@ -73,9 +79,10 @@ const Hero = () => {
             className="object-cover w-full h-full"
             sizes="100vw"
           />
-        </picture>
+        </div>
         <div className="absolute inset-0 bg-black/60 pointer-events-none" />
       </div>
+
       <motion.div
         className="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center relative z-10"
         variants={containerVariants}
