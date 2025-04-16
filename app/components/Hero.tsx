@@ -63,17 +63,17 @@ const Hero = () => {
         <div className="block md:hidden w-full h-full absolute inset-0">
           <Image
             src="/images/mobile-volleyball-game.webp"
-            alt="Volleyballmatch i aktion"
+            alt={descriptions.imageAlt}
             fill
             priority
             className="object-cover w-full h-full"
-            sizes="100vw"
+            sizes="(max-width: 768px) 100vw, 600px"
           />
         </div>
         <div className="hidden md:block w-full h-full absolute inset-0">
           <Image
             src="/images/desktop-volleyball-game.webp"
-            alt="Volleyballmatch i aktion"
+            alt={descriptions.imageAlt}
             fill
             priority
             className="object-cover w-full h-full"

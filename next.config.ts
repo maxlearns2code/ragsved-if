@@ -84,7 +84,16 @@ const nextConfig: NextConfig = {
     ];
   },
   images: {
-    domains: ["vb.xn--rgsvedsif-52a.se"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "vb.xn--rgsvedsif-52a.se",
+      },
+      {
+        protocol: "https",
+        hostname: "www.vb.xn--rgsvedsif-52a.se",
+      },
+    ],
     formats: ["image/avif", "image/webp"],
   },
   poweredByHeader: false,
