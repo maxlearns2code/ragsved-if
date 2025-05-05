@@ -9,32 +9,6 @@ const intlMiddleware = createIntlMiddleware({
 });
 
 export default function middleware(request: NextRequest) {
-  const path = request.nextUrl.pathname;
-  const locale = request.nextUrl.locale || "sv";
-
-  const redirectMap: Record<string, string> = {
-    "/about": `/${locale}/om`,
-    "/men-teams": `/${locale}/herrlag`,
-    "/youth-team": `/${locale}/ungdomslag`,
-  };
-
-  const basePath = path.replace(new RegExp(`^/${locale}`), "");
-
-  if (redirectMap[basePath]) {
-    return NextResponse.redirect(
-      new URL(redirectMap[basePath], request.url),
-      308
-    );
-  }
-
-  if (basePath.startsWith("/teams/")) {
-    const id = basePath.split("/")[2];
-    return NextResponse.redirect(
-      new URL(`/${locale}/lag/${id}`, request.url),
-      308
-    );
-  }
-
   const hostname = request.headers.get("host");
   if (
     hostname === "ragsvedsif-vk.vercel.app" ||
@@ -45,7 +19,7 @@ export default function middleware(request: NextRequest) {
     const redirectUrl = new URL(
       `https://vb.xn--rgsvedsif-52a.se${url.pathname}${url.search}`
     );
-    return NextResponse.redirect(redirectUrl, 301);
+    return NextResponse.redirect(redirectUrl, 308);
   }
 
   return intlMiddleware(request);

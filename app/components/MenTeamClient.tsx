@@ -32,7 +32,7 @@ export default function MenTeamClient() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-10 max-w-4xl mx-auto">
         {teams.map((team) => (
           <Link
-            href={`/${locale}/lag/${team.id}`}
+            href={`/${locale}/teams/${team.id}`}
             key={team.id}
             className="block group relative aspect-w-16 aspect-h-9"
             aria-label={t("teamLinkAriaLabel", { teamName: team.name })}
@@ -55,28 +55,24 @@ export default function MenTeamClient() {
               </div>
             </div>
           </Link>
-        ))}        
+        ))}
       </div>
       <Link
-          href="https://entry.sportadmin.se/groupsOverview?uid=BlleV5&pageId=0&sportid=1075"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex m-auto md:w-1/4 mt-8"
-        >
-          <button aria-label={t("tryoutButton")}>
-            {t("tryoutButton")}
-          </button>
-        </Link>
-        <Link
-          href="https://www.xn--rgsvedsif-52a.se/kalender/?ID=455991"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex m-auto md:w-1/4 mt-8"
-        >
-          <button aria-label={t("calendarButton")}>
-            {t("calendarButton")}
-          </button>
-        </Link>
+        href="https://entry.sportadmin.se/groupsOverview?uid=BlleV5&pageId=0&sportid=1075"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex m-auto md:w-1/4 mt-8"
+      >
+        <button aria-label={t("tryoutButton")}>{t("tryoutButton")}</button>
+      </Link>
+      <Link
+        href="https://www.xn--rgsvedsif-52a.se/kalender/?ID=455991"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex m-auto md:w-1/4 mt-8"
+      >
+        <button aria-label={t("calendarButton")}>{t("calendarButton")}</button>
+      </Link>
     </section>
   );
 }

@@ -38,24 +38,24 @@ module.exports = {
       });
 
       result.push({
-        loc: `/${locale}/om`,
+        loc: `/${locale}/about`,
         priority: 0.8,
         changefreq: "weekly",
       });
       result.push({
-        loc: `/${locale}/herrlag`,
+        loc: `/${locale}/men-team`,
         priority: 0.8,
         changefreq: "weekly",
       });
       result.push({
-        loc: `/${locale}/ungdomslag`,
+        loc: `/${locale}/youth-team`,
         priority: 0.8,
         changefreq: "weekly",
       });
 
       for (const teamId of teamIds) {
         result.push({
-          loc: `/${locale}/lag/${teamId}`,
+          loc: `/${locale}/teams/${teamId}`,
           priority: 0.7,
           changefreq: "weekly",
         });
@@ -63,16 +63,5 @@ module.exports = {
     }
 
     return result;
-  },
-  transform: async (config, path) => {
-    const newPath = path === "/" ? path : path.replace(/\/$/, "");
-
-    return {
-      loc: newPath,
-      changefreq: config.changefreq,
-      priority: config.priority,
-      lastmod: new Date().toISOString(),
-      alternateRefs: config.alternateRefs ?? [],
-    };
   },
 };

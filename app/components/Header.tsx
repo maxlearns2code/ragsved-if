@@ -81,22 +81,22 @@ const Header = () => {
             <div className="hidden md:flex md:items-center md:space-x-4">
               <ul className="flex space-x-4 text-lg">
                 <li>
-                  <Link href={`/${locale}/#hem`}>{t("home")}</Link>
+                  <Link href={`/${locale}/#home`}>{t("home")}</Link>
                 </li>
                 <li>
-                  <Link href={`/${locale}/om`}>{t("about")}</Link>
+                  <Link href={`/${locale}/about`}>{t("about")}</Link>
                 </li>
                 <li>
-                  <Link href={`/${locale}/herrlag`}>{t("men")}</Link>
+                  <Link href={`/${locale}/men-team`}>{t("men")}</Link>
                 </li>
                 <li>
-                  <Link href={`/${locale}/ungdomslag`}>{t("youth")}</Link>
+                  <Link href={`/${locale}/youth-team`}>{t("youth")}</Link>
                 </li>
                 <li>
-                  <Link href={`/${locale}/#nyheter`}>{t("news")}</Link>
+                  <Link href={`/${locale}/#news`}>{t("news")}</Link>
                 </li>
                 <li>
-                  <Link href={`/${locale}/#kontakt`}>{t("contact")}</Link>
+                  <Link href={`/${locale}/#contact`}>{t("contact")}</Link>
                 </li>
               </ul>
               <a

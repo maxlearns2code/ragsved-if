@@ -56,7 +56,7 @@ const Hero = () => {
 
   return (
     <section
-      id="hem"
+      id="home"
       className="md:min-h-[calc(100vh-76px)] relative flex items-center overflow-hidden"
     >
       <div className="absolute inset-0 -z-10">
@@ -113,7 +113,7 @@ const Hero = () => {
               className="flex flex-col sm:flex-row justify-center space-y-3 sm:space-y-0 sm:space-x-5"
               variants={itemVariants}
             >
-              <Link href={`/${locale}/om`} className="w-full sm:w-auto">
+              <Link href={`/${locale}/about`} className="w-full sm:w-auto">
                 <motion.button
                   {...buttonAnimations}
                   className="bg-primary"
