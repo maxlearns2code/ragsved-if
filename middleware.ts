@@ -10,6 +10,7 @@ const intlMiddleware = createIntlMiddleware({
 
 export default function middleware(request: NextRequest) {
   const hostname = request.headers.get("host");
+
   if (
     hostname === "ragsvedsif-vk.vercel.app" ||
     hostname === "www.ragsvedsif-vk.vercel.app" ||
@@ -22,7 +23,12 @@ export default function middleware(request: NextRequest) {
     return NextResponse.redirect(redirectUrl, 308);
   }
 
-  return intlMiddleware(request);
+  const response = intlMiddleware(request);
+  if (response.status === 307) {
+    return NextResponse.redirect(response.headers.get("location") || "/", 301);
+  }
+
+  return response;
 }
 
 export const config = {
