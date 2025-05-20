@@ -8,9 +8,6 @@ const nextConfig: NextConfig = {
     serverActions: {
       allowedOrigins: [
         "localhost:3000",
-        "rif-volleyball.vercel.app",
-        "ragsvedsif-vk.vercel.app",
-        "www.ragsvedsif-vk.vercel.app",
         "vb.xn--rgsvedsif-52a.se",
         "www.vb.xn--rgsvedsif-52a.se",
       ],

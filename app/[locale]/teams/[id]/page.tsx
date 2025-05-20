@@ -17,16 +17,14 @@ type Team = {
   currentRank: string;
 };
 
-type PageProps = {
+type Props = {
   params: Promise<{ id: string; locale: string }>;
-  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 };
 
 export async function generateMetadata({
   params,
 }: {
   params: Promise<{ id: string; locale: string }>;
-  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 }): Promise<Metadata> {
   const { id, locale } = await params;
   const t = await getTranslations({ locale, namespace: "Men-Teams" });
@@ -46,11 +44,17 @@ export async function generateMetadata({
   const path = `/teams/${id}`;
   const canonicalUrl = `${siteUrl}/${locale}${path}`;
 
-  const supportedLocales = ["sv", "en", "es", "fr", "de", "sr", "pl", "uk"];
-
-  const languages = Object.fromEntries(
-    supportedLocales.map((lang) => [lang, `${siteUrl}/${lang}${path}`])
-  );
+  const languages = {
+    sv: `${siteUrl}/sv${path}`,
+    en: `${siteUrl}/en${path}`,
+    es: `${siteUrl}/es${path}`,
+    fr: `${siteUrl}/fr${path}`,
+    de: `${siteUrl}/de${path}`,
+    sr: `${siteUrl}/sr${path}`,
+    uk: `${siteUrl}/uk${path}`,
+    pl: `${siteUrl}/pl${path}`,
+    "x-default": `${siteUrl}/sv${path}`,
+  };
 
   return {
     title: `${team.name} - ${t("metaTitle", { default: "Team Info" })}`,
@@ -84,7 +88,7 @@ export async function generateMetadata({
   };
 }
 
-export default async function TeamPage({ params }: PageProps) {
+export default async function TeamPage({ params }: Props) {
   const { id, locale } = await params;
   const t = await getTranslations({ locale, namespace: "Men-Teams" });
   const teams: Team[] = t.raw("teams");

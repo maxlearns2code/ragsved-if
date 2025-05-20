@@ -2,11 +2,11 @@ import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import MenTeamClient from "../../components/MenTeamClient";
 
-export async function generateMetadata({
-  params,
-}: {
+type Props = {
   params: Promise<{ locale: string }>;
-}): Promise<Metadata> {
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Men-Teams" });
   const tbis = await getTranslations({ locale, namespace: "Metadata" });
@@ -16,11 +16,17 @@ export async function generateMetadata({
   const path = "/men-team";
   const canonicalUrl = `${siteUrl}/${locale}${path}`;
 
-  const supportedLocales = ["sv", "en", "es", "fr", "de", "sr", "pl", "uk"];
-
-  const languages = Object.fromEntries(
-    supportedLocales.map((lang) => [lang, `${siteUrl}/${lang}${path}`])
-  );
+  const languages = {
+    sv: `${siteUrl}/sv${path}`,
+    en: `${siteUrl}/en${path}`,
+    es: `${siteUrl}/es${path}`,
+    fr: `${siteUrl}/fr${path}`,
+    de: `${siteUrl}/de${path}`,
+    sr: `${siteUrl}/sr${path}`,
+    uk: `${siteUrl}/uk${path}`,
+    pl: `${siteUrl}/pl${path}`,
+    "x-default": `${siteUrl}/sv${path}`,
+  };
 
   return {
     title: t("metaTitle"),
@@ -31,7 +37,7 @@ export async function generateMetadata({
       description: fullDescription,
       images: [
         {
-          url: "${siteUrl}/images/team-A.webp",
+          url: `${siteUrl}/images/team-A.webp`, // Fixed template literal
           width: 1920,
           height: 1542,
           alt: tbis("ogImageAlt"),
@@ -45,7 +51,7 @@ export async function generateMetadata({
       canonical: canonicalUrl,
       languages,
     },
-    metadataBase: new URL("https://vb.xn--rgsvedsif-52a.se"),
+    metadataBase: new URL(siteUrl),
     applicationName: tbis("siteName"),
     formatDetection: {
       telephone: false,

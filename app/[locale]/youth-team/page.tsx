@@ -2,11 +2,11 @@ import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import YouthTeamClient from "../../components/YouthTeamClient";
 
-export async function generateMetadata({
-  params,
-}: {
+type Props = {
   params: Promise<{ locale: string }>;
-}): Promise<Metadata> {
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Youth-Team" });
   const tbis = await getTranslations({ locale, namespace: "Metadata" });
@@ -15,11 +15,17 @@ export async function generateMetadata({
   const path = "/youth-team";
   const canonicalUrl = `${siteUrl}/${locale}${path}`;
 
-  const supportedLocales = ["sv", "en", "es", "fr", "de", "sr", "pl", "uk"];
-
-  const languages = Object.fromEntries(
-    supportedLocales.map((lang) => [lang, `${siteUrl}/${lang}${path}`])
-  );
+  const languages = {
+    'sv': `${siteUrl}/sv${path}`,
+    'en': `${siteUrl}/en${path}`,
+    'es': `${siteUrl}/es${path}`,
+    'fr': `${siteUrl}/fr${path}`,
+    'de': `${siteUrl}/de${path}`,
+    'sr': `${siteUrl}/sr${path}`,
+    'uk': `${siteUrl}/uk${path}`,
+    'pl': `${siteUrl}/pl${path}`,
+    'x-default': `${siteUrl}/sv${path}`
+  };
 
   return {
     title: t("metaTitle"),
