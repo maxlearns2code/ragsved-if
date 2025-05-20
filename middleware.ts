@@ -11,15 +11,24 @@ const intlMiddleware = createIntlMiddleware({
 export default function middleware(request: NextRequest) {
   const hostname = request.headers.get("host") || "";
 
-  if (["ragsvedsif-vk.vercel.app", "www.ragsvedsif-vk.vercel.app", "rif-volleyball.vercel.app"].includes(hostname)) {
-    const newUrl = new URL(
-      `https://vb.xn--rgsvedsif-52a.se/sv${request.nextUrl.pathname}${request.nextUrl.search}`
-    );
+  
+  const oldDomains = [
+    "ragsvedsif-vk.vercel.app",
+    "www.ragsvedsif-vk.vercel.app",
+    "rif-volleyball.vercel.app",
+  ];
+
+  if (oldDomains.includes(hostname)) {
+    
+    const path =
+      request.nextUrl.pathname === "/" ? "/sv" : `/sv${request.nextUrl.pathname}`;
+    
+    const newUrl = `https://vb.xn--rgsvedsif-52a.se${path}${request.nextUrl.search}`;
     return NextResponse.redirect(newUrl, 308);
   }
 
   const response = intlMiddleware(request);
-  
+
   if (response.status === 307) {
     const location = response.headers.get("location");
     return location ? NextResponse.redirect(location, 301) : response;
