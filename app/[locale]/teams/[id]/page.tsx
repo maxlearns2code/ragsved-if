@@ -83,7 +83,7 @@ export async function generateMetadata({
       telephone: false,
     },
     verification: {
-      google: "google22bc59f960ea8815",
+      google: "1PPKwq_85isgCLYGs8Rfw9m4bcsg9uAnVD6CEUjuc",
     },
   };
 }

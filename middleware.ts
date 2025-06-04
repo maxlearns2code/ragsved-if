@@ -19,12 +19,8 @@ export default function middleware(request: NextRequest) {
   ];
 
   if (oldDomains.includes(hostname)) {
-    
-    const path =
-      request.nextUrl.pathname === "/" ? "/sv" : `/sv${request.nextUrl.pathname}`;
-    
-    const newUrl = `https://vb.xn--rgsvedsif-52a.se${path}${request.nextUrl.search}`;
-    return NextResponse.redirect(newUrl, 308);
+    const newUrl = `https://vb.xn--rgsvedsif-52a.se${request.nextUrl.pathname}${request.nextUrl.search}`;
+    return NextResponse.redirect(newUrl, 301);
   }
 
   const response = intlMiddleware(request);

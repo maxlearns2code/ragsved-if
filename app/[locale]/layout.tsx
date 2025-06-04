@@ -21,11 +21,11 @@ const geistMono = Geist_Mono({
 });
 
 type Props = {
-  params: Promise<{ locale: string }>;
+  params: { locale: string };
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale } = await params;
+  const { locale } = params;
   const t = await getTranslations({ locale, namespace: "Metadata" });
 
   const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
@@ -33,15 +33,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const canonicalUrl = `${siteUrl}/${locale}${path}`;
 
   const languages = {
-    'sv': `${siteUrl}/sv${path}`,
-    'en': `${siteUrl}/en${path}`,
-    'es': `${siteUrl}/es${path}`,
-    'fr': `${siteUrl}/fr${path}`,
-    'de': `${siteUrl}/de${path}`,
-    'sr': `${siteUrl}/sr${path}`,
-    'uk': `${siteUrl}/uk${path}`,
-    'pl': `${siteUrl}/pl${path}`,
-    'x-default': `${siteUrl}/sv${path}`
+    sv: `${siteUrl}/sv${path}`,
+    en: `${siteUrl}/en${path}`,
+    es: `${siteUrl}/es${path}`,
+    fr: `${siteUrl}/fr${path}`,
+    de: `${siteUrl}/de${path}`,
+    sr: `${siteUrl}/sr${path}`,
+    uk: `${siteUrl}/uk${path}`,
+    pl: `${siteUrl}/pl${path}`,
+    "x-default": `${siteUrl}/sv${path}`,
   };
 
   return {
@@ -53,7 +53,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: t("ogDescription"),
       images: [
         {
-          url: "${siteUrl}/images/logo.png",
+          url: `${siteUrl}/images/logo.png`,
           width: 542,
           height: 761,
           alt: t("ogImageAlt"),
@@ -67,13 +67,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: canonicalUrl,
       languages,
     },
-    metadataBase: new URL("https://vb.xn--rgsvedsif-52a.se"),
+    metadataBase: new URL(siteUrl),
     applicationName: t("siteName"),
     formatDetection: {
       telephone: false,
     },
     verification: {
-      google: "google22bc59f960ea8815",
+      google: "1PPKwq_85isgCLYGs8Rfw9m4bcsg9uAnVD6CEUjuc",
     },
   };
 }
@@ -83,9 +83,10 @@ export default async function LocaleLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ locale: string }>;
+  params: { locale: string };
 }) {
-  const { locale } = await params;
+  const { locale } = params;
+
   let messages;
   try {
     messages = (await import(`../../messages/${locale}.json`)).default;
