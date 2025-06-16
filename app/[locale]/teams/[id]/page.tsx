@@ -82,9 +82,6 @@ export async function generateMetadata({
     formatDetection: {
       telephone: false,
     },
-    verification: {
-      google: "1PPKwq_85isgCLYGs8Rfw9m4bcsg9uAnVD6CEUjuc",
-    },
   };
 }
 

@@ -16,15 +16,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const canonicalUrl = `${siteUrl}/${locale}${path}`;
 
   const languages = {
-    'sv': `${siteUrl}/sv${path}`,
-    'en': `${siteUrl}/en${path}`,
-    'es': `${siteUrl}/es${path}`,
-    'fr': `${siteUrl}/fr${path}`,
-    'de': `${siteUrl}/de${path}`,
-    'sr': `${siteUrl}/sr${path}`,
-    'uk': `${siteUrl}/uk${path}`,
-    'pl': `${siteUrl}/pl${path}`,
-    'x-default': `${siteUrl}/sv${path}`
+    sv: `${siteUrl}/sv${path}`,
+    en: `${siteUrl}/en${path}`,
+    es: `${siteUrl}/es${path}`,
+    fr: `${siteUrl}/fr${path}`,
+    de: `${siteUrl}/de${path}`,
+    sr: `${siteUrl}/sr${path}`,
+    uk: `${siteUrl}/uk${path}`,
+    pl: `${siteUrl}/pl${path}`,
+    "x-default": `${siteUrl}/sv${path}`,
   };
 
   return {
@@ -53,9 +53,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     applicationName: tbis("siteName"),
     formatDetection: {
       telephone: false,
-    },
-    verification: {
-      google: "1PPKwq_85isgCLYGs8Rfw9m4bcsg9uAnVD6CEUjuc",
     },
   };
 }

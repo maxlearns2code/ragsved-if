@@ -72,9 +72,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     formatDetection: {
       telephone: false,
     },
-    verification: {
-      google: "1PPKwq_85isgCLYGs8Rfw9m4bcsg9uAnVD6CEUjuc",
-    },
   };
 }
 
