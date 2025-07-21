@@ -1,3 +1,4 @@
+import { getCanonicalUrl } from "@/utils/metadata";
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
@@ -21,11 +22,7 @@ type Props = {
   params: Promise<{ id: string; locale: string }>;
 };
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ id: string; locale: string }>;
-}): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { id, locale } = await params;
   const t = await getTranslations({ locale, namespace: "Men-Teams" });
   const tbis = await getTranslations({ locale, namespace: "Metadata" });
@@ -41,19 +38,18 @@ export async function generateMetadata({
   }
 
   const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
-  const path = `/teams/${id}`;
-  const canonicalUrl = `${siteUrl}/${locale}${path}`;
+  const canonicalUrl = getCanonicalUrl(`/${locale}/teams/${id}`);
 
   const languages = {
-    sv: `${siteUrl}/sv${path}`,
-    en: `${siteUrl}/en${path}`,
-    es: `${siteUrl}/es${path}`,
-    fr: `${siteUrl}/fr${path}`,
-    de: `${siteUrl}/de${path}`,
-    sr: `${siteUrl}/sr${path}`,
-    uk: `${siteUrl}/uk${path}`,
-    pl: `${siteUrl}/pl${path}`,
-    "x-default": `${siteUrl}/sv${path}`,
+    sv: getCanonicalUrl(`/sv/teams/${id}`),
+    en: getCanonicalUrl(`/en/teams/${id}`),
+    es: getCanonicalUrl(`/es/teams/${id}`),
+    fr: getCanonicalUrl(`/fr/teams/${id}`),
+    de: getCanonicalUrl(`/de/teams/${id}`),
+    sr: getCanonicalUrl(`/sr/teams/${id}`),
+    uk: getCanonicalUrl(`/uk/teams/${id}`),
+    pl: getCanonicalUrl(`/pl/teams/${id}`),
+    "x-default": getCanonicalUrl(`/sv/teams/${id}`),
   };
 
   return {

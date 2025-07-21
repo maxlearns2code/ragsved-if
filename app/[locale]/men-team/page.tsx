@@ -1,3 +1,4 @@
+import { getCanonicalUrl } from "@/utils/metadata";
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import MenTeamClient from "../../components/MenTeamClient";
@@ -13,19 +14,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const fullDescription = `${t("description.line1")} ${t("description.line2")}`;
 
   const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
-  const path = "/men-team";
-  const canonicalUrl = `${siteUrl}/${locale}${path}`;
+  const canonicalUrl = getCanonicalUrl(`/${locale}/men-team`);
 
   const languages = {
-    sv: `${siteUrl}/sv${path}`,
-    en: `${siteUrl}/en${path}`,
-    es: `${siteUrl}/es${path}`,
-    fr: `${siteUrl}/fr${path}`,
-    de: `${siteUrl}/de${path}`,
-    sr: `${siteUrl}/sr${path}`,
-    uk: `${siteUrl}/uk${path}`,
-    pl: `${siteUrl}/pl${path}`,
-    "x-default": `${siteUrl}/sv${path}`,
+    sv: getCanonicalUrl("/sv/men-team"),
+    en: getCanonicalUrl("/en/men-team"),
+    es: getCanonicalUrl("/es/men-team"),
+    fr: getCanonicalUrl("/fr/men-team"),
+    de: getCanonicalUrl("/de/men-team"),
+    sr: getCanonicalUrl("/sr/men-team"),
+    uk: getCanonicalUrl("/uk/men-team"),
+    pl: getCanonicalUrl("/pl/men-team"),
+    "x-default": getCanonicalUrl("/sv/men-team"),
   };
 
   return {
@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: fullDescription,
       images: [
         {
-          url: `${siteUrl}/images/team-A.webp`, // Fixed template literal
+          url: `${siteUrl}/images/team-A.webp`,
           width: 1920,
           height: 1542,
           alt: tbis("ogImageAlt"),

@@ -1,6 +1,6 @@
 import { Metadata } from "next";
-import { getTranslations } from "next-intl/server";
-import Link from 'next/link';
+import { getLocale, getTranslations } from "next-intl/server";
+import Link from "next/link";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("NotFound");
@@ -12,29 +12,27 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: {
       canonical: `${siteUrl}/404`,
       languages: {
-        'sv': `${siteUrl}/sv/404`,
-        'en': `${siteUrl}/en/404`,
-        'es': `${siteUrl}/es/404`,
-        'fr': `${siteUrl}/fr/404`,
-        'de': `${siteUrl}/de/404`,
-        'sr': `${siteUrl}/sr/404`,
-        'uk': `${siteUrl}/uk/404`,
-        'pl': `${siteUrl}/pl/404`,
-        'x-default': `${siteUrl}/sv/404`
-      }
+        sv: `${siteUrl}/sv/404`,
+        en: `${siteUrl}/en/404`,
+        es: `${siteUrl}/es/404`,
+        fr: `${siteUrl}/fr/404`,
+        de: `${siteUrl}/de/404`,
+        sr: `${siteUrl}/sr/404`,
+        uk: `${siteUrl}/uk/404`,
+        pl: `${siteUrl}/pl/404`,
+        "x-default": `${siteUrl}/sv/404`,
+      },
     },
     robots: {
       index: false,
-      follow: true
-    }
+      follow: true,
+    },
   };
 }
 
 export default async function NotFound() {
-
   const t = await getTranslations("NotFound");
-  const localeT = await getTranslations();
-  const locale = localeT("Locale");
+  const locale = await getLocale();
 
   return (
     <div className="flex flex-col items-center justify-center my-10 md:my-20 xl:my-32">
@@ -44,8 +42,8 @@ export default async function NotFound() {
       <p className="text-2xl sm:text-3xl md:text-4xl mb-8">
         {t("description")}
       </p>
-      <Link 
-        href={`/${locale}/`} 
+      <Link
+        href={`/${locale}/`}
         className="text-secondary text-xl sm:text-2xl md:text-3xl hover:underline"
       >
         {t("backToHome")}

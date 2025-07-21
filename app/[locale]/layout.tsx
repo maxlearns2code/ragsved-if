@@ -1,3 +1,4 @@
+import { getCanonicalUrl } from "@/utils/metadata";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Metadata } from "next";
@@ -25,23 +26,22 @@ type Props = {
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale } = params;
+  const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Metadata" });
 
   const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
-  const path = "";
-  const canonicalUrl = `${siteUrl}/${locale}${path}`;
+  const canonicalUrl = getCanonicalUrl(`/${locale}`);
 
   const languages = {
-    sv: `${siteUrl}/sv${path}`,
-    en: `${siteUrl}/en${path}`,
-    es: `${siteUrl}/es${path}`,
-    fr: `${siteUrl}/fr${path}`,
-    de: `${siteUrl}/de${path}`,
-    sr: `${siteUrl}/sr${path}`,
-    uk: `${siteUrl}/uk${path}`,
-    pl: `${siteUrl}/pl${path}`,
-    "x-default": `${siteUrl}/sv${path}`,
+    sv: getCanonicalUrl("/sv"),
+    en: getCanonicalUrl("/en"),
+    es: getCanonicalUrl("/es"),
+    fr: getCanonicalUrl("/fr"),
+    de: getCanonicalUrl("/de"),
+    sr: getCanonicalUrl("/sr"),
+    uk: getCanonicalUrl("/uk"),
+    pl: getCanonicalUrl("/pl"),
+    "x-default": getCanonicalUrl("/sv"),
   };
 
   return {
@@ -82,7 +82,7 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  const { locale } = params;
+  const { locale } = await params;
 
   let messages;
   try {

@@ -1,3 +1,4 @@
+import { getCanonicalUrl } from "@/utils/metadata";
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import AnimatedTimelineSection from "../../components/AnimatedTimelineSection";
@@ -10,20 +11,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "AboutUs" });
 
-  const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
-  const path = "/about";
-  const canonicalUrl = `${siteUrl}/${locale}${path}`;
+  const canonicalUrl = getCanonicalUrl(`/${locale}/about`);
 
   const languages = {
-    'sv': `${siteUrl}/sv${path}`,
-    'en': `${siteUrl}/en${path}`,
-    'es': `${siteUrl}/es${path}`,
-    'fr': `${siteUrl}/fr${path}`,
-    'de': `${siteUrl}/de${path}`,
-    'sr': `${siteUrl}/sr${path}`,
-    'uk': `${siteUrl}/uk${path}`,
-    'pl': `${siteUrl}/pl${path}`,
-    'x-default': `${siteUrl}/sv${path}`
+    sv: getCanonicalUrl("/sv/about"),
+    en: getCanonicalUrl("/en/about"),
+    es: getCanonicalUrl("/es/about"),
+    fr: getCanonicalUrl("/fr/about"),
+    de: getCanonicalUrl("/de/about"),
+    sr: getCanonicalUrl("/sr/about"),
+    uk: getCanonicalUrl("/uk/about"),
+    pl: getCanonicalUrl("/pl/about"),
+    "x-default": getCanonicalUrl("/sv/about"),
   };
 
   return {

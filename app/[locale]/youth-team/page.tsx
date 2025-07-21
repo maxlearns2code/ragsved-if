@@ -1,3 +1,4 @@
+import { getCanonicalUrl } from "@/utils/metadata";
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import YouthTeamClient from "../../components/YouthTeamClient";
@@ -11,20 +12,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: "Youth-Team" });
   const tbis = await getTranslations({ locale, namespace: "Metadata" });
 
-  const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
-  const path = "/youth-team";
-  const canonicalUrl = `${siteUrl}/${locale}${path}`;
+  const canonicalUrl = getCanonicalUrl(`/${locale}/youth-team`);
 
   const languages = {
-    sv: `${siteUrl}/sv${path}`,
-    en: `${siteUrl}/en${path}`,
-    es: `${siteUrl}/es${path}`,
-    fr: `${siteUrl}/fr${path}`,
-    de: `${siteUrl}/de${path}`,
-    sr: `${siteUrl}/sr${path}`,
-    uk: `${siteUrl}/uk${path}`,
-    pl: `${siteUrl}/pl${path}`,
-    "x-default": `${siteUrl}/sv${path}`,
+    sv: getCanonicalUrl("/sv/youth-team"),
+    en: getCanonicalUrl("/en/youth-team"),
+    es: getCanonicalUrl("/es/youth-team"),
+    fr: getCanonicalUrl("/fr/youth-team"),
+    de: getCanonicalUrl("/de/youth-team"),
+    sr: getCanonicalUrl("/sr/youth-team"),
+    uk: getCanonicalUrl("/uk/youth-team"),
+    pl: getCanonicalUrl("/pl/youth-team"),
+    "x-default": getCanonicalUrl("/sv/youth-team"),
   };
 
   return {
