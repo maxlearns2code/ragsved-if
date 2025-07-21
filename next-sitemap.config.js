@@ -2,6 +2,7 @@
 module.exports = {
   siteUrl: "https://vb.xn--rgsvedsif-52a.se",
   generateRobotsTxt: true,
+  trailingSlash: true,
   exclude: [],
   changefreq: "weekly",
   priority: 0.7,
