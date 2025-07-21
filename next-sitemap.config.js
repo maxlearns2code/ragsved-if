@@ -25,10 +25,16 @@ module.exports = {
     { href: "https://vb.xn--rgsvedsif-52a.se/uk", hreflang: "uk" },
     { href: "https://vb.xn--rgsvedsif-52a.se/sv", hreflang: "x-default" },
   ],
-  additionalPaths: async () => {  // Removed unused config parameter
+  additionalPaths: async () => {
     const result = [];
     const locales = ["sv", "en", "es", "fr", "de", "sr", "uk", "pl"];
     const teamIds = ["1", "2"];
+
+    result.push({
+      loc: "/",
+      priority: 1.0,
+      changefreq: "daily",
+    });
 
     for (const locale of locales) {
       result.push({
