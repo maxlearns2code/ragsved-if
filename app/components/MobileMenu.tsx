@@ -59,7 +59,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ setIsMenuOpen }) => {
           transition={{ delay: 0.1 * navItems.length }}
         >
           <a
-            href="https://www.instagram.com/ragsvedsif_volleybollherr?igsh=NDV4Z2prMWx3cGkw"
+            href="https://www.instagram.com/ragsvedsifvolleyboll/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label={tFooter("social.instagramAriaLabel")}
