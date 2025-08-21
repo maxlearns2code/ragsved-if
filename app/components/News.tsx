@@ -1,4 +1,4 @@
-import { useTranslations } from "next-intl";
+import { useLocale,useTranslations } from "next-intl";
 import Link from "next/link";
 import {
   FaCalendarAlt,
@@ -20,6 +20,7 @@ interface NewsProps {
 
 const News = () => {
   const t = useTranslations("News");
+  const locale = useLocale();
   const news: NewsProps[] = t.raw("newsPage");
 
   return (
@@ -29,7 +30,7 @@ const News = () => {
         <article className="flex flex-wrap justify-center items-center gap-8">
           {news.map((newsItem) => (
             <Link
-              href={newsItem.link}
+              href={`/${locale}/news/${newsItem.id}`}
               target="_blank"
               rel="noopener noreferrer"
               key={newsItem.id}

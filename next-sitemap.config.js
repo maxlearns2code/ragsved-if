@@ -30,6 +30,7 @@ module.exports = {
     const result = [];
     const locales = ["sv", "en", "es", "fr", "de", "sr", "uk", "pl"];
     const teamIds = ["1", "2"];
+    const newsIds = ["1"];
 
     result.push({
       loc: "/",
@@ -63,6 +64,14 @@ module.exports = {
       for (const teamId of teamIds) {
         result.push({
           loc: `/${locale}/teams/${teamId}`,
+          priority: 0.7,
+          changefreq: "weekly",
+        });
+      }
+
+      for (const newsId of newsIds) {
+        result.push({
+          loc: `/${locale}/news/${newsId}`,
           priority: 0.7,
           changefreq: "weekly",
         });
