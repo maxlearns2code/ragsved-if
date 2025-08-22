@@ -59,9 +59,16 @@
         "date": "Tisdag 15:e April och Tisdag 29:e April",
         "location": "Kämpetorpshallen",
         "linkDescription": "Använd länken",
-        "link": "https://entry.sportadmin.se/groupsOverview?uid=BlleV5&pageId=0&sportid=1075 ",
-        "contactDescription": "för att göra en anmälan eller mejla oss direkt på",
-        "contact": "ragsvedsvolleyboll@ragsvedsif.org "        
+        "link": "https://entry.sportadmin.se/groupsOverview?uid=BlleV5&pageId=0&sportid=1075"
+      },
+      {
+        "id": "2",
+        "title": "Rågsveds Festivalen",
+        "description": "Volleyboll kommer att erbjuda provapå aktiviteter samt ha tävlingar och priser vid Rågsveds BP. Vi ses där! 🏐💯🔥",
+        "date": "Lördag 23:e Agusti och Söndag 24:e Agusti",
+        "location": "Rågsveds aktivitetsområde och Kulturkvarteret Snösätra",
+        "linkDescription": "Använd länken",
+        "link": "https://www.instagram.com/ragsvedfestivalen/"
       }
     ]
   },

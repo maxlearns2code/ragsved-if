@@ -1,12 +1,8 @@
+import News from "@/app/components/News";
 import { getCanonicalUrl } from "@/utils/metadata";
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
-import {
-  FaCalendarAlt,
-  FaExternalLinkAlt,
-  FaMapMarkerAlt,
-} from "react-icons/fa";
 
 type Item = {
   id: string;
@@ -77,32 +73,8 @@ export default async function NewsArticlePage({ params }: Props) {
   if (!article) notFound();
 
   return (
-    <article className="max-w-2xl mx-auto my-20 p-4">
-      <h1 className="text-2xl font-bold">{article.title}</h1>
-      <p className="text-sm lg:text-base flex items-center gap-2 mt-4">
-        <FaCalendarAlt className="text-lg" />
-        {article.date}
-      </p>
-      <p className="text-sm lg:text-base flex items-center gap-2 mt-2">
-        {" "}
-        <FaMapMarkerAlt className="text-lg" />
-      </p>
-      <p className="mb-4">{article.description}</p>
-      <a
-        href={article.link}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-sm lg:text-base flex items-center gap-2 mt-2 hover:text-secondary hover:underline"
-      >
-        <FaExternalLinkAlt className="text-lg" />
-        {article.linkDescription}
-      </a>
-      {article.contactDescription && (
-        <p className="mt-2">
-          {article.contactDescription}{" "}
-          <span className="underline">{article.contact}</span>
-        </p>
-      )}
+    <article className="max-w-2xl mx-auto my-20">
+      <News article={article} />
     </article>
   );
 }
