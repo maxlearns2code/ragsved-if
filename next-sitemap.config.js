@@ -60,6 +60,11 @@ module.exports = {
         priority: 0.8,
         changefreq: "weekly",
       });
+      result.push({
+        loc: `/${locale}/news`,
+        priority: 0.8,
+        changefreq: "weekly",
+      });
 
       for (const teamId of teamIds) {
         result.push({

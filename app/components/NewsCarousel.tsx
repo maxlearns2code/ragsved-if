@@ -81,6 +81,12 @@ const NewsCarousel = () => {
             <FaChevronRight size={16} />
           </button>
         </div>
+        <Link
+          href={`/${locale}/news`}
+          className="block text-center mt-4 text-base text-white hover:underline hover:text-secondary transition"
+        >
+          {t("SeeAllNews") || "See all news"}
+        </Link>
       </div>
     </section>
   );

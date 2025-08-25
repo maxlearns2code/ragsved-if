@@ -51,6 +51,7 @@
   "News": {
     "title": "Nyheter",
     "article": "Läs artikeln",
+    "SeeAllNews": "Se alla nyheter",
     "newsPage": [
       {
         "id": "1",

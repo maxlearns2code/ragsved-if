@@ -47,6 +47,7 @@
   "News": {
     "title": "Новини",
     "article": "Прочитайте статтю",
+    "SeeAllNews": "See all news",
     "newsPage": [
       {
         "id": "1",

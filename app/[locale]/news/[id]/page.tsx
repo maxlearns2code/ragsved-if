@@ -1,4 +1,4 @@
-import News from "@/app/components/News";
+import NewsArticle from "@/app/components/NewsArticle";
 import { getCanonicalUrl } from "@/utils/metadata";
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
@@ -74,7 +74,8 @@ export default async function NewsArticlePage({ params }: Props) {
 
   return (
     <article className="max-w-2xl mx-auto my-20">
-      <News article={article} />
+      <h1 className="text-3xl font-bold text-center mb-8">{t("title")}</h1>
+      <NewsArticle article={article} />
     </article>
   );
 }

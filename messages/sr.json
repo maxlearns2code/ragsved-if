@@ -47,6 +47,7 @@
   "News": {
     "title": "Vesti",
     "article": "Pročitaj članak",
+    "SeeAllNews": "See all news",
     "newsPage": [
       {
         "id": "1",
