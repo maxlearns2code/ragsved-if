@@ -168,7 +168,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://www.profixio.com/app/tournaments?klubbid=28248&dateFrom=2024-09-01"
+                  href="https://www.profixio.com/app/tournaments"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-secondary hover:underline"
