@@ -25,6 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     sr: getCanonicalUrl("/sr/men-team"),
     uk: getCanonicalUrl("/uk/men-team"),
     pl: getCanonicalUrl("/pl/men-team"),
+    pt: getCanonicalUrl("/pt/men-team"),
     "x-default": getCanonicalUrl("/sv/men-team"),
   };
 

@@ -56,9 +56,7 @@
         "date": "Utorak, 15. april i Utorak, 29. april",
         "location": "Kämpetorpshallen",
         "linkDescription": "Koristite link",
-        "link": "https://entry.sportadmin.se/groupsOverview?uid=BlleV5&pageId=0&sportid=1075 ",
-        "contactDescription": "da se prijavite ili nam direktno pošaljete mejl na",
-        "contact": "ragsvedsvolleyboll@ragsvedsif.org "
+        "link": "https://entry.sportadmin.se/groupsOverview?uid=BlleV5&pageId=0&sportid=1075"
       },
       {
         "id": "2",
@@ -76,7 +74,7 @@
         "date": "Utorak, 26. avgust, 20:00",
         "location": "Bandhagshallen, Stokholm",
         "linkDescription": "Saznajte više o našem muškom timu",
-        "link": "https://vb.xn--rgsvedsif-52a.se/en/men-team/"
+        "link": "https://vb.xn--rgsvedsif-52a.se/sr/men-team/"
       }
     ]
   },
@@ -153,7 +151,7 @@
         "league": "Treća liga",
         "coach": "Krzysztof",
         "captain": "Filip",
-        "currentRank": "1.",
+        "currentRank": "-",
         "championship": "https://www.profixio.com/app/leagueid17733/teams/1408254"
       },
       {
@@ -164,7 +162,7 @@
         "league": "Treća liga",
         "coach": "Krzysztof",
         "captain": "Robert",
-        "currentRank": "1.",
+        "currentRank": "-",
         "championship": "https://www.profixio.com/app/leagueid17733/teams/1408255"
       }
     ]

@@ -1,0 +1,291 @@
+{
+  "Metadata": {
+    "title": "Rågsveds IF Voleibol",
+    "description": "Junte-se ao Rågsveds IF Voleibol em Estocolmo! 🏐 Oferecemos equipes masculinas competitivas em diferentes divisões e oportunidades empolgantes para o desenvolvimento juvenil. Treine forte, jogue com paixão e cresça conosco.",
+    "keywords": "Rågsveds IF Voleibol, clube de voleibol Estocolmo, equipes masculinas de voleibol, desenvolvimento de voleibol juvenil, voleibol competitivo, equipe Elite, voleibol por divisões, treino de voleibol, partidas de voleibol, voleibol iniciante, comunidade sueca de voleibol, esportes em Estocolmo, história do Rågsved IF",
+    "ogTitle": "🏐 Junte-se ao Rågsveds IF Voleibol 🔥",
+    "ogDescription": "Compita em nossas equipes masculinas por diversas divisões ou faça parte do nosso programa de desenvolvimento juvenil. Treine forte, jogue com paixão e cresça conosco. 🏐",
+    "ogImageAlt": "Clube Rågsveds IF Voleibol – Equipe apaixonada em Estocolmo",
+    "siteName": "Rågsveds IF Voleibol",
+    "lang": "pt"
+  },
+  "Header": {
+    "clubName": "Voleibol",
+    "home": "Início",
+    "about": "Sobre",
+    "men": "Masculino",
+    "youth": "Juvenil",
+    "news": "Notícias",
+    "contact": "Contato",
+    "mainNavigationAriaLabel": "Navegação principal",
+    "homeAriaLabel": "Voltar para início",
+    "logoAlt": "Logo Rågsveds IF Voleibol",
+    "openMenuAriaLabel": "Abrir menu",
+    "closeMenuAriaLabel": "Fechar menu"
+  },
+  "Banner": {
+    "message": "Impulsione a visibilidade da sua marca!",
+    "callToAction": "Participe agora →"
+  },
+  "Hero": {
+    "title": {
+      "line1": "Comunidade, compromisso",
+      "line2": "Buscando desenvolvimento contínuo"
+    },
+    "description": {
+      "line1": "Nosso objetivo é criar as melhores condições para todos que desejam jogar e se desenvolver no voleibol – independente da idade ou experiência.",
+      "line2": "Atualmente, estamos investindo fortemente nas crianças e jovens, com o objetivo de dar a mais pessoas a chance de descobrir o esporte e se desenvolver em um ambiente positivo e inspirador."
+    },
+    "aboutusButton": "Nossa história",
+    "tryoutButton": "Encontre seu grupo",
+    "imageAlt": "Partida de voleibol em ação"
+  },
+  "Status": {
+    "title": "Status",
+    "description": "Atualmente, temos um grupo juvenil ativo, mas queremos crescer e receber mais jogadores no Rågsveds Volley! Além dos nossos treinos regulares, oferecemos um conceito chamado sessões de desenvolvimento individual. Essas sessões são realizadas em grupos menores e dão a oportunidade de focar em técnicas específicas, para que cada jogador possa trabalhar em suas áreas de melhoria."
+  },
+  "News": {
+    "title": "Notícias",
+    "article": "Leia o artigo",
+    "SeeAllNews": "Ver todas as notícias",
+    "newsPage": [
+      {
+        "id": "1",
+        "title": "Testes para a equipe masculina de Rågsveds IF Voleibol!",
+        "description": "No momento, estamos procurando novos jogadores para a próxima temporada na Divisão 2 com o objetivo de chegar à divisão 1. Procuramos principalmente levantadores e centrais, mas outras posições também podem se candidatar!",
+        "date": "Terça-feira, 15 de abril e terça-feira, 29 de abril",
+        "location": "Kämpetorpshallen",
+        "linkDescription": "Use o link",
+        "link": "https://entry.sportadmin.se/groupsOverview?uid=BlleV5&pageId=0&sportid=1075"
+      },
+      {
+        "id": "2",
+        "title": "Festival Rågsveds",
+        "description": "O voleibol oferecerá atividades de teste e sediará competições com prêmios em Rågsveds BP. Te espero lá! 🏐💯🔥",
+        "date": "Sábado, 23 de agosto e domingo, 24 de agosto",
+        "location": "Área de Atividades Rågsved e Bairro Cultural Snösätra",
+        "linkDescription": "Use o link",
+        "link": "https://www.instagram.com/ragsvedfestivalen/"
+      },
+      {
+        "id": "3",
+        "title": "Início da Temporada da Equipe Masculina!",
+        "description": "Nossa equipe masculina de voleibol está de volta para a nova temporada! Vamos fazer desta temporada inesquecível! 🏐🔥",
+        "date": "Terça-feira, 26 de agosto, 20:00",
+        "location": "Bandhagshallen, Estocolmo",
+        "linkDescription": "Saiba mais sobre nossas equipes masculinas",
+        "link": "https://vb.xn--rgsvedsif-52a.se/pt/men-team/"
+      }
+    ]
+  },
+  "Sponsors": {
+    "title": "Nossos Patrocinadores",
+    "description": "Temos orgulho de colaborar com essas organizações que compartilham nosso compromisso."
+  },
+  "AboutUs": {
+    "metaTitle": "Nossa Jornada no Voleibol em Estocolmo | Rågsved IF Voleibol",
+    "metaDescription": "Descubra como o Rågsved IF Voleibol cresceu de jogos informais no Flatenbadet às equipes competitivas da Divisão 3 em Estocolmo. Junte-se à nossa comunidade ambiciosa de voleibol enquanto buscamos a excelência na Divisão 2.",
+    "keywords": "Clube Rågsveds IF Voleibol, clube de voleibol Estocolmo, comunidade sueca de voleibol, história do voleibol, trajetória do clube de voleibol, crescimento do time de voleibol, expansão do time de voleibol, missão do time de voleibol, Divisão 3 voleibol, Divisão 2 voleibol, Korpen voleibol, Campeonato Sueco de Voleibol",
+    "ogTitle": "Dos Jogos na Praia aos Campeonatos: Nossa História no Voleibol de Estocolmo",
+    "ogDescription": "Acompanhe a inspiradora jornada do Rågsved IF, de jogadores recreativos a equipes campeãs de voleibol em Estocolmo, agora competindo na Divisão 3 com objetivo de subir mais divisões.",
+    "ogImageAlt": "História da equipe do Clube Rågsved IF Voleibol | Equipe apaixonada em Estocolmo",
+    "siteName": "Rågsveds IF Voleibol",
+    "lang": "pt",
+    "title": "Nossa História",
+    "sections": {
+      "howItAllBegan": {
+        "title": "Como Tudo Começou",
+        "content": "Tudo começou com um grupo de amigos no Flatenbadet em Skarpnäck. Nunca tínhamos jogado vôlei de praia ou de quadra antes, mas logo nos apaixonamos pela energia do jogo."
+      },
+      "humbleBeginnings": {
+        "title": "Inícios Humildes",
+        "content": "Em 2022, demos nossos primeiros passos nas quadras do Korpen com uma equipe incompleta e objetivos ambiciosos. Apesar dos desafios, treinamos com dedicação, colaboramos com outras equipes e garantimos um resultado respeitável no meio da tabela. Era apenas o começo."
+      },
+      "risingToTheChallenge": {
+        "title": "Aceitando o Desafio",
+        "content": "Determinados a conquistar mais, planejamos o campeonato Korpen. Com novos membros e treinos intensificados, superamos obstáculos e conquistamos o título, mesmo com uma derrota ao longo do caminho."
+      },
+      "aimingHigher": {
+        "title": "Almejando Mais Alto",
+        "content": "Inspirados pelo sucesso, estabelecemos uma meta ainda maior: o Campeonato Sueco de Voleibol. Para alcançar esse nível, decidimos fundar nosso próprio clube. Com o apoio inestimável do Rågsved IF, transformamos essa visão em realidade."
+      },
+      "growthAndExpansion": {
+        "title": "Crescimento e Expansão",
+        "content": "Demos passos importantes, contratando técnicos dedicados e formando uma segunda equipe composta por fortes competidores do Korpen. Com treinos duas vezes por semana e duas equipes competindo na Divisão 3, mantivemos nossas raízes com uma equipe Korpen para treinar novos talentos."
+      },
+      "whereWeStand": {
+        "title": "Nossa Situação Atual",
+        "content": "Hoje, somos uma organização em crescimento e ambiciosa. Nossas duas equipes da Divisão 3 competem em alto nível enquanto a equipe Korpen continua proporcionando oportunidades de desenvolvimento e construção de comunidade."
+      },
+      "ourMission": {
+        "title": "Nossa Missão",
+        "content": "Nosso objetivo é claro: destacar-se na Divisão 3 e avançar para a Divisão 2. Além da competição, queremos construir um legado duradouro no voleibol, com base em trabalho em equipe, dedicação e compromisso com o crescimento contínuo."
+      }
+    }
+  },
+  "TeamPage": {
+    "metaTitle": "Informações da Equipe",
+    "quickFacts": "Fatos Rápidos",
+    "league": "Liga",
+    "coach": "Técnico",
+    "captain": "Capitão",
+    "currentRank": "Posição Atual",
+    "results": "Resultados"
+  },
+  "Men-Teams": {
+    "metaTitle": "Equipes Masculinas de Voleibol em Estocolmo | Ragsveds IF",
+    "title": "Nossas equipes masculinas",
+    "description": {
+      "line1": "Temos orgulho de contar com duas equipes masculinas, uma equipe A e uma equipe B, onde focamos tanto em desempenho quanto em desenvolvimento. Para a próxima temporada, ambas avançaram para a Divisão 2, um grande marco para nós.",
+      "line2": "Manter duas equipes é uma parte importante da nossa filosofia – queremos que todos os jogadores tenham oportunidade de jogar em bom nível, se desenvolver e contribuir para o sucesso do time. Nosso próximo objetivo? Chegar à Divisão 1. Com trabalho árduo, dedicação e forte espírito de equipe, vamos chegar lá passo a passo. Quer fazer parte da nossa jornada? Entre em contato por e-mail ou use a função de inscrição!"
+    },
+    "teamLinkAriaLabel": "Ver detalhes da equipe {teamName}",
+    "tryoutButton": "Treino de Teste",
+    "calendarButton": "Ver Calendário",
+    "teams": [
+      {
+        "id": "1",
+        "name": "Equipe A",
+        "image": "/images/team-A.webp",
+        "description": "Nossa primeira equipe compete na Divisão 3 e foi dominante nesta temporada. Conhecida pelos saques agressivos e defesa sólida, a Equipe A tem consistentemente vencido suas partidas.",
+        "league": "Divisão 3",
+        "coach": "Krzysztof",
+        "captain": "Filip",
+        "currentRank": "-",
+        "championship": "https://www.profixio.com/app/leagueid17733/teams/1408254"
+      },
+      {
+        "id": "2",
+        "name": "Equipe B",
+        "image": "/images/team-B.webp",
+        "description": "Nossa segunda equipe também joga na Divisão 3 e mostrou um progresso notável nesta temporada. Com uma mistura de jogadores experientes e talentos promissores, a Equipe B subiu para o topo da liga.",
+        "league": "Divisão 3",
+        "coach": "Krzysztof",
+        "captain": "Robert",
+        "currentRank": "-",
+        "championship": "https://www.profixio.com/app/leagueid17733/teams/1408255"
+      }
+    ]
+  },
+  "Youth-Team": {
+    "metaTitle": "Equipe Juvenil de Voleibol em Estocolmo | Ragsveds IF",
+    "alt": "Imagem da equipe juvenil de voleibol",
+    "title": "Voleibol para crianças e jovens – alegria, comunidade e desenvolvimento",
+    "description": "Estamos comprometidos em dar oportunidade para que crianças e jovens descubram o voleibol! Aqui, trata-se de se divertir, se desenvolver e se sentir parte de uma comunidade incrível.",
+    "joinUs": "Atualmente, temos um grupo juvenil ativo para crianças de 13 a 14 anos, que treina todas as quintas-feiras no Kämpetorpshallen. Vemos crescente interesse e planejamos iniciar mais grupos no futuro – então, se você ou alguém que conheça deseja experimentar o voleibol, não hesite em demonstrar interesse!",
+    "registerNow": "Nossos treinadores dedicados criam um ambiente inspirador onde todos têm a oportunidade de se desenvolver no seu próprio ritmo. Seja você iniciante ou já tenha jogado antes, será bem-vindo ao Rågsveds Volleyball. Esperamos receber mais jovens jogadores em nossa comunidade!",
+    "registerButton": "Demonstre seu interesse",
+    "registerAriaLabel": "Registrar-se na Equipe Juvenil",
+    "calendarButton": "Ver Calendário"
+  },
+  "Elite": {
+    "challengers": [
+      {
+        "id": "1",
+        "name": "Floby VK",
+        "logo": "/images/logos/floby_vk-logo.png",
+        "alt": "Logo Floby VK: Escudo verde e amarelo com texto vermelho"
+      },
+      {
+        "id": "2",
+        "name": "Habo Wolley",
+        "logo": "/images/logos/habo_wolley-logo.png",
+        "alt": "Logo Habo Wolley: Vermelho com vôlei estilizado e rede"
+      },
+      {
+        "id": "3",
+        "name": "Hylte Halmstad VBK",
+        "logo": "/images/logos/hylte_halmstad_vbk-logo.png",
+        "alt": "Logo Hylte Halmstad VBK: Escudo vermelho e preto"
+      },
+      {
+        "id": "4",
+        "name": "Lunds VK",
+        "logo": "/images/logos/lunds_vk-logo.png",
+        "alt": "Logo Lunds VK: Design circular preto e vermelho com torres"
+      },
+      {
+        "id": "5",
+        "name": "Malmö VK",
+        "logo": "/images/logos/malmö_vk-logo.png",
+        "alt": "Logo Malmö VK: Voleibol preto e branco com texto MVK"
+      },
+      {
+        "id": "6",
+        "name": "Örkelljunga VK",
+        "logo": "/images/logos/örkelljunga_vk-logo.png",
+        "alt": "Logo Örkelljunga VK: Asas azuis com texto vermelho e vôlei"
+      },
+      {
+        "id": "7",
+        "name": "VBF RIG Falköping",
+        "logo": "/images/logos/vbf_rig_falköping-logo.png",
+        "alt": "Logo RIG Falköping: 'RIG' branco em fundo preto com ponto vermelho"
+      },
+      {
+        "id": "8",
+        "name": "Södertelge VBK",
+        "logo": "/images/logos/södertelge_vbk-logo.png",
+        "alt": "Logo Södertelge VBK: S estilizado verde e amarelo em preto"
+      },
+      {
+        "id": "9",
+        "name": "Sollentuna VK",
+        "logo": "/images/logos/sollentuna_vk-logo.png",
+        "alt": "Logo Sollentuna Volley: Texto branco em verde com figura"
+      },
+      {
+        "id": "10",
+        "name": "Uppsala VBS",
+        "logo": "/images/logos/uppsala_vbs-logo.png",
+        "alt": "Logo Uppsala VBS: Silhueta preta da cidade e jogador"
+      },
+      {
+        "id": "11",
+        "name": "Vingåkers VBK",
+        "logo": "/images/logos/vingåkers_vbk-logo.png",
+        "alt": "Logo Vingåkers VBK: Azul claro com design de asa"
+      },
+      {
+        "id": "12",
+        "name": "Svensk Volleyboll",
+        "logo": "/images/logos/svensk_volleyboll-logo.png",
+        "alt": "Logo Svensk Volleyboll: Voleibol estilizado azul e amarelo"
+      }
+    ]
+  },
+  "Footer": {
+    "general": {
+      "returnToHomepage": "Voltar para o início",
+      "logoAlt": "Logo do Clube de Voleibol",
+      "copyright": "© {year}, Todos os direitos reservados.",
+      "footerNavigation": "Navegação do Rodapé"
+    },
+    "contact": {
+      "contactUs": "Fale Conosco",
+      "email": "E-mail"
+    },
+    "address": {
+      "addresses": "Endereços",
+      "whereWePlay": "Onde jogamos",
+      "whereWeTrain": "Onde treinamos"
+    },
+    "social": {
+      "followUs": "Siga-nos",
+      "instagramAriaLabel": "Siga-nos no Instagram"
+    },
+    "links": {
+      "usefulLinks": "Links úteis",
+      "swedishVolleyballFederation": "Federação Sueca de Voleibol",
+      "ragsvedIF": "Rågsved IF Voleibol",
+      "korpenStockholmVolleyball": "Korpen Estocolmo Voleibol",
+      "profixio": "Profixio Voleibol",
+      "sportadmin": "SportAdmin Voleibol"
+    }
+  },
+  "NotFound": {
+    "title": "404 - Página Não Encontrada",
+    "description": "A página que você procura não existe.",
+    "backToHome": "Voltar ao início"
+  }
+}

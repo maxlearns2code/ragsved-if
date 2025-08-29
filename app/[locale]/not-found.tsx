@@ -20,6 +20,7 @@ export async function generateMetadata(): Promise<Metadata> {
         sr: `${siteUrl}/sr/404`,
         uk: `${siteUrl}/uk/404`,
         pl: `${siteUrl}/pl/404`,
+        pt: `${siteUrl}/pt/404`,
         "x-default": `${siteUrl}/sv/404`,
       },
     },

@@ -56,9 +56,7 @@
         "date": "Dienstag, den 15. April und Dienstag, den 29. April",
         "location": "Kämpetorpshallen",
         "linkDescription": "Nutzen Sie den Link",
-        "link": "https://entry.sportadmin.se/groupsOverview?uid=BlleV5&pageId=0&sportid=1075 ",
-        "contactDescription": ", um sich anzumelden oder schreiben Sie uns direkt an",
-        "contact": "ragsvedsvolleyboll@ragsvedsif.org "
+        "link": "https://entry.sportadmin.se/groupsOverview?uid=BlleV5&pageId=0&sportid=1075"
       },
       {
         "id": "2",
@@ -76,7 +74,7 @@
         "date": "Dienstag, 26. August, 20:00 Uhr",
         "location": "Bandhagshallen, Stockholm",
         "linkDescription": "Mehr über unsere Herrenteams erfahren",
-        "link": "https://vb.xn--rgsvedsif-52a.se/en/men-team/"
+        "link": "https://vb.xn--rgsvedsif-52a.se/de/men-team/"
       }
     ]
   },
@@ -153,7 +151,7 @@
         "league": "3. Division",
         "coach": "Krzysztof",
         "captain": "Filip",
-        "currentRank": "1.",
+        "currentRank": "-",
         "championship": "https://www.profixio.com/app/leagueid17733/teams/1408254"
       },
       {
@@ -164,7 +162,7 @@
         "league": "3. Division",
         "coach": "Krzysztof",
         "captain": "Robert",
-        "currentRank": "1.",
+        "currentRank": "-",
         "championship": "https://www.profixio.com/app/leagueid17733/teams/1408255"
       }
     ]

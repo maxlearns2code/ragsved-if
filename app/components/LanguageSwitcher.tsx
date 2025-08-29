@@ -20,6 +20,7 @@ export default function LanguageSwitcher() {
     sr: { name: "Српски", flag: "RS" },
     uk: { name: "Українська", flag: "UK" },
     pl: { name: "Polski", flag: "PL" },
+    pt: { name: "Portuguese", flag: "PT" },
   };
 
   const handleLanguageChange = (newLocale: string) => {
