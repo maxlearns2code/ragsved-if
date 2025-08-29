@@ -30,7 +30,7 @@ module.exports = {
     const result = [];
     const locales = ["sv", "en", "es", "fr", "de", "sr", "uk", "pl"];
     const teamIds = ["1", "2"];
-    const newsIds = ["1", "2"];
+    const newsIds = ["1", "2","3"];
 
     result.push({
       loc: "/",
