@@ -23,7 +23,7 @@ module.exports = {
     { href: "https://vb.xn--rgsvedsif-52a.se/de", hreflang: "de" },
     { href: "https://vb.xn--rgsvedsif-52a.se/sr", hreflang: "sr" },
     { href: "https://vb.xn--rgsvedsif-52a.se/pl", hreflang: "pl" },
-    { href: "https://vb.xn--rgsvedsif-52a.se/uk", hreflang: "uk" },    
+    { href: "https://vb.xn--rgsvedsif-52a.se/uk", hreflang: "uk" },
     { href: "https://vb.xn--rgsvedsif-52a.se/pt", hreflang: "pt" },
     { href: "https://vb.xn--rgsvedsif-52a.se/sv", hreflang: "x-default" },
   ],
@@ -31,7 +31,7 @@ module.exports = {
     const result = [];
     const locales = ["sv", "en", "es", "fr", "de", "sr", "uk", "pl", "pt"];
     const teamIds = ["1", "2"];
-    const newsIds = ["1", "2","3"];
+    const newsIds = ["1", "2", "3", "4"];
 
     result.push({
       loc: "/",

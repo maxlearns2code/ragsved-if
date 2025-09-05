@@ -75,6 +75,15 @@
         "location": "Bandhagshallen, Stockholm",
         "linkDescription": "Learn more about our men’s teams",
         "link": "https://vb.xn--rgsvedsif-52a.se/en/men-team/"
+      },
+      {
+        "id": "4",
+        "title": "We’re Playing at Sollentuna BigStep 2025!",
+        "description": "Exciting news! Our club is officially participating in the Sollentuna BigStep 2025 tournament. Let’s support our teams as they compete among 68 clubs in over 140 matches—see you all there! 🏐💪",
+        "date": "Saturday, September 6th – Sunday, September 7th, 2025",
+        "location": "Sollentuna, Stockholm",
+        "linkDescription": "Check out tournament details & schedule",
+        "link": "https://www.profixio.com/app/sollentuna-bigstep-2025"
       }
     ]
   },
