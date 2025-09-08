@@ -51,38 +51,50 @@
     "newsPage": [
       {
         "id": "1",
+        "icon": "🎯",
         "title": "Tryouts for Rågsveds IF Volleyball Men's Team!",
         "description": "Right now, we are looking for new players for next year’s season in Division 2 with the goal of reaching division 1. We are primarily looking for setters and middle blockers, but other positions are also welcome to apply!",
         "date": "Tuesday, April 15th and Tuesday, April 29th",
         "location": "Kämpetorpshallen",
-        "linkDescription": "Use the link",
+        "locationUrl": "https://share.google/nBm1O3FvfG2VKDdx8",
+        "locationLinkDescription": "See location on map",
+        "linkDescription": "Register or get details",
         "link": "https://entry.sportadmin.se/groupsOverview?uid=BlleV5&pageId=0&sportid=1075"
       },
       {
         "id": "2",
+        "icon": "🎉",
         "title": "Rågsveds Festival",
-        "description": "Volleyball will offer try-out activities and host competitions with prizes at Rågsveds BP. See you there! 🏐💯🔥",
+        "description": "Volleyball will host exciting try-out activities and fun competitions at Rågsveds BP! Win prizes, meet the team, and experience the joy of volleyball. Bring friends and let’s fill Rågsved with community spirit! 🏐💯🔥",
         "date": "Saturday, August 23rd and Sunday, August 24th",
         "location": "Rågsved Activity Area and Snösätra Culture Quarter",
-        "linkDescription": "Use the link",
+        "locationUrl": "https://share.google/M2hmcJdqoLnu9Ap0P",
+        "locationLinkDescription": "See location on map",
+        "linkDescription": "Discover more on Instagram",
         "link": "https://www.instagram.com/ragsvedfestivalen/"
       },
       {
         "id": "3",
+        "icon": "🔥",
         "title": "Men’s Team Season Kickoff!",
-        "description": "Our men’s volleyball team is back for the new season! Let’s make this season unforgettable! 🏐🔥",
+        "description": "Our men’s volleyball team is back for the new season! We’re training harder and dreaming bigger. Let’s make this season unforgettable - join the journey, support the team, and follow progress throughout the season! 🏐🔥",
         "date": "Tuesday, August 26th, 20:00",
         "location": "Bandhagshallen, Stockholm",
+        "locationUrl": "https://share.google/3pwpYLoJ3YrcInHBV",
+        "locationLinkDescription": "See location on map",
         "linkDescription": "Learn more about our men’s teams",
         "link": "https://vb.xn--rgsvedsif-52a.se/en/men-team/"
       },
       {
         "id": "4",
+        "icon": "🏐",
         "title": "We’re Playing at Sollentuna BigStep 2025!",
-        "description": "Exciting news! Our club is officially participating in the Sollentuna BigStep 2025 tournament. Let’s support our teams as they compete among 68 clubs in over 140 matches—see you all there! 🏐💪",
+        "description": "Our club will compete in the Sollentuna BigStep 2025 volleyball tournament! Join us for this prestigious event with 68 teams and 144 matches. Come and cheer for our team, and don't forget to follow us on Instagram for live updates and behind-the-scenes!",
         "date": "Saturday, September 6th – Sunday, September 7th, 2025",
-        "location": "Sollentuna, Stockholm",
-        "linkDescription": "Check out tournament details & schedule",
+        "location": "Rotebrohallen, Hertig Karls väg 17, 192 68 Sollentuna",
+        "locationUrl": "https://share.google/9UDhUFC8GLV67E5Ax",
+        "locationLinkDescription": "See location on map",
+        "linkDescription": "Tournament info & schedule",
         "link": "https://www.profixio.com/app/sollentuna-bigstep-2025"
       }
     ]

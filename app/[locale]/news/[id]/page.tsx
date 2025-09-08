@@ -6,14 +6,15 @@ import { notFound } from "next/navigation";
 
 type Item = {
   id: string;
+  icon: string;
   title: string;
   description: string;
   date: string;
   location: string;
+  locationUrl?: string;
+  locationLinkDescription?: string;
   linkDescription: string;
   link: string;
-  contactDescription: string;
-  contact: string;
 };
 
 type Props = {
@@ -74,7 +75,7 @@ export default async function NewsArticlePage({ params }: Props) {
   if (!article) notFound();
 
   return (
-    <article className="max-w-2xl mx-auto my-20">
+    <article className="max-w-3xl mx-auto my-20">
       <h1 className="text-3xl font-bold text-center mb-8">{t("title")}</h1>
       <NewsArticle article={article} />
     </article>

@@ -59,34 +59,45 @@
         "description": "Just nu söker vi nya spelar för nästa års säsong i division 2 med ambition att nå division 1. Vi söker främst passare och centrar men andra positioner är också välkomna att söka!",
         "date": "Tisdag 15:e April och Tisdag 29:e April",
         "location": "Kämpetorpshallen",
-        "linkDescription": "Använd länken",
+        "locationUrl": "https://share.google/nBm1O3FvfG2VKDdx8",
+        "locationLinkDescription": "Se platsen på karta",
+        "linkDescription": "Anmäl dig eller läs mer",
         "link": "https://entry.sportadmin.se/groupsOverview?uid=BlleV5&pageId=0&sportid=1075"
       },
       {
         "id": "2",
-        "title": "Rågsveds Festivalen",
-        "description": "Volleyboll kommer att erbjuda provapå aktiviteter samt ha tävlingar och priser vid Rågsveds BP. Vi ses där! 🏐💯🔥",
-        "date": "Lördag 23:e Agusti och Söndag 24:e Agusti",
-        "location": "Rågsveds aktivitetsområde och Kulturkvarteret Snösätra",
-        "linkDescription": "Använd länken",
+        "icon": "🎉",
+        "title": "Rågsvedsfestivalen",
+        "description": "Volleyboll bjuder in till prova-på-aktiviteter och roliga tävlingar på Rågsveds BP! Vinn priser, träffa laget och upplev volleybollglädjen. Ta med vänner så fyller vi Rågsved med gemenskap! 🏐💯🔥",
+        "date": "Lördag 23 augusti och söndag 24 augusti",
+        "location": "Rågsveds aktivitetsområde och Snösätra kulturkvarter",
+        "locationUrl": "https://share.google/M2hmcJdqoLnu9Ap0P",
+        "locationLinkDescription": "Se platsen på karta",
+        "linkDescription": "Läs mer på Instagram",
         "link": "https://www.instagram.com/ragsvedfestivalen/"
       },
       {
         "id": "3",
+        "icon": "🔥",
         "title": "Herrlagets Säsongsstart!",
-        "description": "Vårt herrvolleybollag är tillbaka för en ny säsong! Låt oss göra denna säsong oförglömlig! 🏐🔥",
+        "description": "Vårt herrlag är tillbaka för en ny säsong! Vi tränar hårdare och siktar högre. Låt oss göra säsongen oförglömlig – följ resan, stötta laget och häng med på hela vägen! 🏐🔥",
         "date": "Tisdag 26 augusti, 20:00",
         "location": "Bandhagshallen, Stockholm",
+        "locationUrl": "https://share.google/3pwpYLoJ3YrcInHBV",
+        "locationLinkDescription": "Se platsen på karta",
         "linkDescription": "Läs mer om vårt herrlag",
-        "link": "https://vb.xn--rgsvedsif-52a.se/sv/men-team/"
+        "link": "https://vb.xn--rgsvedsif-52a.se/en/men-team/"
       },
       {
         "id": "4",
-        "title": "Vi spelar i Sollentuna BigStep 2025!",
-        "description": "Spännande nyheter! Vår klubb deltar officiellt i Sollentuna BigStep 2025-turneringen. Kom och heja på våra lag när de tävlar bland 68 klubbar i över 140 matcher – vi ses där! 🏐💪",
-        "date": "Lördag 6 september – Söndag 7 september 2025",
-        "location": "Sollentuna, Stockholm",
-        "linkDescription": "Se turneringsinformation & schema",
+        "icon": "🏐",
+        "title": "Vi spelar på Sollentuna BigStep 2025!",
+        "description": "Vår klubb ställer upp i Sollentuna BigStep 2025! Häng med på denna prestigefyllda turnering med 68 lag och 144 matcher. Kom och heja – och glöm inte följa oss på Instagram för liveuppdateringar och kul material bakom kulisserna!",
+        "date": "Lördag 6 september – söndag 7 september 2025",
+        "location": "Rotebrohallen, Hertig Karls väg 17, 192 68 Sollentuna",
+        "locationUrl": "https://share.google/9UDhUFC8GLV67E5Ax",
+        "locationLinkDescription": "Se platsen på karta",
+        "linkDescription": "Turneringsinfo & schema",
         "link": "https://www.profixio.com/app/sollentuna-bigstep-2025"
       }
     ]

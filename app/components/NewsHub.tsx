@@ -6,14 +6,15 @@ import Link from "next/link";
 
 interface NewsProps {
   id: string;
+  icon: string;
   title: string;
   description: string;
   date: string;
   location: string;
+  locationUrl?: string;
+  locationLinkDescription?: string;
   linkDescription: string;
   link: string;
-  contactDescription: string;
-  contact: string;
 }
 
 const NewsHub = () => {

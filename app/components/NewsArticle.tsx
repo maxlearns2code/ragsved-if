@@ -1,45 +1,76 @@
-import { FaCalendarAlt, FaExternalLinkAlt, FaMapMarkerAlt } from "react-icons/fa";
+import {
+  FaCalendarAlt,
+  FaExternalLinkAlt,
+  FaMapMarkerAlt,
+} from "react-icons/fa";
 
 interface NewsProps {
   id: string;
+  icon: string;
   title: string;
   description: string;
   date: string;
   location: string;
+  locationUrl?: string;
+  locationLinkDescription?: string;
   linkDescription: string;
   link: string;
-  contactDescription: string;
-  contact: string;
 }
 
-const NewsArticle = ({ article, showExternalLink = true }: { article: NewsProps; showExternalLink?: boolean }) => (
-  <section>
-    <div className="container mx-auto px-4">
-      <article className="flex flex-wrap justify-center items-center gap-8">
-        <div className="w-full rounded-lg h-80 shadow-md flex bg-sec bg-white/10">
-          <div className="inset-0 flex flex-col items-start text-white p-4 ">
-            <h2 className="text-xl font-bold overflow-hidden">{article.title}</h2>
-            <p className="text-sm lg:text-base flex items-center gap-2 mt-2">
-              <FaCalendarAlt className="text-lg" />
-              {article.date}
-            </p>
-            <p className="text-sm lg:text-base flex items-center gap-2 mt-2">
-              <FaMapMarkerAlt className="text-lg" />
-              {article.location}
-            </p>
-            <p className="text-sm lg:text-base mt-2 overflow-hidden">{article.description}</p>
-            {showExternalLink && (
-              <p className="text-sm lg:text-base flex items-center gap-2 mt-2 hover:text-secondary hover:underline">
-                <FaExternalLinkAlt className="text-lg" />
-                <a href={article.link} target="_blank" rel="noopener noreferrer">{article.linkDescription}</a>
-              </p>
-            )}
-            <p className="text-sm lg:text-base mt-2">
-              {article.contactDescription} {article.contact}
-            </p>
-          </div>
-        </div>
-      </article>
+const NewsArticle = ({
+  article,
+  showExternalLink = true,
+}: {
+  article: NewsProps;
+  showExternalLink?: boolean;
+}) => (
+  <section className="flex justify-center items-center py-8 px-4 min-h-[24rem]">
+    <div className="relative rounded-2xl shadow-xl backdrop-blur-lg p-8 flex flex-col gap-6 border border-white/30">
+      <div className="absolute top-[-20px] left-8 z-10">
+        <span className="inline-block rounded-full bg-secondary text-3xl shadow-lg p-3 border-4 border-white">
+          {article.icon}
+        </span>
+      </div>
+
+      <h2 className="text-2xl text-justify font-extrabold tracking-wider drop-shadow mb-2 mt-8">
+        {article.title}
+      </h2>
+      <div className="flex gap-4 flex-wrap text-base items-center mb-1">
+        <span className="flex items-center gap-2">
+          <FaCalendarAlt className="text-primary-600" />
+          {article.date}
+        </span>
+        <span className="flex items-center gap-2">
+          <FaMapMarkerAlt className="text-tertiary" />
+          {article.location}
+          {showExternalLink && (
+            <a
+              href={article.locationUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block ml-1 font-semibold underline text-primay hover:text-secondary transition"
+            >
+              {article.locationLinkDescription ?? "Karta"}
+            </a>
+          )}
+        </span>
+      </div>
+      <p className="text-lg text-justify leading-relaxed drop-shadow-sm overflow-hidden">
+        {article.description}
+      </p>
+      <div className="mt-2">
+        {showExternalLink && (
+          <a
+            href={article.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-white/10 hover:bg-white/20 font-semibold shadow hover:scale-105 focus:outline-none transition"
+          >
+            <FaExternalLinkAlt />
+            {article.linkDescription}
+          </a>
+        )}
+      </div>
     </div>
   </section>
 );

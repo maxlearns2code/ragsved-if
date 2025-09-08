@@ -51,38 +51,50 @@
     "newsPage": [
       {
         "id": "1",
-        "title": "Pruebas para el equipo masculino de voleibol de Rågsveds IF!",
-        "description": "Actualmente estamos buscando nuevos jugadores para la próxima temporada en la División 2 con la ambición de alcanzar la División 1. Buscamos principalmente colocadores y centrales, pero otras posiciones también son bienvenidas a postularse.",
-        "date": "Martes 15 de abril y Martes 29 de abril",
+        "icon": "🎯",
+        "title": "¡Pruebas para el equipo masculino de voleibol Rågsveds IF!",
+        "description": "¡Buscamos nuevos jugadores para la próxima temporada en la División 2 con el objetivo de llegar a la división 1! Principalmente necesitamos colocadores y centrales, pero todas las posiciones son bienvenidas a postularse.",
+        "date": "Martes 15 de abril y martes 29 de abril",
         "location": "Kämpetorpshallen",
-        "linkDescription": "Usa el enlace",
+        "locationUrl": "https://share.google/nBm1O3FvfG2VKDdx8",
+        "locationLinkDescription": "Ver ubicación en el mapa",
+        "linkDescription": "Regístrate o consulta detalles",
         "link": "https://entry.sportadmin.se/groupsOverview?uid=BlleV5&pageId=0&sportid=1075"
       },
       {
         "id": "2",
+        "icon": "🎉",
         "title": "Festival de Rågsved",
-        "description": "¡El voleibol ofrecerá actividades de prueba y habrá competiciones y premios en Rågsveds BP! ¡Nos vemos allí! 🏐💯🔥",
-        "date": "Sábado 23 y domingo 24 de agosto",
-        "location": "Área de actividades de Rågsved y Barrio Cultural Snösätra",
-        "linkDescription": "Usa el enlace",
+        "description": "¡El voleibol ofrecerá actividades de prueba y competiciones divertidas en Rågsveds BP! Gana premios, conoce al equipo y disfruta la alegría del vóley. ¡Trae a tus amigos y llenemos Rågsved de espíritu comunitario! 🏐💯🔥",
+        "date": "Sábado 23 de agosto y domingo 24 de agosto",
+        "location": "Área de actividades de Rågsved y Barrio cultural de Snösätra",
+        "locationUrl": "https://share.google/M2hmcJdqoLnu9Ap0P",
+        "locationLinkDescription": "Ver ubicación en el mapa",
+        "linkDescription": "Descubre más en Instagram",
         "link": "https://www.instagram.com/ragsvedfestivalen/"
       },
       {
         "id": "3",
-        "title": "¡Inicio de Temporada del Equipo Masculino!",
-        "description": "¡Nuestro equipo masculino de voleibol regresa para una nueva temporada! ¡Hagamos que esta temporada sea inolvidable! 🏐🔥",
+        "icon": "🔥",
+        "title": "¡Inicio de temporada del equipo masculino!",
+        "description": "¡Nuestro equipo masculino de voleibol está de vuelta para la nueva temporada! Nos estamos entrenando más duro y soñando en grande. Hagamos que esta temporada sea inolvidable: ¡únete al viaje, apoya al equipo y sigue su progreso en toda la temporada! 🏐🔥",
         "date": "Martes 26 de agosto, 20:00",
         "location": "Bandhagshallen, Estocolmo",
-        "linkDescription": "Más información sobre nuestros equipos masculinos",
-        "link": "https://vb.xn--rgsvedsif-52a.se/es/men-team/"
+        "locationUrl": "https://share.google/3pwpYLoJ3YrcInHBV",
+        "locationLinkDescription": "Ver ubicación en el mapa",
+        "linkDescription": "Aprende más sobre nuestro equipo masculino",
+        "link": "https://vb.xn--rgsvedsif-52a.se/en/men-team/"
       },
       {
         "id": "4",
+        "icon": "🏐",
         "title": "¡Jugamos en el Sollentuna BigStep 2025!",
-        "description": "¡Noticias emocionantes! Nuestro club participará oficialmente en el torneo Sollentuna BigStep 2025. ¡Vengan a apoyar a nuestros equipos entre 68 clubes y más de 140 partidos! ¡Nos vemos allí! 🏐💪",
-        "date": "Sábado 6 y domingo 7 de septiembre de 2025",
-        "location": "Sollentuna, Estocolmo",
-        "linkDescription": "Ver detalles y calendario del torneo",
+        "description": "¡Nuestro club competirá en el torneo Sollentuna BigStep 2025! Únete a este prestigioso evento con 68 equipos y 144 partidos. Ven a animar a nuestro equipo y no olvides seguirnos en Instagram para actualizaciones en vivo y contenido exclusivo.",
+        "date": "Sábado 6 de septiembre – domingo 7 de septiembre de 2025",
+        "location": "Rotebrohallen, Hertig Karls väg 17, 192 68 Sollentuna",
+        "locationUrl": "https://share.google/9UDhUFC8GLV67E5Ax",
+        "locationLinkDescription": "Ver ubicación en el mapa",
+        "linkDescription": "Información y calendario del torneo",
         "link": "https://www.profixio.com/app/sollentuna-bigstep-2025"
       }
     ]

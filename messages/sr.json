@@ -51,38 +51,50 @@
     "newsPage": [
       {
         "id": "1",
-        "title": "Probe za Rågsveds IF odbojkaški muški tim!",
-        "description": "Trenutno tražimo nove igrače za sledeću sezonu u Diviziji 2 sa ambicijom da dostignemo Diviziju 1. Pretežno tražimo dizače i centre, ali i druge pozicije su dobrodošle da se prijave!",
-        "date": "Utorak, 15. april i Utorak, 29. april",
+        "icon": "🎯",
+        "title": "Prijave za muški tim Rågsveds IF odbojke!",
+        "description": "Trenutno tražimo nove igrače za sledeću sezonu u Diviziji 2 sa ciljem plasmana u diviziju 1. Posebno tražimo dizače i srednje blokere, ali su i sve ostale pozicije dobrodošle da se prijave!",
+        "date": "Utorak, 15. april i utorak, 29. april",
         "location": "Kämpetorpshallen",
-        "linkDescription": "Koristite link",
+        "locationUrl": "https://share.google/nBm1O3FvfG2VKDdx8",
+        "locationLinkDescription": "Pogledaj lokaciju na mapi",
+        "linkDescription": "Prijavi se ili saznaj više",
         "link": "https://entry.sportadmin.se/groupsOverview?uid=BlleV5&pageId=0&sportid=1075"
       },
       {
         "id": "2",
+        "icon": "🎉",
         "title": "Rågsveds festival",
-        "description": "Odbojka će nuditi aktivnosti za probu i organizovati takmičenja sa nagradama na Rågsveds BP. Vidimo se tamo! 🏐💯🔥",
-        "date": "Subota 23. i nedelja 24. avgusta",
-        "location": "Rågsveds oblast za aktivnosti i kulturna četvrt Snösätra",
-        "linkDescription": "Koristi link",
+        "description": "Odbojkaški klub organizuje zanimljive aktivnosti i zabavna takmičenja na Rågsveds BP! Osvoji nagrade, upoznaj tim i doživi radost odbojke. Dovedi prijatelje i zajedno unesimo duh zajedništva u Rågsved! 🏐💯🔥",
+        "date": "Subota, 23. avgust i nedelja, 24. avgust",
+        "location": "Rågsveds sportski centar i kvart Snösätra",
+        "locationUrl": "https://share.google/M2hmcJdqoLnu9Ap0P",
+        "locationLinkDescription": "Pogledaj lokaciju na mapi",
+        "linkDescription": "Više na Instagramu",
         "link": "https://www.instagram.com/ragsvedfestivalen/"
       },
       {
         "id": "3",
-        "title": "Početak sezone muškog tima!",
-        "description": "Naš muški odbojkaški tim se vraća za novu sezonu! Neka ova sezona bude nezaboravna! 🏐🔥",
+        "icon": "🔥",
+        "title": "Početak nove sezone muškog tima!",
+        "description": "Naš muški odbojkaški tim se vraća za novu sezonu! Treniramo jače i sanjamo veće. Neka ova sezona bude nezaboravna – pridruži se našem putovanju, podrži tim i prati napredak tokom cele sezone! 🏐🔥",
         "date": "Utorak, 26. avgust, 20:00",
         "location": "Bandhagshallen, Stokholm",
-        "linkDescription": "Saznajte više o našem muškom timu",
-        "link": "https://vb.xn--rgsvedsif-52a.se/sr/men-team/"
+        "locationUrl": "https://share.google/3pwpYLoJ3YrcInHBV",
+        "locationLinkDescription": "Pogledaj lokaciju na mapi",
+        "linkDescription": "Saznaj više o našem muškom timu",
+        "link": "https://vb.xn--rgsvedsif-52a.se/en/men-team/"
       },
       {
         "id": "4",
-        "title": "Igramo na Sollentuna BigStep 2025 turniru!",
-        "description": "Uzbudljive vesti! Naš klub zvanično učestvuje na Sollentuna BigStep 2025 turniru. Dođite da podržite naše timove među 68 klubova i više od 140 utakmica – vidimo se tamo! 🏐💪",
+        "icon": "🏐",
+        "title": "Igramo na Sollentuna BigStep 2025!",
+        "description": "Naš klub učestvuje na odbojkaškom turniru Sollentuna BigStep 2025! Pridruži se ovom prestižnom događaju sa 68 timova i 144 utakmice. Dođi i navijaj za naš tim – i ne zaboravi da nas zapratiš na Instagramu za uživo novosti i sadržaj iz pozadine!",
         "date": "Subota, 6. septembar – nedelja, 7. septembar 2025.",
-        "location": "Sollentuna, Stokholm",
-        "linkDescription": "Pogledaj informacije i raspored turnira",
+        "location": "Rotebrohallen, Hertig Karls väg 17, 192 68 Sollentuna",
+        "locationUrl": "https://share.google/9UDhUFC8GLV67E5Ax",
+        "locationLinkDescription": "Pogledaj lokaciju na mapi",
+        "linkDescription": "Informacije i raspored turnira",
         "link": "https://www.profixio.com/app/sollentuna-bigstep-2025"
       }
     ]

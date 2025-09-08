@@ -51,38 +51,50 @@
     "newsPage": [
       {
         "id": "1",
+        "icon": "🎯",
         "title": "Nabór do męskiej drużyny siatkarskiej Rågsveds IF!",
-        "description": "Obecnie poszukujemy nowych zawodników na przyszły sezon w Dywizji 2 z ambicją awansu do Dywizji 1. Głównie poszukujemy rozgrywających i środkowych, ale inne pozycje również są mile widziane do aplikowania!",
-        "date": "Wtorek, 15 kwietnia i Wtorek, 29 kwietnia",
+        "description": "Poszukujemy nowych zawodników na przyszły sezon w Dywizji 2 z celem awansu do Dywizji 1. Szczególnie zależy nam na rozgrywających i środkowych, ale wnioski mogą składać osoby na wszystkie pozycje!",
+        "date": "Wtorek, 15 kwietnia i wtorek, 29 kwietnia",
         "location": "Kämpetorpshallen",
-        "linkDescription": "Użyj linku",
+        "locationUrl": "https://share.google/nBm1O3FvfG2VKDdx8",
+        "locationLinkDescription": "Zobacz miejsce na mapie",
+        "linkDescription": "Zarejestruj się lub poznaj szczegóły",
         "link": "https://entry.sportadmin.se/groupsOverview?uid=BlleV5&pageId=0&sportid=1075"
       },
       {
         "id": "2",
-        "title": "Festiwal Rågsveds",
-        "description": "Siatkówka zaoferuje zajęcia próbne oraz konkursy z nagrodami na Rågsveds BP. Do zobaczenia! 🏐💯🔥",
-        "date": "Sobota 23 i niedziela 24 sierpnia",
-        "location": "Obszar aktywności Rågsveds i dzielnica kulturalna Snösätra",
-        "linkDescription": "Użyj linku",
+        "icon": "🎉",
+        "title": "Festiwal Rågsved",
+        "description": "Siatkówka poprowadzi ekscytujące zajęcia próbne i zabawne konkursy na Rågsveds BP! Wygraj nagrody, poznaj drużynę i doświadcz radości z gry w siatkówkę. Przyprowadź znajomych i razem wypełnijmy Rågsved atmosferą wspólnoty! 🏐💯🔥",
+        "date": "Sobota, 23 sierpnia i niedziela, 24 sierpnia",
+        "location": "Teren rekreacyjny Rågsved oraz dzielnica kultury Snösätra",
+        "locationUrl": "https://share.google/M2hmcJdqoLnu9Ap0P",
+        "locationLinkDescription": "Zobacz miejsce na mapie",
+        "linkDescription": "Poznaj więcej na Instagramie",
         "link": "https://www.instagram.com/ragsvedfestivalen/"
       },
       {
         "id": "3",
-        "title": "Rozpoczęcie Sezonu Drużyny Męskiej!",
-        "description": "Nasz męski zespół siatkarski wraca na nowy sezon! Sprawmy, aby ten sezon był niezapomniany! 🏐🔥",
+        "icon": "🔥",
+        "title": "Inauguracja sezonu męskiej drużyny!",
+        "description": "Nasza męska drużyna siatkarska wraca na nowy sezon! Trenujemy ciężej i marzymy odważniej. Sprawmy, by ten sezon był niezapomniany — dołącz do nas, wspieraj zespół i śledź postępy przez cały sezon! 🏐🔥",
         "date": "Wtorek, 26 sierpnia, 20:00",
         "location": "Bandhagshallen, Sztokholm",
-        "linkDescription": "Dowiedz się więcej o naszych drużynach męskich",
-        "link": "https://vb.xn--rgsvedsif-52a.se/pl/men-team/"
+        "locationUrl": "https://share.google/3pwpYLoJ3YrcInHBV",
+        "locationLinkDescription": "Zobacz miejsce na mapie",
+        "linkDescription": "Dowiedz się więcej o naszej drużynie mężczyzn",
+        "link": "https://vb.xn--rgsvedsif-52a.se/en/men-team/"
       },
       {
         "id": "4",
+        "icon": "🏐",
         "title": "Gramy na Sollentuna BigStep 2025!",
-        "description": "Świetna wiadomość! Nasz klub oficjalnie bierze udział w turnieju Sollentuna BigStep 2025. Przyjdźcie kibicować naszym drużynom wśród 68 klubów i ponad 140 meczów – do zobaczenia! 🏐💪",
+        "description": "Nasz klub weźmie udział w turnieju siatkarskim Sollentuna BigStep 2025! Dołącz do tego prestiżowego wydarzenia z udziałem 68 drużyn i 144 meczów. Przyjdź kibicować naszej drużynie i nie zapomnij śledzić nas na Instagramie, by być na bieżąco i zobaczyć kulisy!",
         "date": "Sobota, 6 września – niedziela, 7 września 2025",
-        "location": "Sollentuna, Sztokholm",
-        "linkDescription": "Zobacz szczegóły i harmonogram turnieju",
+        "location": "Rotebrohallen, Hertig Karls väg 17, 192 68 Sollentuna",
+        "locationUrl": "https://share.google/9UDhUFC8GLV67E5Ax",
+        "locationLinkDescription": "Zobacz miejsce na mapie",
+        "linkDescription": "Informacje i terminarz turnieju",
         "link": "https://www.profixio.com/app/sollentuna-bigstep-2025"
       }
     ]
