@@ -15,12 +15,12 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ setIsMenuOpen }) => {
   const locale = useLocale();
 
   const navItems = [
-    { href: `/${locale}/#home`, label: tHeader("home") },
-    { href: `/${locale}/about`, label: tHeader("about") },
-    { href: `/${locale}/men-team`, label: tHeader("men") },
-    { href: `/${locale}/youth-team`, label: tHeader("youth") },
-    { href: `/${locale}/#news`, label: tHeader("news") },
-    { href: `/${locale}/#contact`, label: tHeader("contact") },
+    { href: `/${locale}/#hem`, label: tHeader("home") },
+    { href: `/${locale}/om/`, label: tHeader("about") },
+    { href: `/${locale}/herrlag/`, label: tHeader("men") },
+    { href: `/${locale}/ungdomslag/`, label: tHeader("youth") },
+    { href: `/${locale}/#nyheter`, label: tHeader("news") },
+    { href: `/${locale}/#kontakt`, label: tHeader("contact") },
   ];
 
   const menuVariants = {

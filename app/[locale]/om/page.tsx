@@ -11,19 +11,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "AboutUs" });
 
-  const canonicalUrl = getCanonicalUrl(`/${locale}/about`);
+  const canonicalUrl = getCanonicalUrl(`/${locale}/om/`);
 
   const languages = {
-    sv: getCanonicalUrl("/sv/about"),
-    en: getCanonicalUrl("/en/about"),
-    es: getCanonicalUrl("/es/about"),
-    fr: getCanonicalUrl("/fr/about"),
-    de: getCanonicalUrl("/de/about"),
-    sr: getCanonicalUrl("/sr/about"),
-    uk: getCanonicalUrl("/uk/about"),
-    pl: getCanonicalUrl("/pl/about"),
-    pt: getCanonicalUrl("/pt/about"),
-    "x-default": getCanonicalUrl("/sv/about"),
+    sv: getCanonicalUrl("/sv/om/"),
+    en: getCanonicalUrl("/en/om/"),
+    es: getCanonicalUrl("/es/om/"),
+    fr: getCanonicalUrl("/fr/om/"),
+    de: getCanonicalUrl("/de/om/"),
+    sr: getCanonicalUrl("/sr/om/"),
+    uk: getCanonicalUrl("/uk/om/"),
+    pl: getCanonicalUrl("/pl/om/"),
+    pt: getCanonicalUrl("/pt/om/"),
+    "x-default": getCanonicalUrl("/sv/om/"),
   };
 
   return {

@@ -38,19 +38,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
-  const canonicalUrl = getCanonicalUrl(`/${locale}/teams/${id}`);
+  const canonicalUrl = getCanonicalUrl(`/${locale}/lag/${id}/`);
 
   const languages = {
-    sv: getCanonicalUrl(`/sv/teams/${id}`),
-    en: getCanonicalUrl(`/en/teams/${id}`),
-    es: getCanonicalUrl(`/es/teams/${id}`),
-    fr: getCanonicalUrl(`/fr/teams/${id}`),
-    de: getCanonicalUrl(`/de/teams/${id}`),
-    sr: getCanonicalUrl(`/sr/teams/${id}`),
-    uk: getCanonicalUrl(`/uk/teams/${id}`),
-    pl: getCanonicalUrl(`/pl/teams/${id}`),
-    pt: getCanonicalUrl(`/pt/teams/${id}`),
-    "x-default": getCanonicalUrl(`/sv/teams/${id}`),
+    sv: getCanonicalUrl(`/sv/lag/${id}/`),
+    en: getCanonicalUrl(`/en/lag/${id}/`),
+    es: getCanonicalUrl(`/es/lag/${id}/`),
+    fr: getCanonicalUrl(`/fr/lag/${id}/`),
+    de: getCanonicalUrl(`/de/lag/${id}/`),
+    sr: getCanonicalUrl(`/sr/lag/${id}/`),
+    uk: getCanonicalUrl(`/uk/lag/${id}/`),
+    pl: getCanonicalUrl(`/pl/lag/${id}/`),
+    pt: getCanonicalUrl(`/pt/lag/${id}/`),
+    "x-default": getCanonicalUrl(`/sv/lag/${id}/`),
   };
 
   return {

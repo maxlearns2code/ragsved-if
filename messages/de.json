@@ -47,7 +47,7 @@
   "News": {
     "title": "Nachrichten",
     "article": "Lies den Artikel",
-    "SeeAllNews": "See all news",
+    "SeeAllNews": "Alle Nachrichten ansehen",
     "newsPage": [
       {
         "id": "1",
@@ -83,7 +83,7 @@
         "locationUrl": "https://share.google/3pwpYLoJ3YrcInHBV",
         "locationLinkDescription": "Standort auf der Karte ansehen",
         "linkDescription": "Mehr zum Herren-Team",
-        "link": "https://vb.xn--rgsvedsif-52a.se/en/men-team/"
+        "link": "https://vb.xn--rgsvedsif-52a.se/de/herrlag/"
       },
       {
         "id": "4",

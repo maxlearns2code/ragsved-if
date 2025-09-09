@@ -32,7 +32,7 @@ export default function MenTeamClient() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-10 max-w-4xl mx-auto">
         {teams.map((team) => (
           <Link
-            href={`/${locale}/teams/${team.id}`}
+            href={`/${locale}/lag/${team.id}`}
             key={team.id}
             className="block group relative aspect-w-16 aspect-h-9"
             aria-label={t("teamLinkAriaLabel", { teamName: team.name })}

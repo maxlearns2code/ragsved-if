@@ -14,19 +14,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const fullDescription = `${t("description.line1")} ${t("description.line2")}`;
 
   const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
-  const canonicalUrl = getCanonicalUrl(`/${locale}/men-team`);
+  const canonicalUrl = getCanonicalUrl(`/${locale}/herrlag/`);
 
   const languages = {
-    sv: getCanonicalUrl("/sv/men-team"),
-    en: getCanonicalUrl("/en/men-team"),
-    es: getCanonicalUrl("/es/men-team"),
-    fr: getCanonicalUrl("/fr/men-team"),
-    de: getCanonicalUrl("/de/men-team"),
-    sr: getCanonicalUrl("/sr/men-team"),
-    uk: getCanonicalUrl("/uk/men-team"),
-    pl: getCanonicalUrl("/pl/men-team"),
-    pt: getCanonicalUrl("/pt/men-team"),
-    "x-default": getCanonicalUrl("/sv/men-team"),
+    sv: getCanonicalUrl("/sv/herrlag/"),
+    en: getCanonicalUrl("/en/herrlag/"),
+    es: getCanonicalUrl("/es/herrlag/"),
+    fr: getCanonicalUrl("/fr/herrlag/"),
+    de: getCanonicalUrl("/de/herrlag/"),
+    sr: getCanonicalUrl("/sr/herrlag/"),
+    uk: getCanonicalUrl("/uk/herrlag/"),
+    pl: getCanonicalUrl("/pl/herrlag/"),
+    pt: getCanonicalUrl("/pt/herrlag/"),
+    "x-default": getCanonicalUrl("/sv/herrlag/"),
   };
 
   return {

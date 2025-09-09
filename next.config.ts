@@ -3,6 +3,30 @@ import createNextIntlPlugin from "next-intl/plugin";
 
 const withNextIntl = createNextIntlPlugin("./i18n/request.ts");
 
+
+const locales = ["sv", "en", "es", "fr", "de", "sr", "uk", "pl", "pt"];
+const redirectMappings: [string, string][] = [
+  ["about", "om"],
+  ["men", "herrlag"],
+  ["youth", "ungdomslag"],
+  ["teams", "lag"],
+  ["news", "nyheter"],
+];
+
+const redirects = async () => {
+  const result = [];
+  for (const locale of locales) {
+    for (const [oldSlug, newSlug] of redirectMappings) {
+      result.push({
+        source: `/${locale}/${oldSlug}/`,
+        destination: `/${locale}/${newSlug}/`,
+        permanent: true,
+      });
+    }
+  }
+  return result;
+};
+
 const nextConfig: NextConfig = {
   trailingSlash: true,
   experimental: {
@@ -13,6 +37,9 @@ const nextConfig: NextConfig = {
         "www.vb.xn--rgsvedsif-52a.se",
       ],
     },
+  },
+  async redirects() {
+    return await redirects();
   },
   async headers() {
     return [

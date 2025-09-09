@@ -41,13 +41,13 @@ const NewsCarousel = () => {
   const isNextDisabled = startIndex + ITEMS_PER_PAGE >= news.length;
 
   return (
-    <section id="news" className="pt-12">
+    <section id="nyheter" className="pt-12">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8">{t("title")}</h2>
         <article className="flex justify-center items-center gap-8">
           {visibleNews.map((newsItem) => (
             <Link
-              href={`/${locale}/news/${newsItem.id}`}
+              href={`/${locale}/nyheter/${newsItem.id}/`}
               key={newsItem.id}
               title={newsItem.title}
               aria-label={newsItem.title}
@@ -82,7 +82,7 @@ const NewsCarousel = () => {
           </button>
         </div>
         <Link
-          href={`/${locale}/news`}
+          href={`/${locale}/nyheter/`}
           className="block text-center mt-4 text-base text-white hover:underline hover:text-secondary transition"
         >
           {t("SeeAllNews") || "See all news"}

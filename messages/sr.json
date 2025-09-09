@@ -47,7 +47,7 @@
   "News": {
     "title": "Vesti",
     "article": "Pročitaj članak",
-    "SeeAllNews": "See all news",
+    "SeeAllNews": "Pogledaj sve vesti",
     "newsPage": [
       {
         "id": "1",
@@ -83,7 +83,7 @@
         "locationUrl": "https://share.google/3pwpYLoJ3YrcInHBV",
         "locationLinkDescription": "Pogledaj lokaciju na mapi",
         "linkDescription": "Saznaj više o našem muškom timu",
-        "link": "https://vb.xn--rgsvedsif-52a.se/en/men-team/"
+        "link": "https://vb.xn--rgsvedsif-52a.se/sr/herrlag/"
       },
       {
         "id": "4",

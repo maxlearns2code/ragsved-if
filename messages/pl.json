@@ -47,7 +47,7 @@
   "News": {
     "title": "Aktualności",
     "article": "Przeczytaj artykuł",
-    "SeeAllNews": "See all news",
+    "SeeAllNews": "Zobacz wszystkie wiadomości",
     "newsPage": [
       {
         "id": "1",
@@ -83,7 +83,7 @@
         "locationUrl": "https://share.google/3pwpYLoJ3YrcInHBV",
         "locationLinkDescription": "Zobacz miejsce na mapie",
         "linkDescription": "Dowiedz się więcej o naszej drużynie mężczyzn",
-        "link": "https://vb.xn--rgsvedsif-52a.se/en/men-team/"
+        "link": "https://vb.xn--rgsvedsif-52a.se/pl/herrlag/"
       },
       {
         "id": "4",

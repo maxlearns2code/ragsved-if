@@ -30,19 +30,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: "Metadata" });
 
   const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
-  const canonicalUrl = getCanonicalUrl(`/${locale}`);
+  const canonicalUrl = getCanonicalUrl(`/${locale}/`);
 
   const languages = {
-    sv: getCanonicalUrl("/sv"),
-    en: getCanonicalUrl("/en"),
-    es: getCanonicalUrl("/es"),
-    fr: getCanonicalUrl("/fr"),
-    de: getCanonicalUrl("/de"),
-    sr: getCanonicalUrl("/sr"),
-    uk: getCanonicalUrl("/uk"),
-    pl: getCanonicalUrl("/pl"),
-    pt: getCanonicalUrl("/pt"),
-    "x-default": getCanonicalUrl("/sv"),
+    sv: getCanonicalUrl("/sv/"),
+    en: getCanonicalUrl("/en/"),
+    es: getCanonicalUrl("/es/"),
+    fr: getCanonicalUrl("/fr/"),
+    de: getCanonicalUrl("/de/"),
+    sr: getCanonicalUrl("/sr/"),
+    uk: getCanonicalUrl("/uk/"),
+    pl: getCanonicalUrl("/pl/"),
+    pt: getCanonicalUrl("/pt/"),
+    "x-default": getCanonicalUrl("/sv/"),
   };
 
   return {

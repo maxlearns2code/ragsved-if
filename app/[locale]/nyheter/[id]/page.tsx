@@ -37,19 +37,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
-  const canonicalUrl = getCanonicalUrl(`/${locale}/news/${id}`);
+  const canonicalUrl = getCanonicalUrl(`/${locale}/nyheter/${id}/`);
 
   const languages = {
-    sv: getCanonicalUrl(`/sv/teams/${id}`),
-    en: getCanonicalUrl(`/en/teams/${id}`),
-    es: getCanonicalUrl(`/es/teams/${id}`),
-    fr: getCanonicalUrl(`/fr/teams/${id}`),
-    de: getCanonicalUrl(`/de/teams/${id}`),
-    sr: getCanonicalUrl(`/sr/teams/${id}`),
-    uk: getCanonicalUrl(`/uk/teams/${id}`),
-    pl: getCanonicalUrl(`/pl/teams/${id}`),
-    pt: getCanonicalUrl(`/pt/teams/${id}`),
-    "x-default": getCanonicalUrl(`/sv/teams/${id}`),
+    sv: getCanonicalUrl(`/sv/nyheter/${id}/`),
+    en: getCanonicalUrl(`/en/nyheter/${id}/`),
+    es: getCanonicalUrl(`/es/nyheter/${id}/`),
+    fr: getCanonicalUrl(`/fr/nyheter/${id}/`),
+    de: getCanonicalUrl(`/de/nyheter/${id}/`),
+    sr: getCanonicalUrl(`/sr/nyheter/${id}/`),
+    uk: getCanonicalUrl(`/uk/nyheter/${id}/`),
+    pl: getCanonicalUrl(`/pl/nyheter/${id}/`),
+    pt: getCanonicalUrl(`/pt/nyheter/${id}/`),
+    "x-default": getCanonicalUrl(`/sv/nyheter/${id}/`),
   };
   return {
     title: article.title,
@@ -61,7 +61,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: article.title,
       description: article.description,
-      url: `${siteUrl}/${locale}/news/${id}`,
+      url: `${siteUrl}/${locale}/nyheter/${id}/`,
     },
   };
 }

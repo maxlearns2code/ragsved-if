@@ -29,7 +29,7 @@ const NewsHub = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {news.map((newsItem) => (
             <Link
-              href={`/${locale}/news/${newsItem.id}`}
+              href={`/${locale}/nyheter/${newsItem.id}/`}
               key={newsItem.id}
               title={newsItem.title}
               aria-label={newsItem.title}
