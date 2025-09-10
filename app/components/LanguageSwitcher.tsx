@@ -3,7 +3,7 @@
 import { useLocale } from "next-intl";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import { FaChevronDown } from "react-icons/fa";
+import { FaGlobe, FaChevronDown } from "react-icons/fa";
 
 export default function LanguageSwitcher() {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,15 +50,15 @@ export default function LanguageSwitcher() {
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2"
+        className="flex items-center gap-2 bg-primary hover:bg-primary p-1"
       >
-        <span>{languages[locale as keyof typeof languages]?.flag}</span>
+        <FaGlobe className="text-2xl hover:text-secondary hover:scale-105 transition-colors duration-300" />
         <FaChevronDown className="text-xs opacity-60" />
       </button>
 
       {isOpen && (
         <div className="absolute top-full right-0 mt-2 w-full sm:w-48 bg-white/10 backdrop-blur-lg rounded-lg overflow-hidden z-50 border border-white/20">
-          <ul className="divide-y divide-white/10 max-h-36 overflow-y-auto scrollbar-thin scrollbar-thumb-white/30 scrollbar-track-transparent">
+          <ul className="divide-y divide-white/10 max-h-24 overflow-y-auto scrollbar-thin scrollbar-thumb-white/30 scrollbar-track-transparent">
             {Object.entries(languages).map(([code, { name, flag }]) => (
               <li
                 key={code}

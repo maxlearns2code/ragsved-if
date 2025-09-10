@@ -2,18 +2,11 @@
 
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
-import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { FaArrowUp, FaInstagram } from "react-icons/fa";
 import LanguageSwitcher from "./LanguageSwitcher";
-
-const FaInstagram = dynamic(() =>
-  import("react-icons/fa").then((mod) => mod.FaInstagram)
-);
-const FaArrowUp = dynamic(() =>
-  import("react-icons/fa").then((mod) => mod.FaArrowUp)
-);
 
 const BackToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -42,8 +35,12 @@ const BackToTopButton = () => {
   return (
     <>
       {isVisible && (
-        <button onClick={scrollToTop} className="fixed bottom-0">
-          <FaArrowUp />
+        <button
+          onClick={scrollToTop}
+          className="fixed bottom-5 right-5 w-12 h-12 rounded-full px-0 py-0"
+          aria-label="Back to top"
+        >
+          <FaArrowUp className="w-5 h-5"/>
         </button>
       )}
     </>
@@ -190,7 +187,7 @@ const Footer = () => {
                 aria-label={t("social.instagramAriaLabel")}
               >
                 <FaInstagram
-                  className="w-6 h-6 hover:text-pink-500"
+                  className="text-3xl hover:text-secondary transition-colors duration-300"
                   aria-hidden="true"
                 />
               </a>
@@ -198,7 +195,7 @@ const Footer = () => {
           </div>
         </div>
         <nav aria-label={t("general.footerNavigation")} className="mt-8">
-          <ul className="flex flex-wrap justify-center items-center gap-8 text-lg font-bold">
+          <ul className="flex flex-wrap justify-center items-center gap-8 text-lg">
             <li>
               <Link
                 href="/#hem"
@@ -208,10 +205,7 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link
-                href="/om"
-                className="hover:text-secondary hover:underline"
-              >
+              <Link href="/om" className="hover:text-secondary hover:underline">
                 {tHeader("about")}
               </Link>
             </li>

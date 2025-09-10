@@ -104,9 +104,9 @@ const Header = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={tFooter("social.instagramAriaLabel")}
-                className="text-3xl hover:text-secondary transition-colors duration-300"
+                className="hover:text-secondary transition-colors duration-300"
               >
-                <FaInstagram aria-hidden="true" />
+                <FaInstagram aria-hidden="true" size={27} className="hover:scale-105"/>
               </a>
               <LanguageSwitcher />
             </div>
