@@ -58,7 +58,7 @@ export default function LanguageSwitcher() {
       </button>
 
       {isOpen && (
-        <div className="absolute top-full right-0 mt-2 w-full sm:w-48 bg-white/10 backdrop-blur-lg rounded-lg overflow-hidden z-50 border border-white/20">
+        <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-full min-w-[150px] sm:w-48 bg-white/10 backdrop-blur-lg rounded-lg overflow-hidden z-50 border border-white/20">
           <ul className="divide-y divide-white/10 max-h-24 overflow-y-auto scrollbar-thin scrollbar-thumb-white/30 scrollbar-track-transparent">
             {Object.entries(languages).map(([code, { flag }]) => (
               <li

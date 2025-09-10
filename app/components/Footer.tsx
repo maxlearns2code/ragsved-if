@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { FaArrowUp, FaInstagram } from "react-icons/fa";
-import LanguageSwitcher from "./LanguageSwitcher";
+import AppNav from "./AppNav";
 
 const BackToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -40,7 +40,7 @@ const BackToTopButton = () => {
           className="fixed bottom-5 right-5 w-12 h-12 rounded-full px-0 py-0"
           aria-label="Back to top"
         >
-          <FaArrowUp className="w-5 h-5"/>
+          <FaArrowUp className="w-5 h-5" />
         </button>
       )}
     </>
@@ -60,7 +60,7 @@ const Footer = () => {
       transition={{ duration: 0.5 }}
     >
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-4">
           <div className="flex justify-center">
             <Link
               href="/"
@@ -194,57 +194,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <nav aria-label={t("general.footerNavigation")} className="mt-8">
-          <ul className="flex flex-wrap justify-center items-center gap-8 text-lg">
-            <li>
-              <Link
-                href="/#hem"
-                className="hover:text-secondary hover:underline"
-              >
-                {tHeader("home")}
-              </Link>
-            </li>
-            <li>
-              <Link href="/om" className="hover:text-secondary hover:underline">
-                {tHeader("about")}
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/herrlag"
-                className="hover:text-secondary hover:underline"
-              >
-                {tHeader("men")}
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/ungdomslag"
-                className="hover:text-secondary hover:underline"
-              >
-                {tHeader("youth")}
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/#nyheter"
-                className="hover:text-secondary hover:underline"
-              >
-                {tHeader("news")}
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/#kontakt"
-                className="hover:text-secondary hover:underline"
-              >
-                {tHeader("contact")}
-              </Link>
-            </li>
-            <LanguageSwitcher />
-          </ul>
-        </nav>
-        <hr className="my-4 border-secondary" />
+        <AppNav navLabel="Footer navigation" className="my-6"/>
+        <hr className="my-6 border-secondary" />
         <p className="text-center text-sm mb-2 md:mb-0">
           {t("general.copyright", { year: new Date().getFullYear() })}
         </p>

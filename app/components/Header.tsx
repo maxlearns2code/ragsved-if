@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { FaBars, FaInstagram, FaTimes } from "react-icons/fa";
-import LanguageSwitcher from "./LanguageSwitcher";
+import AppNav from "./AppNav";
 
 const MobileMenu = dynamic(() => import("./MobileMenu"), { ssr: false });
 
@@ -78,27 +78,8 @@ const Header = () => {
                 {t("clubName")}
               </span>
             </Link>
-            <div className="hidden md:flex md:items-center md:space-x-4">
-              <ul className="flex space-x-4 text-lg">
-                <li>
-                  <Link href={`/${locale}/#hem`}>{t("home")}</Link>
-                </li>
-                <li>
-                  <Link href={`/${locale}/om/`}>{t("about")}</Link>
-                </li>
-                <li>
-                  <Link href={`/${locale}/herrlag/`}>{t("men")}</Link>
-                </li>
-                <li>
-                  <Link href={`/${locale}/ungdomslag/`}>{t("youth")}</Link>
-                </li>
-                <li>
-                  <Link href={`/${locale}/#nyheter`}>{t("news")}</Link>
-                </li>
-                <li>
-                  <Link href={`/${locale}/#kontakt`}>{t("contact")}</Link>
-                </li>
-              </ul>
+            <div className="hidden md:flex md:items-center md:gap-8">
+              <AppNav navLabel="Main navigation" />
               <a
                 href="https://www.instagram.com/ragsvedsifvolleyboll/"
                 target="_blank"
@@ -108,7 +89,6 @@ const Header = () => {
               >
                 <FaInstagram aria-hidden="true" size={27} className="hover:scale-105"/>
               </a>
-              <LanguageSwitcher />
             </div>
             <button
               className="md:hidden z-50 relative text-xl w-auto"
