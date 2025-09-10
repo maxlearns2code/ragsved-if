@@ -23,6 +23,17 @@
     "openMenuAriaLabel": "Ouvrir le menu",
     "closeMenuAriaLabel": "Fermer le menu"
   },
+  "Languages": {
+    "sv": "Suédois",
+    "en": "Anglais",
+    "es": "Espagnol",
+    "fr": "Français",
+    "de": "Allemand",
+    "sr": "Serbe",
+    "uk": "Ukrainien",
+    "pl": "Polonais",
+    "pt": "Portugais"
+  },
   "Banner": {
     "message": "Boostez la visibilité de votre marque !",
     "callToAction": "Lancez-vous maintenant →"

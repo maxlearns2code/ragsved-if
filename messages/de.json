@@ -9,10 +9,6 @@
     "siteName": "Rågsveds IF Volleyball",
     "lang": "de"
   },
-  "Banner": {
-    "message": "Steigern Sie Ihre Markensichtbarkeit!",
-    "callToAction": "Jetzt mitmachen →"
-  },
   "Header": {
     "clubName": "Volleyball",
     "home": "Startseite",
@@ -26,6 +22,21 @@
     "logoAlt": "Rågsveds IF Volleyball Logo",
     "openMenuAriaLabel": "Menü öffnen",
     "closeMenuAriaLabel": "Menü schließen"
+  },
+  "Languages": {
+    "sv": "Schwedisch",
+    "en": "Englisch",
+    "es": "Spanisch",
+    "fr": "Französisch",
+    "de": "Deutsch",
+    "sr": "Serbisch",
+    "uk": "Ukrainisch",
+    "pl": "Polnisch",
+    "pt": "Portugiesisch"
+  },
+  "Banner": {
+    "message": "Steigern Sie Ihre Markensichtbarkeit!",
+    "callToAction": "Jetzt mitmachen →"
   },
   "Hero": {
     "title": {

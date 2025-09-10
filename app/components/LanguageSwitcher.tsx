@@ -1,26 +1,27 @@
 "use client";
 
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import { FaGlobe, FaChevronDown } from "react-icons/fa";
+import { FaChevronDown, FaGlobe } from "react-icons/fa";
 
 export default function LanguageSwitcher() {
   const [isOpen, setIsOpen] = useState(false);
   const locale = useLocale();
+  const t = useTranslations("Languages");
   const router = useRouter();
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   const languages = {
     sv: { name: "Svenska", flag: "SE" },
     en: { name: "English", flag: "EN" },
-    es: { name: "Español", flag: "ES" },
-    fr: { name: "Français", flag: "FR" },
-    de: { name: "Deutsch", flag: "DE" },
-    sr: { name: "Српски", flag: "RS" },
-    uk: { name: "Українська", flag: "UK" },
     pl: { name: "Polski", flag: "PL" },
+    uk: { name: "Українська", flag: "UK" },
+    fr: { name: "Français", flag: "FR" },
+    es: { name: "Español", flag: "ES" },
     pt: { name: "Portuguese", flag: "PT" },
+    sr: { name: "Српски", flag: "RS" },
+    de: { name: "Deutsch", flag: "DE" },
   };
 
   const handleLanguageChange = (newLocale: string) => {
@@ -59,7 +60,7 @@ export default function LanguageSwitcher() {
       {isOpen && (
         <div className="absolute top-full right-0 mt-2 w-full sm:w-48 bg-white/10 backdrop-blur-lg rounded-lg overflow-hidden z-50 border border-white/20">
           <ul className="divide-y divide-white/10 max-h-24 overflow-y-auto scrollbar-thin scrollbar-thumb-white/30 scrollbar-track-transparent">
-            {Object.entries(languages).map(([code, { name, flag }]) => (
+            {Object.entries(languages).map(([code, { flag }]) => (
               <li
                 key={code}
                 onClick={() => handleLanguageChange(code)}
@@ -70,7 +71,7 @@ export default function LanguageSwitcher() {
                 `}
               >
                 <span className="text-lg">{flag}</span>
-                <span className="text-white/90">{name}</span>
+                <span className="text-white/90">{t(code)}</span>
               </li>
             ))}
           </ul>

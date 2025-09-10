@@ -23,6 +23,17 @@
     "openMenuAriaLabel": "Otwórz menu",
     "closeMenuAriaLabel": "Zamknij menu"
   },
+  "Languages": {
+    "sv": "Szwedzki",
+    "en": "Angielski",
+    "es": "Hiszpański",
+    "fr": "Francuski",
+    "de": "Niemiecki",
+    "sr": "Serbski",
+    "uk": "Ukraiński",
+    "pl": "Polski",
+    "pt": "Portugalski"
+  },
   "Banner": {
     "message": "Zwiększ widoczność swojej marki!",
     "callToAction": "Dołącz teraz →"

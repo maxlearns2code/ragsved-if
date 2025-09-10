@@ -23,6 +23,17 @@
     "openMenuAriaLabel": "Open menu",
     "closeMenuAriaLabel": "Close menu"
   },
+  "Languages": {
+    "sv": "Swedish",
+    "en": "English",
+    "es": "Spanish",
+    "fr": "French",
+    "de": "German",
+    "sr": "Serbian",
+    "uk": "Ukrainian",
+    "pl": "Polish",
+    "pt": "Portuguese"
+  },
   "Banner": {
     "message": "Spike your brand visibility!",
     "callToAction": "Jump in now →"

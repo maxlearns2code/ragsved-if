@@ -23,6 +23,17 @@
     "openMenuAriaLabel": "Otvori meni",
     "closeMenuAriaLabel": "Zatvori meni"
   },
+  "Languages": {
+    "sv": "Švedski",
+    "en": "Engleski",
+    "es": "Španski",
+    "fr": "Francuski",
+    "de": "Nemački",
+    "sr": "Srpski",
+    "uk": "Ukrajinski",
+    "pl": "Poljski",
+    "pt": "Portugalski"
+  },
   "Banner": {
     "message": "Povećajte vidljivost svog brenda!",
     "callToAction": "Pridružite se odmah →"
