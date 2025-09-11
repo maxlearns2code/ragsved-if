@@ -19,7 +19,7 @@ export default function middleware(request: NextRequest) {
   ];
 
   if (oldDomains.includes(hostname)) {
-    const newUrl = `https://vb.xn--rgsvedsif-52a.se${request.nextUrl.pathname}${request.nextUrl.search}`;
+    const newUrl = `https://vb.xn--rgsvedsif-52a.se/sv${request.nextUrl.pathname}${request.nextUrl.search}`;
     return NextResponse.redirect(newUrl, 301);
   }
 
