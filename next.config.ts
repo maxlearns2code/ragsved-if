@@ -25,11 +25,6 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     const result = [];
-    result.push({
-      source: "/:path*",
-      destination: "https://vb.xn--rgsvedsif-52a.se/:path*",
-      permanent: true,
-    });
 
     for (const locale of locales) {
       for (const [oldSlug, newSlug] of redirectMappings) {
