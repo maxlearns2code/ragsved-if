@@ -3,7 +3,6 @@ import createNextIntlPlugin from "next-intl/plugin";
 
 const withNextIntl = createNextIntlPlugin("./i18n/request.ts");
 
-
 const locales = ["sv", "en", "es", "fr", "de", "sr", "uk", "pl", "pt"];
 const redirectMappings: [string, string][] = [
   ["about", "om"],
@@ -12,20 +11,6 @@ const redirectMappings: [string, string][] = [
   ["teams", "lag"],
   ["news", "nyheter"],
 ];
-
-const redirects = async () => {
-  const result = [];
-  for (const locale of locales) {
-    for (const [oldSlug, newSlug] of redirectMappings) {
-      result.push({
-        source: `/${locale}/${oldSlug}/`,
-        destination: `/${locale}/${newSlug}/`,
-        permanent: true,
-      });
-    }
-  }
-  return result;
-};
 
 const nextConfig: NextConfig = {
   trailingSlash: true,
@@ -39,7 +24,23 @@ const nextConfig: NextConfig = {
     },
   },
   async redirects() {
-    return await redirects();
+    const result = [];
+    result.push({
+      source: "/:path*",
+      destination: "https://vb.xn--rgsvedsif-52a.se/:path*",
+      permanent: true,
+    });
+
+    for (const locale of locales) {
+      for (const [oldSlug, newSlug] of redirectMappings) {
+        result.push({
+          source: `/${locale}/${oldSlug}/`,
+          destination: `/${locale}/${newSlug}/`,
+          permanent: true,
+        });
+      }
+    }
+    return result;
   },
   async headers() {
     return [
@@ -47,7 +48,10 @@ const nextConfig: NextConfig = {
         source: "/:path*",
         headers: [
           { key: "X-DNS-Prefetch-Control", value: "on" },
-          { key: "Strict-Transport-Security", value: "max-age=63072000; includeSubDomains; preload" },
+          {
+            key: "Strict-Transport-Security",
+            value: "max-age=63072000; includeSubDomains; preload",
+          },
           { key: "X-Content-Type-Options", value: "nosniff" },
           { key: "Referrer-Policy", value: "origin-when-cross-origin" },
         ],
