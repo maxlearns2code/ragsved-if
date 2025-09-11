@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "/(.*)",
-      "destination": "https://vb.xn--rgsvedsif-52a.se/$1",
-      "permanent": true
-    }
-  ]
-}
