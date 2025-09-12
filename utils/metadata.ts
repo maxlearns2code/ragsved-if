@@ -16,8 +16,13 @@ export function getPageCanonical(
 ): string {
   const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
   const cleaned = pathWithoutLocale.replace(/^\/|\/$/g, "");
+  let pathname: string;
+
   if (locale === "sv") {
-    return `${siteUrl}/${cleaned}/`;
+    pathname = cleaned ? `/${cleaned}/` : `/`;
+  } else {
+    pathname = cleaned ? `/${locale}/${cleaned}/` : `/${locale}/`;
   }
-  return getCanonicalUrl(`/${locale}/${cleaned}/`);
+
+  return `${siteUrl}${pathname}`.replace(/([^:]\/)\/+/g, "$1");
 }
