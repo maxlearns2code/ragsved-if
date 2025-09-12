@@ -1,4 +1,4 @@
-import { getCanonicalUrl } from "@/utils/metadata";
+import { getPageCanonical } from "@/utils/metadata";
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import YouthTeamClient from "../../components/YouthTeamClient";
@@ -11,20 +11,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Youth-Team" });
   const tbis = await getTranslations({ locale, namespace: "Metadata" });
-
-  const canonicalUrl = getCanonicalUrl(`/${locale}/youth-team`);
-
+  const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
+  const canonicalUrl = getPageCanonical(locale, "youth-team");
   const languages = {
-    sv: getCanonicalUrl("/sv/youth-team"),
-    en: getCanonicalUrl("/en/youth-team"),
-    es: getCanonicalUrl("/es/youth-team"),
-    fr: getCanonicalUrl("/fr/youth-team"),
-    de: getCanonicalUrl("/de/youth-team"),
-    sr: getCanonicalUrl("/sr/youth-team"),
-    uk: getCanonicalUrl("/uk/youth-team"),
-    pl: getCanonicalUrl("/pl/youth-team"),
-    pt: getCanonicalUrl("/pt/youth-team"),
-    "x-default": getCanonicalUrl("/sv/youth-team"),
+    sv: getPageCanonical("sv", "youth-team"),
+    en: getPageCanonical("en", "youth-team"),
+    es: getPageCanonical("es", "youth-team"),
+    fr: getPageCanonical("fr", "youth-team"),
+    de: getPageCanonical("de", "youth-team"),
+    sr: getPageCanonical("sr", "youth-team"),
+    uk: getPageCanonical("uk", "youth-team"),
+    pl: getPageCanonical("pl", "youth-team"),
+    pt: getPageCanonical("pt", "youth-team"),
+    "x-default": getPageCanonical("sv", "youth-team"),
   };
 
   return {
@@ -49,7 +48,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: canonicalUrl,
       languages,
     },
-    metadataBase: new URL("https://vb.xn--rgsvedsif-52a.se"),
+    metadataBase: new URL(siteUrl),
     applicationName: tbis("siteName"),
     formatDetection: {
       telephone: false,

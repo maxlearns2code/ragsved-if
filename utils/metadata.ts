@@ -1,14 +1,23 @@
-export function getCanonicalUrl(path: string) {
+export function getCanonicalUrl(path: string): string {
   const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
   let canonicalPath = path;
-
   if (!canonicalPath.startsWith("/")) {
     canonicalPath = "/" + canonicalPath;
   }
-
   if (!canonicalPath.endsWith("/")) {
     canonicalPath += "/";
   }
-
   return (siteUrl + canonicalPath).replace(/([^:]\/)\/+/g, "$1");
+}
+
+export function getPageCanonical(
+  locale: string,
+  pathWithoutLocale: string
+): string {
+  const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
+  const cleaned = pathWithoutLocale.replace(/^\/|\/$/g, "");
+  if (locale === "sv") {
+    return `${siteUrl}/${cleaned}/`;
+  }
+  return getCanonicalUrl(`/${locale}/${cleaned}/`);
 }

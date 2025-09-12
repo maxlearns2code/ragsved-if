@@ -1,4 +1,4 @@
-import { getCanonicalUrl } from "@/utils/metadata";
+import { getPageCanonical } from "@/utils/metadata";
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import AnimatedTimelineSection from "../../components/AnimatedTimelineSection";
@@ -10,20 +10,19 @@ type Props = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "AboutUs" });
-
-  const canonicalUrl = getCanonicalUrl(`/${locale}/om/`);
-
+  const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
+  const canonicalUrl = getPageCanonical(locale, "om");
   const languages = {
-    sv: getCanonicalUrl("/sv/om/"),
-    en: getCanonicalUrl("/en/om/"),
-    es: getCanonicalUrl("/es/om/"),
-    fr: getCanonicalUrl("/fr/om/"),
-    de: getCanonicalUrl("/de/om/"),
-    sr: getCanonicalUrl("/sr/om/"),
-    uk: getCanonicalUrl("/uk/om/"),
-    pl: getCanonicalUrl("/pl/om/"),
-    pt: getCanonicalUrl("/pt/om/"),
-    "x-default": getCanonicalUrl("/sv/om/"),
+    sv: getPageCanonical("sv", "om"),
+    en: getPageCanonical("en", "om"),
+    es: getPageCanonical("es", "om"),
+    fr: getPageCanonical("fr", "om"),
+    de: getPageCanonical("de", "om"),
+    sr: getPageCanonical("sr", "om"),
+    uk: getPageCanonical("uk", "om"),
+    pl: getPageCanonical("pl", "om"),
+    pt: getPageCanonical("pt", "om"),
+    "x-default": getPageCanonical("sv", "om"),
   };
 
   return {
@@ -49,7 +48,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: canonicalUrl,
       languages,
     },
-    metadataBase: new URL("https://vb.xn--rgsvedsif-52a.se"),
+    metadataBase: new URL(siteUrl),
     applicationName: t("siteName"),
     formatDetection: {
       telephone: false,

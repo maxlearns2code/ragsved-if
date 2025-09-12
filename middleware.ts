@@ -9,6 +9,13 @@ const intlMiddleware = createIntlMiddleware({
 });
 
 export default function middleware(request: NextRequest) {
+  const { pathname } = request.nextUrl;
+
+  if (pathname === "/sv" || pathname === "/sv/") {
+    const rewriteUrl = request.nextUrl.clone();
+    rewriteUrl.pathname = "/";
+    return NextResponse.rewrite(rewriteUrl);
+  }
 
   const response = intlMiddleware(request);
 

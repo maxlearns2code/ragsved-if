@@ -1,28 +1,31 @@
 import { Metadata } from "next";
 import { getLocale, getTranslations } from "next-intl/server";
 import Link from "next/link";
+import { getPageCanonical } from "@/utils/metadata";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("NotFound");
-  const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
+  const locale = await getLocale();
+  const canonicalUrl = getPageCanonical(locale, "404");
+  const languages = {
+    sv: getPageCanonical("sv", "404"),
+    en: getPageCanonical("en", "404"),
+    es: getPageCanonical("es", "404"),
+    fr: getPageCanonical("fr", "404"),
+    de: getPageCanonical("de", "404"),
+    sr: getPageCanonical("sr", "404"),
+    uk: getPageCanonical("uk", "404"),
+    pl: getPageCanonical("pl", "404"),
+    pt: getPageCanonical("pt", "404"),
+    "x-default": getPageCanonical("sv", "404"),
+  };
 
   return {
     title: t("title"),
     description: t("description"),
     alternates: {
-      canonical: `${siteUrl}/404/`,
-      languages: {
-        sv: `${siteUrl}/sv/404/`,
-        en: `${siteUrl}/en/404/`,
-        es: `${siteUrl}/es/404/`,
-        fr: `${siteUrl}/fr/404/`,
-        de: `${siteUrl}/de/404/`,
-        sr: `${siteUrl}/sr/404/`,
-        uk: `${siteUrl}/uk/404/`,
-        pl: `${siteUrl}/pl/404/`,
-        pt: `${siteUrl}/pt/404/`,
-        "x-default": `${siteUrl}/sv/404/`,
-      },
+      canonical: canonicalUrl,
+      languages,
     },
     robots: {
       index: false,
@@ -44,7 +47,7 @@ export default async function NotFound() {
         {t("description")}
       </p>
       <Link
-        href={`/${locale}/`}
+        href={locale === "sv" ? "/" : `/${locale}/`}
         className="text-secondary text-xl sm:text-2xl md:text-3xl hover:underline"
       >
         {t("backToHome")}

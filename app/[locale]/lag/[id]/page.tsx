@@ -1,4 +1,4 @@
-import { getCanonicalUrl } from "@/utils/metadata";
+import { getPageCanonical } from "@/utils/metadata";
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
@@ -38,19 +38,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
-  const canonicalUrl = getCanonicalUrl(`/${locale}/lag/${id}/`);
-
+  const canonicalUrl = getPageCanonical(locale, `/lag/${id}`);
   const languages = {
-    sv: getCanonicalUrl(`/sv/lag/${id}/`),
-    en: getCanonicalUrl(`/en/lag/${id}/`),
-    es: getCanonicalUrl(`/es/lag/${id}/`),
-    fr: getCanonicalUrl(`/fr/lag/${id}/`),
-    de: getCanonicalUrl(`/de/lag/${id}/`),
-    sr: getCanonicalUrl(`/sr/lag/${id}/`),
-    uk: getCanonicalUrl(`/uk/lag/${id}/`),
-    pl: getCanonicalUrl(`/pl/lag/${id}/`),
-    pt: getCanonicalUrl(`/pt/lag/${id}/`),
-    "x-default": getCanonicalUrl(`/sv/lag/${id}/`),
+    sv: getPageCanonical("sv", `/lag/${id}`),
+    en: getPageCanonical("en", `/lag/${id}`),
+    es: getPageCanonical("es", `/lag/${id}`),
+    fr: getPageCanonical("fr", `/lag/${id}`),
+    de: getPageCanonical("de", `/lag/${id}`),
+    sr: getPageCanonical("sr", `/lag/${id}`),
+    uk: getPageCanonical("uk", `/lag/${id}`),
+    pl: getPageCanonical("pl", `/lag/${id}`),
+    pt: getPageCanonical("pt", `/lag/${id}`),
+    "x-default": getPageCanonical("sv", `/lag/${id}`),
   };
 
   return {

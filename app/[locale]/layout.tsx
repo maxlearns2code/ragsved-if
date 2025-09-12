@@ -15,7 +15,6 @@ const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
-
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
@@ -28,12 +27,11 @@ type Props = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Metadata" });
-
   const siteUrl = "https://vb.xn--rgsvedsif-52a.se";
-  const canonicalUrl = getCanonicalUrl(`/${locale}/`);
-
+  const canonicalUrl =
+    locale === "sv" ? siteUrl + "/" : getCanonicalUrl(`/${locale}/`);
   const languages = {
-    sv: getCanonicalUrl("/sv/"),
+    sv: siteUrl + "/",
     en: getCanonicalUrl("/en/"),
     es: getCanonicalUrl("/es/"),
     fr: getCanonicalUrl("/fr/"),
@@ -42,7 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     uk: getCanonicalUrl("/uk/"),
     pl: getCanonicalUrl("/pl/"),
     pt: getCanonicalUrl("/pt/"),
-    "x-default": getCanonicalUrl("/sv/"),
+    "x-default": siteUrl + "/",
   };
 
   return {
