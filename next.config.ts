@@ -3,12 +3,6 @@ import createNextIntlPlugin from "next-intl/plugin";
 
 const withNextIntl = createNextIntlPlugin("./i18n/request.ts");
 
-const locales = ["sv", "en", "es", "fr", "de", "sr", "uk", "pl", "pt"];
-const redirectMappings: [string, string][] = [
-  ["men-team", "herrlag"],
-  ["youth-team", "ungdomslag"],
-];
-
 const nextConfig: NextConfig = {
   trailingSlash: true,
   experimental: {
@@ -21,35 +15,33 @@ const nextConfig: NextConfig = {
     },
   },
   async redirects() {
-  const result = [
-    {
-      source: '/',
-      destination: 'https://vb.xn--rgsvedsif-52a.se/',
-      permanent: true,
-    },
-    {
-      source: '/en',
-      destination: 'https://vb.xn--rgsvedsif-52a.se/en/',
-      permanent: true,
-    },
-  ];
-  for (const locale of locales) {
-    for (const [oldSlug, newSlug] of redirectMappings) {
-      result.push({
-        source: `/${locale}/${oldSlug}/`,
-        destination: `https://vb.xn--rgsvedsif-52a.se/${locale}/${newSlug}/`,
+    return [
+      {
+        source: '/',
+        has: [{ type: 'host', value: 'ragsvedsif-vk.vercel.app' }],
+        destination: 'https://vb.xn--rgsvedsif-52a.se/',
         permanent: true,
-      });
-      result.push({
-        source: `/${locale}/${oldSlug}`,
-        destination: `https://vb.xn--rgsvedsif-52a.se/${locale}/${newSlug}/`,
+      },
+      {
+        source: '/en',
+        has: [{ type: 'host', value: 'ragsvedsif-vk.vercel.app' }],
+        destination: 'https://vb.xn--rgsvedsif-52a.se/en/',
         permanent: true,
-      });
-    }
-  }
-  return result;
-},
-
+      },
+      {
+        source: '/sv/youth-team',
+        has: [{ type: 'host', value: 'ragsvedsif-vk.vercel.app' }],
+        destination: 'https://vb.xn--rgsvedsif-52a.se/sv/ungdomslag/',
+        permanent: true,
+      },
+      {
+        source: '/en/men-team',
+        has: [{ type: 'host', value: 'ragsvedsif-vk.vercel.app' }],
+        destination: 'https://vb.xn--rgsvedsif-52a.se/en/herrlag/',
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {
