@@ -31,7 +31,7 @@ const nextConfig: NextConfig = {
       {
         source: '/sv/youth-team',
         has: [{ type: 'host', value: 'ragsvedsif-vk.vercel.app' }],
-        destination: 'https://vb.xn--rgsvedsif-52a.se/ungdomslag/',
+        destination: 'https://vb.xn--rgsvedsif-52a.se/sv/ungdomslag/',
         permanent: true,
       },
       {
