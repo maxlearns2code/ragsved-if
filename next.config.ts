@@ -21,39 +21,35 @@ const nextConfig: NextConfig = {
     },
   },
   async redirects() {
-    const result = [
-      {
-        source: '/',
-        has: [{ type: 'host', key: 'host', value: 'ragsvedsif-vk.vercel.app' }],
-        destination: 'https://vb.xn--rgsvedsif-52a.se/',
+  const result = [
+    {
+      source: '/',
+      destination: 'https://vb.xn--rgsvedsif-52a.se/',
+      permanent: true,
+    },
+    {
+      source: '/en',
+      destination: 'https://vb.xn--rgsvedsif-52a.se/en/',
+      permanent: true,
+    },
+  ];
+  for (const locale of locales) {
+    for (const [oldSlug, newSlug] of redirectMappings) {
+      result.push({
+        source: `/${locale}/${oldSlug}/`,
+        destination: `https://vb.xn--rgsvedsif-52a.se/${locale}/${newSlug}/`,
         permanent: true,
-      },
-      {
-        source: '/en',
-        has: [{ type: 'host', key: 'host', value: 'ragsvedsif-vk.vercel.app' }],
-        destination: 'https://vb.xn--rgsvedsif-52a.se/en/',
+      });
+      result.push({
+        source: `/${locale}/${oldSlug}`,
+        destination: `https://vb.xn--rgsvedsif-52a.se/${locale}/${newSlug}/`,
         permanent: true,
-      },
-    ];
-
-    for (const locale of locales) {
-      for (const [oldSlug, newSlug] of redirectMappings) {
-        result.push({
-          source: `/${locale}/${oldSlug}/`,
-          has: [{ type: 'host', key: 'host', value: 'ragsvedsif-vk.vercel.app' }],
-          destination: `https://vb.xn--rgsvedsif-52a.se/${locale}/${newSlug}/`,
-          permanent: true,
-        });
-        result.push({
-          source: `/${locale}/${oldSlug}`,
-          has: [{ type: 'host', key: 'host', value: 'ragsvedsif-vk.vercel.app' }],
-          destination: `https://vb.xn--rgsvedsif-52a.se/${locale}/${newSlug}/`,
-          permanent: true,
-        });
-      }
+      });
     }
-    return result;
-  },
+  }
+  return result;
+},
+
   async headers() {
     return [
       {
