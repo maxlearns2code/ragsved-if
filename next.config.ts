@@ -3,6 +3,12 @@ import createNextIntlPlugin from "next-intl/plugin";
 
 const withNextIntl = createNextIntlPlugin("./i18n/request.ts");
 
+const locales = ["sv", "en", "es", "fr", "de", "sr", "uk", "pl", "pt"];
+const redirectMappings: [string, string][] = [
+  ["men-team", "herrlag"],
+  ["youth-team", "ungdomslag"],
+];
+
 const nextConfig: NextConfig = {
   trailingSlash: true,
   experimental: {
@@ -15,32 +21,38 @@ const nextConfig: NextConfig = {
     },
   },
   async redirects() {
-    return [
+    const result = [
       {
         source: '/',
-        has: [{ type: 'host', value: 'ragsvedsif-vk.vercel.app' }],
+        has: [{ type: 'host', key: 'host', value: 'ragsvedsif-vk.vercel.app' }],
         destination: 'https://vb.xn--rgsvedsif-52a.se/',
         permanent: true,
       },
       {
         source: '/en',
-        has: [{ type: 'host', value: 'ragsvedsif-vk.vercel.app' }],
+        has: [{ type: 'host', key: 'host', value: 'ragsvedsif-vk.vercel.app' }],
         destination: 'https://vb.xn--rgsvedsif-52a.se/en/',
         permanent: true,
       },
-      {
-        source: '/sv/youth-team',
-        has: [{ type: 'host', value: 'ragsvedsif-vk.vercel.app' }],
-        destination: 'https://vb.xn--rgsvedsif-52a.se/sv/ungdomslag/',
-        permanent: true,
-      },
-      {
-        source: '/en/men-team',
-        has: [{ type: 'host', value: 'ragsvedsif-vk.vercel.app' }],
-        destination: 'https://vb.xn--rgsvedsif-52a.se/en/herrlag/',
-        permanent: true,
-      },
     ];
+
+    for (const locale of locales) {
+      for (const [oldSlug, newSlug] of redirectMappings) {
+        result.push({
+          source: `/${locale}/${oldSlug}/`,
+          has: [{ type: 'host', key: 'host', value: 'ragsvedsif-vk.vercel.app' }],
+          destination: `https://vb.xn--rgsvedsif-52a.se/${locale}/${newSlug}/`,
+          permanent: true,
+        });
+        result.push({
+          source: `/${locale}/${oldSlug}`,
+          has: [{ type: 'host', key: 'host', value: 'ragsvedsif-vk.vercel.app' }],
+          destination: `https://vb.xn--rgsvedsif-52a.se/${locale}/${newSlug}/`,
+          permanent: true,
+        });
+      }
+    }
+    return result;
   },
   async headers() {
     return [
