@@ -6,8 +6,8 @@ const withNextIntl = createNextIntlPlugin("./i18n/request.ts");
 const locales = ["sv", "en", "es", "fr", "de", "sr", "uk", "pl", "pt"];
 const redirectMappings: [string, string][] = [
   ["about", "om"],
-  ["men", "herrlag"],
-  ["youth", "ungdomslag"],
+  ["men-team", "herrlag"],
+  ["youth-team", "ungdomslag"],
   ["teams", "lag"],
   ["news", "nyheter"],
 ];
