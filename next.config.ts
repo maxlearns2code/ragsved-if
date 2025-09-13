@@ -3,15 +3,6 @@ import createNextIntlPlugin from "next-intl/plugin";
 
 const withNextIntl = createNextIntlPlugin("./i18n/request.ts");
 
-const locales = ["sv", "en", "es", "fr", "de", "sr", "uk", "pl", "pt"];
-const redirectMappings: [string, string][] = [
-  ["about", "om"],
-  ["men-team", "herrlag"],
-  ["youth-team", "ungdomslag"],
-  ["teams", "lag"],
-  ["news", "nyheter"],
-];
-
 const nextConfig: NextConfig = {
   trailingSlash: true,
   experimental: {
@@ -24,18 +15,32 @@ const nextConfig: NextConfig = {
     },
   },
   async redirects() {
-    const result = [];
-
-    for (const locale of locales) {
-      for (const [oldSlug, newSlug] of redirectMappings) {
-        result.push({
-          source: `/${locale}/${oldSlug}/`,
-          destination: `/${locale}/${newSlug}/`,
-          permanent: true,
-        });
-      }
-    }
-    return result;
+    return [
+      {
+        source: '/',
+        has: [{ type: 'host', value: 'ragsvedsif-vk.vercel.app' }],
+        destination: 'https://vb.xn--rgsvedsif-52a.se/',
+        permanent: true,
+      },
+      {
+        source: '/en',
+        has: [{ type: 'host', value: 'ragsvedsif-vk.vercel.app' }],
+        destination: 'https://vb.xn--rgsvedsif-52a.se/en/',
+        permanent: true,
+      },
+      {
+        source: '/sv/youth-team',
+        has: [{ type: 'host', value: 'ragsvedsif-vk.vercel.app' }],
+        destination: 'https://vb.xn--rgsvedsif-52a.se/ungdomslag/',
+        permanent: true,
+      },
+      {
+        source: '/en/men-team',
+        has: [{ type: 'host', value: 'ragsvedsif-vk.vercel.app' }],
+        destination: 'https://vb.xn--rgsvedsif-52a.se/en/herrlag/',
+        permanent: true,
+      },
+    ];
   },
   async headers() {
     return [
